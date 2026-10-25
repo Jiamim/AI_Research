@@ -1,0 +1,86 @@
+{
+  "lookup": {
+    "history": [
+      "the",
+      "cat",
+      "sat",
+      "on",
+      "the",
+      "mat",
+      "and",
+      "the",
+      "cat"
+    ],
+    "matched_length": 2,
+    "source_start_zero_based": 0,
+    "copied_tokens": [
+      "sat",
+      "on",
+      "the",
+      "mat"
+    ]
+  },
+  "deterministic_copy_experiment": {
+    "seed": 2026,
+    "samples": 100000,
+    "copied_token": "B",
+    "target": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "true_q": [
+      0,
+      1,
+      0
+    ],
+    "empirical_output": [
+      0.49832,
+      0.30376,
+      0.19792
+    ],
+    "empirical_acceptance": 0.30376,
+    "theoretical_acceptance": 0.3,
+    "count_model_overlap_if_sampled_from_it": 0.7
+  },
+  "stochastic_ngram": {
+    "sequence": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "stats": {
+      "rounds": 13,
+      "proposed": 46,
+      "accepted": 11
+    },
+    "actual_q_after_0": [
+      0.2876712328767123,
+      0.4246575342465753,
+      0.2876712328767123
+    ]
+  },
+  "note": "Correctness and mechanism demo; no LLM/GPU latency measurement."
+}

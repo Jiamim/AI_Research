@@ -1,0 +1,232 @@
+{
+  "scope": "Finite rational arithmetic; no model, GPU, or asymptotic benchmark.",
+  "mixtures": {
+    "component": {
+      "tv": "0",
+      "expected_accepted": "24/25",
+      "law": {
+        "0,0,0": "1/8",
+        "0,0,1": "1/8",
+        "0,1,0": "1/8",
+        "0,1,1": "1/8",
+        "1,0,0": "1/8",
+        "1,0,1": "1/8",
+        "1,1,0": "1/8",
+        "1,1,1": "1/8"
+      }
+    },
+    "posterior": {
+      "tv": "0",
+      "expected_accepted": "42/25",
+      "law": {
+        "0,0,0": "1/8",
+        "0,0,1": "1/8",
+        "0,1,0": "1/8",
+        "0,1,1": "1/8",
+        "1,0,0": "1/8",
+        "1,0,1": "1/8",
+        "1,1,0": "1/8",
+        "1,1,1": "1/8"
+      }
+    },
+    "wrong_marginal": {
+      "tv": "8/25",
+      "expected_accepted": "2",
+      "law": {
+        "0,0,0": "41/200",
+        "0,0,1": "41/200",
+        "0,1,0": "9/200",
+        "0,1,1": "9/200",
+        "1,0,0": "9/200",
+        "1,0,1": "9/200",
+        "1,1,0": "41/200",
+        "1,1,1": "41/200"
+      }
+    }
+  },
+  "context_and_stopping_checks": [
+    {
+      "eos": null,
+      "gamma": 0,
+      "dynamic": false,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 0,
+      "dynamic": true,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 1,
+      "dynamic": false,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 1,
+      "dynamic": true,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 2,
+      "dynamic": false,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 2,
+      "dynamic": true,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 3,
+      "dynamic": false,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": null,
+      "gamma": 3,
+      "dynamic": true,
+      "support_size": 81,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 0,
+      "dynamic": false,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 0,
+      "dynamic": true,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 1,
+      "dynamic": false,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 1,
+      "dynamic": true,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 2,
+      "dynamic": false,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 2,
+      "dynamic": true,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 3,
+      "dynamic": false,
+      "support_size": 31,
+      "tv": "0"
+    },
+    {
+      "eos": 2,
+      "gamma": 3,
+      "dynamic": true,
+      "support_size": 31,
+      "tv": "0"
+    }
+  ],
+  "eos_law": {
+    "0,0,0": "1/8",
+    "0,0,1": "1/8",
+    "0,1": "1/4",
+    "1": "1/2"
+  },
+  "proposal_mismatch": {
+    "target": [
+      "1/2",
+      "1/2"
+    ],
+    "actual_q": [
+      "3/4",
+      "1/4"
+    ],
+    "output": [
+      "3/4",
+      "1/4"
+    ],
+    "tv": "1/4"
+  },
+  "biased_admission": {
+    "target_A": "7/10",
+    "output_A": "17/20",
+    "tv": "3/20"
+  },
+  "survival_measure": {
+    "survival": [
+      "1",
+      "3/5",
+      "1/5"
+    ],
+    "conditional_acceptance": [
+      "3/5",
+      "1/3"
+    ],
+    "expected_emitted": "9/5",
+    "wrong_target_prefix_estimate": "49/25"
+  },
+  "sequence_error_bound": [
+    {
+      "horizon": 1,
+      "epsilon": "1/100",
+      "formula": "1-(99/100)^1",
+      "upper_bound": 0.01
+    },
+    {
+      "horizon": 8,
+      "epsilon": "1/100",
+      "formula": "1-(99/100)^8",
+      "upper_bound": 0.0772553055720799
+    },
+    {
+      "horizon": 32,
+      "epsilon": "1/100",
+      "formula": "1-(99/100)^32",
+      "upper_bound": 0.27501966404214634
+    },
+    {
+      "horizon": 128,
+      "epsilon": "1/100",
+      "formula": "1-(99/100)^128",
+      "upper_bound": 0.7237483323007914
+    },
+    {
+      "horizon": 512,
+      "epsilon": "1/100",
+      "formula": "1-(99/100)^512",
+      "upper_bound": 0.9941760232313362
+    }
+  ]
+}

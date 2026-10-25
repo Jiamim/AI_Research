@@ -1,0 +1,83 @@
+{
+  "scope": "Exact toy probability/gradient calculations; no GPU benchmark or trained drafter.",
+  "kl_ranking": {
+    "target": [
+      0.6,
+      0.25,
+      0.15
+    ],
+    "q_a": [
+      0.33,
+      0.36,
+      0.31
+    ],
+    "q_b": [
+      0.52,
+      0.46,
+      0.02
+    ],
+    "kl_a": 0.15865087154895446,
+    "kl_b": 0.23565456636052007,
+    "acceptance_a": 0.7300000000000001,
+    "acceptance_b": 0.79
+  },
+  "dependence": {
+    "independent_survival": [
+      1.0,
+      0.6
+    ],
+    "markov_survival": [
+      1.0,
+      1.0
+    ],
+    "independent_emitted": 2.6,
+    "markov_emitted": 3.0,
+    "extra_round_cost_break_even": 0.15384615384615374
+  },
+  "gradients": [
+    {
+      "vocab": 10,
+      "ce_norm": 0.9486832980505139,
+      "tv_norm": 0.09486832980505137
+    },
+    {
+      "vocab": 100,
+      "ce_norm": 0.9949874371066197,
+      "tv_norm": 0.009949874371066194
+    },
+    {
+      "vocab": 1000,
+      "ce_norm": 0.9994998749374645,
+      "tv_norm": 0.0009994998749374643
+    },
+    {
+      "vocab": 10000,
+      "ce_norm": 0.9999499987500003,
+      "tv_norm": 9.999499987499441e-05
+    }
+  ],
+  "weight_identity": {
+    "weights": [
+      1.534230028755231,
+      0.7483950457126726,
+      0.2410157332584036
+    ],
+    "unsmoothed_gradient_max_error": 0.0,
+    "smoothed_gradient_max_error": 0.0
+  },
+  "smoothed_weights": {
+    "weights": [
+      1.6470987872136402,
+      0.8398473024753375,
+      0.29003584335322774
+    ],
+    "unsmoothed_gradient_max_error": 0.03240553046526967,
+    "smoothed_gradient_max_error": 0.043697775273655426
+  },
+  "local_vs_global": {
+    "first_round_emitted_a": 2,
+    "first_round_emitted_b": 1,
+    "total_rounds_a": 3.0,
+    "total_rounds_b": 2.0
+  }
+}

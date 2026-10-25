@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1010" viewBox="0 0 1120 1010" role="img" aria-labelledby="title desc">
+<title id="title">投机解码技术地图</title>
+<desc id="desc">八类候选生成路线共享目标验证与资源调度；方法间的连接不代表性能排名。</desc>
+<defs><style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#18354d}.title{font-size:29px;font-weight:700}.subtitle{font-size:16px;fill:#5a7187}.heading{font-size:20px;font-weight:700}.body{font-size:17px}.small{font-size:15px;fill:#526b81}</style></defs>
+<rect width="1120" height="1010" rx="18" fill="#f3f7fc"/>
+<text x="40" y="53" class="title" font-size="29" font-weight="700" fill="#18354d" font-family="sans-serif">投机解码：候选来源 × 验证 × 调度</text>
+<text x="40" y="84" class="subtitle" font-size="16" fill="#5a7187" font-family="sans-serif">路线可以组合；本图表示机制关系，不表示速度排名或稳定版支持范围。</text>
+<rect x="40" y="114" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="40" y="128" width="5" height="105" rx="2" fill="#2457a7"/>
+<text x="60" y="145" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">01  独立小模型</text>
+<text x="60" y="174" class="body" font-size="17" fill="#18354d" font-family="sans-serif">Draft LM · DistillSpec · 动态 lookahead</text>
+<text x="60" y="202" class="small" font-size="15" fill="#526b81" font-family="sans-serif">读取 token 前缀，串行提出候选</text>
+<text x="60" y="227" class="small" font-size="15" fill="#526b81" font-family="sans-serif">成本：额外权重、KV 与草稿调用</text>
+<rect x="575" y="114" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="575" y="128" width="5" height="105" rx="2" fill="#2457a7"/>
+<text x="595" y="145" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">02  历史与检索</text>
+<text x="595" y="174" class="body" font-size="17" fill="#18354d" font-family="sans-serif">Prompt lookup · n-gram · suffix · REST</text>
+<text x="595" y="202" class="small" font-size="15" fill="#526b81" font-family="sans-serif">从已出现过的文本中寻找续写</text>
+<text x="595" y="227" class="small" font-size="15" fill="#526b81" font-family="sans-serif">成本：索引、检索、缓存及验证</text>
+<rect x="40" y="265" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="40" y="279" width="5" height="105" rx="2" fill="#2457a7"/>
+<text x="60" y="296" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">03  多头与递归头</text>
+<text x="60" y="325" class="body" font-size="17" fill="#18354d" font-family="sans-serif">Medusa · Hydra · ReDrafter</text>
+<text x="60" y="353" class="small" font-size="15" fill="#526b81" font-family="sans-serif">复用目标状态，增加轻量预测模块</text>
+<text x="60" y="378" class="small" font-size="15" fill="#526b81" font-family="sans-serif">重点：候选依赖、树预算、训练头</text>
+<rect x="575" y="265" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="575" y="279" width="5" height="105" rx="2" fill="#2457a7"/>
+<text x="595" y="296" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">04  目标特征草稿</text>
+<text x="595" y="325" class="body" font-size="17" fill="#18354d" font-family="sans-serif">EAGLE → EAGLE-2 → EAGLE-3</text>
+<text x="595" y="353" class="small" font-size="15" fill="#526b81" font-family="sans-serif">特征信息 + 轻量自回归 + 链或树</text>
+<text x="595" y="378" class="small" font-size="15" fill="#526b81" font-family="sans-serif">重点：训练／推理状态对齐</text>
+<rect x="40" y="416" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="40" y="430" width="5" height="105" rx="2" fill="#2457a7"/>
+<text x="60" y="447" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">05  权重复用与 MTP</text>
+<text x="60" y="476" class="body" font-size="17" fill="#18354d" font-family="sans-serif">LayerSkip · 原生 MTP · FastMTP · UNO</text>
+<text x="60" y="504" class="small" font-size="15" fill="#526b81" font-family="sans-serif">早退、原生预测模块或草稿适配器</text>
+<text x="60" y="529" class="small" font-size="15" fill="#526b81" font-family="sans-serif">重点：训练资产与状态复用接口</text>
+<rect x="575" y="416" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="575" y="430" width="5" height="105" rx="2" fill="#2457a7"/>
+<text x="595" y="447" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">06  并行块草稿</text>
+<text x="595" y="476" class="body" font-size="17" fill="#18354d" font-family="sans-serif">PARD · P-EAGLE · DFlash</text>
+<text x="595" y="504" class="small" font-size="15" fill="#526b81" font-family="sans-serif">一次主干前向预测多个位置</text>
+<text x="595" y="529" class="small" font-size="15" fill="#526b81" font-family="sans-serif">重点：合法上下文与块内一致性</text>
+<rect x="40" y="567" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="40" y="581" width="5" height="105" rx="2" fill="#167d78"/>
+<text x="60" y="598" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">07  候选依赖修正</text>
+<text x="60" y="627" class="body" font-size="17" fill="#18354d" font-family="sans-serif">Domino · DSpark · DFlash 2 · LiLiCorr</text>
+<text x="60" y="655" class="small" font-size="15" fill="#526b81" font-family="sans-serif">轻量顺序头或候选格路径选择</text>
+<text x="60" y="680" class="small" font-size="15" fill="#526b81" font-family="sans-serif">重点：实际提案概率与头部成本</text>
+<rect x="575" y="567" width="505" height="134" rx="10" fill="white" stroke="#cfddea"/>
+<rect x="575" y="581" width="5" height="105" rx="2" fill="#167d78"/>
+<text x="595" y="598" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">08  目标并行前瞻</text>
+<text x="595" y="627" class="body" font-size="17" fill="#18354d" font-family="sans-serif">Lookahead Decoding</text>
+<text x="595" y="655" class="small" font-size="15" fill="#526b81" font-family="sans-serif">目标计算候选 n-gram，再验证</text>
+<text x="595" y="680" class="small" font-size="15" fill="#526b81" font-family="sans-serif">重点：额外 FLOPs 与资源收益</text>
+<path d="M560 718v22m-8-8 8 8 8-8" fill="none" stroke="#5a7187" stroke-width="3"/>
+<rect x="40" y="752" width="1040" height="96" rx="10" fill="#e5f3ef" stroke="#a1cdc1"/>
+<text x="62" y="785" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">共享验证层：目标 causal／tree forward → 接受、修正、提交、回滚</text>
+<text x="62" y="820" class="body" font-size="17" fill="#18354d" font-family="sans-serif">贪心一致 / 随机精确采样 / 专门块验证；概率必须对应真实提案过程</text>
+<rect x="40" y="868" width="1040" height="96" rx="10" fill="#e8eefb" stroke="#b7c9e8"/>
+<text x="62" y="901" class="heading" font-size="20" font-weight="700" fill="#18354d" font-family="sans-serif">资源控制层：草稿深度、树节点、batch、KV、CUDA graph 与动态验证预算</text>
+<text x="62" y="936" class="body" font-size="17" fill="#18354d" font-family="sans-serif">目标：实际延迟与有效吞吐；接受更长并不自动更快，动态选择也须保持正确性</text>
+<text x="40" y="991" class="small" font-size="15" fill="#526b81" font-family="sans-serif">原创机制示意 · 图形维护 2026-10-20 · 具体支持条件见正文与来源快照</text>
+</svg>

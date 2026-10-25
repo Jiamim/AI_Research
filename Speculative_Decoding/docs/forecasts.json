@@ -1,0 +1,264 @@
+{
+  "as_of": "2026-10-20",
+  "confidence_definition": "对下列具体、限时事件的定性判断，不是校准概率；既有作者实现不计作未来新增独立证据。",
+  "forecasts": [
+    {
+      "id": "F1",
+      "topic": "成本有界的草稿上下文",
+      "horizon": "2027-04 至 2027-10",
+      "confidence": "中高",
+      "prediction": "到 2027-10，在至少两个不同目标模型家族上出现完整可运行的受限/复用草稿历史方案，并在长上下文同资源基线下获得净吞吐收益。",
+      "basis": [
+        "longdraft_pdf",
+        "longspark",
+        "hspec",
+        "paper_2610_23787"
+      ],
+      "confirmation": "公开 checkpoint/代码 revision；分别测草稿持久状态、上下文读取和整轮时间；计入特征提取后在预先声明的负载点仍有可重复净收益。",
+      "falsifier": "长距离任务的接受损失持续超过缓存收益，或提取压缩状态的隐藏成本重新随完整历史增长。",
+      "window_months_after_as_of": [
+        6,
+        12
+      ],
+      "baseline": "窗口化、LongSpark/DLite 与 H-Spec 已有作者报告；尚未在本项目独立验证读写总成本或跨家族通用收益。",
+      "scope": "至少两个目标家族；每个家族包含至少两个上下文长度，其中一个不少于 128K；不要求所有长度/并发均获益。",
+      "success_criteria": [
+        "至少两个目标家族满足 scope 的长度扫描。",
+        "报告草稿状态容量与上下文读取/构建成本，不能仅以无独立 KV 代替成本测量。",
+        "包含至少一项非原作者团队的复现，且配对速度结果符合 measurement_rule。"
+      ],
+      "confidence_reason": "多条机制提供一致动机，但 no-own-KV 可能仍线性读取历史，信息损失与隐藏成本尚未解决。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Bounded draft context"
+    },
+    {
+      "id": "F2",
+      "topic": "混合模型的回滚与状态接口",
+      "horizon": "2027-04 至 2028-04",
+      "confidence": "中高",
+      "prediction": "到 2028-04，至少两个主流开源推理引擎提供有版本标识和状态正确性测试的递归回滚优化，总体覆盖至少两种递归状态更新族。",
+      "basis": [
+        "paper_2610_13778",
+        "treewy",
+        "lumotree",
+        "paper_2610_20503",
+        "vllm_replayssm_source"
+      ],
+      "confirmation": "可核对 release/commit、正确性测试和高/低并发内存与吞吐结果；区分临时验证、选中路径提交与低精度。",
+      "falsifier": "重放成本和数值差异使收益仅限个别模型或大 batch，无法稳定扩大支持范围。",
+      "window_months_after_as_of": [
+        6,
+        18
+      ],
+      "baseline": "ReplaySSM 已有论文、作者 fork 和局部 upstream 源码，TreeWY/LumoTree 已报告提交机制；这证明局部路径存在，不证明统一稳定接口。",
+      "scope": "两个引擎、合计至少两种状态族；不要求每个引擎都覆盖两种，标准 decode 代码不能冒充 speculative rollback 支持。",
+      "success_criteria": [
+        "两个引擎能运行 speculative rollback/commit，明确引擎版本。",
+        "实现合计覆盖至少两种状态更新族，并比较提交后状态和目标条件 logits。",
+        "报告受益和无收益负载，而非只提供 kernel 峰值。"
+      ],
+      "confidence_reason": "机制证据和局部接入较强；跨状态族、稳定接口、精度一致性与低 batch 代价仍使采用时间不确定。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Hybrid state replay / commit"
+    },
+    {
+      "id": "F3",
+      "topic": "从局部损失到轨迹成本训练",
+      "horizon": "2027-01 至 2028-04",
+      "confidence": "中",
+      "prediction": "到 2028-04，至少一项独立复现能在两个目标家族上证明跨轮/占用感知训练相对匹配局部损失同时改善轮数与实测生成时间。",
+      "basis": [
+        "paper_2610_10411",
+        "edr_repo",
+        "dscout_pdf",
+        "paper_2610_20175",
+        "draft_opd_pdf"
+      ],
+      "confirmation": "同时报告目标轮数、生成时间、草稿训练及特征成本；显式成本加权目标作为研究假设，暂不预测其必然出现。",
+      "falsifier": "实际收益在数据与训练预算对齐后消失，或全轨迹目标的计算代价超过部署收益。",
+      "window_months_after_as_of": [
+        3,
+        18
+      ],
+      "baseline": "EDR 已有论文及微调/evaluator 作者代码；现有训练实验主要是同家族的两个小规模目标，尚非跨家族独立墙钟复现。",
+      "scope": "固定草稿结构、目标、训练数据和总训练计算；允许较晚发表的占用感知变体，不把新增训练量归因于目标函数。",
+      "success_criteria": [
+        "非原作者团队在两个目标家族做相同结构/训练预算对照。",
+        "轮数与实测时间均改善，且注明不保证跨结构墙钟最优。",
+        "报告训练/特征计算总成本与回本负载。"
+      ],
+      "confidence_reason": "理论目标更直接，但有限容量优化、占用估计成本和跨后端收益缺少独立证据。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Trajectory-aware training"
+    },
+    {
+      "id": "F4",
+      "topic": "并行主干加廉价依赖与有限树",
+      "horizon": "2027-04 至 2028-10",
+      "confidence": "中高",
+      "prediction": "到 2028-10，至少两项独立同协议比较在两个目标家族上确认一种或多种轻量依赖机制，相对匹配独立槽位草稿具有净时间收益。",
+      "basis": [
+        "paper_2610_12570",
+        "lilicorr_paper",
+        "flashmap_pdf",
+        "flashmap_modeling_flashmap",
+        "jetspec",
+        "paper_2610_20175"
+      ],
+      "confirmation": "按实际 q 验证贪心/随机声明；给出 head/树/采样成本和对照，在预先选定受益点有可重复时间改善。",
+      "falsifier": "head/树成本使优势局限 batch 1，或匹配训练数据后廉价独立基线持续占优。",
+      "window_months_after_as_of": [
+        6,
+        24
+      ],
+      "baseline": "条件头、候选格、共享噪声和有限树已有作者实验；不同论文数据/目标及硬件重叠较多，不是独立通用胜出证据。",
+      "scope": "至少覆盖 batch 1 与一个并发≥16 的点；固定验证预算和训练计算；不要求同一种机制在全部点胜出。",
+      "success_criteria": [
+        "两项独立比较合计覆盖两个目标家族及 scope 的并发。",
+        "匹配数据、验证节点与训练预算，报告 head/验证总成本。",
+        "未将 hidden representation 依赖等同 sampled-token 条件依赖，随机结果核对实际提案。"
+      ],
+      "confidence_reason": "多种机制都能改善联合一致性；同协议排序和高并发净收益仍不稳定。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Parallel backbone + dependencies"
+    },
+    {
+      "id": "F5",
+      "topic": "调度与编译面向实际成本",
+      "horizon": "2027-04 至 2028-04",
+      "confidence": "中",
+      "prediction": "到 2028-04，至少一个可公开复现的服务引擎集成显式执行成本调度，并在无 oracle、同设备预算的真实请求轨迹中改善 p95 时延或 SLO goodput。",
+      "basis": [
+        "vllm_adaptive",
+        "polygraph_pdf",
+        "paper_2610_25012",
+        "paper_2610_15417",
+        "ssd"
+      ],
+      "confirmation": "同目标质量、同输出规则、同资源和同到达过程；计入在线估计、路由、通信、padding、graph 与排队成本。",
+      "falsifier": "只能在合成轨迹、额外草稿设备或离线 oracle 中成立，调度开销吞掉真实收益。",
+      "window_months_after_as_of": [
+        6,
+        18
+      ],
+      "baseline": "已有 adaptive 接口；PolyGraph 仅合成原型、SpecFit 使用计时外 route atlas，SSD 有额外草稿 GPU；不同系统证据不能相加为同资源生产证明。",
+      "scope": "可以采用形状/状态/专家成本中的一种；联合编译和异步部署是可能实现路径，不额外预测它们必然获益。",
+      "success_criteria": [
+        "发布完整引擎 revision 与可复放真实请求轨迹。",
+        "成本估计不使用请求计时外 oracle，额外设备计入总预算。",
+        "p95 或 SLO goodput 按 measurement_rule 改善，保留失败与超时请求。"
+      ],
+      "confidence_reason": "成本优化动机清晰，但现有原型/atlas/额外硬件与完整生产收益之间仍有显著距离。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Cost-aware serving runtime"
+    },
+    {
+      "id": "F6",
+      "topic": "RL rollout 的在线草稿生命周期",
+      "horizon": "2027-04 至 2027-10",
+      "confidence": "中高",
+      "prediction": "到 2027-10，至少两个公开 RL 训练栈出现新增独立复现，在计入草稿训练/更新和权重同步后降低达到预定质量所需的总 GPU 时。",
+      "basis": [
+        "growmtp",
+        "online_cotrain",
+        "paper_2610_13202",
+        "rl_system"
+      ],
+      "confirmation": "报告草稿冷启动、更新、目标特征、同步、奖励和优化阶段成本，以及相同质量下的训练曲线和 GPU 时。",
+      "falsifier": "policy 漂移、并行通信或长尾使 rollout 的局部提速无法转化为训练整体收益。",
+      "window_months_after_as_of": [
+        6,
+        12
+      ],
+      "baseline": "GrowMTP、NeMo-RL 共训和 veRL 精确 rollout 已有作者报告；不能将已有接入本身列为未来实现。",
+      "scope": "固定任务与达到质量的标准，控制学习进度、目标策略快照和采样；不只比较固定时刻 tokens/s。",
+      "success_criteria": [
+        "两个公开训练栈的新增结果，至少一个由非对应方案作者团队复现。",
+        "固定可检验的质量阈值与训练种子/重复策略。",
+        "总 GPU 时含所有额外成本，保持声明的响应组联合分布或单独报告偏差。"
+      ],
+      "confidence_reason": "RL 重复工作负载提供适配机会，但短训练回本、policy 漂移和分布式开销仍可能消除局部收益。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Online draft lifecycle for RL"
+    },
+    {
+      "id": "F7",
+      "topic": "Agent/多模态的场景化候选",
+      "horizon": "2027-01 至 2028-10",
+      "confidence": "中",
+      "prediction": "到 2028-10，至少两个不同场景出现可重复的专用提案组合，且在完整任务边界上降低时间或能耗，而非仅提升 decode token/s。",
+      "basis": [
+        "agspec",
+        "paper_2610_07086",
+        "hawks",
+        "paper_2610_13506",
+        "paper_2610_26660",
+        "trajectory_semantic"
+      ],
+      "confirmation": "包含 prefill、工具与错误恢复或完整设备能耗；报告任务成功、失败和未完成，并区分 token 分布与语义效果。",
+      "falsifier": "短输出的 prefill/工具成本主导，或跨模态与外部环境错误抵消解码节省。",
+      "window_months_after_as_of": [
+        3,
+        24
+      ],
+      "baseline": "仓库检索、schema、多模态和 NPU 已有分散案例；它们衡量的 token 保证、成功率、工具时间和能耗不同。",
+      "scope": "场景取 coding Agent、结构化工具、视觉/语音、移动 NPU 中至少两类；语义动作审核另列近似协议，不与精确 token 方法合并评分。",
+      "success_criteria": [
+        "至少两种场景提供可运行材料和匹配基线。",
+        "按完整请求/任务边界计算收益，设备测量说明散热和功率条件。",
+        "全部尝试均计入资源；质量/分布保证按类别分别评价。"
+      ],
+      "confidence_reason": "场景结构可降低提案成本，但短输出、prefill 和外部工具常主导总时间。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Workload-specific task efficiency"
+    },
+    {
+      "id": "F8",
+      "topic": "质量、长度与速度分开报告",
+      "horizon": "2027-04 至 2027-10",
+      "confidence": "中高",
+      "prediction": "到 2027-10，至少两个不同维护团队的公开评测或框架新增完整的质量、长度、轮数与时间联合报告，并明确区分精确和有损结果。",
+      "basis": [
+        "inflation_pdf",
+        "paper_2610_24993",
+        "speedbench",
+        "mmspec",
+        "vllm_fly"
+      ],
+      "confirmation": "发布原始记录、同资源基线和失败/超时统计；不由跨配置平均比值倒推单一速度改善。",
+      "falsifier": "仍主要比较单请求 headline speedup，或长度与质量控制被持续忽略。",
+      "window_months_after_as_of": [
+        6,
+        12
+      ],
+      "baseline": "SPEED-Bench、MMSpec 和长度研究已倡议多指标；仅有倡议或现有字段不算未来新增采用。",
+      "scope": "两个独立维护团队；包括实际结果/测量脚本，不能只添加没有数据的表头。",
+      "success_criteria": [
+        "两个团队各发布新增可执行测量路径或实际报告。",
+        "包括完成长度、目标轮数、端到端时间和适用的质量指标。",
+        "精确与有损分组，保留失败/超时及不同温度/预算条件。"
+      ],
+      "confidence_reason": "评测缺口被反复观测，但社区采用速度和统一统计标准并非由论文数量决定。",
+      "status": "pending",
+      "status_as_of": "2026-10-21",
+      "plot_label": "Length + quality + time evaluation"
+    }
+  ],
+  "reviewed_on": "2026-10-21",
+  "time_semantics": "as_of 保留原预测日期。horizon/window_months_after_as_of 是评估窗口，不表示技术在窗口开始前不会出现；reviewed_on 只记录修订日期，不重置截止日。",
+  "adjudication_rules": {
+    "supported": "截止日前取得满足 scope 与 success_criteria 全部条件的公开证据。",
+    "not_met": "截至期限，经规定范围复查仍未达到预测的具体数量或条件；不等于机制本身无效。",
+    "counterevidence": "出现 falsifier 所述的可复现实验；限制在哪些工作负载成立需记录。",
+    "insufficient_evidence": "材料无法访问、指标不全或实验条件不一致，暂不能判定。",
+    "measurement_rule": "预先固定目标、采样、硬件、工作负载与计时边界；速度收益至少重复 3 次并给原始结果/不确定性。额外训练、同步、路由预测和设备预算均纳入。",
+    "independence_rule": "同一作者的论文、README、博客、模型卡不是多次独立复现；不同 repo 或 paper 名称不自动视为独立团队。"
+  }
+}

@@ -1,0 +1,1340 @@
+{
+  "description": "Public bibliography and fingerprints of consulted sources. Third-party source bodies are not redistributed; fingerprints identify the consulted bytes, not a correctness guarantee.",
+  "scope": {
+    "search_cutoff": "2026-10-20",
+    "content_review": "2026-10-21",
+    "candidate_ids": 228,
+    "candidate_ids_beginning_26": 146,
+    "coverage": "Discovery sample; most topic searches stopped at the first 20 results. No claim of exhaustive coverage or current stable-release verification."
+  },
+  "sources": [
+    {
+      "id": "paper_2610_25012",
+      "title": "Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.25012",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1bd87a83e1cd3dcb8e8afaf4cafa8caf2702939e192e9846595c8d9a311be6e6"
+    },
+    {
+      "id": "paper_2610_26531",
+      "title": "ReAnchor: Reusing Rejected Verifier States for Diffusion Drafting",
+      "url": "https://arxiv.org/html/2610.26531",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "e3820d6c025a1b1fa58993807ccde199b01d71e784b8e9454745feeda7c879e5"
+    },
+    {
+      "id": "paper_2610_23787",
+      "title": "DLite: History-Free Speculative Decoding for Agentic AI",
+      "url": "https://arxiv.org/html/2610.23787",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "9b8196f053ffc3684060f34be721363daa3a134703223dd4d6cc8272964c7232"
+    },
+    {
+      "id": "paper_2610_20392",
+      "title": "FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.20392",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "4ab36a093349d953cf49ee4c3fc611cb5203e96c749062c6096e55ceda055243"
+    },
+    {
+      "id": "paper_2610_26660",
+      "title": "Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs",
+      "url": "https://arxiv.org/html/2610.26660",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "7cb553f8230cfb203df446f08e29d48b676addfe9b076d35171d09970d1970bf"
+    },
+    {
+      "id": "paper_2610_20175",
+      "title": "TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.20175",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "7beed202ac7cb318e62d4b1e27a97eacb18d4c44f06c4bc091dfcc5b3fd5ceb7"
+    },
+    {
+      "id": "paper_2610_15417",
+      "title": "SpecFit: Not All Draft Tokens Cost the Samein Offloaded MoE Inference",
+      "url": "https://arxiv.org/html/2610.15417",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ea49ead4a361d3636c0e6766ccc1cbca7b1195e5dd48df85161f00278fd813a7"
+    },
+    {
+      "id": "paper_2610_20503",
+      "title": "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
+      "url": "https://arxiv.org/html/2610.20503",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "b6aabb4f8d307c96569eeab680d938339c06658f75d2cb04135f2811eb544338"
+    },
+    {
+      "id": "paper_2610_13778",
+      "title": "ReplaySSM: Cache SSM Inputs, Not State",
+      "url": "https://arxiv.org/html/2610.13778",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ef4c2d41abf13552685f641e437599ce8925b4be31dd6673ebb5624ce11874b1"
+    },
+    {
+      "id": "paper_2610_13202",
+      "title": "S3R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.13202",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2c4704fec367030df4d39d71da112f0f5dd160df8bf803e558a25adf417c33e1"
+    },
+    {
+      "id": "paper_2610_07086",
+      "title": "SchemaFill: Efficient LLM Tool Calling via Slot-Parallel Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.07086",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "74f28b78315e7975ab0be0c198172c40eff0f343314089a7a7b343f7c144d14d"
+    },
+    {
+      "id": "ssd",
+      "title": "Speculative Speculative Decoding",
+      "url": "https://arxiv.org/html/2603.03251",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ee997b0b399fed74951549766a50afaab31c7d6d117c8ee5b50069fa0507da2e"
+    },
+    {
+      "id": "paper_2610_10411",
+      "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
+      "url": "https://arxiv.org/html/2610.10411",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "38bb29d63922e2068c4a8561287cbc2603d2acf7cd85ab281bc91c8272c53174"
+    },
+    {
+      "id": "paper_2610_07822",
+      "title": "Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution",
+      "url": "https://arxiv.org/html/2610.07822",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "70e042db4257bae77a08f5ad1e0b2be8dda412db2339ab7e35fbfabce8d34d74"
+    },
+    {
+      "id": "mmspec",
+      "title": "MMSpec: Benchmarking Speculative Decoding for Vision-Language Models",
+      "url": "https://arxiv.org/html/2603.14989",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "397b81460de8b10588dafba52ced3ea07a0cb948a5d1a23fa449424899b2b661"
+    },
+    {
+      "id": "paper_2610_10929",
+      "title": "Speedbumps: Rejection Attacks on Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.10929",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "62839a9d6d38d3732b3cfca5822f2f09322d23be0f2530f93b3d4bcd9cad026c"
+    },
+    {
+      "id": "paper_2610_12570",
+      "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.12570",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "48ad5fcd3cd54d6e06816dbc839f7e1d720fd3476030f3bdf287a3f162f0dfdd"
+    },
+    {
+      "id": "slimspec",
+      "title": "SlimSpec: Low-Rank Draft LM-Head for Accelerated Speculative Decoding",
+      "url": "https://arxiv.org/html/2605.10453",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "5629db119db85c7dff283de8ae33939267ed51c9d0aa58d1d2dc8895120eafde"
+    },
+    {
+      "id": "sdsl",
+      "title": "Speculative Decoding Scaling Laws (SDSL): Throughput Optimization Made Simple",
+      "url": "https://arxiv.org/html/2603.11053",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "061e695127e2cbae381421b985b83b83a577d95c374ea48f8ff284b7ead0d1e5"
+    },
+    {
+      "id": "speedbench",
+      "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+      "url": "https://arxiv.org/html/2604.09557",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1e5c32a7099ac6d0129d0101b22c1126527a6f8a8435dde7d6f152babb11570f"
+    },
+    {
+      "id": "pard2",
+      "title": "PARD-2: Target-Aligned Parallel Draft Model for Dual-Mode Speculative Decoding",
+      "url": "https://arxiv.org/html/2605.08632",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "cfbfe131ebce6672515866329b70273eb33107b9989610afde9d8c7d74deeb83"
+    },
+    {
+      "id": "attention_drift",
+      "title": "Attention Drift: What Autoregressive Speculative Decoding Models Learn",
+      "url": "https://arxiv.org/html/2605.09992",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "364f845d915e1dbae34528856a381e075ebf4ab484cdfca045a0bf02d339fab4"
+    },
+    {
+      "id": "hybrid_tree",
+      "title": "Draft Less, Retrieve More: Hybrid Tree Construction for Speculative Decoding",
+      "url": "https://arxiv.org/html/2605.20104",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "9ac11fd34e4fa5449d115e51028a954f4659fcb2cd50090d3f608f81e5361aac"
+    },
+    {
+      "id": "rl_system",
+      "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+      "url": "https://arxiv.org/html/2604.26779",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d51119dc599d782821a5034e5038a1fe2d392fbdbbfdd1965b607509b3259b3e"
+    },
+    {
+      "id": "specforge_paper",
+      "title": "𝚂𝚙𝚎𝚌𝙵𝚘𝚛𝚐𝚎: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding",
+      "url": "https://arxiv.org/html/2603.18567",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "96fa2598e071b17ea4e4d2e494b97987ccc60838c91e14c04201d70f47e3c5e9"
+    },
+    {
+      "id": "vllm_overview",
+      "title": "Speculative Decoding - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1d8e905d05661a097576a2b97d14d40ee39d39dd3715db00c36acc541b296bc9"
+    },
+    {
+      "id": "vllm_mtp",
+      "title": "MTP (Multi-Token Prediction) - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "36f746d29b2d41c36792742a41b9a2b1ddcf2b392e8f3d2a72ee229cb6ba6f95"
+    },
+    {
+      "id": "vllm_adaptive",
+      "title": "Adaptive Verification - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/adaptive_verification/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2150c7f6284da22977dc405dea7ca5c1e4415310819286f0012d6aceb3464ee2"
+    },
+    {
+      "id": "jetspec",
+      "title": "JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting",
+      "url": "https://arxiv.org/html/2606.18394",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "74a9e910adc502f6b121e482257c10ececcad88440c1ec1407da50eac51ac86d"
+    },
+    {
+      "id": "vllm_fly",
+      "title": "FLy Verification - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/fly/",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "934614a30acf7381df222d34362822e5aee303941d494a1956a323294d5747dc"
+    },
+    {
+      "id": "specforge",
+      "title": "specforge",
+      "url": "https://raw.githubusercontent.com/sgl-project/SpecForge/main/README.md",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "9b97026c3c61715f028e076860c6b09931a15897a72f243e84b6531d31fac5ed"
+    },
+    {
+      "id": "speculators",
+      "title": "speculators",
+      "url": "https://raw.githubusercontent.com/vllm-project/speculators/main/README.md",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c187246b7b9ee6e0c97146b79e0f84a9b3e10fc7b7cbec20a705fe0d0ae0befe"
+    },
+    {
+      "id": "nvidia_features_retry",
+      "title": "Speculative Decoding — TensorRT LLM",
+      "url": "https://nvidia.github.io/TensorRT-LLM/features/speculative-decoding.html",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "621eb99946bf932227a12cc52e3f4149b12818558128e6564767d8198444ad10"
+    },
+    {
+      "id": "dflash_repo",
+      "title": "dflash repo",
+      "url": "https://raw.githubusercontent.com/z-lab/dflash/main/README.md",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "e39074de245d5893f1812b18755fd3a232fedeb38ed2608d9dfd0b5b4db8780b"
+    },
+    {
+      "id": "dspark_paper",
+      "title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+      "url": "https://arxiv.org/html/2607.05147",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d26ba29059c512f60eb02bed40f28a1214747c714cb82f996f0dc0eca591caea"
+    },
+    {
+      "id": "lilicorr_paper",
+      "title": "LiLiCorr: Lightweight Likelihood Correlationof Parallel Drafts for Speculative Decoding",
+      "url": "https://arxiv.org/html/2608.20530",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "8a32f3b1f164a07e2c128dca65b001f2c4b79614ee88b9e85a900d652b5ed65b"
+    },
+    {
+      "id": "dflash2",
+      "title": "DFlash 2: Keep Drafting Parallel — Inco AI",
+      "url": "https://inco.ai/blog/dflash2/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "99dc56f499112acea0a546058f382cefd6e5b85a8c6d590eeb6b8fe77dda91e2"
+    },
+    {
+      "id": "paper_2610_13506",
+      "title": "Lossless Inference Acceleration for ASR via EAGLE-Style Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.13506",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "5e52cbe1f1c92b73aa71d0336e8f6ca676fae661befaee06bff5fb6bc08b9321"
+    },
+    {
+      "id": "efficient_rollout",
+      "title": "EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts",
+      "url": "https://arxiv.org/html/2606.18967",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "0510cf74a6f91096bbc23c235cd6b66d1c632157d941b2b73f09b8fd10438b59"
+    },
+    {
+      "id": "moe_spec",
+      "title": "MoE-Spec: Expert Budgeting for Efficient Speculative Decoding",
+      "url": "https://arxiv.org/html/2602.16052",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "0620b4c446de712267557a290129e90c9a79d249be085e123a8eda4bba1ee9c4"
+    },
+    {
+      "id": "sglang",
+      "title": "Speculative Decoding - SGLang Documentation",
+      "url": "https://docs.sglang.io/advanced_features/speculative_decoding.html",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "5e56e588ff481b4919fe16cb1d2e369207ba716ace0474544b53f50bf96b5bd6"
+    },
+    {
+      "id": "paper_2610_24993",
+      "title": "When Does Better Acceptance Pay?A Controlled Study of Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.24993",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "da69eca3905d3c6418f570d9f47b52810beb731c67d2fefbd0fc45c8bb1373cb"
+    },
+    {
+      "id": "polygraph_pdf",
+      "title": "PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2610.23861",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c6f3b63e642bc165d74bb9bdbd88acf2a82666c0c6684b7db0437c131e2e7776"
+    },
+    {
+      "id": "flashmap_pdf",
+      "title": "FlashMap: Flow Map Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2610.24365",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "a48360ce6374217530a3652a0e664320d3faf0e0c66b75c234cc669b25b468dd"
+    },
+    {
+      "id": "dscout_pdf",
+      "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2610.23935",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "4b4f96cd87610e780569b462d5712487934c792469c032246414d70b7b3ce9bd"
+    },
+    {
+      "id": "controlled_pdf",
+      "title": "When Does Better Acceptance Pay? A Controlled Study of Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2610.24993",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d5d5ab28d81c80221b32fc0cd70e28f181a22c9dd84480b0b66ef1d71b4f1be1"
+    },
+    {
+      "id": "online_cotrain",
+      "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
+      "url": "https://arxiv.org/html/2609.07108",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "e8b478b24ee05a670a791b34730fb5dd643353d63d4cbe885838ca702fad797b"
+    },
+    {
+      "id": "hawks",
+      "title": "HAWK: Rethinking Multimodal Drafting for Speculative Decoding",
+      "url": "https://arxiv.org/html/2610.00623",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1e1d31aee537ebafa9c184cf900d96cbf50a357a92befb2916960d500a699b28"
+    },
+    {
+      "id": "hspec",
+      "title": "H-Spec: Parallel Speculative DecodingWithout a Drafter-Side KV Cache",
+      "url": "https://arxiv.org/html/2609.24197",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "456228031e209871ce4e3d63af3a27ac02627d82b67694f85735c64748dfe5a4"
+    },
+    {
+      "id": "agspec",
+      "title": "AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines",
+      "url": "https://arxiv.org/html/2610.01108",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2fc6346d81d39be4b84cb247233065a8a76da8067469eaac9f76699f9950610e"
+    },
+    {
+      "id": "longspark",
+      "title": "Efficient speculative decoding with a fixed-cost parallel drafter",
+      "url": "https://arxiv.org/html/2609.37029",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c5b904cb184e10b5c797f8a5eb007cb70b6c2816d61c09accc4cc08c77370e72"
+    },
+    {
+      "id": "trajectory_semantic",
+      "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+      "url": "https://arxiv.org/html/2610.21463",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d44294856bd53c184a94839d832db47628152a1595a77b8df39657013217071e"
+    },
+    {
+      "id": "spine_index",
+      "title": "Spin : Shadow Predictive Indexer for Sparse Attention",
+      "url": "https://arxiv.org/html/2610.09025",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "45f8f73483ca9543b968d0955d964ddb4dd47d4433ab3e614dca106f52c3edba"
+    },
+    {
+      "id": "treewy",
+      "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+      "url": "https://arxiv.org/html/2608.20961",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "a4a6dbdae14682c41748f9ddb991d6df05ee943d30bce9406be9b8948d840a20"
+    },
+    {
+      "id": "lumotree",
+      "title": "LumoTree: Path-Parallel Speculative Verification for Hybrid Language Models",
+      "url": "https://arxiv.org/html/2609.23900",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1e70a88abdd42d28a3da1ab28cd5bed0e6e0b88010a878f81b2d7dabcbf89816"
+    },
+    {
+      "id": "inflation_pdf",
+      "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2610.23818",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "cbe902271e4bb5544ba55397b61bb3cffaae452f5dc59b23361c5444b75ed51f"
+    },
+    {
+      "id": "longdraft_pdf",
+      "title": "Long-Context Drafting Does Not Require Long-Context Drafters",
+      "url": "https://arxiv.org/pdf/2610.20865",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1180cc478e3db76a56a34b8a6b11ab3bc4c9e47945318a524367baa693547ff0"
+    },
+    {
+      "id": "growmtp",
+      "title": "GrowMTP: Can RL Grow Its Own Draft Head?",
+      "url": "https://arxiv.org/html/2609.16648",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c4710b70591272038a72f3d73dac9e6e4604cd2ecfc1f457a7d8c47c87c5741a"
+    },
+    {
+      "id": "sp2ec",
+      "title": "SP2ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
+      "url": "https://arxiv.org/html/2610.18735",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d55d79ebb5dd3750a66433a1e71b8cbc9d8cfbb5ecf0b2970bffc7647fc94c6a"
+    },
+    {
+      "id": "replayssm_repo",
+      "title": "replayssm repo",
+      "url": "https://raw.githubusercontent.com/Johnny-Liou/ReplaySSM/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "6e2aeb54cafb40ec60e5f3742ba554618b9e7c205e8f1cf469e97027a40a8071"
+    },
+    {
+      "id": "ssd_repo",
+      "title": "ssd repo",
+      "url": "https://raw.githubusercontent.com/tanishqkumar/ssd/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "792468285033638cc411d8f50a602d451e26b844b61b9c7f6f841258a1ac93d3"
+    },
+    {
+      "id": "ready_repo",
+      "title": "ready repo",
+      "url": "https://raw.githubusercontent.com/StartLuxLabs/ReaDy/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c76ee3f0308f2f9d0099d701cefeb9bfb2367bf200e748e08c7da41e704cf9c3"
+    },
+    {
+      "id": "speedbench_dataset",
+      "title": "speedbench dataset",
+      "url": "https://huggingface.co/datasets/nvidia/SPEED-Bench/raw/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2e5ec3a30cf6afae72a32005177888f1e72513d17d2d64a0956612b91da83ad7"
+    },
+    {
+      "id": "controlled_repo",
+      "title": "controlled repo",
+      "url": "https://raw.githubusercontent.com/longyongchao/SpecLab/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ad207ae3963026f6a59d62cbc431f4659bdb264d6aa277dfb534b063d46b76da"
+    },
+    {
+      "id": "attention_drift_repo",
+      "title": "attention drift repo",
+      "url": "https://raw.githubusercontent.com/Dogacel/Attention-Drift/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "8992d3418c5df6cca99ff10c33fa5526237b0798fe06c29456c35f3cc97849c4"
+    },
+    {
+      "id": "edr_repo",
+      "title": "edr repo",
+      "url": "https://raw.githubusercontent.com/y-x-zhao/AngelSpec-EDR/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ba0321c9404e535700dc9873dd5b8b09b17f12d3cfc0a095b66590a5d02fc952"
+    },
+    {
+      "id": "draft_opd_pdf",
+      "title": "Recovering Off-Policy Supervision for Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2609.38795",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "fbf6e82ce833c6b24acaac795ca6a38575df086ea15bebbad625efebc04bc983"
+    },
+    {
+      "id": "flashmap_repo_master",
+      "title": "flashmap repo master",
+      "url": "https://raw.githubusercontent.com/al-jshen/flashmap/master/README.md",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ad250c2528fe20772cd700426f9c56891f9aae4349c914d70025ec1f210861f9"
+    },
+    {
+      "id": "replayssm_nvidia",
+      "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "88088ea1268465068c203b26ed790e7aa247bf2045a7203fc6ce1e1241f4e732"
+    },
+    {
+      "id": "dcore_repo",
+      "title": "dcore repo",
+      "url": "https://raw.githubusercontent.com/ernie-research/DCore/main/README.md",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "f8dfb059f1496e8f40eb7137e980696c465457811bbcae59f1afc547a9f8e7d5"
+    },
+    {
+      "id": "vllm_replayssm_source",
+      "title": "selective_state_update_replayssm_output_only.py",
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/vllm/model_executor/layers/mamba/ops/selective_state_update_replayssm_output_only.py",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "cea7fd3063ca9dcc4e33f180d01ea379195ec515cedc9d0b03b11dc67670d695"
+    },
+    {
+      "id": "replayssm_dao",
+      "title": "ReplaySSM: Cache SSM Inputs, Not State | Dao AI Lab",
+      "url": "https://dao-lab.ai/blog/2026/replayssm/",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "7f730b78146d24e821cdd69b321e8b8759dab789ecc38f2ee1691077822ff367"
+    },
+    {
+      "id": "flashmap_config",
+      "title": "config.json",
+      "url": "https://huggingface.co/j-shen/FlashMap-Qwen3-8B/raw/main/config.json",
+      "type": "official_metadata_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "a5e74f52a83c82ff51cd7101ab487a3fb5f8e2d5090f29d6ade559e8716f653f"
+    },
+    {
+      "id": "edr_metadata",
+      "title": "query?id_list=2610.10411,2610.24365,2610.23818,2610.23861,2610.24993,2610.20865&max_results=6",
+      "url": "https://export.arxiv.org/api/query?id_list=2610.10411,2610.24365,2610.23818,2610.23861,2610.24993,2610.20865&max_results=6",
+      "type": "official_metadata_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "efd62b58aaff2be9dfc74ad67214902514a3d7029c1370c6255e40525a634cf0"
+    },
+    {
+      "id": "flashmap_modeling_flashmap",
+      "title": "modeling_flashmap.py",
+      "url": "https://huggingface.co/j-shen/FlashMap-Qwen3-8B/raw/main/modeling_flashmap.py",
+      "type": "model_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "29e80341ea8d45cd2d5ad01a3d364e203de894c19c78180d615fdb44e02c8aa5"
+    },
+    {
+      "id": "flashmap_configuration_flashmap",
+      "title": "configuration_flashmap.py",
+      "url": "https://huggingface.co/j-shen/FlashMap-Qwen3-8B/raw/main/configuration_flashmap.py",
+      "type": "model_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "059979e6aa623724dc439b61963524723021d848438d2a0aece2963317023b29"
+    },
+    {
+      "id": "fold_abs",
+      "title": "[2610.20392] FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.20392",
+      "type": "primary_review_source",
+      "accessed_on": "2026-10-21",
+      "snapshot_sha256": "8a7e85af30a378dd6f594ed5333c8f34e41a3c721cbc9297a66ffe711e322e5b"
+    },
+    {
+      "id": "ssd_abs",
+      "title": "[2603.03251] Speculative Speculative Decoding",
+      "url": "https://arxiv.org/abs/2603.03251",
+      "type": "primary_review_source",
+      "accessed_on": "2026-10-21",
+      "snapshot_sha256": "76316172b8266181b99228ec23b8567f1f2e7e8b2770a30fda52780d716251c2"
+    },
+    {
+      "id": "polygraph_metadata",
+      "title": "query?id_list=2610.23861,2610.10411,2610.23818&max_results=3",
+      "url": "https://export.arxiv.org/api/query?id_list=2610.23861,2610.10411,2610.23818&max_results=3",
+      "type": "primary_review_source",
+      "accessed_on": "2026-10-21",
+      "snapshot_sha256": "b419b81220c1ce94c394a5ad6d6ade708c980d602858ec8cf4010f66b3a08233"
+    },
+    {
+      "id": "edr_abs",
+      "title": "[2610.10411] Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
+      "url": "https://arxiv.org/abs/2610.10411",
+      "type": "primary_review_source",
+      "accessed_on": "2026-10-21",
+      "snapshot_sha256": "779ca32bc45a718f931715c14ef35f1c6bf2109ca2c0068df2e442067344ac72"
+    },
+    {
+      "id": "vllm_dynamic",
+      "title": "Dynamic Speculative Decoding - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/dynamic_speculative_decoding/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "a850c69c0e2b4262c9fbc12cc8a0cf62e37d73af39cfea173e2b5bfb0715f634"
+    },
+    {
+      "id": "vllm_eagle",
+      "title": "EAGLE Draft Models - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/eagle/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "0d07bb0ff32a71a01d9946581d69f5eceb7176d6cdb50cae28ee00502aebb7d5"
+    },
+    {
+      "id": "vllm_draft",
+      "title": "Draft Models - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/draft_model/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "fadca4e34ab03f5b3ae2871cec17eda53de4d4204f3ce2b8ae94122fccd96bd9"
+    },
+    {
+      "id": "vllm_suffix",
+      "title": "Suffix Decoding - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/suffix/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ac2ff80b936f6def0a27230f65479f6b39567d7261bbe9c68837d844dd6a2e10"
+    },
+    {
+      "id": "hf_generation",
+      "title": "Generation strategies · Hugging Face",
+      "url": "https://huggingface.co/docs/transformers/main/en/generation_strategies",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "b79b284deab98cd789f04b25ada3b4d4bb2156121c8979e522cff55d94236c98"
+    },
+    {
+      "id": "vllm_lilicorr",
+      "title": "LiLiCorr - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/lilicorr/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "13d53633875f9ed6476835bd84216072a4873393fb214ce5b687707f63e288cc"
+    },
+    {
+      "id": "eagle_repo",
+      "title": "eagle repo",
+      "url": "https://raw.githubusercontent.com/SafeAILab/EAGLE/main/README.md",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "a59962f5c3b938b73252953119557cbeebfd4f13a1553e5f2fb4fe9358578a88"
+    },
+    {
+      "id": "peagle_config",
+      "title": "config.json",
+      "url": "https://huggingface.co/RedHatAI/Qwen3-8B-speculator.peagle/raw/main/config.json",
+      "type": "model_configuration",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ea17a34251921e0ba71dccdb6e1d7005f50a3110f5f766b144172fb2d8d2bcf2"
+    },
+    {
+      "id": "vllm_pard",
+      "title": "Parallel Draft Models - vLLM",
+      "url": "https://docs.vllm.ai/en/latest/features/speculative_decoding/parallel_draft_model/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "b25b6b6dac6b189494c57e0700c2ca06167a56282135e3bca8fda1d1642b715f"
+    },
+    {
+      "id": "speculators_dflash2",
+      "title": "DFlash2 - Speculators Docs",
+      "url": "https://docs.vllm.ai/projects/speculators/en/latest/user_guide/algorithms/dflash2/",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "dcaba6a80aa27524ee58a3013a241605ab463bf5046d36e94884080e478a3d89"
+    },
+    {
+      "id": "peagle",
+      "title": "P-Eagle - Speculators Docs",
+      "url": "https://docs.vllm.ai/projects/speculators/en/latest/user_guide/algorithms/peagle/",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "446dc0ff75553314bbb8ebbbbbe91a74b967908babbd5834bad48f248e48b57a"
+    },
+    {
+      "id": "block_paper",
+      "title": "Block Verification Accelerates Speculative Decoding",
+      "url": "https://arxiv.org/html/2403.10444",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "380a665c9fb0d21f15bd4bccfe873d2f23c5e5c8c51c34abbda3b9d15c85dd40"
+    },
+    {
+      "id": "suffix_paper",
+      "title": "SuffixDecoding: Extreme Speculative Decoding for Emerging AI Applications",
+      "url": "https://arxiv.org/html/2411.04975",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d60eceec455ccf659eff69af2d5809ed0028ad3a7a77da6b1fd12a6e9b1b5313"
+    },
+    {
+      "id": "peagle_paper",
+      "title": "P-EAGLE: Parallel-Drafting EAGLE with Scalable Training",
+      "url": "https://arxiv.org/html/2602.01469",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "d5b642d38b50900eb4ff8eb333dec77ef1cdbff4c2f0fbc5258b4f0a3901f8a2"
+    },
+    {
+      "id": "fastmtp_paper",
+      "title": "FastMTP: Accelerating LLM Inference with Enhanced Multi-Token Prediction",
+      "url": "https://arxiv.org/html/2509.18362",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2d97c14f4053c2d2cab4317c6a73d457aed709c5aa9fceb12b0c7aa4692d645e"
+    },
+    {
+      "id": "magicdec_paper",
+      "title": "MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding",
+      "url": "https://arxiv.org/html/2408.11049",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "83cd2427be963e816157627e71a96b60b35edd74452c5da526dfced9de5f59d7"
+    },
+    {
+      "id": "domino_paper",
+      "title": "Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding",
+      "url": "https://arxiv.org/html/2605.29707",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "094955aa239087da285c08c7b28227d54f456559808ccffe24e534a37037a8c5"
+    },
+    {
+      "id": "lk_paper",
+      "title": "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding",
+      "url": "https://arxiv.org/html/2602.23881",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "186740fcc9744d79023ecb4a6171df5d2b35939f49c7a9e602403b9339f2e01e"
+    },
+    {
+      "id": "vllm_sampler",
+      "title": "rejection_sampler.py",
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/vllm/v1/sample/rejection_sampler.py",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "9f035dd0c5af33b29ffcc63e2192f7b2fb85f8a6b4ac89275ecb5698f7ca2ff1"
+    },
+    {
+      "id": "vllm_suffix_source",
+      "title": "suffix_decoding.py",
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/vllm/v1/spec_decode/suffix_decoding.py",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "6b60b3d0e0668e1c011f5754260eaf142dd03be40ced12859fb9bac0fda669bb"
+    },
+    {
+      "id": "deepspec_repo",
+      "title": "deepspec repo",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSpec/main/README.md",
+      "type": "official_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c9fd7eb6b162afaeb080c7f546260d23932295310aa1a0c1b0431d544cf0ba3b"
+    },
+    {
+      "id": "llamacpp_spec_docs",
+      "title": "speculative.md",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/docs/speculative.md",
+      "type": "official_docs",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "1185548fcc6492f24c6c8e635ce205515c3253abc047e52d8dbc1a30c758e89f"
+    },
+    {
+      "id": "chen_full",
+      "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+      "url": "https://arxiv.org/pdf/2302.01318",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "ffa03c6ae46f3122570bacd7da358cae8659b6421162bbc25088622fd4889c37"
+    },
+    {
+      "id": "eagle3_full",
+      "title": "EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test",
+      "url": "https://arxiv.org/html/2503.01840v2",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "6e6f4beb9be288dee80f48f665bf8d63d8e91de38e59b04eef533bff7c2a9652"
+    },
+    {
+      "id": "leviathan_full",
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2211.17192",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "8967e2daab74178b8a73a6f0b0780c5cbb40f9f6dcbd5c456b24a89c128c52ed"
+    },
+    {
+      "id": "specexec_paper",
+      "title": "SpecExec: Massively Parallel Speculative Decodingfor Interactive LLM Inference on Consumer Devices",
+      "url": "https://arxiv.org/html/2406.02532",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "91c1aed9f842976e57b84959b9d28fbfdab5b8464bdb3c51dda64f918ab17078"
+    },
+    {
+      "id": "spectr_paper",
+      "title": "SpecTr: Fast Speculative Decoding via Optimal Transport",
+      "url": "https://arxiv.org/html/2310.15141",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "3bd18b7be55863154c30c7c58743746d2aa8c9a9722b613798132a1dcb2031e7"
+    },
+    {
+      "id": "spectr_abstract",
+      "title": "[2310.15141] SpecTr: Fast Speculative Decoding via Optimal Transport",
+      "url": "https://arxiv.org/abs/2310.15141",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "8d7bfe71bd33febfeca927fe9ac1f00dcdaf8cc55be281e2ac455d8369b101a1"
+    },
+    {
+      "id": "sequoia_repo",
+      "title": "sequoia repo",
+      "url": "https://raw.githubusercontent.com/Infini-AI-Lab/Sequoia/main/README.md",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "9555c4f4bbf884368c4dd12cf386b7e5a2dd2e4e9f4cd81f97514e50369b3b67"
+    },
+    {
+      "id": "specexec_repo",
+      "title": "specexec repo",
+      "url": "https://raw.githubusercontent.com/yandex-research/specexec/main/README.md",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "6b13f27cc6520a8b281c70296d3477d8c801b4a92868baa4bf95b52e1b2b3b44"
+    },
+    {
+      "id": "layerskip_full",
+      "title": "LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding",
+      "url": "https://arxiv.org/html/2404.16710v3",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "9955ab142ae98a8da37494ac870e9ea485c123a5433c65a67e27700a2a495bab"
+    },
+    {
+      "id": "dflash_full",
+      "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "url": "https://arxiv.org/html/2602.06036v1",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "b61b9a1cc826c5d92f7096d2c68904538470b82991ad48370cbc1c2f626ebb55"
+    },
+    {
+      "id": "deepseekv3_full",
+      "title": "DeepSeek-V3 Technical Report",
+      "url": "https://arxiv.org/html/2412.19437v2",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "0768b63dd7e9cb632e71002c823275cf018a49dd3053ea9663c9c5a58eaee4a2"
+    },
+    {
+      "id": "sequoia_paper",
+      "title": "Sequoia: Scalable and Robust Speculative Decoding",
+      "url": "https://arxiv.org/html/2402.12374",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "37258a60dc392dcea1971cbea4313a3fa3f58fbb73cae98e75284546a95b2fe6"
+    },
+    {
+      "id": "specbench_paper_v2",
+      "title": "[2401.07851] Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding",
+      "url": "https://arxiv.org/abs/2401.07851",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "459f33b62e862ab277925c30d4a6a2bdac81f215f11711372d213c10d3c5b7c3"
+    },
+    {
+      "id": "pard_pdf",
+      "title": "PARD: Accelerating LLM Inference with Low-Cost Parallel Draft Model Adaptation",
+      "url": "https://arxiv.org/pdf/2504.18583",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "b6d8bcfd2d8a9f2ab5f96b60af72c4fb90d9f2bee86c6f0310e661d2999a938e"
+    },
+    {
+      "id": "specbench_paper",
+      "title": "Unlocking Efficiency in Large Language Model Inference:A Comprehensive Survey of Speculative Decoding",
+      "url": "https://arxiv.org/html/2401.07851",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "006aa8dcbef91033b597ad0177285d0c48703ce341de21348a5cced46eae28a6"
+    },
+    {
+      "id": "triforce_pdf",
+      "title": "TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding",
+      "url": "https://arxiv.org/pdf/2404.11912",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "30b4071aceff2b7925e74b979ed0f41fb227afd97862b60bb2f20700d206af3a"
+    },
+    {
+      "id": "dpace_pdf",
+      "title": "D-PACE: Dynamic Position-Aware Cross-Entropy for Parallel Speculative Drafting",
+      "url": "https://arxiv.org/pdf/2605.18810",
+      "type": "primary_source",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "dc1b357528e9e99dc9a3570792423d2f88842cd860201a47353d4f28e6b1685e"
+    },
+    {
+      "id": "hf_universal",
+      "title": "Universal Assisted Generation: Faster Decoding with Any Assistant Model",
+      "url": "https://huggingface.co/blog/universal_assisted_generation",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c86a636b2c29d3c2e5ff066d6590c91b96b03057f564ead959d10f10aa750828"
+    },
+    {
+      "id": "hf_dynamic",
+      "title": "Faster Assisted Generation with Dynamic Speculation",
+      "url": "https://huggingface.co/blog/dynamic_speculation_lookahead",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "7ae9ea9a4d893f01dd284395dc50964927ee217e01bf83ece5665238c350d0f3"
+    },
+    {
+      "id": "hf_layerskip",
+      "title": "Faster Text Generation with Self-Speculative Decoding",
+      "url": "https://huggingface.co/blog/layerskip",
+      "type": "official_blog",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2a4b8fbac632cb3a6a049a174be77772e3bcfe341ac7e2adc9668919ed6b6d85"
+    },
+    {
+      "id": "redrafter_paper",
+      "title": "Recurrent Drafter for Fast Speculative Decoding in Large Language Models",
+      "url": "https://arxiv.org/html/2403.09919",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "09cac68ca2f7cedbc6ab53e3f69e2140311ffa60cbd6d5cd707a02ca8f4c5a01"
+    },
+    {
+      "id": "suffix_cache",
+      "title": "cache.py",
+      "url": "https://raw.githubusercontent.com/snowflakedb/ArcticInference/main/arctic_inference/suffix_decoding/cache.py",
+      "type": "official_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "91c48e6cb335edbd202c8f440e5766df54315ea2d8e40decf8f7a130f3a5e126"
+    },
+    {
+      "id": "sglang_adaptive",
+      "title": "Adaptive Speculative Decoding - SGLang Documentation",
+      "url": "https://docs.sglang.io/docs/advanced_features/adaptive_speculative_decoding",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "51218497810270434fbf2a0641979f5ca45575b3b91b8b2ed0794ab8ddce20d4"
+    },
+    {
+      "id": "hydra_paper",
+      "title": "Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding",
+      "url": "https://arxiv.org/html/2402.05109",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "8e27b8f29a82a1a21cbb9abda2b328698ec7a9a67117c48c891d3bc77bfccf50"
+    },
+    {
+      "id": "lookahead_full",
+      "title": "Break the Sequential Dependency of LLM Inference Using Lookahead Decoding",
+      "url": "https://arxiv.org/html/2402.02057",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c532103ca56ba44c421c9069ce4338cdc9b4daef420c0d4edf28b4b330485e0f"
+    },
+    {
+      "id": "rest_full",
+      "title": "REST: Retrieval-Based Speculative Decoding",
+      "url": "https://arxiv.org/html/2311.08252",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "4d1be92baf9961596c8662e5849ea093c3d1c87a341482189b8008070006332d"
+    },
+    {
+      "id": "frspec_paper",
+      "title": "FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling",
+      "url": "https://arxiv.org/html/2502.14856",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "6bca10921dbbd902ca81c827e7c379a72df359ef98f0dd869715a07b21e43184"
+    },
+    {
+      "id": "distillspec_full",
+      "title": "DistillSpec: Improving Speculative Decoding via Knowledge Distillation",
+      "url": "https://arxiv.org/html/2310.08461",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "2879d136d6ba2183fcb2db2846cc2d3f2f7435bc8416c83d1b04675c35026587"
+    },
+    {
+      "id": "medusa_full",
+      "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+      "url": "https://arxiv.org/html/2401.10774",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "fa92a6cb3da9aa2b1c486b8e0a6c902e1cb671fb0f1c44504e215cd43a9d815e"
+    },
+    {
+      "id": "specinfer_full",
+      "title": "SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification",
+      "url": "https://arxiv.org/html/2305.09781",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "f8b59d890e597bc72e525f03ecb61d618c3f7a36e55b1a1cb4bf380c2b46e3d2"
+    },
+    {
+      "id": "mtp_paper",
+      "title": "Better & Faster Large Language Models via Multi-token Prediction",
+      "url": "https://arxiv.org/html/2404.19737",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "73b1a9300401a05457081da00293296e10393e4ca8e307f9695f40402444015d"
+    },
+    {
+      "id": "hass_paper",
+      "title": "Learning Harmonized Representations for Speculative Sampling",
+      "url": "https://arxiv.org/html/2408.15766",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "c9cef26136a75ac0af27e669de00929e8a993152d5e4fc71eb20060b27bf2ba8"
+    },
+    {
+      "id": "uno_pdf",
+      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+      "url": "https://arxiv.org/pdf/2609.04010",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "849e47f21dffe66265e5416a50bb70fb49c3340feec970d389130c98a6c5ce67"
+    },
+    {
+      "id": "specforge_eagle31_config",
+      "title": "qwen3-30b-a3b-eagle3.1.yaml",
+      "url": "https://raw.githubusercontent.com/sgl-project/SpecForge/main/examples/configs/online/disaggregated/external/qwen3-30b-a3b-eagle3.1.yaml",
+      "type": "official_configuration",
+      "accessed_on": "2026-10-20",
+      "snapshot_sha256": "b9f43c45006bb0d13fecd14bbc02a6da4593ce9c2553a2b4000c521a17a051b1"
+    },
+    {
+      "id": "arctic_repo",
+      "title": "arctic repo",
+      "url": "https://raw.githubusercontent.com/snowflakedb/ArcticInference/main/README.md",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "e584732be453f3a8c641f3babd2acade6bef007b48d685d2e061096274f3f658"
+    },
+    {
+      "id": "frspec_repo",
+      "title": "frspec repo",
+      "url": "https://raw.githubusercontent.com/thunlp/FR-Spec/main/README.md",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "4568196c6247a1e90abbdfe2e89fe0dd38ab18881ed4902f5e1f781dc1534439"
+    },
+    {
+      "id": "nvidia_overview",
+      "title": "Speculative Sampling — TensorRT-LLM",
+      "url": "https://nvidia.github.io/TensorRT-LLM/advanced/speculative-decoding.html",
+      "type": "official_docs_or_repository",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "4a7801660413b9078b1503a4d5b07801e53218f10df68316eadb2b24177581d4"
+    },
+    {
+      "id": "pard_paper",
+      "title": "PARD: Accelerating LLM Inference with Low-Cost PARallel Draft Model Adaptation",
+      "url": "https://arxiv.org/html/2504.18583",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "d370ad149fc34cf1e61286b1f41c1291d577b2bb01adbaf679fdbd5d00351268"
+    },
+    {
+      "id": "llamacpp_spec",
+      "title": "llamacpp spec",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/examples/speculative/README.md",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "ee1ef1831268cbc32a6f377b04404f2476a7e61dfa201579246aa6cbf154e0f8"
+    },
+    {
+      "id": "llamacpp_server",
+      "title": "llamacpp server",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/tools/server/README.md",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "6c08fc3b3929bd0c6ca0b3b65ca9fd3b36c6d30f1e7b627d78c1d6b69feffc99"
+    },
+    {
+      "id": "peagle_model",
+      "title": "peagle model",
+      "url": "https://huggingface.co/RedHatAI/Qwen3-8B-speculator.peagle/raw/main/README.md",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "0cd778730e66ccc01ffd407c650c1b774e58bcd712a79dce80cac540a017bca6"
+    },
+    {
+      "id": "vllm_ngram_source",
+      "title": "ngram_proposer.py",
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/vllm/v1/spec_decode/ngram_proposer.py",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "b7c0a80715b946ca57f4946dddbf9c6b256b1eaff5e872c55ccf841d9a6db7c5"
+    },
+    {
+      "id": "nvidia_dflash",
+      "title": "Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding | NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/",
+      "type": "official_docs_or_code",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "97e11836a0b7b0caadb5c8daf0036712445d4cb96d46505f006063a61bcdea03"
+    },
+    {
+      "id": "uno_model",
+      "title": "uno model",
+      "url": "https://huggingface.co/s-sahoo/uno-qwen3-8B/raw/main/README.md",
+      "type": "model_card",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "926b91392292cc1aa7b0fb6e6e57695a8d0220acc417557bfda0cb3c1562746e"
+    },
+    {
+      "id": "suffix_init",
+      "title": "__init__.py",
+      "url": "https://raw.githubusercontent.com/snowflakedb/ArcticInference/main/arctic_inference/suffix_decoding/__init__.py",
+      "type": "official_code",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "e2736d5f6d3472e74f2f25795de8f754ddb3279e9cf497b13f54e8fa164dd5bd"
+    },
+    {
+      "id": "dpace_paper",
+      "title": "D-PACE: Dynamic Position-Aware Cross-Entropy for Parallel Speculative Drafting",
+      "url": "https://arxiv.org/html/2605.18810",
+      "type": "paper_fulltext",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "018f1b6ad97584d13f0defef83904fabd7e74607db04ff7b0132b7a328080d6c"
+    },
+    {
+      "id": "leviathan_2023",
+      "title": "[2211.17192] Fast Inference from Transformers via Speculative Decoding",
+      "url": "https://arxiv.org/abs/2211.17192",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "56a42c7b4aa2a6588a28019e969d8baeed734a144bc77126bf7f9440f5f2f687"
+    },
+    {
+      "id": "chen_2023",
+      "title": "[2302.01318] Accelerating Large Language Model Decoding with Speculative Sampling",
+      "url": "https://arxiv.org/abs/2302.01318",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "8c4a67f17eb231ded464995e862d11b90fca815996a57afdfbdf36307b77220c"
+    },
+    {
+      "id": "medusa",
+      "title": "[2401.10774] Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+      "url": "https://arxiv.org/abs/2401.10774",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "27b92967e1ea79a54815e0b0f595d3090e6b832b868a8344ef5214d6d38c4e2f"
+    },
+    {
+      "id": "eagle",
+      "title": "[2401.15077] EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+      "url": "https://arxiv.org/abs/2401.15077",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "3605a135fc153aa2dc3eba29d107fa4c990ce9d06251bbe1dfa00d699207a5e5"
+    },
+    {
+      "id": "eagle2",
+      "title": "[2406.16858] EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees",
+      "url": "https://arxiv.org/abs/2406.16858",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "b63123e8277e2562254a2a4ef7fbddd445063f52b5fcbdec2e2902ff5b7a6f2c"
+    },
+    {
+      "id": "eagle3",
+      "title": "[2503.01840] EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test",
+      "url": "https://arxiv.org/abs/2503.01840",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "ea2a6483c2045f0b0d3e6c9b789193881535a266f78920bd84e0e1f99b6b7fd9"
+    },
+    {
+      "id": "lookahead",
+      "title": "[2402.02057] Break the Sequential Dependency of LLM Inference Using Lookahead Decoding",
+      "url": "https://arxiv.org/abs/2402.02057",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "e5f1a0ed56788bce8943c3aa2e793d72c211201507e53f78cbe8101d3ae0087c"
+    },
+    {
+      "id": "rest",
+      "title": "[2311.08252] REST: Retrieval-Based Speculative Decoding",
+      "url": "https://arxiv.org/abs/2311.08252",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "44005954f3daa7fd0b2343f321c56c84fce5abbfbd91874f23f45b98ce20dc4c"
+    },
+    {
+      "id": "specinfer",
+      "title": "[2305.09781] SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification",
+      "url": "https://arxiv.org/abs/2305.09781",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "d0bb1098447090895cceb53ce06a4d579cdbdd292075dfcd093b28cebfac1bb8"
+    },
+    {
+      "id": "layerskip",
+      "title": "[2404.16710] LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding",
+      "url": "https://arxiv.org/abs/2404.16710",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "130d720498c49eb66feed892839482a6c4daa753e4c2a1dd687d3922978c44a8"
+    },
+    {
+      "id": "draft_verify",
+      "title": "[2309.08168] Draft & Verify: Lossless Large Language Model Acceleration via Self-Speculative Decoding",
+      "url": "https://arxiv.org/abs/2309.08168",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "0b710ca9d8b3d1f2fc087dd60259fc7f0f8e2a7d95ab08e77c17b2a3542f3799"
+    },
+    {
+      "id": "deepseekv3",
+      "title": "[2412.19437] DeepSeek-V3 Technical Report",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "870dc015b88218eed9694cd002675eb84077d1a18d965b2ca1973511355c6289"
+    },
+    {
+      "id": "distillspec",
+      "title": "[2310.08461] DistillSpec: Improving Speculative Decoding via Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2310.08461",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "96db2940a510df21e974f40088dba411fabb13293cbd3ad8e7b2e8715d67bbb9"
+    },
+    {
+      "id": "hf_blog",
+      "title": "Assisted Generation: a new direction toward low-latency text generation",
+      "url": "https://huggingface.co/blog/assisted-generation",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "6e616fc0f3748266269e8016eff0525577460ec987ee7999ab8d21518664a856"
+    },
+    {
+      "id": "hf_candidate",
+      "title": "candidate_generator.py",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/v5.12.1/src/transformers/generation/candidate_generator.py",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "cc89ac133a9087c6359a609d57c3546700110b2e8e80ca4d0875bc6ecfa2c9d4"
+    },
+    {
+      "id": "hf_sampling",
+      "title": "utils.py",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/v5.12.1/src/transformers/generation/utils.py",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "1eaf0aebe61f9616968f298bc33c78f6bfc83cb43f563db4d7ce572824131c7b"
+    },
+    {
+      "id": "hf_decoding",
+      "title": "decoding_methods",
+      "url": "https://huggingface.co/docs/transformers/v5.12.0/en/decoding_methods",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "b2cbf80bf0cde38045a75d6f4af94d78d81fc904ca09dc0ba7d39fa116bec649"
+    },
+    {
+      "id": "additional_001_medusa_full",
+      "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+      "url": "https://arxiv.org/pdf/2401.10774",
+      "type": "primary_source",
+      "accessed_on": "2026-10-15",
+      "snapshot_sha256": "93d98f2e858c87ee04be440ee81ab8ad93700652ed759227d25fcf75cfdd5ef0"
+    }
+  ]
+}

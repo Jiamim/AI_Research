@@ -1,0 +1,7 @@
+# Offline probability + Transformer experiments and figures.
+numpy>=1.26
+torch>=2.2
+matplotlib>=3.8
+# Markdown and local artifact checks.
+markdown-it-py>=3.0
+beautifulsoup4>=4.12

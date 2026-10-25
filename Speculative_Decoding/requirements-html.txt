@@ -1,0 +1,3 @@
+# Optional self-contained HTML export, including the base dependencies.
+-r requirements.txt
+latex2mathml>=3.78
