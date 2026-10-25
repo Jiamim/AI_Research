@@ -1,0 +1,2407 @@
+{
+  "cutoff": "2026-10-11",
+  "search_started_on": "2026-10-10",
+  "search_completed_on": "2026-10-11",
+  "query_count": 32,
+  "candidate_papers_with_metadata": 53,
+  "fulltext_adopted": 30,
+  "existing_route_updates": 1,
+  "scope": "Representative coverage across transformations, codecs, FP4, robust PTQ, low-bit training, MoE, KV and serving; not an exhaustive census of all papers.",
+  "arxiv_api": "Unavailable (504); discovery used multiple web queries followed by primary-source verification.",
+  "adopted": [
+    {
+      "id": "2406.01721",
+      "key": "duquant",
+      "title": "DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs",
+      "first_submitted": "2024-06-03",
+      "reviewed_version": "2406.01721v3",
+      "reviewed_version_date": "2024-11-01T17:12:53+00:00",
+      "fulltext_url": "https://arxiv.org/html/2406.01721v3",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "334df6f1b8b0ae8ad968666c547dd9a57519fffb67583cdefa96d847247d7093",
+      "text_characters": 106143,
+      "resource_id": "N01",
+      "chapter": "12",
+      "section": "12.1",
+      "guide": "docs/12_新进展_变换与编码.md#duquant",
+      "scope": "用固定 Hadamard 代替论文的离群值引导贪心旋转，省略初始平滑和完整校准；本例验证组合变换，不保证每组数据的峰值都下降。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L01",
+        "L02"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2406.01721v3",
+        "title": "DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs",
+        "title_matches": true,
+        "first_submitted": "2024-06-03",
+        "first_date_matches": true,
+        "page_sha256": "2eb0105494e5fb4844ea0e5fc59eb1bb343cc21311fabf7f96cc65615898f63b",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2406.01721v3",
+          "bytes": 724608,
+          "sha256": "334df6f1b8b0ae8ad968666c547dd9a57519fffb67583cdefa96d847247d7093",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§2",
+            "§3.2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2501.13987",
+      "key": "ostquant",
+      "title": "OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting",
+      "first_submitted": "2025-01-23",
+      "reviewed_version": "2501.13987v1",
+      "reviewed_version_date": "2025-01-23T08:24:25+00:00",
+      "fulltext_url": "https://arxiv.org/html/2501.13987v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "ae3f353cd54048545204fc1692a737356a6c6f9735817d77bb1d00771a63a921",
+      "text_characters": 83741,
+      "resource_id": "N02",
+      "chapter": "12",
+      "section": "12.2",
+      "guide": "docs/12_新进展_变换与编码.md#ostquant",
+      "scope": "仅验证变换和 KL-Top 的计算，没有实现 QSUR 评估、WOMI 初始化或跨 Transformer 块的优化与融合。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L03"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2501.13987v1",
+        "title": "OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting",
+        "title_matches": true,
+        "first_submitted": "2025-01-23",
+        "first_date_matches": true,
+        "page_sha256": "0ebcecfc87d382e3af3ad630c0dddaabd51849d6fc74f87260e7e694407495c3",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2501.13987v1",
+          "bytes": 873710,
+          "sha256": "ae3f353cd54048545204fc1692a737356a6c6f9735817d77bb1d00771a63a921",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3",
+            "§4.1",
+            "§4.2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2511.10645",
+      "key": "paroquant",
+      "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
+      "first_submitted": "2025-11-13",
+      "reviewed_version": "2511.10645v2",
+      "reviewed_version_date": "2026-02-14T02:36:58+00:00",
+      "fulltext_url": "https://arxiv.org/html/2511.10645v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "e3f812a63dde913225aa3f81ddf5924870a68c1e46f9a5c29e0cda2bec83b96a",
+      "text_characters": 49852,
+      "resource_id": "N03",
+      "chapter": "12",
+      "section": "12.3",
+      "guide": "docs/12_新进展_变换与编码.md#paroquant",
+      "scope": "枚举代替多轮成对变换学习；省略非对称块重建、第二阶段权重与量化参数微调，以及融合 kernel 和真实推理测时。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L04",
+        "L05"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2511.10645v2",
+        "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
+        "title_matches": true,
+        "first_submitted": "2025-11-13",
+        "first_date_matches": true,
+        "page_sha256": "5e057895e2e255f883ec7246b6964be8afb22feb0b0e445acedd486fabcb15d8",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2511.10645v2",
+          "bytes": 590066,
+          "sha256": "e3f812a63dde913225aa3f81ddf5924870a68c1e46f9a5c29e0cda2bec83b96a",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§4.1.3–4.1.4",
+            "§4.2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2409.17066",
+      "key": "vptq",
+      "title": "VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models",
+      "first_submitted": "2024-09-25",
+      "reviewed_version": "2409.17066v2",
+      "reviewed_version_date": "2024-10-22T11:47:04+00:00",
+      "fulltext_url": "https://arxiv.org/pdf/2409.17066v2",
+      "fulltext_kind": "pdf",
+      "fulltext_sha256": "b69fe106c4f57d22c64112020ae307eab9962bfc6d36fc0117a831e60e28ced8",
+      "text_characters": 62244,
+      "resource_id": "N04",
+      "chapter": "12",
+      "section": "12.4",
+      "guide": "docs/12_新进展_变换与编码.md#vptq",
+      "scope": "固定小码本，仅演示一列与下一列的连续补偿；未实现共享码本训练、完整顺序量化、离群码本或模型微调。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L06"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2409.17066v2",
+        "title": "VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models",
+        "title_matches": true,
+        "first_submitted": "2024-09-25",
+        "first_date_matches": true,
+        "page_sha256": "8b554a3633c3a11af51826675fb7ebd883d5769524045afbf08ac13b5f022633",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/pdf/2409.17066v2",
+          "bytes": 516453,
+          "sha256": "b69fe106c4f57d22c64112020ae307eab9962bfc6d36fc0117a831e60e28ced8",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.1–3.2",
+            "Algorithm 1"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2406.11235",
+      "key": "qtip",
+      "title": "QTIP: Quantization with Trellises and Incoherence Processing",
+      "first_submitted": "2024-06-17",
+      "reviewed_version": "2406.11235v4",
+      "reviewed_version_date": "2025-06-18T02:49:59+00:00",
+      "fulltext_url": "https://arxiv.org/html/2406.11235v4",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "791345ad34bae3326ad95bd5918645ddb8535a974e7dd8f75da963a31c35cc94",
+      "text_characters": 79436,
+      "resource_id": "N05",
+      "chapter": "12",
+      "section": "12.5",
+      "guide": "docs/12_新进展_变换与编码.md#qtip",
+      "scope": "四状态、固定起点的教学 trellis；未实现 QTIP 的非相干预处理、尾咬合约束、Gaussian 码构造及 GPU 解码。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L07"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2406.11235v4",
+        "title": "QTIP: Quantization with Trellises and Incoherence Processing",
+        "title_matches": true,
+        "first_submitted": "2024-06-17",
+        "first_date_matches": true,
+        "page_sha256": "8469a049c39fc13bda2008f51629de980c4f500273ab1a6d68498d665bad2095",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2406.11235v4",
+          "bytes": 575674,
+          "sha256": "791345ad34bae3326ad95bd5918645ddb8535a974e7dd8f75da963a31c35cc94",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.1–3.2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2411.17525",
+      "key": "higgs",
+      "title": "Pushing the Limits of Large Language Model Quantization via the Linearity Theorem",
+      "first_submitted": "2024-11-26",
+      "reviewed_version": "2411.17525v1",
+      "reviewed_version_date": "2024-11-26T15:35:44+00:00",
+      "fulltext_url": "https://arxiv.org/html/2411.17525v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "73f4a3968e190484691a95edddc705824d6c58bc9083e2a5720984a18e43e8e7",
+      "text_characters": 97581,
+      "resource_id": "N06",
+      "chapter": "12",
+      "section": "12.6",
+      "guide": "docs/12_新进展_变换与编码.md#higgs",
+      "scope": "使用一维离散 Lloyd 近似展示流程；完整 HIGGS 使用多维 MSE 网格、特定内核及可选非均匀位宽分配。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L08"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2411.17525v1",
+        "title": "Pushing the Limits of Large Language Model Quantization via the Linearity Theorem",
+        "title_matches": true,
+        "first_submitted": "2024-11-26",
+        "first_date_matches": true,
+        "page_sha256": "112e2592d83ee7c948821a602bd345b5d992096365dfabf6c01c202261c2d532",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2411.17525v1",
+          "bytes": 705826,
+          "sha256": "73f4a3968e190484691a95edddc705824d6c58bc9083e2a5720984a18e43e8e7",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.2–3.3",
+            "§4.4",
+            "§5"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2405.14917",
+      "key": "slim_llm",
+      "title": "SliM-LLM: Salience-Driven Mixed-Precision Quantization for Large Language Models",
+      "first_submitted": "2024-05-23",
+      "reviewed_version": "2405.14917v2",
+      "reviewed_version_date": "2025-05-25T08:58:37+00:00",
+      "fulltext_url": "https://arxiv.org/pdf/2405.14917v2",
+      "fulltext_kind": "pdf",
+      "fulltext_sha256": "69d6999bb5e745c1be88b780fea7861db55e2996284a8fd446760124bfd0dd06",
+      "text_characters": 76575,
+      "resource_id": "N07",
+      "chapter": "12",
+      "section": "12.7",
+      "guide": "docs/12_新进展_变换与编码.md#slim_llm",
+      "scope": "按固定作者版本演示 SBA 评分与预算约束，并对照论文正文的字面公式；未实现候选数量搜索、SQC、1-bit 编码和实际打包。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L09",
+        "L09_code"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2405.14917v2",
+        "title": "SliM-LLM: Salience-Driven Mixed-Precision Quantization for Large Language Models",
+        "title_matches": true,
+        "first_submitted": "2024-05-23",
+        "first_date_matches": true,
+        "page_sha256": "bf159d34b36352c466a3624bcc5c176d811277c5794de887df2c0c8264b7f4be",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/pdf/2405.14917v2",
+          "bytes": 3467822,
+          "sha256": "69d6999bb5e745c1be88b780fea7861db55e2996284a8fd446760124bfd0dd06",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3 SBA/SQC"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ],
+      "implementation_verification": {
+        "checked_on": "2026-10-20",
+        "commit": "cfdf5ff9a1785ba93197761e47ea66b8786790f2",
+        "record": "references/provenance/implementation_checks.json",
+        "scope": "Literal paper definition differs from Algorithm 1–2 and pinned get_salience; isolated CPU fixture verifies factor-based scores.",
+        "source_id": "slim_llm_salience"
+      }
+    },
+    {
+      "id": "2604.13806",
+      "key": "dash_q",
+      "title": "Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate",
+      "first_submitted": "2026-04-15",
+      "reviewed_version": "2604.13806v2",
+      "reviewed_version_date": "2026-09-16T03:40:17+00:00",
+      "fulltext_url": "https://arxiv.org/html/2604.13806v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "20d07ceb785efdfe9838a05319e311a6e0e0cc9e67eaebfd1af1011a91d264ce",
+      "text_characters": 59989,
+      "resource_id": "N08",
+      "chapter": "13",
+      "section": "13.1",
+      "guide": "docs/13_新进展_FP4与误差修正.md#dash_q",
+      "scope": "一组 2-bit 权重的回归子问题；未实现整模型校准、分组导出、停止准则和论文部署后端。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2604.13806v2",
+        "title": "Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate",
+        "title_matches": true,
+        "first_submitted": "2026-04-15",
+        "first_date_matches": true,
+        "page_sha256": "9db50c16de029ae68663bf380a06c3f474afb0b805f468a59181a7e7e6ce5806",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2604.13806v2",
+          "bytes": 540889,
+          "sha256": "d9100eabe5742c1fbfabe2fc95109bac29176ac491de11d95ba67c3def493279",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§5",
+            "Appendix A"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2601.07475",
+      "key": "arcquant",
+      "title": "ARCQuant: Boosting NVFP4 Quantization with Augmented Residual Channels for LLMs",
+      "first_submitted": "2026-01-12",
+      "reviewed_version": "2601.07475v2",
+      "reviewed_version_date": "2026-07-04T06:36:53+00:00",
+      "fulltext_url": "https://arxiv.org/html/2601.07475v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "27cb102071269dcbc74a8d1ccc6fdf68a0b21adeea2cf29350131c2f723dc86d",
+      "text_characters": 53598,
+      "resource_id": "N09",
+      "chapter": "13",
+      "section": "13.2",
+      "guide": "docs/13_新进展_FP4与误差修正.md#arcquant",
+      "scope": "预先指定补偿通道，省略论文阈值选择与重排；micro_fp4 是 CPU 数值模拟，无法测出统一 GEMM 的实际加速。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L10"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2601.07475v2",
+        "title": "ARCQuant: Boosting NVFP4 Quantization with Augmented Residual Channels for LLMs",
+        "title_matches": true,
+        "first_submitted": "2026-01-12",
+        "first_date_matches": true,
+        "page_sha256": "d72d9b767abce6a011e21a78c9efd8533942fe1d1144270c96a37b2842b9677f",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2601.07475v2",
+          "bytes": 270968,
+          "sha256": "27cb102071269dcbc74a8d1ccc6fdf68a0b21adeea2cf29350131c2f723dc86d",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.2–3.4"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2605.19561",
+      "key": "torq",
+      "title": "TORQ: Two-Level Orthogonal Rotation for MXFP4 Quantization",
+      "first_submitted": "2026-05-19",
+      "reviewed_version": "2605.19561v1",
+      "reviewed_version_date": "2026-05-19T09:05:47+00:00",
+      "fulltext_url": "https://arxiv.org/html/2605.19561v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "28496c46acf3fc7c9f0818a17276e324b2f10c1ae9340145d5827b6af93efaa1",
+      "text_characters": 63728,
+      "resource_id": "N10",
+      "chapter": "13",
+      "section": "13.3",
+      "guide": "docs/13_新进展_FP4与误差修正.md#torq",
+      "scope": "演示宏观均衡子问题，未实现论文的 Givens 构造或微观占用率搜索；FP4 下方差均衡是代理目标，不能声称严格最优失真。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2605.19561v1",
+        "title": "TORQ: Two-Level Orthogonal Rotation for MXFP4 Quantization",
+        "title_matches": true,
+        "first_submitted": "2026-05-19",
+        "first_date_matches": true,
+        "page_sha256": "5ef8ac2fb3d122fdd417da61769d7082ab9f8eab61a2fb0a63025a279c6dc0ea",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2605.19561v1",
+          "bytes": 350605,
+          "sha256": "28496c46acf3fc7c9f0818a17276e324b2f10c1ae9340145d5827b6af93efaa1",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§4.1.1",
+            "§4.2.2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2605.12245",
+      "key": "soar",
+      "title": "SOAR: Scale Optimization for Accurate Reconstruction in NVFP4 Quantization",
+      "first_submitted": "2026-05-12",
+      "reviewed_version": "2605.12245v1",
+      "reviewed_version_date": "2026-05-12T15:13:18+00:00",
+      "fulltext_url": "https://arxiv.org/html/2605.12245v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "6db2d59914f223e54fe0b6945aab10ce4f2a331c595356213e5d6dd110533233",
+      "text_characters": 58545,
+      "resource_id": "N11",
+      "chapter": "13",
+      "section": "13.4",
+      "guide": "docs/13_新进展_FP4与误差修正.md#soar",
+      "scope": "只实现 CJSO 的全局尺度子步；完整 SOAR 还重算码字、投影局部尺度，并执行 DSS 联合候选搜索。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L11"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2605.12245v1",
+        "title": "SOAR: Scale Optimization for Accurate Reconstruction in NVFP4 Quantization",
+        "title_matches": true,
+        "first_submitted": "2026-05-12",
+        "first_date_matches": true,
+        "page_sha256": "f5939d2859c7e0c9866d85ea47340fdaec1fa0670aa853adfee9448bc789f26f",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2605.12245v1",
+          "bytes": 335516,
+          "sha256": "6db2d59914f223e54fe0b6945aab10ce4f2a331c595356213e5d6dd110533233",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.2–3.3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2608.01847",
+      "key": "focus",
+      "title": "FOCUS: FP4 Optimization via Coupled-Relaxation and Dual-Granularity Scaling",
+      "first_submitted": "2026-08-03",
+      "reviewed_version": "2608.01847v1",
+      "reviewed_version_date": "2026-08-03T07:54:56+00:00",
+      "fulltext_url": "https://arxiv.org/html/2608.01847v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "c9d6ec9ee513074548b33467c3be1556eb29d5a865443ae38fa31d27ed1d53fe",
+      "text_characters": 46930,
+      "resource_id": "N12",
+      "chapter": "13",
+      "section": "13.5",
+      "guide": "docs/13_新进展_FP4与误差修正.md#focus",
+      "scope": "有限候选搜索代替端到端尺度学习，只展示 CRS/DGS 自由度；不实现整模型训练和导出。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L12"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2608.01847v1",
+        "title": "FOCUS: FP4 Optimization via Coupled-Relaxation and Dual-Granularity Scaling",
+        "title_matches": true,
+        "first_submitted": "2026-08-03",
+        "first_date_matches": true,
+        "page_sha256": "890a3fcf625e6accc279ec68c5742f645d5f0fc5b097e3b864308bbb45069027",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2608.01847v1",
+          "bytes": 264950,
+          "sha256": "c9d6ec9ee513074548b33467c3be1556eb29d5a865443ae38fa31d27ed1d53fe",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "CRS",
+            "DGS"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2609.22106",
+      "key": "prquant",
+      "title": "PRQuant: Permutation Residual Quantization for Low-Overhead Inference",
+      "first_submitted": "2026-08-16",
+      "reviewed_version": "2609.22106v2",
+      "reviewed_version_date": "2026-09-26T11:41:14+00:00",
+      "fulltext_url": "https://arxiv.org/html/2609.22106v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "aa113b91a280c5ef71c5283fcbf4b004181169f0857fbceb8806fae4f7b8ef3c",
+      "text_characters": 42364,
+      "resource_id": "N13",
+      "chapter": "13",
+      "section": "13.6",
+      "guide": "docs/13_新进展_FP4与误差修正.md#prquant",
+      "scope": "使用 INT4 数值代理验证增强乘法，残差保留浮点；真实 PRQuant 还使用缩放、MXFP4 残差编码和融合内核。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2609.22106v2",
+        "title": "PRQuant: Permutation Residual Quantization for Low-Overhead Inference",
+        "title_matches": true,
+        "first_submitted": "2026-08-16",
+        "first_date_matches": true,
+        "page_sha256": "1250386d133099f1676566ef0040a99010bd223f0ce4211d33c4ccdf69e22cb9",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2609.22106v2",
+          "bytes": 197386,
+          "sha256": "cc4abe17280a59fa5494f0aedb885dc5f63344e440604924604c8015ebd24b7a",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§4"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2610.08231",
+      "key": "osfp4",
+      "title": "OSFP4: Joint Optimization of Diagonal Smoothing and Block Scales for NVFP4 Quantization",
+      "first_submitted": "2026-10-06",
+      "reviewed_version": "2610.08231v1",
+      "reviewed_version_date": "2026-10-06T12:17:52+00:00",
+      "fulltext_url": "https://arxiv.org/html/2610.08231v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "e8e70b1c948b082a7274dead18e5f533212f84d37e005b1f7430f9fa3fa40819",
+      "text_characters": 94125,
+      "resource_id": "N14",
+      "chapter": "13",
+      "section": "13.7",
+      "guide": "docs/13_新进展_FP4与误差修正.md#osfp4",
+      "scope": "少量平滑与全局尺度候选仅解释联合目标；未实现论文的乘性 dither 分析、分块优化、精细 E4M3 搜索或 SIC。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L13",
+        "L14"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2610.08231v1",
+        "title": "OSFP4: Joint Optimization of Diagonal Smoothing and Block Scales for NVFP4 Quantization",
+        "title_matches": true,
+        "first_submitted": "2026-10-06",
+        "first_date_matches": true,
+        "page_sha256": "a01f05d327435400f051d41003a456f48090e53ddb41f1d1d5fcf1b18a6c1baa",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2610.08231v1",
+          "bytes": 697024,
+          "sha256": "e8e70b1c948b082a7274dead18e5f533212f84d37e005b1f7430f9fa3fa40819",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§2.1–2.2",
+            "§3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2610.11226",
+      "key": "drq",
+      "title": "When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization",
+      "first_submitted": "2026-10-08",
+      "reviewed_version": "2610.11226v1",
+      "reviewed_version_date": "2026-10-08T04:22:29+00:00",
+      "fulltext_url": "https://arxiv.org/html/2610.11226v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "e4a077366e7ad0dd0c0dc82e9a3e1d78dc26353c7e10ef4ae50750ec58a8ef27",
+      "text_characters": 99674,
+      "resource_id": "N15",
+      "chapter": "13",
+      "section": "13.8",
+      "guide": "docs/13_新进展_FP4与误差修正.md#drq",
+      "scope": "验证 DRQ 的最坏分布子问题；未执行码值更新排序、检查集校准损失增长限制或整模型离线细化。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2610.11226v1",
+        "title": "When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization",
+        "title_matches": true,
+        "first_submitted": "2026-10-08",
+        "first_date_matches": true,
+        "page_sha256": "87e25657c18a04ff309b7c2a21f656f80b331b0247f6b0210cc3bbf0fe65045f",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2610.11226v1",
+          "bytes": 653109,
+          "sha256": "e4a077366e7ad0dd0c0dc82e9a3e1d78dc26353c7e10ef4ae50750ec58a8ef27",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.2–3.3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        },
+        {
+          "retrieved_on": "2026-10-20",
+          "url": "https://arxiv.org/html/2610.11226v1",
+          "bytes": 653109,
+          "sha256": "e4a077366e7ad0dd0c0dc82e9a3e1d78dc26353c7e10ef4ae50750ec58a8ef27",
+          "reviewed_sections": [
+            "§4.1",
+            "§4.6",
+            "Appendix C",
+            "Tables 2, 10 and 11"
+          ],
+          "scope": "Model/task scope, calibration budget, selected within-paper gains/regressions and offline/inference costs; no independent benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2610.06026",
+      "key": "differentiable_bits",
+      "title": "Differentiable Bit-Widths: Co-optimizing Pruning and Quantization via SVD for Ultra-Efficient LLM Compression",
+      "first_submitted": "2026-10-05",
+      "reviewed_version": "2610.06026v1",
+      "reviewed_version_date": "2026-10-05T09:25:08+00:00",
+      "fulltext_url": "https://arxiv.org/html/2610.06026v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "b9c1123933c2a1d6f1736cc1e98182c45de050db93be15940ec20442886fb84b",
+      "text_characters": 110511,
+      "resource_id": "N16",
+      "chapter": "13",
+      "section": "13.9",
+      "guide": "docs/13_新进展_FP4与误差修正.md#differentiable_bits",
+      "scope": "仅实现预算离散化和零位掩码，保留分量未做实际量化；省略 STE 位宽训练、奇异值熵损失、双层预算和 mixed-precision GEMM。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L15"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2610.06026v1",
+        "title": "Differentiable Bit-Widths: Co-optimizing Pruning and Quantization via SVD for Ultra-Efficient LLM Compression",
+        "title_matches": true,
+        "first_submitted": "2026-10-05",
+        "first_date_matches": true,
+        "page_sha256": "193f9783f487658b0f0e3bc4e43dda68101c28ad501ca49d2161fae197e29c5b",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2610.06026v1",
+          "bytes": 760470,
+          "sha256": "b9c1123933c2a1d6f1736cc1e98182c45de050db93be15940ec20442886fb84b",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§2.2.1–2.2.2",
+            "§2.3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2610.08164",
+      "key": "align_correct",
+      "title": "Align, Then Correct: Training-Free Two-Stage Low-Rank Compensation for Extremely Quantized Large Language Models",
+      "first_submitted": "2026-10-06",
+      "reviewed_version": "2610.08164v1",
+      "reviewed_version_date": "2026-10-06T11:16:37+00:00",
+      "fulltext_url": "https://arxiv.org/html/2610.08164v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "9302b53b6011baaddba06b2ea1520d20a3ff781a0a07c988e55c6b9e549f9fb0",
+      "text_characters": 82397,
+      "resource_id": "N17",
+      "chapter": "13",
+      "section": "13.10",
+      "guide": "docs/13_新进展_FP4与误差修正.md#align_correct",
+      "scope": "省略非单位 Fisher 的白化、信赖比例缩放和真实反向统计采集；gradient 是给定示例，不能据此宣称训练免费或实际任务恢复。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2610.08164v1",
+        "title": "Align, Then Correct: Training-Free Two-Stage Low-Rank Compensation for Extremely Quantized Large Language Models",
+        "title_matches": true,
+        "first_submitted": "2026-10-06",
+        "first_date_matches": true,
+        "page_sha256": "98885214d9ab9d211212260540b1c3296ec672aadaebe7514cab1d7e9d0fde43",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2610.08164v1",
+          "bytes": 676569,
+          "sha256": "9302b53b6011baaddba06b2ea1520d20a3ff781a0a07c988e55c6b9e549f9fb0",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§4 Stage 1/Stage 2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2502.05003",
+      "key": "quest",
+      "title": "QuEST: Stable Training of LLMs with 1-Bit Weights and Activations",
+      "first_submitted": "2025-02-07",
+      "reviewed_version": "2502.05003v2",
+      "reviewed_version_date": "2025-06-10T18:01:40+00:00",
+      "fulltext_url": "https://arxiv.org/html/2502.05003v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "24a96842eef72a4960996361f2925332d179d45d02a00bf36e52ce4b5a68bde7",
+      "text_characters": 65067,
+      "resource_id": "N18",
+      "chapter": "14",
+      "section": "14.1",
+      "guide": "docs/14_新进展_训练与MoE.md#quest",
+      "scope": "只展示一次前向拟合和信任梯度传播；没有训练完整 LLM、优化稀疏扩展或测试 GPU kernel。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L16"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2502.05003v2",
+        "title": "QuEST: Stable Training of LLMs with 1-Bit Weights and Activations",
+        "title_matches": true,
+        "first_submitted": "2025-02-07",
+        "first_date_matches": true,
+        "page_sha256": "fc8c61a524e88fc3fe9b8e243c66e6d3fbf142811ec2b9c39ab842c6c32cf728",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2502.05003v2",
+          "bytes": 271832,
+          "sha256": "628887854cbfc53815ea0b10dbaa105dec97807f9f3a3b35c4d9007e3aa19b04",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§3.1–3.2"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2502.02631",
+      "key": "paretoq",
+      "title": "ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization",
+      "first_submitted": "2025-02-04",
+      "reviewed_version": "2502.02631v2",
+      "reviewed_version_date": "2025-10-13T18:42:17+00:00",
+      "fulltext_url": "https://arxiv.org/pdf/2502.02631v2",
+      "fulltext_kind": "pdf",
+      "fulltext_sha256": "8c9b4ec1beaea9af616f78b12f6238275dbd4fae760544b4177df818cdc7ffa8",
+      "text_characters": 69157,
+      "resource_id": "N19",
+      "chapter": "14",
+      "section": "14.2",
+      "guide": "docs/14_新进展_训练与MoE.md#paretoq",
+      "scope": "仅示范网格族和单组尺度优化，不是 ParetoQ 的完整 SEQ/LSQ 梯度或训练调度；论文的最优位宽结论依赖其预算与模型设置。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L17",
+        "L18"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2502.02631v2",
+        "title": "ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization",
+        "title_matches": true,
+        "first_submitted": "2025-02-04",
+        "first_date_matches": true,
+        "page_sha256": "3a2d59dbb012515e13720712a709c2ff5feb9a1786c6ca608cb6d3194a6c8190",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/pdf/2502.02631v2",
+          "bytes": 904593,
+          "sha256": "8c9b4ec1beaea9af616f78b12f6238275dbd4fae760544b4177df818cdc7ffa8",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§2.1",
+            "§3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2610.09346",
+      "key": "onlineqat",
+      "title": "OnlineQAT: On-Policy Distillation for Ultra-Low-Bit Large Language Models",
+      "first_submitted": "2026-10-07",
+      "reviewed_version": "2610.09346v1",
+      "reviewed_version_date": "2026-10-07T03:05:42+00:00",
+      "fulltext_url": "https://arxiv.org/html/2610.09346v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "93d2d8dcc7571d9e0017da89ccf5c3d6b0d9f116369c68da21c9c7b82d155093",
+      "text_characters": 13237,
+      "resource_id": "N20",
+      "chapter": "14",
+      "section": "14.3",
+      "guide": "docs/14_新进展_训练与MoE.md#onlineqat",
+      "scope": "只验证固定前缀的梯度估计；未实现长序列 rollout、块级初始化、策略更新或训练稳定性。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2610.09346v1",
+        "title": "OnlineQAT: On-Policy Distillation for Ultra-Low-Bit Large Language Models",
+        "title_matches": true,
+        "first_submitted": "2026-10-07",
+        "first_date_matches": true,
+        "page_sha256": "df850116d9d88fe5ecc762caa9da7deba7cc76f6060788e2c2ee8e6aa4ccddbc",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2610.09346v1",
+          "bytes": 82720,
+          "sha256": "93d2d8dcc7571d9e0017da89ccf5c3d6b0d9f116369c68da21c9c7b82d155093",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.2"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2506.13329",
+      "key": "eaquant",
+      "title": "EAQuant: Enhancing Post-Training Quantization for MoE Models via Expert-Aware Optimization",
+      "first_submitted": "2025-06-16",
+      "reviewed_version": "2506.13329v3",
+      "reviewed_version_date": "2026-02-01T11:18:57+00:00",
+      "fulltext_url": "https://arxiv.org/html/2506.13329v3",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "85406816cd8058593f1525a113086fc33c985287bf0d640c6afde06ab928a5eb",
+      "text_characters": 64224,
+      "resource_id": "N21",
+      "chapter": "14",
+      "section": "14.4",
+      "guide": "docs/14_新进展_训练与MoE.md#eaquant",
+      "scope": "只演示共享平滑和覆盖检测，未实现路由 KL-Top/MSE 优化、数据补采集及完整 MoE 激活量化。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L19"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2506.13329v3",
+        "title": "EAQuant: Enhancing Post-Training Quantization for MoE Models via Expert-Aware Optimization",
+        "title_matches": true,
+        "first_submitted": "2025-06-16",
+        "first_date_matches": true,
+        "page_sha256": "8e65137ff95f160d11d5a72b9b16d361d90362e6d2c412b78e3f5cb71e4c71af",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2506.13329v3",
+          "bytes": 471562,
+          "sha256": "85406816cd8058593f1525a113086fc33c985287bf0d640c6afde06ab928a5eb",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§2.2–2.4"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2504.02658",
+      "key": "milo",
+      "title": "MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators",
+      "first_submitted": "2025-04-03",
+      "reviewed_version": "2504.02658v2",
+      "reviewed_version_date": "2025-04-07T17:09:26+00:00",
+      "fulltext_url": "https://arxiv.org/html/2504.02658v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "c2e3e9b0642ef3b184b8041c99eed9bb58d36eebc1893f77bffd50f775766a60",
+      "text_characters": 76587,
+      "resource_id": "N22",
+      "chapter": "14",
+      "section": "14.5",
+      "guide": "docs/14_新进展_训练与MoE.md#milo",
+      "scope": "使用 RTN 代替 HQQ 并预设秩，补偿因子保持浮点；省略因子的 INT3 量化、秩策略和专用推理内核。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L20"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2504.02658v2",
+        "title": "MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators",
+        "title_matches": true,
+        "first_submitted": "2025-04-03",
+        "first_date_matches": true,
+        "page_sha256": "187b9c010a253e1e1cf5c5b79ce683e8fbab90c0312f667181dd807591ec37c7",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2504.02658v2",
+          "bytes": 285554,
+          "sha256": "deb13e241e04b9a17d0cafc264e3eba8149a721f76276168570d856e333cc8db",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§3.2.5–3.2.6"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2606.00079",
+      "key": "bitsmoe",
+      "title": "BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization",
+      "first_submitted": "2026-05-22",
+      "reviewed_version": "2606.00079v2",
+      "reviewed_version_date": "2026-09-27T14:14:16+00:00",
+      "fulltext_url": "https://arxiv.org/html/2606.00079v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "71ee35461c5ebb257a187c2172b7a09cfa127bdeff6a829ada6bb2b32239a1f2",
+      "text_characters": 114857,
+      "resource_id": "N23",
+      "chapter": "14",
+      "section": "14.6",
+      "guide": "docs/14_新进展_训练与MoE.md#bitsmoe",
+      "scope": "用六分量穷举代替 ILP，共享基保持浮点；省略共享基 GPTQ、低位宽经验系数、误差交叉项和 GPU 执行。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L21",
+        "L22"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2606.00079v2",
+        "title": "BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization",
+        "title_matches": true,
+        "first_submitted": "2026-05-22",
+        "first_date_matches": true,
+        "page_sha256": "c6d06218a439f83fabefbcec13a1a8e4ca94dd850d57f4a62d8c111ee48502db",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2606.00079v2",
+          "bytes": 840336,
+          "sha256": "71ee35461c5ebb257a187c2172b7a09cfa127bdeff6a829ada6bb2b32239a1f2",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.3–3.4"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2502.02617",
+      "key": "polarquant_recursive",
+      "title": "PolarQuant: Quantizing KV Caches with Polar Transformation",
+      "first_submitted": "2025-02-04",
+      "reviewed_version": "2502.02617v1",
+      "reviewed_version_date": "2025-02-04T08:52:13+00:00",
+      "fulltext_url": "https://arxiv.org/html/2502.02617v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "843b6f2fc2ab63c0359eb54d420b984772c72a6789899cca4adc1a119f06a8ea",
+      "text_characters": 60363,
+      "resource_id": "N24",
+      "chapter": "15",
+      "section": "15.1",
+      "guide": "docs/15_新进展_KV与推理系统.md#polarquant_recursive",
+      "scope": "省略随机预条件和按理论密度设计的分层码本，均匀角度仅用于解释递归结构；不是另一篇 RoPE 配对的同名 PolarQuant。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2502.02617v1",
+        "title": "PolarQuant: Quantizing KV Caches with Polar Transformation",
+        "title_matches": true,
+        "first_submitted": "2025-02-04",
+        "first_date_matches": true,
+        "page_sha256": "97cbd009720d04a4be9797113c17a7c558d5ab520c05fef1eafec7188b46f368",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2502.02617v1",
+          "bytes": 413078,
+          "sha256": "9810a986dc807f74c3f3edf43de8322ecadca2d12ecd649453bc05a3703ff26f",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§3.2–3.3",
+            "§4.1"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2502.00527",
+      "key": "polarquant_rope",
+      "title": "PolarQuant: Leveraging Polar Transformation for Efficient Key Cache Quantization and Decoding Acceleration",
+      "first_submitted": "2025-02-01",
+      "reviewed_version": "2502.00527v2",
+      "reviewed_version_date": "2026-06-05T09:55:33+00:00",
+      "fulltext_url": "https://arxiv.org/html/2502.00527v2",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "c8cb7dc632bec79f49ca9e8e1c59d053102d25b97c0670be1cd80b37b403b2b3",
+      "text_characters": 57770,
+      "resource_id": "N25",
+      "chapter": "15",
+      "section": "15.2",
+      "guide": "docs/15_新进展_KV与推理系统.md#polarquant_rope",
+      "scope": "单个二维配对，码本为手工候选；实际模型必须遵守各自 RoPE 配对布局，量化器校准与 Triton 内核未复现。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2502.00527v2",
+        "title": "PolarQuant: Leveraging Polar Transformation for Efficient Key Cache Quantization and Decoding Acceleration",
+        "title_matches": true,
+        "first_submitted": "2025-02-01",
+        "first_date_matches": true,
+        "page_sha256": "7e735271dca9e41a2f99f8d58cd0fb75d68e67b85d850129ac3a4c96468778c9",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2502.00527v2",
+          "bytes": 366987,
+          "sha256": "c8cb7dc632bec79f49ca9e8e1c59d053102d25b97c0670be1cd80b37b403b2b3",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.2–3.3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2605.17757",
+      "key": "oscar_spectral",
+      "title": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization",
+      "first_submitted": "2026-05-18",
+      "reviewed_version": "2605.17757v1",
+      "reviewed_version_date": "2026-05-18T02:24:29+00:00",
+      "fulltext_url": "https://arxiv.org/html/2605.17757v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "4d60f4d20fa5590879aa31a973e2fdc556c09303f9404d7c8b5bf4e2f7f88f9c",
+      "text_characters": 117419,
+      "resource_id": "N26",
+      "chapter": "15",
+      "section": "15.3",
+      "guide": "docs/15_新进展_KV与推理系统.md#oscar_spectral",
+      "scope": "只展示谱目标和数值数据流，省略百分位裁剪、sink/recent 高精度区及分页缓存内核；理论最优性依赖冻结误差等假设。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L23"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2605.17757v1",
+        "title": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization",
+        "title_matches": true,
+        "first_submitted": "2026-05-18",
+        "first_date_matches": true,
+        "page_sha256": "6f95dfa9fb41f390f22a3628d517e1e60fef259e5094a1e2ad5cb6f121005004",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2605.17757v1",
+          "bytes": 1066996,
+          "sha256": "4d60f4d20fa5590879aa31a973e2fdc556c09303f9404d7c8b5bf4e2f7f88f9c",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3",
+            "§4"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2605.19660",
+      "key": "oscar_token",
+      "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+      "first_submitted": "2026-05-19",
+      "reviewed_version": "2605.19660v1",
+      "reviewed_version_date": "2026-05-19T10:53:03+00:00",
+      "fulltext_url": "https://arxiv.org/html/2605.19660v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "93fd6ce8fe770ffe0e2599e795e1d78e2a5d131017cb1cba93626618111e9ab9",
+      "text_characters": 114146,
+      "resource_id": "N27",
+      "chapter": "15",
+      "section": "15.4",
+      "guide": "docs/15_新进展_KV与推理系统.md#oscar_token",
+      "scope": "只处理一个 Key 块，省略多模态实现、完整 Value 路径、流式残留区和 CUDA 性能测量。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L24",
+        "L25"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2605.19660v1",
+        "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+        "title_matches": true,
+        "first_submitted": "2026-05-19",
+        "first_date_matches": true,
+        "page_sha256": "8214147d6b28611788367e36a9862fca952b58c7e57dfaaf522188f1439e12fa",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2605.19660v1",
+          "bytes": 623021,
+          "sha256": "93fd6ce8fe770ffe0e2599e795e1d78e2a5d131017cb1cba93626618111e9ab9",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§4.2–4.3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2606.03458",
+      "key": "kvarn",
+      "title": "KVarN: Variance-Normalized KV-Cache Quantization Mitigates Error Accumulation in Reasoning Tasks",
+      "first_submitted": "2026-06-02",
+      "reviewed_version": "2606.03458v1",
+      "reviewed_version_date": "2026-06-02T10:34:56+00:00",
+      "fulltext_url": "https://arxiv.org/html/2606.03458v1",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "bc76f5972cc428cf3bad055a0cd54c9dcfabab06aa4f89e7bd91a59469ab31ba",
+      "text_characters": 55192,
+      "resource_id": "N28",
+      "chapter": "15",
+      "section": "15.5",
+      "guide": "docs/15_新进展_KV与推理系统.md#kvarn",
+      "scope": "直接标准差迭代解释可逆缩放，省略论文对数域稳定更新、实际 KV 分块布局和长推理评估。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L26"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2606.03458v1",
+        "title": "KVarN: Variance-Normalized KV-Cache Quantization Mitigates Error Accumulation in Reasoning Tasks",
+        "title_matches": true,
+        "first_submitted": "2026-06-02",
+        "first_date_matches": true,
+        "page_sha256": "80556e4a1970ae809e6662abec7d0442a582e7c7a30d8a8cb3cc206815d59208",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2606.03458v1",
+          "bytes": 424729,
+          "sha256": "bc76f5972cc428cf3bad055a0cd54c9dcfabab06aa4f89e7bd91a59469ab31ba",
+          "matches_previous_hash": true,
+          "reviewed_sections": [
+            "§3.1",
+            "§3.3"
+          ],
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2603.00040",
+      "key": "attn_qat",
+      "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
+      "first_submitted": "2026-02-09",
+      "reviewed_version": "2603.00040v3",
+      "reviewed_version_date": "2026-08-09T18:58:02+00:00",
+      "fulltext_url": "https://arxiv.org/html/2603.00040v3",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "a480aaaf9d89ffa72c54a571f8c014552977ea9369ba45b766ec08fd0269860f",
+      "text_characters": 71857,
+      "resource_id": "N29",
+      "chapter": "15",
+      "section": "15.6",
+      "guide": "docs/15_新进展_KV与推理系统.md#attn_qat",
+      "scope": "验证一个关键反向恒等式，未实现 FlashAttention 分块重算、完整反向 kernel 或模型级 QAT。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2603.00040v3",
+        "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
+        "title_matches": true,
+        "first_submitted": "2026-02-09",
+        "first_date_matches": true,
+        "page_sha256": "5435ac24e552a42ad29421fdf0bd092f59b630eea12081d63d332d4173ae669d",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2603.00040v3",
+          "bytes": 406299,
+          "sha256": "cd7b6d0f4a9f35d0201529eb55aa30016e46fdf0debf635af32a98b099b4b2f3",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§2.3"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    },
+    {
+      "id": "2405.04532",
+      "key": "qserve",
+      "title": "QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving",
+      "first_submitted": "2024-05-07",
+      "reviewed_version": "2405.04532v3",
+      "reviewed_version_date": "2025-05-01T02:14:05+00:00",
+      "fulltext_url": "https://arxiv.org/html/2405.04532v3",
+      "fulltext_kind": "html",
+      "fulltext_sha256": "fa7cee785a1781cbfc9a64cf42fc6f3ba80447cceacfe073207047567706e576",
+      "text_characters": 80920,
+      "resource_id": "N30",
+      "chapter": "15",
+      "section": "15.7",
+      "guide": "docs/15_新进展_KV与推理系统.md#qserve",
+      "scope": "仅验证渐进式量化和保护范围反例；省略外层 FP16 scale、SmoothAttention、KV4 管理和融合 CUDA 内核。",
+      "evidence": "versioned_fulltext_reviewed",
+      "readings": [
+        "L27",
+        "L28"
+      ],
+      "metadata_verification": {
+        "checked_on": "2026-10-18",
+        "url": "https://arxiv.org/abs/2405.04532v3",
+        "title": "QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving",
+        "title_matches": true,
+        "first_submitted": "2024-05-07",
+        "first_date_matches": true,
+        "page_sha256": "520a066f0ef01e4e2cdc0ffb24af3a77df8d8b2c7731dc63adca5e7b44d504d1",
+        "scope": "Metadata only; no full method or benchmark revalidation"
+      },
+      "fulltext_retrievals": [
+        {
+          "retrieved_on": "2026-10-18",
+          "url": "https://arxiv.org/html/2405.04532v3",
+          "bytes": 360086,
+          "sha256": "8e7409469ea3f4fd4d57230811d0a525efeca189c9a20e9a63fe0803be4bf319",
+          "matches_previous_hash": false,
+          "reviewed_sections": [
+            "§4.1–4.2"
+          ],
+          "hash_note": "Raw HTML bytes differ from previous record; previous raw file unavailable here. Cause and semantic differences not established.",
+          "scope": "Relevant method and assumption sections; no paper benchmark reproduction."
+        }
+      ]
+    }
+  ],
+  "additional_candidates": [
+    {
+      "id": "2405.14852",
+      "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+      "url": "https://arxiv.org/abs/2405.14852",
+      "first_date_metadata": "2024/05/23",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "integrated_discussion",
+      "reason": "已阅读相关方法/评估段落并合入原章节；未增加完整论文复现示例。",
+      "guide": "docs/07_QAT_QLoRA与原生低比特.md#pv-tuning"
+    },
+    {
+      "id": "2504.12285",
+      "title": "BitNet b1.58 2B4T Technical Report",
+      "url": "https://arxiv.org/abs/2504.12285",
+      "first_date_metadata": "2025/04/16",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "existing_route_update",
+      "reason": "已有 BitNet 路线的公开模型报告；补入原章节来源，不重复计为新算法。"
+    },
+    {
+      "id": "2507.07145",
+      "title": "CCQ: Convolutional Code for Extreme Low-bit Quantization in LLMs",
+      "url": "https://arxiv.org/abs/2507.07145",
+      "first_date_metadata": "2025/07/09",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2507.17417",
+      "title": "A Comprehensive Evaluation on Quantization Techniques for Large Language Models",
+      "url": "https://arxiv.org/abs/2507.17417",
+      "first_date_metadata": "2025/07/23",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "integrated_discussion",
+      "reason": "已阅读相关方法/评估段落并合入原章节；未增加完整论文复现示例。",
+      "guide": "docs/10_实验_评估与选型.md#coverage-priorities"
+    },
+    {
+      "id": "2509.02512",
+      "title": "MoPEQ: Mixture of Mixed Precision Quantized Experts",
+      "url": "https://arxiv.org/abs/2509.02512",
+      "first_date_metadata": "2025/09/02",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "VLM-MoE 专用混合精度候选；评测适用范围与文本 LLM 区分。"
+    },
+    {
+      "id": "2601.14888",
+      "title": "What Makes Low-Bit Quantization-Aware Training Work for Reasoning LLMs? A Systematic Study",
+      "url": "https://arxiv.org/abs/2601.14888",
+      "first_date_metadata": "2026/01/21",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2602.01027",
+      "title": "SFMP: Fine-Grained, Hardware-Friendly and Search-Free Mixed-Precision Quantization for Large Language Models",
+      "url": "https://arxiv.org/abs/2602.01027",
+      "first_date_metadata": "2026/02/01",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2602.11184",
+      "title": "KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models",
+      "url": "https://arxiv.org/abs/2602.11184",
+      "first_date_metadata": "2026/01/30",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2603.27467",
+      "title": "TurboAngle: Near-Lossless KV Cache Compression via Uniform Angle Quantization",
+      "url": "https://arxiv.org/abs/2603.27467",
+      "first_date_metadata": "2026/03/29",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "角度编码的扩展候选；结构化随机变换与均匀角度假设需另行验证，本轮未纳入教学实现。"
+    },
+    {
+      "id": "2604.06798",
+      "title": "MoBiE: Efficient Inference of Mixture of Binary Experts under Post-Training Quantization",
+      "url": "https://arxiv.org/abs/2604.06798",
+      "first_date_metadata": "2026/04/08",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2605.10793",
+      "title": "ConQuR: Corner Aligned Activation Quantization via Optimized Rotations for LLMs",
+      "url": "https://arxiv.org/abs/2605.10793",
+      "first_date_metadata": "2026/05/11",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2605.21226",
+      "title": "OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under optimal Squared error quantization",
+      "url": "https://arxiv.org/abs/2605.21226",
+      "first_date_metadata": "2026/05/20",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2605.26092",
+      "title": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
+      "url": "https://arxiv.org/abs/2605.26092",
+      "first_date_metadata": "2026/05/25",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2606.04238",
+      "title": "Recover-LoRA for Aggressive Quantization: Reclaiming Accuracy in 2-Bit Language Models via Low-Rank Adaptation with Knowledge Distillation on Synthetic Data",
+      "url": "https://arxiv.org/abs/2606.04238",
+      "first_date_metadata": "2026/06/02",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2606.05688",
+      "title": "Value-and-Structure Alignment for Routing-Consistent Quantization of Mixture-of-Experts Models",
+      "url": "https://arxiv.org/abs/2606.05688",
+      "first_date_metadata": "2026/06/04",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2606.10520",
+      "title": "UniSVQ: 2-bit Unified Scalar-Vector Quantization",
+      "url": "https://arxiv.org/abs/2606.10520",
+      "first_date_metadata": "2026/06/09",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2606.21448",
+      "title": "Fast-TurboQuant: A Multiplier-Free Online Vector Quantization Approach",
+      "url": "https://arxiv.org/abs/2606.21448",
+      "first_date_metadata": "2026/06/19",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2606.23406",
+      "title": "HyperQuant: A Rate-Distortion-Optimal Quantization Pipeline for Large Language and Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.23406",
+      "first_date_metadata": "2026/06/22",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2607.23047",
+      "title": "MixQuant: Adaptive Mixed-Precision Quantization for Large Language Models",
+      "url": "https://arxiv.org/abs/2607.23047",
+      "first_date_metadata": "2026/07/25",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2608.20953",
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "url": "https://arxiv.org/abs/2608.20953",
+      "first_date_metadata": "2026/08/21",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2609.02846",
+      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+      "url": "https://arxiv.org/abs/2609.02846",
+      "first_date_metadata": "2026/09/02",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    },
+    {
+      "id": "2609.17475",
+      "title": "JustFit: Just-in-Time State Management for Local LLM Serving",
+      "url": "https://arxiv.org/abs/2609.17475",
+      "first_date_metadata": "2026/09/15",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "主要是本地服务状态管理，非新的数值量化方法。"
+    },
+    {
+      "id": "2609.26708",
+      "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
+      "url": "https://arxiv.org/abs/2609.26708",
+      "first_date_metadata": "2026/09/22",
+      "evidence": "metadata_and_abstract_only",
+      "decision": "further_reading",
+      "reason": "列入扩展阅读；本轮未核验完整方法及对应实现，不从标题补写算法细节。"
+    }
+  ],
+  "project_checks": [
+    {
+      "url": "https://hanlab.mit.edu/projects/qserve",
+      "status": 200,
+      "final_url": "https://hanlab.mit.edu/projects/qserve",
+      "title": "QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving"
+    },
+    {
+      "url": "https://github.com/IST-DASLab/HIGGS",
+      "status": 404
+    },
+    {
+      "url": "https://github.com/actypedef/ARCQuant",
+      "status": 200,
+      "final_url": "https://github.com/actypedef/ARCQuant",
+      "title": "GitHub - actypedef/ARCQuant: [ACL 2026 Main] Code for the paper \"ARCQuant: Boosting NVFP4 Quantization with Augmented Residual Channels for LLMs\" · GitHub"
+    },
+    {
+      "url": "https://github.com/IST-DASLab/QuEST",
+      "status": 200,
+      "final_url": "https://github.com/IST-DASLab/QuEST",
+      "title": "GitHub - IST-DASLab/QuEST: Work in progress. · GitHub"
+    },
+    {
+      "url": "https://github.com/huawei-csl/KVarN",
+      "status": 200,
+      "final_url": "https://github.com/huawei-csl/KVarN",
+      "title": "GitHub - huawei-csl/KVarN: KVarN is a native vLLM KV-cache quantization backend for your agents: 3-5x more context, throughput above FP16, and FP16-level accuracy. Calibration-free, one flag. · GitHub"
+    },
+    {
+      "url": "https://github.com/tencent/AngelSlim",
+      "status": 200,
+      "final_url": "https://github.com/tencent/AngelSlim",
+      "title": "GitHub - Tencent/AngelSlim: Model compression toolkit engineered for enhanced usability, comprehensiveness, and efficiency. · GitHub"
+    },
+    {
+      "url": "https://iridescent-gcrace.github.io/OScaR/",
+      "status": 200,
+      "final_url": "https://iridescent-gcrace.github.io/OScaR/",
+      "title": "OScaR — Extreme KV Cache Quantization"
+    },
+    {
+      "url": "https://github.com/z-lab/paroquant",
+      "status": 200,
+      "final_url": "https://github.com/z-lab/paroquant",
+      "title": "GitHub - z-lab/paroquant: [ICLR 2026] ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference · GitHub"
+    },
+    {
+      "url": "https://github.com/neriahbd/vllm-osfp4",
+      "status": 200,
+      "final_url": "https://github.com/neriahbd/vllm-osfp4",
+      "title": "GitHub - neriahbd/vllm-osfp4: OSFP4 checkpoint support for vLLM. · GitHub"
+    },
+    {
+      "url": "https://github.com/mit-han-lab/omniserve",
+      "status": 200,
+      "final_url": "https://github.com/mit-han-lab/omniserve",
+      "title": "GitHub - mit-han-lab/omniserve: [MLSys'25] QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving; [MLSys'25] LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention · GitHub"
+    },
+    {
+      "url": "https://huggingface.co/collections/facebook/mobilellm-6722be18cb86c20ebe113e95",
+      "status": 200,
+      "final_url": "https://huggingface.co/collections/facebook/mobilellm",
+      "title": "MobileLLM - a facebook Collection"
+    },
+    {
+      "url": "https://github.com/MMAI-Laboratory/DBW",
+      "status": 200,
+      "final_url": "https://github.com/MMAI-Laboratory/DBW",
+      "title": "GitHub - MMAI-Laboratory/DBW: [NeurIPS'26] Differentiable Bit-Widths: Co-Optimizing Pruning and Quantization via SVD for Ultra-Efficient LLM Compression · GitHub"
+    },
+    {
+      "url": "https://github.com/BrotherHappy/OSTQuant",
+      "status": 200,
+      "final_url": "https://github.com/BrotherHappy/OSTQuant",
+      "title": "GitHub - BrotherHappy/OSTQuant: [ICLR2025]: OSTQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting · GitHub"
+    },
+    {
+      "url": "https://github.com/zjiayu064/BitsMoE",
+      "status": 200,
+      "final_url": "https://github.com/zjiayu064/BitsMoE",
+      "title": "GitHub - zjiayu064/BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization · GitHub"
+    },
+    {
+      "url": "https://github.com/neriahbd/OSFP4",
+      "status": 200,
+      "final_url": "https://github.com/neriahbd/OSFP4",
+      "title": "GitHub - neriahbd/OSFP4 · GitHub"
+    },
+    {
+      "url": "https://huggingface.co/collections/zjiayu064/bitsmoe",
+      "status": 200,
+      "final_url": "https://huggingface.co/collections/zjiayu064/bitsmoe",
+      "title": "BitsMoE - a zjiayu064 Collection"
+    },
+    {
+      "url": "https://github.com/Cornell-RelaxML/qtip",
+      "status": 200,
+      "final_url": "https://github.com/Cornell-RelaxML/qtip",
+      "title": "GitHub - Cornell-RelaxML/qtip · GitHub"
+    },
+    {
+      "url": "https://oscar-quantize.github.io/",
+      "status": 200,
+      "final_url": "https://oscar-quantize.github.io/",
+      "title": "OSCAR — 2-bit KV Cache Quantization"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/quantization/higgs",
+      "status": 200,
+      "final_url": "https://huggingface.co/docs/transformers/quantization/higgs",
+      "title": "HIGGS · Hugging Face"
+    },
+    {
+      "url": "https://github.com/Aaronhuang-778/SliM-LLM",
+      "status": 200,
+      "final_url": "https://github.com/Aaronhuang-778/SliM-LLM",
+      "title": "GitHub - Aaronhuang-778/SliM-LLM: [ICML 2025] SliM-LLM: Salience-Driven Mixed-Precision Quantization for Large Language Models · GitHub"
+    },
+    {
+      "url": "https://github.com/steven-bao1/SOAR",
+      "status": 200,
+      "final_url": "https://github.com/steven-bao1/SOAR",
+      "title": "GitHub - steven-bao1/SOAR: SOAR: Scale Optimization for Accurate Reconstruction in NVFP4 Quantization · GitHub"
+    },
+    {
+      "url": "https://github.com/microsoft/VPTQ",
+      "status": 200,
+      "final_url": "https://github.com/microsoft/VPTQ",
+      "title": "GitHub - microsoft/VPTQ: VPTQ, A Flexible and Extreme low-bit quantization algorithm · GitHub"
+    },
+    {
+      "url": "https://github.com/darren-fzq1/EAQuant",
+      "status": 200,
+      "final_url": "https://github.com/darren-fzq1/EAQuant",
+      "title": "GitHub - darren-fzq1/EAQuant: EAQuant: Enhancing Post-Training Quantization for MoE Models via Expert-Aware Optimization · GitHub"
+    },
+    {
+      "url": "https://github.com/Supercomputing-System-AI-Lab/MiLo",
+      "status": 200,
+      "final_url": "https://github.com/Supercomputing-System-AI-Lab/MiLo",
+      "title": "GitHub - Supercomputing-System-AI-Lab/MiLo: Code repo for efficient quantized MoE inference with mixture of low-rank compensators · GitHub"
+    },
+    {
+      "url": "https://github.com/Hsu1023/DuQuant",
+      "status": 200,
+      "final_url": "https://github.com/Hsu1023/DuQuant",
+      "title": "GitHub - Hsu1023/DuQuant: [NeurIPS 2024 Oral🔥] DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs. · GitHub"
+    },
+    {
+      "url": "https://duquant.github.io",
+      "status": 200,
+      "final_url": "https://duquant.github.io",
+      "title": "DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs"
+    },
+    {
+      "url": "https://z-lab.ai/projects/paroquant/",
+      "status": 200,
+      "final_url": "https://z-lab.ai/projects/paroquant/",
+      "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference - Z Lab"
+    },
+    {
+      "url": "https://github.com/ZunhaiSu/OScaR-KV-Quant",
+      "status": 200,
+      "final_url": "https://github.com/ZunhaiSu/OScaR-KV-Quant",
+      "title": "GitHub - ZunhaiSu/OScaR-KV-Quant: 🏆 OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond — redefining the accuracy-efficiency Pareto front for X-LLMs KV quantization. · GitHub"
+    },
+    {
+      "url": "https://pytorch.org/blog/paretoq-scaling-laws-in-extremely-low-bit-llm-quantization/",
+      "status": 200,
+      "final_url": "https://pytorch.org/blog/paretoq-scaling-laws-in-extremely-low-bit-llm-quantization/",
+      "title": "ParetoQ: Scaling Laws in Extremely Low-bit LLM Quantization - PyTorch"
+    }
+  ],
+  "coverage_updated_on": "2026-10-18",
+  "supplementary_sources": [
+    {
+      "key": "leanquant",
+      "resource_id": "X01",
+      "title": "LeanQuant: Accurate and Scalable Large Language Model Quantization with Loss-error-aware Grid",
+      "first_submitted": "2024-07-14",
+      "reviewed_version": "2407.10032v3",
+      "reviewed_version_date": "2026-01-01T07:32:39Z",
+      "fulltext_url": "https://arxiv.org/html/2407.10032v3",
+      "fulltext_sha256": "526ce21441b1e70dac8a52a058ebc83a047b303741906a2f4db2db608993a35e",
+      "reviewed_sections": [
+        "§3.1–3.2"
+      ],
+      "guide": "docs/02_GPTQ与二阶误差补偿.md#leanquant",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "sinq",
+      "resource_id": "X02",
+      "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
+      "first_submitted": "2025-09-26",
+      "reviewed_version": "2509.22944v4",
+      "reviewed_version_date": "2026-01-29T14:15:45Z",
+      "fulltext_url": "https://arxiv.org/html/2509.22944v4",
+      "fulltext_sha256": "de70af292bb28648f71f7b590b9f566a1c82ae387d0db89c3bc7f83d3f9965fa",
+      "reviewed_sections": [
+        "§2.1–2.3"
+      ],
+      "guide": "docs/04_可学习校准与HQQ.md#sinq-dualquant",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "dualquant",
+      "resource_id": "X03",
+      "title": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+      "first_submitted": "2026-10-09",
+      "reviewed_version": "2610.13767v1",
+      "reviewed_version_date": "2026-10-09T15:51:38Z",
+      "fulltext_url": "https://arxiv.org/html/2610.13767v1",
+      "fulltext_sha256": "eb28173622f2e939a056f0fb7aa00e472f9682cf13bfad6c3e49b56a690ac8b4",
+      "reviewed_sections": [
+        "§4.2–4.4",
+        "§5.2"
+      ],
+      "guide": "docs/04_可学习校准与HQQ.md#sinq-dualquant",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "pvtuning",
+      "resource_id": "X04",
+      "title": "PV-Tuning: Beyond Straight-Through Estimation for Extreme LLM Compression",
+      "first_submitted": "2024-05-23",
+      "reviewed_version": "2405.14852v2",
+      "reviewed_version_date": "2024-05-30T15:01:49Z",
+      "fulltext_url": "https://arxiv.org/html/2405.14852v2",
+      "fulltext_sha256": "42603fa6afbc01d0aef7c4c45601afb06d200c78fe56e214fa47f85975ad2346",
+      "reviewed_sections": [
+        "§3.1–3.4"
+      ],
+      "guide": "docs/07_QAT_QLoRA与原生低比特.md#pv-tuning",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "mixed_training",
+      "resource_id": "X05",
+      "title": "Mixed Precision Scaling Laws for Quantized Pretraining",
+      "first_submitted": "2026-10-13",
+      "reviewed_version": "2610.17637v1",
+      "reviewed_version_date": "2026-10-13T03:05:01Z",
+      "fulltext_url": "https://arxiv.org/html/2610.17637v1",
+      "fulltext_sha256": "26810a62c4a059e2e7c66a3e6d5e28a26e112706de65210083d1af765f3884d7",
+      "reviewed_sections": [
+        "§3–4"
+      ],
+      "guide": "docs/07_QAT_QLoRA与原生低比特.md#quantized-training-recipe",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "tmac",
+      "resource_id": "X06",
+      "title": "T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge",
+      "first_submitted": "2024-06-25",
+      "reviewed_version": "2407.00088v2",
+      "reviewed_version_date": "2025-03-25T09:27:16Z",
+      "fulltext_url": "https://arxiv.org/html/2407.00088v2",
+      "fulltext_sha256": "00559ecc6488211fe57c2074b70ac7f44b0a743a0f8b93e92b7035da7638fd5a",
+      "reviewed_sections": [
+        "§3.1–3.3"
+      ],
+      "guide": "docs/09_浮点格式与推理系统.md#alternative-execution",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "fp6llm",
+      "resource_id": "X07",
+      "title": "FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design",
+      "first_submitted": "2024-01-25",
+      "reviewed_version": "2401.14112v2",
+      "reviewed_version_date": "2024-03-04T02:30:21Z",
+      "fulltext_url": "https://arxiv.org/html/2401.14112v2",
+      "fulltext_sha256": "d68a8882410cac56b309017f0ddf9ea0e7f831ae2b135727e948eff700dc2b4f",
+      "reviewed_sections": [
+        "§5.1–5.4"
+      ],
+      "guide": "docs/09_浮点格式与推理系统.md#alternative-execution",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "qrazor",
+      "resource_id": "X08",
+      "title": "Qrazor: Reliable and Effortless 4-bit LLM Quantization by Significant Data Razoring",
+      "first_submitted": "2025-01-23",
+      "reviewed_version": "2501.13331v2",
+      "reviewed_version_date": "2025-02-05T08:10:45Z",
+      "fulltext_url": "https://arxiv.org/html/2501.13331v2",
+      "fulltext_sha256": "db58017578ac43acaa3ff367c3562fc804effcd2c6d16012c9f348adca96535b",
+      "reviewed_sections": [
+        "§4.1–4.3"
+      ],
+      "guide": "docs/09_浮点格式与推理系统.md#alternative-execution",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "fpot",
+      "resource_id": "X09",
+      "title": "Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference",
+      "first_submitted": "2026-10-15",
+      "reviewed_version": "2610.21257v1",
+      "reviewed_version_date": "2026-10-15T04:50:03Z",
+      "fulltext_url": "https://arxiv.org/html/2610.21257v1",
+      "fulltext_sha256": "a8adda7029db37dfd9c099eea7e3698a817600e494fcda72244acf1856398420",
+      "reviewed_sections": [
+        "§3",
+        "§4.2 hardware scope"
+      ],
+      "guide": "docs/09_浮点格式与推理系统.md#alternative-execution",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "gptvq",
+      "resource_id": "X10",
+      "title": "GPTVQ: The Blessing of Dimensionality for LLM Quantization",
+      "first_submitted": "2024-02-23",
+      "reviewed_version": "2402.15319v2",
+      "reviewed_version_date": "2025-06-03T09:22:07Z",
+      "fulltext_url": "https://arxiv.org/html/2402.15319v2",
+      "fulltext_sha256": "4ea0b6a425de50ddc500795acda96ea28f214a1a2b635968bc984481c8251fe8",
+      "reviewed_sections": [
+        "§4",
+        "Algorithms 1–2"
+      ],
+      "guide": "docs/12_新进展_变换与编码.md#gptvq",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "spectrumquant",
+      "resource_id": "X11",
+      "title": "SpectrumQuant: Spectrum Alignment for LLM Quantization",
+      "first_submitted": "2026-10-14",
+      "reviewed_version": "2610.20303v1",
+      "reviewed_version_date": "2026-10-14T14:54:16Z",
+      "fulltext_url": "https://arxiv.org/html/2610.20303v1",
+      "fulltext_sha256": "d7ef15bfb21f18c495103578351d0a5fa3106461b54687eb60831113e06ea03a",
+      "reviewed_sections": [
+        "§4.1–4.3"
+      ],
+      "guide": "docs/12_新进展_变换与编码.md#spectral-and-spherical",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "sage_vq",
+      "resource_id": "X12",
+      "title": "SAGE: Pushing 2-Bit Vector-Quantized LLMs toward Real-World Usability",
+      "first_submitted": "2026-10-10",
+      "reviewed_version": "2610.14745v1",
+      "reviewed_version_date": "2026-10-10T09:05:14Z",
+      "fulltext_url": "https://arxiv.org/html/2610.14745v1",
+      "fulltext_sha256": "a566c0f4c6f068ac30de562ce8f5dd1cd9df5c4f2037a2472f548ebdad2e9282",
+      "reviewed_sections": [
+        "§3.1–3.4"
+      ],
+      "guide": "docs/12_新进展_变换与编码.md#spectral-and-spherical",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "fidelityq",
+      "resource_id": "X13",
+      "title": "FidelityQ: Preserving Predictive Fidelity in Ultra-Low-Bit Language Model Quantization",
+      "first_submitted": "2026-10-10",
+      "reviewed_version": "2610.14934v1",
+      "reviewed_version_date": "2026-10-10T14:06:52Z",
+      "fulltext_url": "https://arxiv.org/html/2610.14934v1",
+      "fulltext_sha256": "7f670a1f890c8d202514118082ef7992977bba9df83174a0510a9e3312389e9a",
+      "reviewed_sections": [
+        "§3.1–3.3"
+      ],
+      "guide": "docs/13_新进展_FP4与误差修正.md#fidelityq-roleq",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "roleq",
+      "resource_id": "X14",
+      "title": "RoleQ: Role-Aligned Scales for Converting Language Models to Ternary",
+      "first_submitted": "2026-10-15",
+      "reviewed_version": "2610.21808v1",
+      "reviewed_version_date": "2026-10-15T12:56:57Z",
+      "fulltext_url": "https://arxiv.org/html/2610.21808v1",
+      "fulltext_sha256": "beaf13ec0c3940aa391cf1acf36e09024663d9cacdecafa4b3c0202e75b4ce69",
+      "reviewed_sections": [
+        "§3.1–3.5"
+      ],
+      "guide": "docs/13_新进展_FP4与误差修正.md#fidelityq-roleq",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "natscale",
+      "resource_id": "X15",
+      "title": "Beyond Expert Rankings: Contrast Calibration for Mixed-Precision MoE Quantization",
+      "first_submitted": "2026-10-14",
+      "reviewed_version": "2610.20353v1",
+      "reviewed_version_date": "2026-10-14T15:29:40Z",
+      "fulltext_url": "https://arxiv.org/html/2610.20353v1",
+      "fulltext_sha256": "4a67faa8d58092db93ab658cdd0d328499d34739f5eb9db3c02af15e866cf27d",
+      "reviewed_sections": [
+        "§3.2–3.4"
+      ],
+      "guide": "docs/14_新进展_训练与MoE.md#moe-sensitivity-evidence",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "moe_negative",
+      "resource_id": "X16",
+      "title": "Task-Phase-Conditioned Expert Routing Is Not a Reliable Proxy for Quantization Sensitivity in MoE FFN Tensors",
+      "first_submitted": "2026-10-14",
+      "reviewed_version": "2610.20826v1",
+      "reviewed_version_date": "2026-10-14T19:12:53Z",
+      "fulltext_url": "https://arxiv.org/html/2610.20826v1",
+      "fulltext_sha256": "a2a10678c70233d272efca5dba5bbd5059633400120d0277f345cd4f3883e01e",
+      "reviewed_sections": [
+        "§3.7–3.8",
+        "§5.3 limitations"
+      ],
+      "guide": "docs/14_新进展_训练与MoE.md#moe-sensitivity-evidence",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "loopquant",
+      "resource_id": "X17",
+      "title": "LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers",
+      "first_submitted": "2026-10-12",
+      "reviewed_version": "2610.16368v1",
+      "reviewed_version_date": "2026-10-12T08:20:04Z",
+      "fulltext_url": "https://arxiv.org/html/2610.16368v1",
+      "fulltext_sha256": "63cd5980ea53c545b3f903ea97b879bf71eb21b9ab8055ed043704b251128532",
+      "reviewed_sections": [
+        "§4.1–4.4"
+      ],
+      "guide": "docs/14_新进展_训练与MoE.md#looped-transformers",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "skvq",
+      "resource_id": "X18",
+      "title": "SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models",
+      "first_submitted": "2024-05-10",
+      "reviewed_version": "2405.06219v3",
+      "reviewed_version_date": "2024-11-12T08:18:45Z",
+      "fulltext_url": "https://arxiv.org/html/2405.06219v3",
+      "fulltext_sha256": "1923e697b209f90558d2b635495acb6d4547321ec54cb637a35529ee95878292",
+      "reviewed_sections": [
+        "§3.1–3.2"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#skvq-kvtuner",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "kvtuner",
+      "resource_id": "X19",
+      "title": "KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference",
+      "first_submitted": "2025-02-06",
+      "reviewed_version": "2502.04420v5",
+      "reviewed_version_date": "2025-11-20T15:25:17Z",
+      "fulltext_url": "https://arxiv.org/html/2502.04420v5",
+      "fulltext_sha256": "bdee856f9577b6eae3a70dba85c8e1efd5dc4ca38428115910efa5446a7760fd",
+      "reviewed_sections": [
+        "§5.1–5.3"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#skvq-kvtuner",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "multi_alloc",
+      "resource_id": "X20",
+      "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+      "first_submitted": "2026-10-13",
+      "reviewed_version": "2610.18642v1",
+      "reviewed_version_date": "2026-10-13T16:10:45Z",
+      "fulltext_url": "https://arxiv.org/html/2610.18642v1",
+      "fulltext_sha256": "aeaae95ae9d091e3b86fc21fe9a083d1ef213d3b16c2e690833b6d923421799d",
+      "reviewed_sections": [
+        "§4.4–4.5"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#skvq-kvtuner",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "pnmix",
+      "resource_id": "X21",
+      "title": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+      "first_submitted": "2026-10-14",
+      "reviewed_version": "2610.19605v1",
+      "reviewed_version_date": "2026-10-14T05:29:08Z",
+      "fulltext_url": "https://arxiv.org/html/2610.19605v1",
+      "fulltext_sha256": "592d70ee87547babba026b45ecef3dcd18af4397e784dc385bb02b09c1257f9f",
+      "reviewed_sections": [
+        "§4.2",
+        "§5.1–5.2"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#skvq-kvtuner",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "quantmla",
+      "resource_id": "X22",
+      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+      "first_submitted": "2026-09-29",
+      "reviewed_version": "2609.36760v2",
+      "reviewed_version_date": "2026-09-30T03:53:27Z",
+      "fulltext_url": "https://arxiv.org/html/2609.36760v2",
+      "fulltext_sha256": "4a5446a22328793d828185393c435c75c2665caa318e40e7234301793915b7eb",
+      "reviewed_sections": [
+        "§2.1",
+        "§3.1–3.2"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#mla-quantization",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "state_updates",
+      "resource_id": "X23",
+      "title": "Preserving Updates in Low-Bit Recurrent State Quantization",
+      "first_submitted": "2026-10-11",
+      "reviewed_version": "2610.15709v1",
+      "reviewed_version_date": "2026-10-11T15:46:25Z",
+      "fulltext_url": "https://arxiv.org/html/2610.15709v1",
+      "fulltext_sha256": "33b00bd2101d46c127114385489d50ce9d14adee6fefed76c127c0f801da0c6e",
+      "reviewed_sections": [
+        "§2.1–2.3",
+        "§3.1–3.2"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#recurrent-state-quantization",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "state_scale",
+      "resource_id": "X24",
+      "title": "When Dynamic Scaling Fails: A Scale-State Feedback Governs Recurrent-State Quantization in Linear-Attention and SSM LLMs",
+      "first_submitted": "2026-10-10",
+      "reviewed_version": "2610.15139v1",
+      "reviewed_version_date": "2026-10-10T19:30:50Z",
+      "fulltext_url": "https://arxiv.org/html/2610.15139v1",
+      "fulltext_sha256": "3364998a9f4d59ab1d0a1fa74937ac996fbb7bcfb8cdd95d81a5e14c1d22df2c",
+      "reviewed_sections": [
+        "§5–6"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#recurrent-state-quantization",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "fast_qjl",
+      "resource_id": "X25",
+      "title": "Fast Quantized Johnson$-$Lindenstrauss Transforms",
+      "first_submitted": "2026-10-12",
+      "reviewed_version": "2610.16289v1",
+      "reviewed_version_date": "2026-10-12T07:16:40Z",
+      "fulltext_url": "https://arxiv.org/html/2610.16289v1",
+      "fulltext_sha256": "e5b42b6acccb04292ec1302f171c7689311dea886e243be5dec0eb2b3a184711",
+      "reviewed_sections": [
+        "§3.1–3.3"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#fast-qjl",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "ngram_memory",
+      "resource_id": "X26",
+      "title": "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
+      "first_submitted": "2026-10-15",
+      "reviewed_version": "2610.21810v1",
+      "reviewed_version_date": "2026-10-15T12:57:19Z",
+      "fulltext_url": "https://arxiv.org/html/2610.21810v1",
+      "fulltext_sha256": "a8ebfc17709222a5e8ccd7d2fdd98921d5c0457aaf165a7bdc407b2ee03477d2",
+      "reviewed_sections": [
+        "§3.1–3.4"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#conditional-memory-quantization",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "atom",
+      "resource_id": "X27",
+      "title": "Atom: Low-bit Quantization for Efficient and Accurate LLM Serving",
+      "first_submitted": "2023-10-29",
+      "reviewed_version": "2310.19102v3",
+      "reviewed_version_date": "2024-04-16T06:08:05Z",
+      "fulltext_url": "https://arxiv.org/html/2310.19102v3",
+      "fulltext_sha256": "0bce3168e2cc78400707fd510f9421dfce8934d6032da2958297a6e16cf0b146",
+      "reviewed_sections": [
+        "§4.1–4.4"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#atom-qqq",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "qqq",
+      "resource_id": "X28",
+      "title": "QQQ: Quality Quattuor-Bit Quantization for Large Language Models",
+      "first_submitted": "2024-06-14",
+      "reviewed_version": "2406.09904v3",
+      "reviewed_version_date": "2024-07-31T07:35:42Z",
+      "fulltext_url": "https://arxiv.org/html/2406.09904v3",
+      "fulltext_sha256": "f741d7c0567e1c9c364220dc67bf0a4779e0bfc85a6b15b4286efc85a006b63b",
+      "reviewed_sections": [
+        "§3.1–3.3"
+      ],
+      "guide": "docs/15_新进展_KV与推理系统.md#atom-qqq",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "spec_quant",
+      "resource_id": "X29",
+      "title": "Speculative Decoding Meets Quantization: Compatibility Evaluation and Hierarchical Framework Design",
+      "first_submitted": "2025-05-28",
+      "reviewed_version": "2505.22179v2",
+      "reviewed_version_date": "2025-05-29T04:07:33Z",
+      "fulltext_url": "https://arxiv.org/html/2505.22179v2",
+      "fulltext_sha256": "86d6098e61294c7418bd73a20b9fb1f16f6bf727f307bf0f8278b147ab659449",
+      "reviewed_sections": [
+        "§3.2–3.3"
+      ],
+      "guide": "docs/10_实验_评估与选型.md#coverage-priorities",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "ptq_eval",
+      "resource_id": "X30",
+      "title": "A Comprehensive Evaluation on Quantization Techniques for Large Language Models",
+      "first_submitted": "2025-07-23",
+      "reviewed_version": "2507.17417v3",
+      "reviewed_version_date": "2026-01-29T11:28:59Z",
+      "fulltext_url": "https://arxiv.org/html/2507.17417v3",
+      "fulltext_sha256": "642e4faf37d07f335a0f3f0e525c1fcd555ff609d5b1b42602b0757d342ea8af",
+      "reviewed_sections": [
+        "§III-A",
+        "§III-C"
+      ],
+      "guide": "docs/10_实验_评估与选型.md#coverage-priorities",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    },
+    {
+      "key": "feedback",
+      "resource_id": "X31",
+      "title": "Revisiting Error Feedback for Model Quantization",
+      "first_submitted": "2026-10-13",
+      "reviewed_version": "2610.18139v1",
+      "reviewed_version_date": "2026-10-13T10:47:01Z",
+      "fulltext_url": "https://arxiv.org/html/2610.18139v1",
+      "fulltext_sha256": "c838564add5eb82678b5ef22482367cc63067cb49ff1bb32b8a3f0ae0655f4e5",
+      "reviewed_sections": [
+        "Finite-level quantization: the role of scale"
+      ],
+      "guide": "docs/02_GPTQ与二阶误差补偿.md#leanquant",
+      "checked_on": "2026-10-18",
+      "evidence": "related_method_sections_reviewed",
+      "scope": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+    }
+  ],
+  "supplementary_scope": "31 additional method/evaluation papers discussed in existing chapters. Only related method sections reviewed; executable technique catalog remains 93. New derivation examples are counted separately.",
+  "discovery_limits": "Representative route-gap search plus arXiv API query for 2026-10-09 through 2026-10-18; broader KV/evaluation lists capped at 60 results and not exhaustive. General web search was unavailable/challenged; successful API queries and primary sources recorded separately.",
+  "gpu_architecture_update": {
+    "checked_on": "2026-10-20",
+    "scope": "补充特定GPU原生格式/指令/算法/训练与工程边界；不是全部论文的系统综述",
+    "papers": [
+      {
+        "resource_id": "X35",
+        "key": "mr_gptq",
+        "title": "Bridging the Gap Between Promise and Performance for Microscaling FP4 Quantization",
+        "first_submitted": "2025-09-27",
+        "reviewed_version": "2509.23202v3",
+        "reviewed_version_date": "2026-03-03",
+        "fulltext_url": "https://arxiv.org/html/2509.23202v3",
+        "fulltext_sha256": "0dbe9cfb3cbf2b16f79ecd9a1701bdf418587bf07108be7ef45060e8387b99da",
+        "bytes": 639278,
+        "retrieved_on": "2026-10-20",
+        "reviewed_sections": [
+          "§3–5",
+          "附录B/F"
+        ],
+        "guide": "docs/13_新进展_FP4与误差修正.md#mr-gptq-fpquant",
+        "scope": "Relevant mechanism, version differences and selected experiments reviewed; no independent GPU/model benchmark"
+      },
+      {
+        "resource_id": "X36",
+        "key": "four_over_six",
+        "title": "Four Over Six: More Accurate NVFP4 Quantization with Adaptive Block Scaling",
+        "first_submitted": "2025-12-01",
+        "reviewed_version": "2512.02010v5",
+        "reviewed_version_date": "2026-05-09",
+        "fulltext_url": "https://arxiv.org/html/2512.02010v5",
+        "fulltext_sha256": "29996474a82b3633a4d416a47f8e53c56f493675ae97d53e8ff83479036e1cb2",
+        "bytes": 302584,
+        "retrieved_on": "2026-10-20",
+        "reviewed_sections": [
+          "§3–5",
+          "附录A.3"
+        ],
+        "guide": "docs/13_新进展_FP4与误差修正.md#four-over-six",
+        "scope": "Relevant mechanism, version differences and selected experiments reviewed; no independent GPU/model benchmark"
+      },
+      {
+        "resource_id": "X37",
+        "key": "nvfp4_training",
+        "title": "Pretraining Large Language Models with NVFP4",
+        "first_submitted": "2025-09-29",
+        "reviewed_version": "2509.25149v2",
+        "reviewed_version_date": "2026-03-04",
+        "fulltext_url": "https://arxiv.org/html/2509.25149v2",
+        "fulltext_sha256": "6364c7047e8d141c2d1cc8bcc071f44136733f82eb1e74c4074afef5d419b0d4",
+        "bytes": 223633,
+        "retrieved_on": "2026-10-20",
+        "reviewed_sections": [
+          "§3–5",
+          "附录D/E"
+        ],
+        "guide": "docs/14_新进展_训练与MoE.md#native-fp4-training",
+        "scope": "Relevant mechanism, version differences and selected experiments reviewed; no independent GPU/model benchmark"
+      },
+      {
+        "resource_id": "X38",
+        "key": "quartet",
+        "title": "Quartet: Native FP4 Training Can Be Optimal for Large Language Models",
+        "first_submitted": "2025-05-20",
+        "reviewed_version": "2505.14669v4",
+        "reviewed_version_date": "2026-01-15",
+        "fulltext_url": "https://arxiv.org/html/2505.14669v4",
+        "fulltext_sha256": "f174eaa2603ee52a53580d18aa2096a5385b02cd1c4717d02e2ed2f57b7bb504",
+        "bytes": 332664,
+        "retrieved_on": "2026-10-20",
+        "reviewed_sections": [
+          "§4.3–4.4",
+          "§5–6"
+        ],
+        "guide": "docs/14_新进展_训练与MoE.md#native-fp4-training",
+        "scope": "Relevant mechanism, version differences and selected experiments reviewed; no independent GPU/model benchmark"
+      },
+      {
+        "resource_id": "X39",
+        "key": "quartet2",
+        "title": "Quartet II: Accurate LLM Pre-Training in NVFP4 by Improved Unbiased Gradient Estimation",
+        "first_submitted": "2026-01-30",
+        "reviewed_version": "2601.22813v2",
+        "reviewed_version_date": "2026-06-01",
+        "fulltext_url": "https://arxiv.org/html/2601.22813v2",
+        "fulltext_sha256": "fdabb074b3619d66f18ea30f5eff3269f0562cbc9fa212b35885139e5e5d7005",
+        "bytes": 299440,
+        "retrieved_on": "2026-10-20",
+        "reviewed_sections": [
+          "§3–7",
+          "附录A/D"
+        ],
+        "guide": "docs/14_新进展_训练与MoE.md#native-fp4-training",
+        "scope": "Relevant mechanism, version differences and selected experiments reviewed; no independent GPU/model benchmark"
+      },
+      {
+        "resource_id": "X40",
+        "key": "tetrajet2",
+        "title": "TetraJet-v2: Accurate NVFP4 Training for Large Language Models with Oscillation Suppression and Outlier Control",
+        "first_submitted": "2025-10-31",
+        "reviewed_version": "2510.27527v3",
+        "reviewed_version_date": "2026-05-11",
+        "fulltext_url": "https://arxiv.org/html/2510.27527v3",
+        "fulltext_sha256": "9400debbbdea1abc498942ecb71f681def3a0adad5997470c8b17522bfd7fa2b",
+        "bytes": 523307,
+        "retrieved_on": "2026-10-20",
+        "reviewed_sections": [
+          "§2–6",
+          "附录C/G"
+        ],
+        "guide": "docs/14_新进展_训练与MoE.md#tetrajet-v2",
+        "scope": "Relevant mechanism, version differences and selected experiments reviewed; no independent GPU/model benchmark"
+      }
+    ],
+    "hardware_sources": "references/provenance/source_manifest.json G01–G23",
+    "validation": "CPU/CUDA simulation demos; development environment has no CUDA. Native probe source checked only."
+  }
+}

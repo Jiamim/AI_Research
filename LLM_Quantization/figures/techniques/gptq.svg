@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+<title id="title">OBQ / GPTQ：二阶误差补偿</title>
+<desc id="desc">量化一个权重后，把它造成的输出误差分配给尚未量化的自由权重。逆 Hessian 提供最优连续补偿方向；固定该变量后，还必须消去对应行列，保持下步自由变量问题一致。；H=2XᵀX，计算逆矩阵 M；当前权重选择离散点 qi；按 M 的首列补偿剩余权重；消元后继续
+固定权重不再修改</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="340" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">OBQ / GPTQ：二阶误差补偿</text>
+<path d="M272 162 L294 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M542 162 L564 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M812 162 L834 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="127" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="154" font-size="17" text-anchor="middle" fill="#173650">H=2X^TX，计算逆矩阵 M</text>
+<rect x="294" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="312" y="127" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="418.0" y="154" font-size="17" text-anchor="middle" fill="#173650">当前权重选择离散点 qi</text>
+<rect x="564" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="582" y="127" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="688.0" y="154" font-size="17" text-anchor="middle" fill="#173650">按 M 的首列补偿剩余权重</text>
+<rect x="834" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="852" y="127" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="958.0" y="154" font-size="17" text-anchor="middle" fill="#173650">消元后继续</text>
+<text x="958.0" y="178" font-size="17" text-anchor="middle" fill="#173650">固定权重不再修改</text>
+<path d="M952 224 L952 276 L418.0 276 L418.0 224" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<text x="590" y="267" font-size="13" fill="#31748f">继续下一轮</text>
+<text x="30" y="321" font-size="13" fill="#546c82">教学数据流；实际实现范围与省略内容见配套代码说明</text></g></svg>

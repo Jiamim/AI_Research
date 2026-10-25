@@ -1,0 +1,111 @@
+[
+  {
+    "reference": "R36",
+    "source_id": "gguf",
+    "retrieved_on": "2026-10-10",
+    "url": "https://raw.githubusercontent.com/ggml-org/ggml/master/docs/gguf.md",
+    "raw_sha256": "1dead27b6a522709f0127d194e58c21dbbbf00ba1c64fe37c54d1a9048b05020",
+    "evidence_excerpt": "struct gguf_header_t {\n    // Magic number to announce that this is a GGUF file.\n    // Must be `GGUF` at the byte level: `0x47` `0x47` `0x55` `0x46`.\n    // Your executor might do little-endian byte order, so it might be\n    // check for 0x46554747 and letting the endianness cancel out.\n    // Consider being *very* explicit about the byte order here.\n    uint32_t magic;\n    // The version of the format implemented.\n    // Must be `3` for version described in this spec, which introduces big-endian support.\n    //\n    // This version should only be increased for structural changes to the format.\n    // Changes that do not affect the structure of the file should instead update the metadata\n    // to signify the change.\n    uint32_t version;\n    // The number of tensors in the file.\n    // This is explicit, instead of being included in the metadata, to ensure it is always present\n    // for loading the tensors.\n    uint64_t tensor_count;\n    // The number of metadata key-value pairs.\n    uint64_t metadata_kv_count;\n    // The metadata key-value pairs.\n    gguf_metadata_kv_t metadata_kv[metadata_kv_count];\n};\n\nuint64_t align_offset(uint64_t offset) {\n    return offset + (ALIGNMENT - (offset % ALIGNMENT)) % ALIGNMENT;\n}\n\nstruct gguf_tensor_info_t {\n    // The name of the tensor. It is a standard GGUF string, with the caveat that\n    // it must be at most 64 bytes long.\n    gguf_string_t name;\n    // The number of dimensions in the tensor.\n    // Currently at most 4, but this may change in the future.\n    uint32_t n_dimensions;\n    // The dimensions of the tensor.\n    uint64_t dimensions[n_dimensions];\n    // The type of the tensor.\n    ggml_type type;\n    // The offset of the "
+  },
+  {
+    "reference": "R36",
+    "source_id": "q4_0",
+    "retrieved_on": "2026-10-10",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/ggml/src/ggml-quants.c",
+    "raw_sha256": "5574a2dccf7c07e75b143733e04a5412d3d8c819e7945f5217a7b83a2b2ff8ab",
+    "evidence_excerpt": "void quantize_row_q4_0_ref(const float * GGML_RESTRICT x, block_q4_0 * GGML_RESTRICT y, int64_t k) {\n    static const int qk = QK4_0;\n\n    assert(k % qk == 0);\n\n    const int nb = k / qk;\n\n    for (int i = 0; i < nb; i++) {\n        float amax = 0.0f; // absolute max\n        float max  = 0.0f;\n\n        for (int j = 0; j < qk; j++) {\n            const float v = x[i*qk + j];\n            if (amax < fabsf(v)) {\n                amax = fabsf(v);\n                max  = v;\n            }\n        }\n\n        const float d  = max / -8;\n        const float id = d ? 1.0f/d : 0.0f;\n\n        y[i].d = GGML_FP32_TO_FP16(d);\n\n        for (int j = 0; j < qk/2; ++j) {\n            const float x0 = x[i*qk + 0    + j]*id;\n            const float x1 = x[i*qk + qk/2 + j]*id;\n\n            const uint8_t xi0 = MIN(15, (int8_t)(x0 + 8.5f));\n            const uint8_t xi1 = MIN(15, (int8_t)(x1 + 8.5f));\n\n            y[i].qs[j]  = xi0;\n            y[i].qs[j] |= xi1 << 4;\n        }\n    }\n}\n\nvoid quantize_row_q4_1_ref(const float * GGML_RESTRICT x, block_q4_1 * GGML_RESTRICT y, int64_t k) {\n    const int qk = QK4_1;\n\n    assert(k % qk == 0);\n\n    const int nb = k / qk;\n\n    for (int i = 0; i < nb; i++) {\n        float min = FLT_MAX;\n        float max = -FLT_MAX;\n\n        for (int j = 0; j < qk; j++) {\n            const float v = x[i*qk + j];\n\n            if (v < min) min = v;\n            if (v > max) max = v;\n        }\n\n        const float d  = (max - min) / ((1 << 4) - 1);\n        const float id = d ? 1.0f/d : 0.0f;\n\n        y[i].d = GGML_FP32_TO_FP16(d);\n        y[i].m = GGML_FP32_TO_FP16(min);\n\n        for (int j = 0; j < qk/2; ++j) {\n            const float x0 = (x[i*qk + 0    + j] - min)*id;\n          "
+  },
+  {
+    "reference": "R36",
+    "source_id": "q6_k",
+    "retrieved_on": "2026-10-10",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/ggml/src/ggml-common.h",
+    "raw_sha256": "0061131b615c5721fc88a78feeb22c1f8c450f1c2646a317d80796a653bf595c",
+    "evidence_excerpt": "} block_q6_K;\nstatic_assert(sizeof(block_q6_K) == sizeof(ggml_half) + QK_K / 16 + 3*QK_K/4, \"wrong q6_K block size/padding\");\n\n// This is only used for intermediate quantization and dot products\ntypedef struct {\n    float   d;              // delta\n    int8_t  qs[QK_K];       // quants\n    int16_t bsums[QK_K/16]; // sum of quants in groups of 16\n} block_q8_K;\nstatic_assert(sizeof(block_q8_K) == sizeof(float) + QK_K + QK_K/16*sizeof(int16_t), \"wrong q8_K block size/padding\");\n\n// (Almost) \"true\" 2-bit quantization.\n// Due to the need to use blocks as per ggml design, it ends up using\n// 2.0625 bpw because of the 16-bit scale for each block of 256.\ntypedef struct {\n    ggml_half d;\n    uint16_t qs[QK_K/8];\n} block_iq2_xxs;\nstatic_assert(sizeof(block_iq2_xxs) == sizeof(ggml_half) + QK_K/8*sizeof(uint16_t), \"wrong iq2_xxs block size/padding\");\n\n// 2.3125 bpw quants\ntypedef struct {\n    ggml_half d;\n    uint16_t qs[QK_K/8];\n    uint8_t  scales[QK_K/32];\n} block_iq2_xs;\nstatic_assert(sizeof(block_iq2_xs) == sizeof(ggml_half) + QK_K/8*sizeof(uint16_t) + QK_K/32, \"wrong iq2_xs block size/padding\");\n\n// 2.5625 bpw quants\ntypedef struct {\n    ggml_half d;\n    uint8_t qs[QK_K/4];\n    uint8_t qh[QK_K/32];\n    uint8_t scales[QK_K/32];\n} block_iq2_s;\nstatic_assert(sizeof(block_iq2_s) == sizeof(ggml_half) + QK_K/4 + QK_K/16, \"wrong iq2_s block size/padding\");\n\n// (Almost) \"true\" 3-bit quantization.\n// Due to the need to use blocks as per ggml design, it ends up using\n// 3.0625 bpw because of the 16-bit scale for each block of 256.\ntypedef struct {\n    ggml_half d;\n    uint8_t qs[3*QK_K/8];\n} block_iq3_xxs;\nstatic_assert(sizeof(block_iq3_xxs) == sizeof(ggml_half) + 3*(QK_K/8), \"wrong iq3"
+  },
+  {
+    "source_id": "gptqmodel_awq_packing",
+    "checked_on": "2026-10-18",
+    "version": "7.6.0",
+    "scope": "Actual upstream pack methods and packing utilities executed on CPU in isolation; no GPU kernel or full-model calibration run.",
+    "checks": [
+      "Torch/GEMM qweight, qzeros, scales, bias equality at group 32/64/128, weights shape (32,128)",
+      "Decoded packed INT4 equals independently constructed FP16 weights at all groups"
+    ],
+    "sources": [
+      {
+        "path": "gptqmodel/quantization/awq/utils/packing_utils.py",
+        "url": "https://github.com/ModelCloud/GPTQModel/blob/v7.6.0/gptqmodel/quantization/awq/utils/packing_utils.py",
+        "sha256": "6839f3a1787b5c492fe9cb8ea9a97c9fd6e8d8052f5ffa629b8dd9a44749baae"
+      },
+      {
+        "path": "gptqmodel/nn_modules/qlinear/torch_awq.py",
+        "url": "https://github.com/ModelCloud/GPTQModel/blob/v7.6.0/gptqmodel/nn_modules/qlinear/torch_awq.py",
+        "sha256": "4543a8817d508dd85e958c9468a1576d4a77bd5cc416ad2828f5eec7a00bc1b5"
+      },
+      {
+        "path": "gptqmodel/nn_modules/qlinear/gemm_awq.py",
+        "url": "https://github.com/ModelCloud/GPTQModel/blob/v7.6.0/gptqmodel/nn_modules/qlinear/gemm_awq.py",
+        "sha256": "be053372e716cb82472ee2c5bed471d149a56a3f3f487c7d39a4f44e59c996ae"
+      },
+      {
+        "path": "gptqmodel/nn_modules/qlinear/gemm_awq_triton.py",
+        "url": "https://github.com/ModelCloud/GPTQModel/blob/v7.6.0/gptqmodel/nn_modules/qlinear/gemm_awq_triton.py",
+        "sha256": "9bff2bfeb3fc347c6360ba2bbd71bb91e6bfaf95e7d40f69f09cf2fb96bfa56c"
+      },
+      {
+        "path": "gptqmodel/__init__.py",
+        "url": "https://github.com/ModelCloud/GPTQModel/blob/v7.6.0/gptqmodel/__init__.py",
+        "sha256": "36a3f2c3c532f2bb8d44b5aa43033c6b3d5078d834f5eede4c84bf64c6beeaff"
+      },
+      {
+        "path": "gptqmodel/utils/importer.py",
+        "url": "https://github.com/ModelCloud/GPTQModel/blob/v7.6.0/gptqmodel/utils/importer.py",
+        "sha256": "7184ee3a8f790bdd121022fc31d594094b4d04d666bcc01bd377fcec199c8123"
+      }
+    ]
+  },
+  {
+    "source_id": "slim_llm_salience",
+    "checked_on": "2026-10-20",
+    "commit": "cfdf5ff9a1785ba93197761e47ea66b8786790f2",
+    "scope": "Pinned upstream get_salience method extracted with AST and executed on CPU in isolation; diagonal fixture only, no full model quantization or GPU benchmark.",
+    "sources": [
+      {
+        "path": "slim-llm/slim_gptq.py",
+        "url": "https://github.com/Aaronhuang-778/SliM-LLM/blob/cfdf5ff9a1785ba93197761e47ea66b8786790f2/slim-llm/slim_gptq.py#L62",
+        "retrieved_url": "https://raw.githubusercontent.com/Aaronhuang-778/SliM-LLM/cfdf5ff9a1785ba93197761e47ea66b8786790f2/slim-llm/slim_gptq.py",
+        "sha256": "434c3ee11f68017c88aa79347b8e87d9827df0498d805857e29171a75a9144d6"
+      }
+    ],
+    "checks": [
+      "Hinv stores an upper Cholesky factor of the damped inverse Hessian, not the inverse matrix itself",
+      "Upstream group scores match the independent NumPy/scalar fixture; replacing the factor diagonal with inverse diagonal reverses the highest-ranked group"
+    ],
+    "fixture": {
+      "weight_shape": [
+        1,
+        8
+      ],
+      "group_size": 2,
+      "damping": 0.01,
+      "dtype": "float64",
+      "group_scores": [
+        2.0199999999999996,
+        1.2832000000000003,
+        0.0202,
+        0.00505
+      ]
+    },
+    "paper_difference": {
+      "version": "2405.14917v2",
+      "locations": [
+        "Definition 3.1",
+        "Appendix B, Algorithms 1–2"
+      ],
+      "literal_definition": "w_ij^2 / (H^-1_jj)^2",
+      "algorithm_and_code": "w_ij^2 / U_jj^2, U^T U = (H + damping I)^-1"
+    },
+    "python_torch_version": "2.11.0+cpu"
+  }
+]

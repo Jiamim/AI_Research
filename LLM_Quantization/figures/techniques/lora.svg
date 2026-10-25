@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="450" viewBox="0 0 1100 450" role="img" aria-labelledby="title desc">
+<title id="title">LoRA：低秩增量</title>
+<desc id="desc">用 BA 表示可训练权重增量，秩 r 远小于输入和输出维。前向可把低秩分支拆成两次小矩阵乘，只训练 A/B，从而减少训练参数和优化器状态。；输入 X 分成两条支路；基础路径：XWᵀ；低秩路径：(XAᵀ)Bᵀ；两路相加，仅更新 A/B</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="450" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">LoRA：低秩增量</text>
+<path d="M272 238 L335 238 L335 147 L420 147" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M272 238 L335 238 L335 320 L420 320" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M668 147 L748 147 L748 238 L828 238" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M668 320 L748 320 L748 238 L828 238" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="176" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="203" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="230" font-size="17" text-anchor="middle" fill="#173650">输入 X 分成两条支路</text>
+<rect x="420" y="85" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="438" y="112" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="544.0" y="139" font-size="17" text-anchor="middle" fill="#173650">基础路径：XW^T</text>
+<rect x="420" y="258" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="438" y="285" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="544.0" y="312" font-size="17" text-anchor="middle" fill="#173650">低秩路径：(XA^T)B^T</text>
+<rect x="828" y="176" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="846" y="203" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="952.0" y="230" font-size="17" text-anchor="middle" fill="#173650">两路相加，仅更新 A/B</text>
+<text x="30" y="431" font-size="13" fill="#546c82">教学数据流；实际实现范围与省略内容见配套代码说明</text></g></svg>

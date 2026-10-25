@@ -1,0 +1,4 @@
+-r requirements.txt
+-r requirements-cuda.txt
+nbformat>=5.10
+ipython>=8

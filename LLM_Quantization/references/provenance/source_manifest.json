@@ -1,0 +1,1312 @@
+[
+  {
+    "reference": "R01",
+    "source_id": "gptq",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2210.17323",
+    "version_in_text": "arXiv:2210.17323v2",
+    "extracted_text_sha256": "732305ebd9d3eb9e390d2f372c8da1134ec196282ac66bdcc6d002c06e14f7ff",
+    "extracted_characters": 56568,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction.",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-18",
+        "retrieved_url": "https://arxiv.org/pdf/2210.17323v2",
+        "raw_sha256": "35e339171cd48bbf8dda246bd018b11aa33a5cda0c4a1587cdae574208f56396",
+        "version_in_text": "arXiv:2210.17323v2",
+        "scope": "Relevant calibration, equivalent-transform or online-softmax passages only; no complete benchmark review."
+      },
+      {
+        "retrieved_on": "2026-10-20",
+        "retrieved_url": "https://arxiv.org/html/2210.17323v2",
+        "raw_sha256": "1d7d3724542b4099199f77236623adf030e8fae4f54bfbe983344dea930b9f88",
+        "bytes": 303285,
+        "reviewed_sections": [
+          "§5–6",
+          "Tables 2 and 5"
+        ],
+        "scope": "Experimental conditions, selected within-paper comparisons and costs for the calibration-generalization evidence table; no independent model benchmark reproduction."
+      }
+    ]
+  },
+  {
+    "reference": "R02",
+    "source_id": "gptqv2",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2504.02692",
+    "version_in_text": "arXiv:2504.02692v3",
+    "extracted_text_sha256": "f00eaf059ffa1072d536a32b3842bf669f24439f06ae5c4616206726a513c7c7",
+    "extracted_characters": 60772,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R03",
+    "source_id": "llm_int8",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2208.07339",
+    "version_in_text": "arXiv:2208.07339v2",
+    "extracted_text_sha256": "588c2e7ee8ad22f60464a473f3945f6c9f1352474f0de35496bbb58a0136c55d",
+    "extracted_characters": 71391,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R04",
+    "source_id": "smoothquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://ar5iv.labs.arxiv.org/html/2211.10438",
+    "version_in_text": null,
+    "extracted_text_sha256": "d11c2270a7c3dd2bcbf715f6bb88af68b6a75a18d76430fb01420415a1d9182c",
+    "extracted_characters": 57030,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction.",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-18",
+        "retrieved_url": "https://arxiv.org/pdf/2211.10438",
+        "raw_sha256": "d17856490ff664a99f8d08fe76eabd83219ed048cd1bc18ce3d0571e71056ff8",
+        "version_in_text": "arXiv:2211.10438v7",
+        "scope": "Relevant calibration, equivalent-transform or online-softmax passages only; no complete benchmark review."
+      }
+    ]
+  },
+  {
+    "reference": "R05",
+    "source_id": "awq",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/html/2306.00978v6",
+    "version_in_text": "arXiv:2306.00978v6",
+    "extracted_text_sha256": "f6606ec169d96cbc1ea00bfb7f9f027db42efbda13d964b4e720a66112dcad7b",
+    "extracted_characters": 66211,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction.",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-18",
+        "retrieved_url": "https://arxiv.org/pdf/2306.00978v6",
+        "raw_sha256": "6e35c8fe7af1f18a5c48dd2524629d859a2013a91d4b3666b554705287a17764",
+        "version_in_text": "arXiv:2306.00978v6",
+        "scope": "Relevant calibration, equivalent-transform or online-softmax passages only; no complete benchmark review."
+      },
+      {
+        "retrieved_on": "2026-10-20",
+        "retrieved_url": "https://arxiv.org/html/2306.00978v6",
+        "raw_sha256": "508802807851428587211d1c6c4820180efc8449693e9e60ec275e7ef0b7d9bd",
+        "bytes": 253275,
+        "reviewed_sections": [
+          "§5.1",
+          "§5.3",
+          "Figure 8"
+        ],
+        "scope": "Experimental conditions, selected within-paper comparisons and costs for the calibration-generalization evidence table; no independent model benchmark reproduction."
+      }
+    ]
+  },
+  {
+    "reference": "R06",
+    "source_id": "zeroquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2206.01861",
+    "version_in_text": "arXiv:2206.01861v1",
+    "extracted_text_sha256": "690511497fbc60e0e74a08956c9ce932d96fdc76f03c75ad8953d2e7cf2547e9",
+    "extracted_characters": 77652,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R07",
+    "source_id": "rptq",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2304.01089v4",
+    "version_in_text": "arXiv:2304.01089v4",
+    "extracted_text_sha256": "19c797a781da9d063e14280e23ec6da65b93079da6b0cfa7518e70464b3e97cb",
+    "extracted_characters": 57963,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R08",
+    "source_id": "omniquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2308.13137",
+    "version_in_text": "arXiv:2308.13137v3",
+    "extracted_text_sha256": "afbe5ee79606f1cd3720a3bdef9e3e4832207ce5c1d38550f5171a8c746f685d",
+    "extracted_characters": 82924,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction.",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-18",
+        "retrieved_url": "https://arxiv.org/pdf/2308.13137v3",
+        "raw_sha256": "8aa575f85ffb4da0a4bcfd4143c2c3ddbd4805cbdac4d39448c9960d5a29036f",
+        "version_in_text": "arXiv:2308.13137v3",
+        "scope": "Relevant calibration, equivalent-transform or online-softmax passages only; no complete benchmark review."
+      }
+    ]
+  },
+  {
+    "reference": "R09",
+    "source_id": "autoround",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2309.05516",
+    "version_in_text": "arXiv:2309.05516v5",
+    "extracted_text_sha256": "910d7262c8ab7df3945fd42a856b7536a5fd498ceb47457b59ca84959124294a",
+    "extracted_characters": 73261,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R10",
+    "source_id": "hqq_code",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://raw.githubusercontent.com/mobiusml/hqq/master/hqq/core/optimize.py",
+    "version_in_text": null,
+    "extracted_text_sha256": "0b3d1357dd180574ae46cb0d4af15e6621db2fae253d2b375f474431abecf591",
+    "extracted_characters": 14989,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R11",
+    "source_id": "quarot",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2404.00456",
+    "version_in_text": "arXiv:2404.00456v2",
+    "extracted_text_sha256": "049b6464b06bdb33628b4f76ce2a2d39d88313aa17cda04571f43799ef9821b7",
+    "extracted_characters": 61942,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R12",
+    "source_id": "spinquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2405.16406",
+    "version_in_text": "arXiv:2405.16406v4",
+    "extracted_text_sha256": "c8b1fe9e288c9a1dd58581374f0365096fb46b48f3d2d8455b36677e469f57d1",
+    "extracted_characters": 77238,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R13",
+    "source_id": "flatquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2410.09426",
+    "version_in_text": "arXiv:2410.09426v4",
+    "extracted_text_sha256": "0a75fed51177ecc32111096b4ed56ef35215f47136a3cc99bb2b7ccd68a11d0c",
+    "extracted_characters": 95953,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R14",
+    "source_id": "quip",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2307.13304",
+    "version_in_text": "arXiv:2307.13304v2",
+    "extracted_text_sha256": "3d2914041cfb5922354b62d616a9ab5010e5395a32d79199f7bf765af3771127",
+    "extracted_characters": 100976,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R15",
+    "source_id": "quip_sharp",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2402.04396",
+    "version_in_text": "arXiv:2402.04396v2",
+    "extracted_text_sha256": "0f5fb8eaf18dc3a5dd0d844cadbfd8ac38ff6badc0e3e1f8e21dfe7d24212a62",
+    "extracted_characters": 78777,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R16",
+    "source_id": "aqlm",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2401.06118",
+    "version_in_text": "arXiv:2401.06118v4",
+    "extracted_text_sha256": "5474c9339fc9b0d08d7e1c9273506cbbf416551c796789e2af836cc50fcc9195",
+    "extracted_characters": 79008,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R17",
+    "source_id": "squeezellm",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2306.07629",
+    "version_in_text": "arXiv:2306.07629v4",
+    "extracted_text_sha256": "1c68ce7a7ade42678b1ee5c393f0532b928101a29462b2787042da8a164055a0",
+    "extracted_characters": 92468,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R18",
+    "source_id": "spqr",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/html/2306.03078v1",
+    "version_in_text": "arXiv:2306.03078v1",
+    "extracted_text_sha256": "dfd36e7ed910a717c737405d71479d2515a9cdc840b1dd8dfdb2e46d228bb935",
+    "extracted_characters": 83952,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R19",
+    "source_id": "owq",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2306.02272",
+    "version_in_text": "arXiv:2306.02272v4",
+    "extracted_text_sha256": "1bffc842058026313e47d86963db08a945e9af4c65c5dd6c2fa3b9f1e4eabf31",
+    "extracted_characters": 59730,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R20",
+    "source_id": "pact",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/1805.06085v2",
+    "version_in_text": "arXiv:1805.06085v2",
+    "extracted_text_sha256": "eaf3b2005a8e7850492d3d3f4ea5db082aa71255deb08482076ac263bc0e4b10",
+    "extracted_characters": 47172,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R21",
+    "source_id": "lsq",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/1902.08153",
+    "version_in_text": "arXiv:1902.08153v3",
+    "extracted_text_sha256": "75e6c5e1b176344a4109f1acbcd9be7fa0d803bba8387217b30d2e6b86a604c6",
+    "extracted_characters": 40714,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R22",
+    "source_id": "llm_qat",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2305.17888v1",
+    "version_in_text": "arXiv:2305.17888v1",
+    "extracted_text_sha256": "9a07145c7ca2cf6a34afe93ebd3390b07200719436edf8b8f2b38403d653750c",
+    "extracted_characters": 53818,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R23",
+    "source_id": "efficientqat",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2407.11062",
+    "version_in_text": "arXiv:2407.11062v3",
+    "extracted_text_sha256": "e8147ec7b426870e0efdf59a89abcf43b56204872029b5b7eb80110ababf17b0",
+    "extracted_characters": 68900,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R24",
+    "source_id": "qlora",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2305.14314v1",
+    "version_in_text": "arXiv:2305.14314v1",
+    "extracted_text_sha256": "dad0c8cbaa120dfe3187d4d005d2e7d613f066b0bf7441b959f66e09038a3b2a",
+    "extracted_characters": 87845,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R25",
+    "source_id": "loftq",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2310.08659",
+    "version_in_text": "arXiv:2310.08659v4",
+    "extracted_text_sha256": "d84e065809bfca52e5ad4aed625c1cdf548d7a945753124b6f02286eb870b948",
+    "extracted_characters": 48635,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R26",
+    "source_id": "bitnet",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/html/2402.17764v1",
+    "version_in_text": "arXiv:2402.17764v1",
+    "extracted_text_sha256": "6b1ff718407abb34aad37dd96ae866a5196c5224bc887d01177142517197585f",
+    "extracted_characters": 23130,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R27",
+    "source_id": "kivi",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2402.02750",
+    "version_in_text": "arXiv:2402.02750v2",
+    "extracted_text_sha256": "935830f373f319b8dcd13c1b7b39549970a6e0bbc38f9298e416ac040cbd24e5",
+    "extracted_characters": 54021,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction.",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-18",
+        "retrieved_url": "https://arxiv.org/html/2402.02750v2",
+        "raw_sha256": "3619073693a06959b42a36830f846c7b9325c71e7124ab19ceb83791e2be58c7",
+        "version_in_text": "arXiv:2402.02750v2",
+        "scope": "K/V grouping, residual buffer and streaming update passages; not a GPU reproduction."
+      }
+    ]
+  },
+  {
+    "reference": "R28",
+    "source_id": "kvquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2401.18079",
+    "version_in_text": "arXiv:2401.18079v6",
+    "extracted_text_sha256": "4c29f3e7add64002c6f3b31c61b60cd653a25a09a883a8664e810b045c2fed30",
+    "extracted_characters": 94611,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R29",
+    "source_id": "turboquant",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2504.19874",
+    "version_in_text": "arXiv:2504.19874v1",
+    "extracted_text_sha256": "f85c821e77fec535111003b2679ee450be95ac9f13673ef25668ed9f1d007ba6",
+    "extracted_characters": 64478,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R30",
+    "source_id": "sageattention",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/html/2410.02367v6",
+    "version_in_text": "arXiv:2410.02367v6",
+    "extracted_text_sha256": "04cc2abfcb53be90908e41c2ab7187564ac0a71f3caf39c1295c3d7305a7ff60",
+    "extracted_characters": 66317,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R31",
+    "source_id": "sageattention2",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/html/2411.10958v2",
+    "version_in_text": "arXiv:2411.10958v2",
+    "extracted_text_sha256": "cea1744a82522f7f3b342acd4032751a190601064d097066ea20698d8d85bcc7",
+    "extracted_characters": 58602,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R32",
+    "source_id": "sageattention3",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/html/2505.11594v2",
+    "version_in_text": "arXiv:2505.11594v2",
+    "extracted_text_sha256": "35056139504a18d46b7a0e61e7343540955f2003054dc36f1d0afcb3e15b7b19",
+    "extracted_characters": 95592,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R33",
+    "source_id": "fp8_paper",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/pdf/2209.05433",
+    "version_in_text": "arXiv:2209.05433v2",
+    "extracted_text_sha256": "72f4c1a0455be54dd553c186fd38a77cdda7b7d73473295ab3c9a0cd0a395d5d",
+    "extracted_characters": 32919,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R34",
+    "source_id": "ocp_mx",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf",
+    "version_in_text": null,
+    "extracted_text_sha256": "fa31e388ee78efa2466226a16dc99ccff4dff5d011c16ec20bd633ecb04457e2",
+    "extracted_characters": 24969,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R35",
+    "source_id": "nvfp4",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/",
+    "version_in_text": null,
+    "extracted_text_sha256": "e0aceb04cc31fe3950870f5dfc285080c7b01bd3eb01bd385c4b41dce89b47b6",
+    "extracted_characters": 19408,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "reference": "R36",
+    "source_id": "ggml_types",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/ggml/src/ggml-common.h",
+    "version_in_text": null,
+    "extracted_text_sha256": "87ce67c58f52077bc2dfefa9f759b3f1d95b65b4f91e1f7da404e40dc63213ea",
+    "extracted_characters": 134961,
+    "evidence": "Primary document or author code retrieved; tutorial reviews relevant sections, not a full benchmark reproduction."
+  },
+  {
+    "source_id": "smoothquant_code",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://raw.githubusercontent.com/mit-han-lab/smoothquant/main/smoothquant/smooth.py",
+    "extracted_text_sha256": "6e343f3cbb64b114b19c91008d62d297cb8946ebe52081a79fb784985b3d926b",
+    "extracted_characters": 6136
+  },
+  {
+    "source_id": "bitsandbytes_nf4",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://raw.githubusercontent.com/bitsandbytes-foundation/bitsandbytes/main/bitsandbytes/backends/utils.py",
+    "extracted_text_sha256": "99b60ac08c9b847bc4985c9d82fee557b3219d9e4fa378391bd6fa9cfdbc092c",
+    "extracted_characters": 2321
+  },
+  {
+    "source_id": "qlora_code",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://raw.githubusercontent.com/artidoro/qlora/main/README.md",
+    "extracted_text_sha256": "68df26e1dceec6b1f2974216ee1c393e35783151d0d81005396da806e14c6ba9",
+    "extracted_characters": 10903
+  },
+  {
+    "source_id": "llama_quantize",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/tools/quantize/README.md",
+    "extracted_text_sha256": "49f6723373f02baef20364abac2b7db8d4b29bbf5caa3216cf886e0b54400c38",
+    "extracted_characters": 12339
+  },
+  {
+    "source_id": "gptaq_abstract",
+    "retrieved_on": "2026-10-10",
+    "retrieved_url": "https://arxiv.org/abs/2504.02692",
+    "extracted_text_sha256": "95f1a86b6e83fa2096c3a6e54f29a3d7c3b64ab25ddbab163e3ba38327f35127",
+    "extracted_characters": 4745
+  },
+  {
+    "source_id": "flashattention2",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-18",
+        "retrieved_url": "https://arxiv.org/pdf/2307.08691",
+        "raw_sha256": "4aa8935dfacaf6ae8c68f772ca92f730154a0dd0e1bceeb59c7bc56c512d5868",
+        "version_in_text": "arXiv:2307.08691v1",
+        "scope": "Relevant calibration, equivalent-transform or online-softmax passages only; no complete benchmark review."
+      }
+    ]
+  },
+  {
+    "source_id": "leanquant",
+    "reference": "X01",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2407.10032v3",
+    "version_in_text": "arXiv:2407.10032v3",
+    "raw_sha256": "526ce21441b1e70dac8a52a058ebc83a047b303741906a2f4db2db608993a35e",
+    "reviewed_sections": [
+      "§3.1–3.2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction.",
+    "retrievals": [
+      {
+        "retrieved_on": "2026-10-20",
+        "retrieved_url": "https://arxiv.org/html/2407.10032v3",
+        "raw_sha256": "526ce21441b1e70dac8a52a058ebc83a047b303741906a2f4db2db608993a35e",
+        "bytes": 663507,
+        "reviewed_sections": [
+          "§4",
+          "Table 9",
+          "Table 13"
+        ],
+        "scope": "Experimental conditions, selected within-paper comparisons and costs for the calibration-generalization evidence table; no independent model benchmark reproduction."
+      }
+    ]
+  },
+  {
+    "source_id": "sinq",
+    "reference": "X02",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2509.22944v4",
+    "version_in_text": "arXiv:2509.22944v4",
+    "raw_sha256": "de70af292bb28648f71f7b590b9f566a1c82ae387d0db89c3bc7f83d3f9965fa",
+    "reviewed_sections": [
+      "§2.1–2.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "dualquant",
+    "reference": "X03",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.13767v1",
+    "version_in_text": "arXiv:2610.13767v1",
+    "raw_sha256": "eb28173622f2e939a056f0fb7aa00e472f9682cf13bfad6c3e49b56a690ac8b4",
+    "reviewed_sections": [
+      "§4.2–4.4",
+      "§5.2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "pvtuning",
+    "reference": "X04",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2405.14852v2",
+    "version_in_text": "arXiv:2405.14852v2",
+    "raw_sha256": "42603fa6afbc01d0aef7c4c45601afb06d200c78fe56e214fa47f85975ad2346",
+    "reviewed_sections": [
+      "§3.1–3.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "mixed_training",
+    "reference": "X05",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.17637v1",
+    "version_in_text": "arXiv:2610.17637v1",
+    "raw_sha256": "26810a62c4a059e2e7c66a3e6d5e28a26e112706de65210083d1af765f3884d7",
+    "reviewed_sections": [
+      "§3–4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "tmac",
+    "reference": "X06",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2407.00088v2",
+    "version_in_text": "arXiv:2407.00088v2",
+    "raw_sha256": "00559ecc6488211fe57c2074b70ac7f44b0a743a0f8b93e92b7035da7638fd5a",
+    "reviewed_sections": [
+      "§3.1–3.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "fp6llm",
+    "reference": "X07",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2401.14112v2",
+    "version_in_text": "arXiv:2401.14112v2",
+    "raw_sha256": "d68a8882410cac56b309017f0ddf9ea0e7f831ae2b135727e948eff700dc2b4f",
+    "reviewed_sections": [
+      "§5.1–5.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "qrazor",
+    "reference": "X08",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2501.13331v2",
+    "version_in_text": "arXiv:2501.13331v2",
+    "raw_sha256": "db58017578ac43acaa3ff367c3562fc804effcd2c6d16012c9f348adca96535b",
+    "reviewed_sections": [
+      "§4.1–4.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "fpot",
+    "reference": "X09",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.21257v1",
+    "version_in_text": "arXiv:2610.21257v1",
+    "raw_sha256": "a8adda7029db37dfd9c099eea7e3698a817600e494fcda72244acf1856398420",
+    "reviewed_sections": [
+      "§3",
+      "§4.2 hardware scope"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "gptvq",
+    "reference": "X10",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2402.15319v2",
+    "version_in_text": "arXiv:2402.15319v2",
+    "raw_sha256": "4ea0b6a425de50ddc500795acda96ea28f214a1a2b635968bc984481c8251fe8",
+    "reviewed_sections": [
+      "§4",
+      "Algorithms 1–2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "spectrumquant",
+    "reference": "X11",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.20303v1",
+    "version_in_text": "arXiv:2610.20303v1",
+    "raw_sha256": "d7ef15bfb21f18c495103578351d0a5fa3106461b54687eb60831113e06ea03a",
+    "reviewed_sections": [
+      "§4.1–4.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "sage_vq",
+    "reference": "X12",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.14745v1",
+    "version_in_text": "arXiv:2610.14745v1",
+    "raw_sha256": "a566c0f4c6f068ac30de562ce8f5dd1cd9df5c4f2037a2472f548ebdad2e9282",
+    "reviewed_sections": [
+      "§3.1–3.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "fidelityq",
+    "reference": "X13",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.14934v1",
+    "version_in_text": "arXiv:2610.14934v1",
+    "raw_sha256": "7f670a1f890c8d202514118082ef7992977bba9df83174a0510a9e3312389e9a",
+    "reviewed_sections": [
+      "§3.1–3.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "roleq",
+    "reference": "X14",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.21808v1",
+    "version_in_text": "arXiv:2610.21808v1",
+    "raw_sha256": "beaf13ec0c3940aa391cf1acf36e09024663d9cacdecafa4b3c0202e75b4ce69",
+    "reviewed_sections": [
+      "§3.1–3.5"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "natscale",
+    "reference": "X15",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.20353v1",
+    "version_in_text": "arXiv:2610.20353v1",
+    "raw_sha256": "4a67faa8d58092db93ab658cdd0d328499d34739f5eb9db3c02af15e866cf27d",
+    "reviewed_sections": [
+      "§3.2–3.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "moe_negative",
+    "reference": "X16",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.20826v1",
+    "version_in_text": "arXiv:2610.20826v1",
+    "raw_sha256": "a2a10678c70233d272efca5dba5bbd5059633400120d0277f345cd4f3883e01e",
+    "reviewed_sections": [
+      "§3.7–3.8",
+      "§5.3 limitations"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "loopquant",
+    "reference": "X17",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.16368v1",
+    "version_in_text": "arXiv:2610.16368v1",
+    "raw_sha256": "63cd5980ea53c545b3f903ea97b879bf71eb21b9ab8055ed043704b251128532",
+    "reviewed_sections": [
+      "§4.1–4.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "skvq",
+    "reference": "X18",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2405.06219v3",
+    "version_in_text": "arXiv:2405.06219v3",
+    "raw_sha256": "1923e697b209f90558d2b635495acb6d4547321ec54cb637a35529ee95878292",
+    "reviewed_sections": [
+      "§3.1–3.2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "kvtuner",
+    "reference": "X19",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2502.04420v5",
+    "version_in_text": "arXiv:2502.04420v5",
+    "raw_sha256": "bdee856f9577b6eae3a70dba85c8e1efd5dc4ca38428115910efa5446a7760fd",
+    "reviewed_sections": [
+      "§5.1–5.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "multi_alloc",
+    "reference": "X20",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.18642v1",
+    "version_in_text": "arXiv:2610.18642v1",
+    "raw_sha256": "aeaae95ae9d091e3b86fc21fe9a083d1ef213d3b16c2e690833b6d923421799d",
+    "reviewed_sections": [
+      "§4.4–4.5"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "pnmix",
+    "reference": "X21",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.19605v1",
+    "version_in_text": "arXiv:2610.19605v1",
+    "raw_sha256": "592d70ee87547babba026b45ecef3dcd18af4397e784dc385bb02b09c1257f9f",
+    "reviewed_sections": [
+      "§4.2",
+      "§5.1–5.2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "quantmla",
+    "reference": "X22",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2609.36760v2",
+    "version_in_text": "arXiv:2609.36760v2",
+    "raw_sha256": "4a5446a22328793d828185393c435c75c2665caa318e40e7234301793915b7eb",
+    "reviewed_sections": [
+      "§2.1",
+      "§3.1–3.2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "state_updates",
+    "reference": "X23",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.15709v1",
+    "version_in_text": "arXiv:2610.15709v1",
+    "raw_sha256": "33b00bd2101d46c127114385489d50ce9d14adee6fefed76c127c0f801da0c6e",
+    "reviewed_sections": [
+      "§2.1–2.3",
+      "§3.1–3.2"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "state_scale",
+    "reference": "X24",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.15139v1",
+    "version_in_text": "arXiv:2610.15139v1",
+    "raw_sha256": "3364998a9f4d59ab1d0a1fa74937ac996fbb7bcfb8cdd95d81a5e14c1d22df2c",
+    "reviewed_sections": [
+      "§5–6"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "fast_qjl",
+    "reference": "X25",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.16289v1",
+    "version_in_text": "arXiv:2610.16289v1",
+    "raw_sha256": "e5b42b6acccb04292ec1302f171c7689311dea886e243be5dec0eb2b3a184711",
+    "reviewed_sections": [
+      "§3.1–3.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "ngram_memory",
+    "reference": "X26",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.21810v1",
+    "version_in_text": "arXiv:2610.21810v1",
+    "raw_sha256": "a8ebfc17709222a5e8ccd7d2fdd98921d5c0457aaf165a7bdc407b2ee03477d2",
+    "reviewed_sections": [
+      "§3.1–3.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "atom",
+    "reference": "X27",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2310.19102v3",
+    "version_in_text": "arXiv:2310.19102v3",
+    "raw_sha256": "0bce3168e2cc78400707fd510f9421dfce8934d6032da2958297a6e16cf0b146",
+    "reviewed_sections": [
+      "§4.1–4.4"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "qqq",
+    "reference": "X28",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2406.09904v3",
+    "version_in_text": "arXiv:2406.09904v3",
+    "raw_sha256": "f741d7c0567e1c9c364220dc67bf0a4779e0bfc85a6b15b4286efc85a006b63b",
+    "reviewed_sections": [
+      "§3.1–3.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "spec_quant",
+    "reference": "X29",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2505.22179v2",
+    "version_in_text": "arXiv:2505.22179v2",
+    "raw_sha256": "86d6098e61294c7418bd73a20b9fb1f16f6bf727f307bf0f8278b147ab659449",
+    "reviewed_sections": [
+      "§3.2–3.3"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "ptq_eval",
+    "reference": "X30",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2507.17417v3",
+    "version_in_text": "arXiv:2507.17417v3",
+    "raw_sha256": "642e4faf37d07f335a0f3f0e525c1fcd555ff609d5b1b42602b0757d342ea8af",
+    "reviewed_sections": [
+      "§III-A",
+      "§III-C"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "feedback",
+    "reference": "X31",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2610.18139v1",
+    "version_in_text": "arXiv:2610.18139v1",
+    "raw_sha256": "c838564add5eb82678b5ef22482367cc63067cb49ff1bb32b8a3f0ae0655f4e5",
+    "reviewed_sections": [
+      "Finite-level quantization: the role of scale"
+    ],
+    "evidence": "Mechanism and boundary discussion; not a complete paper or GPU reproduction."
+  },
+  {
+    "source_id": "tmac_project",
+    "reference": "XP01",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/microsoft/T-MAC/main/README.md",
+    "raw_sha256": "ae3d63264c0a8a4fe87195db5c61780bad3b6ff85b262c6d3d0aed7007185ffb",
+    "evidence": "Author README read; no installation or model/kernel benchmark."
+  },
+  {
+    "source_id": "sinq_project",
+    "reference": "XP02",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/huawei-csl/SINQ/main/README.md",
+    "raw_sha256": "5a24789e78c6df4e50f4bd9600023404cc53a789c5648fd9be5beee4a11a4044",
+    "evidence": "Author README read; no installation or model/kernel benchmark."
+  },
+  {
+    "source_id": "pvtuning_project",
+    "reference": "XP03",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/Vahe1994/AQLM/pv-tuning/README.md",
+    "raw_sha256": "c92edfa66da6da9b3d70ac7aa1529ace3d67fdc07992eb36344ad32aff3ff665",
+    "evidence": "Author README read; no installation or model/kernel benchmark."
+  },
+  {
+    "source_id": "qqq_project",
+    "reference": "XP04",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/HandH1998/QQQ/main/README.md",
+    "raw_sha256": "e6c8024409e729c10b2807f380ff192d42d3c37dcae8c550c6ac15240cbc1f38",
+    "evidence": "Author README read; no installation or model/kernel benchmark."
+  },
+  {
+    "source_id": "deepseek_v2_mla",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/pdf/2405.04434",
+    "version_in_text": "arXiv:2405.04434v5",
+    "raw_sha256": "f149f9c09aa8b46ce6a740a255a99b7cc2317ac5b065989339919b7e6c329c9b",
+    "reviewed_sections": [
+      "§2.1 MLA/decoupled RoPE"
+    ],
+    "evidence": "Architecture background for cache tensors and absorbed projections, not benchmark reproduction."
+  },
+  {
+    "source_id": "equalization_bias_correction",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/1906.04721",
+    "raw_sha256": "5e24d2d0ae2cc2485c5797f149fc5925eae5314428cbb2726d296e6b6741d23e",
+    "reviewed_sections": [
+      "§4.1–4.2"
+    ],
+    "evidence": "Foundational equalization and output bias correction; vision experiments are not LLM evidence.",
+    "reference": "X32",
+    "version_in_text": "arXiv:1906.04721v3"
+  },
+  {
+    "source_id": "adaround",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2004.10568",
+    "raw_sha256": "de3ec79415f07901a14f6987eb53d47ce91a1d67bf88a43233e1c9a6ade89a43",
+    "reviewed_sections": [
+      "§3; equations 23–25"
+    ],
+    "evidence": "Soft rounding and asymmetric reconstruction; no model benchmark reproduced.",
+    "reference": "X33",
+    "version_in_text": "arXiv:2004.10568v2"
+  },
+  {
+    "source_id": "brecq",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/html/2102.05426",
+    "raw_sha256": "37b453c7442d299c4ecda1729f6d7828ba7fafb92d10c8d24f04c4d233ea7647",
+    "reviewed_sections": [
+      "§3"
+    ],
+    "evidence": "Block reconstruction and Fisher approximation; no LLM accuracy extrapolation.",
+    "reference": "X34",
+    "version_in_text": "arXiv:2102.05426v2"
+  },
+  {
+    "source_id": "llmbook_public_pdf",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/LLMBook.pdf",
+    "raw_sha256": "8a3d26e2030334013c22eb95708bf57e47cc605eb97a9cfa8cb37b75fd1976a6",
+    "reviewed_sections": [
+      "Full table of contents",
+      "§4.2",
+      "§5.2",
+      "§6.4",
+      "§7.2–7.3",
+      "§9.2–9.4",
+      "Chapter 12 relevant evaluation passages"
+    ],
+    "evidence": "391-page public PDF retrieved; selected relevant sections reviewed, not a cover-to-cover reading claim."
+  },
+  {
+    "source_id": "mit65940_quant1",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://www.dropbox.com/scl/fi/qc2s9opsa2mnqfithvwz1/Lec05-Quantization-I.pdf?rlkey=sizfzkdv85etnplz1nqgngeql&dl=1",
+    "raw_sha256": "711f915f8ca2fac531d2db2c8d12067624fa9fbaf5a7d12c8834aab763e68664",
+    "reviewed_sections": [
+      "Lecture 5: numeric formats, linear quantization, integer output pipeline"
+    ],
+    "evidence": "Public lecture slides reviewed; no course lab execution."
+  },
+  {
+    "source_id": "mit65940_quant2",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://www.dropbox.com/scl/fi/qt970xoje5d1btek4a8cl/Lec06-Quantization-II.pdf?rlkey=lalxz5ed2hez0olwu4e4gokbj&dl=1",
+    "raw_sha256": "14cd7fe6a49357e24616418d1618e9908d3fbc5b41da135b6b973f4cf377ede9",
+    "reviewed_sections": [
+      "Lecture 6: granularity, activation calibration, adaptive rounding, QAT"
+    ],
+    "evidence": "Public lecture slides reviewed; vision model performance not extrapolated to LLMs."
+  },
+  {
+    "source_id": "gptq_configuration_source",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/IST-DASLab/gptq/main/gptq.py",
+    "raw_sha256": "bb47468cc2c788577562751de414d76eeb9968ff1c6098e21153557ef3d154c7",
+    "reviewed_sections": [
+      "GPTQ.fasterquant"
+    ],
+    "evidence": "Blocksize, groupsize, actorder, static groups and dead-column handling."
+  },
+  {
+    "source_id": "gptq_sequential_source",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/IST-DASLab/gptq/main/llama.py",
+    "raw_sha256": "f011982054dfa4eeaa0de9aa9af33afca3fc033e209ee02c0c29ff62d638d167",
+    "reviewed_sections": [
+      "llama_sequential"
+    ],
+    "evidence": "Within-block calibration dependency groups; no GPU execution."
+  },
+  {
+    "source_id": "vllm_serving_metrics",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/vllm-project/vllm/main/vllm/benchmarks/serve.py",
+    "raw_sha256": "69097d7900f07d5ebe1e8a6bf055f76c8d7dcc6f1b435b4a1700bf1d2f8e8cb0",
+    "reviewed_sections": [
+      "calculate_metrics",
+      "goodput and request-rate options"
+    ],
+    "evidence": "Metric semantics and load-generation definitions; no service benchmark run."
+  },
+  {
+    "source_id": "marlin_execution_design",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://raw.githubusercontent.com/IST-DASLab/marlin/master/README.md",
+    "raw_sha256": "932be7cfcd7eb90f2ce42f2c6ba75eda73400d635ede09961b83ffae9d23d5d1",
+    "reviewed_sections": [
+      "Techniques",
+      "Usage",
+      "Benchmarks scope"
+    ],
+    "evidence": "Layout, dequantization scheduling and execution conditions; no benchmark reproduced."
+  },
+  {
+    "reference": "N13",
+    "source_id": "review_prquant_retry",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/abs/2609.22106v2",
+    "raw_sha256": "885f493862918c049eb8e9f24c1526ec72ce0d3685ac9644b4de2189e125e23c",
+    "version_in_text": "arXiv:2609.22106v2",
+    "scope": "Title and submission history; arXiv identifier prefix was not used to infer first submission date."
+  },
+  {
+    "reference": "N14",
+    "source_id": "review_osfp4",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/abs/2610.08231",
+    "raw_sha256": "b67bb7600c11bdc4695194db6a0b5120511d7b91b4317fe30947f11cefcfbebe",
+    "version_in_text": "arXiv:2610.08231v1",
+    "scope": "Title, abstract and submission history only."
+  },
+  {
+    "reference": "N23",
+    "source_id": "review_bitsmoe",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/abs/2606.00079",
+    "raw_sha256": "2faa52ac6fbdd091a244736299af340630ea41d55735cc26a9266bb32e71eb94",
+    "version_in_text": "arXiv:2606.00079v2",
+    "scope": "Title, abstract and submission history only."
+  },
+  {
+    "reference": "N31",
+    "source_id": "review_bitnet",
+    "retrieved_on": "2026-10-18",
+    "retrieved_url": "https://arxiv.org/abs/2504.12285v2",
+    "raw_sha256": "d2499eabe0ec7ba5756273eefa17480b4bea43f82f642df224e16e5434c51749",
+    "version_in_text": "arXiv:2504.12285v2",
+    "scope": "Title, abstract and submission history only."
+  },
+  {
+    "reference": "G01",
+    "source_id": "gpu_arch_nvidia_cuda_gpus",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://developer.nvidia.com/cuda-gpus",
+    "title": "GPU计算能力映射",
+    "raw_sha256": "d04c9715c1e8617111dbfd20f786c5edb0acdae277aab6548f0f7f43544fbe7a",
+    "bytes": 25538,
+    "scope": "设备名与SM版本",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G02",
+    "source_id": "gpu_arch_ptx_archive",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.nvidia.com/cuda/archive/13.0.0/parallel-thread-execution/index.html",
+    "title": "PTX ISA 9.0",
+    "raw_sha256": "e91dafce5083999eec0a2d5c86143edd3fb9cdd4b592f031ef8bc236c279dd78",
+    "bytes": 3312703,
+    "scope": "mma.sync/tcgen05与块缩放目标约束",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G03",
+    "source_id": "gpu_arch_cutlass_blackwell",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.nvidia.com/cutlass/latest/media/docs/cpp/blackwell_functionality.html",
+    "title": "CUTLASS SM100/SM120",
+    "raw_sha256": "297dbfc377a33147b10cb10c42570304e27bcdb3acdb958693b937d07cfb298f",
+    "bytes": 203420,
+    "scope": "窄精度类型、布局和集群差异",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G04",
+    "source_id": "gpu_arch_rocm_precision",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://rocm.docs.amd.com/en/latest/reference/precision-support.html",
+    "title": "ROCm精度支持",
+    "raw_sha256": "bf01cdb2d9162759ebf2e5590e87a41a595def2f587987c95b2d35609f5387c1",
+    "bytes": 121326,
+    "scope": "CDNA3/4、RDNA4的数据类型与矩阵核心",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G05",
+    "source_id": "gpu_arch_mi350",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi350.html",
+    "title": "AMD MI350微架构",
+    "raw_sha256": "5775c12f2ef2476e687cdaeaedac532493a2fe9ad008b974f0f55466afd84062",
+    "bytes": 61015,
+    "scope": "MXFP4/6/8硬件支持",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G06",
+    "source_id": "gpu_arch_cdna4_isa",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/instruction-set-architectures/amd-instinct-cdna4-instruction-set-architecture.pdf",
+    "title": "AMD CDNA4 ISA",
+    "raw_sha256": "c459fb8db759006da52df57b5d7b913686ed7a68b52dc76e3f557f553a5d667f",
+    "bytes": 4596505,
+    "scope": "§7.2块尺度、MFMA指令",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G07",
+    "source_id": "gpu_arch_hip_low_fp",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/reference/low_fp_types.html",
+    "title": "HIP低精度格式",
+    "raw_sha256": "9da493742d39bac0b2cb5ac4d93f012710552083a59060bc3ea75788fbff21ef",
+    "bytes": 259637,
+    "scope": "FP6规格与FP8 FNUZ/OCP兼容性",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G08",
+    "source_id": "gpu_arch_hipblaslt_datatypes",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://rocm.docs.amd.com/projects/hipBLASLt/en/latest/datatypes.html",
+    "title": "hipBLASLt 1.4.1",
+    "raw_sha256": "55ce8999f47371a6f595803c58980ed5bff464cbfa8b6d08eae76a2b750a4286",
+    "bytes": 196963,
+    "scope": "VEC32_UE8M0及VEC16_UE4M3限制",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G09",
+    "source_id": "gpu_arch_quark_fp4",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://quark.docs.amd.com/latest/tutorials/torch/example_fp4.html",
+    "title": "Quark 0.13 FP4教程",
+    "raw_sha256": "9208db0ddab01899aadbc242549a46784c5f78581a967d49d039928067dc2c3e",
+    "bytes": 88480,
+    "scope": "MXFP4校准与导出，非原生速度证明",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G10",
+    "source_id": "gpu_arch_te28",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://archive.docs.nvidia.com/deeplearning/transformer-engine-releases/release-2.8/user-guide/examples/fp8_primer.html",
+    "title": "Transformer Engine 2.8",
+    "raw_sha256": "68c4623defb35d92e60a83c67b88d29c7c2923a28770703220d5daed94badf9c",
+    "bytes": 168628,
+    "scope": "MXFP8转置和NVFP4训练配方",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G11",
+    "source_id": "gpu_arch_deepgemm_pinned",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://raw.githubusercontent.com/deepseek-ai/DeepGEMM/1fc9c66975ee322d628b3288534ca0e9ce12a64d/README.md",
+    "title": "DeepGEMM 1fc9c66",
+    "raw_sha256": "1112521165450d617bf0ff0cc06d8944f7b4548ecf4727e1d16143671014a4d2",
+    "bytes": 13257,
+    "scope": "SM90/SM100尺度类型和用户侧转换成本",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G12",
+    "source_id": "gpu_arch_flashinfer_fp4",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.flashinfer.ai/generated/flashinfer.gemm.mm_fp4.html",
+    "title": "FlashInfer 0.7.2 mm_fp4",
+    "raw_sha256": "1c8493bba5e8d37fb848505629bd2478da1b5fe02f600917c2aff4ada4833714",
+    "bytes": 132322,
+    "scope": "块长、scale布局、后端形状与shuffle契约",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G13",
+    "source_id": "gpu_arch_flashinfer_mxfp8",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.flashinfer.ai/generated/flashinfer.gemm.mm_mxfp8.html",
+    "title": "FlashInfer 0.7.2 mm_mxfp8",
+    "raw_sha256": "d35ee20347a415bae3beeac4edb62d505a20f387f177a79b680fbfb0dd1d9ca3",
+    "bytes": 127201,
+    "scope": "swizzled scale与输入布局",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G14",
+    "source_id": "gpu_arch_flashinfer_attn120",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.flashinfer.ai/generated/flashinfer.nvfp4_attention_sm120.nvfp4_attention_sm120_fwd.html",
+    "title": "FlashInfer SM120 NVFP4 Attention",
+    "raw_sha256": "a3131d74d8d96597b6d0c3948688dd2d63c67ad19c22d5fa8c189c7098744c04",
+    "bytes": 126024,
+    "scope": "QKV打包、修正项和逻辑长度",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G15",
+    "source_id": "gpu_arch_flashinfer_mixed",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.flashinfer.ai/generated/flashinfer.gemm.group_gemm_mxfp8_mxfp4_nt_groupwise.html",
+    "title": "FlashInfer MXFP8×MXFP4 grouped GEMM",
+    "raw_sha256": "6bc2ca26f738c6778b9f597314ec3d25e5f6cd8fd1448f4d5924bdf924f86441",
+    "bytes": 122924,
+    "scope": "操作数类型和后端范围",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G16",
+    "source_id": "gpu_arch_qutlass",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://raw.githubusercontent.com/IST-DASLab/qutlass/main/README.md",
+    "title": "QuTLASS作者说明",
+    "raw_sha256": "75b629a21cbaa8eb9d5d7dc806ae97adbc557194417b6aa6b118e85ed131b14a",
+    "bytes": 9537,
+    "scope": "SM100/120实现与融合步骤；读取README不等于执行",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G17",
+    "source_id": "gpu_arch_fpquant_hf_stable",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://huggingface.co/docs/transformers/v5.20.2/en/quantization/fp_quant",
+    "title": "Transformers 5.20.2 FP-Quant",
+    "raw_sha256": "7b8baf9814311544727693a981dcaf4438e9df8decbc880a690ef445df786a0a",
+    "bytes": 248143,
+    "scope": "原生与pseudoquantization接口边界",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G18",
+    "source_id": "gpu_arch_rubin",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/",
+    "title": "Rubin官方技术介绍",
+    "raw_sha256": "be38f0b5272074995afdd9c7a303b86b47e54274bcbfeb411098da8ea2d923e0",
+    "bytes": 660979,
+    "scope": "自适应压缩的厂商描述；未确认完整可复现算法",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G19",
+    "source_id": "gpu_arch_ptx",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://docs.nvidia.com/cuda/parallel-thread-execution/index.html",
+    "title": "PTX ISA 9.4",
+    "raw_sha256": "f1e14ad07468e26bf3724e41be86f3a68ab7914bcf0fc9824a6ad31a1eb2ec26",
+    "bytes": 3928317,
+    "scope": "UE5M3新增组合和target family；不猜测零售芯片映射",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G20",
+    "source_id": "gpu_arch_deepseek_v3",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://arxiv.org/html/2412.19437v2",
+    "title": "DeepSeek-V3 v2",
+    "raw_sha256": "0768b63dd7e9cb632e71002c823275cf018a49dd3053ea9663c9c5a58eaee4a2",
+    "bytes": 549949,
+    "scope": "§3.3 H800细粒度FP8与累加提升",
+    "evidence": "Primary-source reading; no GPU benchmark or full paper reproduction"
+  },
+  {
+    "reference": "G21",
+    "source_id": "gpu_arch_te28_fp8",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://raw.githubusercontent.com/NVIDIA/TransformerEngine/v2.8/transformer_engine/pytorch/fp8.py",
+    "raw_sha256": "2a35a201f648cf0c512ef0a9fe4ad72f948b9c382ce8c01f4f00616f4f37eff5",
+    "bytes": 44580,
+    "scope": "TE 2.8原生探针API与能力检查源码阅读；没有执行CUDA扩展"
+  },
+  {
+    "reference": "G22",
+    "source_id": "gpu_arch_te28_init",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://raw.githubusercontent.com/NVIDIA/TransformerEngine/v2.8/transformer_engine/pytorch/__init__.py",
+    "raw_sha256": "53dea86aa09bb8f26eba0b8e0d0475a75403263e1c8388f5fe36d97f10848e44",
+    "bytes": 2564,
+    "scope": "TE 2.8原生探针API与能力检查源码阅读；没有执行CUDA扩展"
+  },
+  {
+    "reference": "G23",
+    "source_id": "gpu_arch_te28_linear",
+    "retrieved_on": "2026-10-20",
+    "retrieved_url": "https://raw.githubusercontent.com/NVIDIA/TransformerEngine/v2.8/transformer_engine/pytorch/module/linear.py",
+    "raw_sha256": "cd810ea922348460e1e8990718cf0d577270299e45dcf43f0f11166372bdb221",
+    "bytes": 75915,
+    "scope": "原生probe所需Linear构造参数核查；未加载/执行TE CUDA模块"
+  }
+]

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+<title id="title">OmniQuant LET：可学习平移与缩放</title>
+<desc id="desc">输入减中心再除通道尺度，权重对应乘尺度，并将 Wc 加到偏置。浮点输出严格不变，而量化前分布改变；校准时可联合优化这些平移和尺度。；选择通道中心 c 与尺度 s；X′=(X-c)/s，W′=W*s；偏置补偿 b′=b+Wc；量化后按块重建目标优化</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="340" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">OmniQuant LET：可学习平移与缩放</text>
+<path d="M272 162 L294 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M542 162 L564 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M812 162 L834 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="127" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="154" font-size="17" text-anchor="middle" fill="#173650">选择通道中心 c 与尺度 s</text>
+<rect x="294" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="312" y="127" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="418.0" y="154" font-size="17" text-anchor="middle" fill="#173650">X′=(X-c)/s，W′=W*s</text>
+<rect x="564" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="582" y="127" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="688.0" y="154" font-size="17" text-anchor="middle" fill="#173650">偏置补偿 b′=b+Wc</text>
+<rect x="834" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="852" y="127" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="958.0" y="154" font-size="17" text-anchor="middle" fill="#173650">量化后按块重建目标优化</text>
+<text x="30" y="321" font-size="13" fill="#546c82">教学数据流；实际实现范围与省略内容见配套代码说明</text></g></svg>

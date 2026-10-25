@@ -1,0 +1,4 @@
+# Colab SSH CUDA labs; retain the runtime's existing CUDA-enabled PyTorch.
+-r requirements-demos.txt
+torch>=2.3
+# Optional real INT8 backend: install bitsandbytes separately.

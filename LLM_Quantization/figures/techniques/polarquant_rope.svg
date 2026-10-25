@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+<title id="title">PolarQuant：RoPE 配对与 QK 查表</title>
+<desc id="desc">将 post-RoPE Key 的配对维度编码成半径和角度，并针对当前 Query 构建 QK 查找表。有限极坐标组合可以复用，而不必对每个历史 Key 重复做完整反量化乘法。；post-RoPE 维度两两配对；分别编码半径与角度；当前 Query 建立二维 LUT；历史 Key 索引直接查 QK</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="340" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">PolarQuant：RoPE 配对与 QK 查表</text>
+<path d="M272 162 L294 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M542 162 L564 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M812 162 L834 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="127" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="154" font-size="17" text-anchor="middle" fill="#173650">post-RoPE 维度两两配对</text>
+<rect x="294" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="312" y="127" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="418.0" y="154" font-size="17" text-anchor="middle" fill="#173650">分别编码半径与角度</text>
+<rect x="564" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="582" y="127" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="688.0" y="154" font-size="17" text-anchor="middle" fill="#173650">当前 Query 建立二维 LUT</text>
+<rect x="834" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="852" y="127" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="958.0" y="154" font-size="17" text-anchor="middle" fill="#173650">历史 Key 索引直接查 QK</text>
+<text x="30" y="321" font-size="13" fill="#546c82">教学数据流；实际实现范围与省略内容见配套代码说明</text></g></svg>

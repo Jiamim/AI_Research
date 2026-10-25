@@ -1,0 +1,231 @@
+{
+  "schema_version": 2,
+  "created_utc": "2026-10-25T03:38:47.821028+00:00",
+  "python": "3.12.7",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4"
+  },
+  "parameters": {
+    "seed": 20261010,
+    "figures": true
+  },
+  "source_files_sha256": {
+    "constraints-cpu.txt": "a539311fb4199ddf63f61a757c24a3c4efe714b3a9f16bb23692dc037d27fceb",
+    "experiments/build_chapter_demos.py": "546d6c270ade38a3dc0aa1e84f16f4c9a271b8d77d3a15bf9f793498d20616ff",
+    "experiments/build_colab_chapter_demos.py": "f8a6ba2aef5f53e6de9bc37354a27296cefca71f2f2557b39bc8f13fbfbc5190",
+    "experiments/build_technique_docs.py": "a883e022d3d71473d6d26c4d49c697a874fa286e67649dacfad99fb936e52506",
+    "experiments/chapter_demo_catalog.py": "5f7266bcc35ea65cd88e8204efc96f02e6c4fb223f6deac8ae6eeec7cf0fa247",
+    "experiments/chapter_demo_lab.py": "5ba215f8484839772906f766804bf6a8316632d912a9853660e6ad8ceff75d11",
+    "experiments/check_project.py": "23ca5e058a579a378c328274cd47ab71d91d689b7abb189df6d49909e236d883",
+    "experiments/cuda_cases.py": "15e2d9b6272d4e086ab342415b530be4c7e14407d2878740bf29fd548ca27a28",
+    "experiments/cuda_kernels.py": "f84b65d24ef69e8537d343b6f75b139a10330d952dfdb1b451fb32f3d8e83f2b",
+    "experiments/cuda_lab.py": "1ade99e315542ce02f77df7365942b68e0f16a5cbff1e41f8389416213db3442",
+    "experiments/cuda_runtime.py": "7d6a4f36a67a8649284440c1bcadabcc26ea76f5593450c5f2bfaff5a63ceaae",
+    "experiments/deep_dive_lab.py": "f9cd0243010310c37c24939748deba984b374876e14e47494e37ccf3cf85e96c",
+    "experiments/demo_runtime.py": "89e46156a48f6f54d80ec7f4e6ae402737af34e6c3270d6ee028d2f971e3da9a",
+    "experiments/demo_torch_kernels.py": "ec360d3d9d75259c62615fa690f05d0864c456b4f270e2fa913c1dae92d11e10",
+    "experiments/demos/appendix_math.py": "ed16f46b02e3c16b9537b33ef90f79cd40bcdcf8040472de99d5c459be398a19",
+    "experiments/demos/ch00.py": "580ea848bc90e6ab7033ba6f5c915ae88334fcd57173770bd7feed8364333c9e",
+    "experiments/demos/ch01.py": "d8d72483782a047aed21270361ed95bb80b61ab9ff24a09e08cc0b1a5b45abc9",
+    "experiments/demos/ch02.py": "f3058de94c32600649343dd0a6402083e54a3dbc80f35a6d81aa237b4d17dd2b",
+    "experiments/demos/ch03.py": "074077800f4021c473618d62f453ea4f507a34d653aeb97aab475011eec48ed2",
+    "experiments/demos/ch04.py": "bd93f7f726c187f16c2c55d58508942d08892f030f0cf01fa56b7b9bda9893a3",
+    "experiments/demos/ch05.py": "35d67681b61f1814e9f1aee71099224c5e94600d343b095072720496052af7bf",
+    "experiments/demos/ch06.py": "722f2a63ef8b89607842abaa55467d72f8c6d0e9cf3e7eadfea807bf61c535fa",
+    "experiments/demos/ch07.py": "f7747f36f40d47c2fb3cd80b8241eb25555464c076626879be4f1ee928548c20",
+    "experiments/demos/ch08.py": "48f59a004c6dd16bdefad560a5a98b9b7de06002354531dc95559dbc063ca7d8",
+    "experiments/demos/ch09.py": "fcbfbd604f735eb10c8445f768e44e38bfc0abc5fc132610b581a026c3177401",
+    "experiments/demos/ch10.py": "11d9f303a75fe85c1f3b8984df99381c152395737b92e843262faa0c956a20b7",
+    "experiments/demos/ch11.py": "f870dd5575ca166180a1ba8adaabfb7a9b534ee9fd400d04e6139f354f60382b",
+    "experiments/demos/ch12.py": "fb8b0b3658db1031c9bb65185be68cb0bbdbe33c3266f58696ab02764ab3a2ae",
+    "experiments/demos/ch13.py": "50e21cc21c88a2bdff1762135dfd735bd3e16d830f32b9c805dcd24f78186d28",
+    "experiments/demos/ch14.py": "a4be35f937e2040ddd731c1b4b19d62477a444ec250ea2f3a0151ecac9d8dd79",
+    "experiments/demos/ch15.py": "496e55f07763eee112024026431898faa454d6ac950290712152152a48fd5736",
+    "experiments/demos/ch16.py": "2109c05d1ddaa0296edeb3114401df3063f38eaf38b36747ba1f95c5ba473cfc",
+    "experiments/demos/four_over_six.py": "1277e292a36f4376a4b67bc0c74f413d0c2aaea2f89961c3b2191aad2c5919ed",
+    "experiments/demos/gpu_formats.py": "3ba13b12fe6b0df2443567775b8c4205de34619d5518339ddfecb4839a230173",
+    "experiments/demos/gradient_rounding.py": "c0921881fc3ac311ae9bed1aad25bb1d7010adda4c920773553a8170e5cf8f0a",
+    "experiments/demos/int8.py": "b6fc39ae5bdda0c75c4a13bbb030f86b87ab639f4f43c69b3e101ea279b13c22",
+    "experiments/demos/mr_gptq.py": "6579b55ef11bad6bd6782fb1907418096d2ed5476875a22742fa7b49e516d4b7",
+    "experiments/demos/oscillation.py": "f37fa504b549dbdee82d3715f105348525a8cee22b187baa860e8349514aee69",
+    "experiments/demos/research.py": "efb056afe0371cd93a8d22c00d6f828abb0574b03ca64320854a4883482e0fc1",
+    "experiments/demos/scale_layout.py": "5fb3a7197ae5dc19edb8ede406e7f5d161f10942b1d2c0482840993766989c49",
+    "experiments/demos/training_transpose.py": "bfe98f5aa7f7eb7724a6392e07c1be6b17796312f8a9b0c8f86f2deb871f6159",
+    "experiments/inspect_run.py": "dddc83e6e8b297fe3c7c2f4ddabd467f2c9ea5c8d2b60d0701b67a8d2160d7b9",
+    "experiments/latest_techniques.py": "a577f31a6f1293d42365feae43a2a8f5a0681f0e6af2405441847c6595731c95",
+    "experiments/llm_int8_lab.py": "bbc7b8d308b122a55193b1c30cbc154e8e08407de88e4b3241581ef0ada50ef4",
+    "experiments/native_nvfp4_probe.py": "565c3559539d62eaac2e4ef2188e54757ab66bd6f0b11d6b362b6970875983b3",
+    "experiments/outlook_scenarios.py": "6f5cb98ceec4e63be575793ec65f36dd439097a696aee47cf83153cb716c9fdb",
+    "experiments/quant_lab.py": "fd19a8677f98d708e11a8a5600e046a21b4cadf4fea31ad546dbfa4a1d04b6bb",
+    "experiments/result_utils.py": "3cd1b298a3a539da99b4826eb61d3128a8ea95fb2c46d3bdb1a6c613fed0b2e4",
+    "experiments/technique_catalog.py": "112fdc0bc3add673ce0537f4ab7ff10d3ef573920ed5146d3283ee027b73668f",
+    "experiments/technique_kernels.py": "71e69b95ee6cf3318151226ba993b0e040ef7fd0a77e654d66317672b204cda3",
+    "experiments/technique_lab.py": "675ae2484e7f7fd1ad623144d07320c5da9222cc158e862cad22320ac303a90a",
+    "experiments/validation.py": "1ebceff9e90ec8ac3d4b66699e2617fbc09441d94a8275d635f380d6262bf982",
+    "requirements-cuda.txt": "2932d35ffcaf721c872f48eb31bff8c6cf714129be2295bf93e175560e9f1db4",
+    "requirements-demos.txt": "dd3ea7b15eb35c23d7948fb9c4bd0dcca055a087ba788fb108ab0edd6f2dd99b",
+    "requirements.txt": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081"
+  },
+  "source_sha256": "7207172e7c86ba6c57c9f9126441d77ab92ba3f42ea736727444f4852d0c2400",
+  "seed": 20261010,
+  "numpy": "2.1.3",
+  "scope": "synthetic CPU numerical demonstrations, not LLM benchmarks",
+  "passed_checks": [
+    "INT4 手算编码",
+    "全零组",
+    "拒绝非法裁剪范围 0.0",
+    "拒绝非法裁剪范围 -1.0",
+    "拒绝非法裁剪范围 nan",
+    "拒绝非法裁剪范围 inf",
+    "显式正裁剪范围",
+    "仿射手算与整数零点",
+    "仿射全零组",
+    "INT4 打包往返",
+    "无裁剪半步长界",
+    "均匀噪声的 s²/12 近似",
+    "输出误差等于二次型",
+    "GPTQ 手算例子",
+    "受约束最小损失",
+    "逆 Hessian 消元",
+    "单位 Hessian 与输入一致",
+    "无耦合时补偿退化为 RTN",
+    "非对称重建约束解",
+    "缩放等价",
+    "旋转等价",
+    "平移缩放与偏置补偿",
+    "无逐通道增益的 RMSNorm 等价",
+    "非线性不能随意穿过旋转",
+    "独立输入列尺度可抵消 AWQ 缩放",
+    "SmoothQuant 平衡范围",
+    "SmoothQuant 绝对幅度非单调减小反例",
+    "SmoothQuant 激活跨通道范围趋于均衡",
+    "加权码本中心",
+    "码本代表值数量及零值约定",
+    "低秩补偿的剩余奇异值能量",
+    "Key 去中心不改变精确注意力",
+    "KV 一阶误差传播",
+    "QJL 内积无偏性的蒙特卡洛核对",
+    "p=1 收缩子问题",
+    "HQQ offset 二次子问题驻点",
+    "GQA KV 缓存例子",
+    "LSQ 的 STE 替代梯度"
+  ],
+  "metrics": {
+    "01_uniform": {
+      "q": [
+        -7,
+        -2,
+        1,
+        6
+      ],
+      "scale": 0.14285714285714285,
+      "x_hat": [
+        -1.0,
+        -0.2857142857142857,
+        0.14285714285714285,
+        0.8571428571428571
+      ],
+      "payload_bytes": 2,
+      "affine_x_hat": [
+        -1.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "02_noise": {
+      "observed_mse": 0.000834266592901738,
+      "s2_over_12": 0.0008333333333333335
+    },
+    "03_clipping_groups": {
+      "best_bound": 1.7121212121212122,
+      "best_mse": 0.008097307351908268,
+      "minmax_mse": 0.10886192530187441,
+      "one_group_mse": 0.035,
+      "two_groups_mse": 0.022551020408163265
+    },
+    "04_gptq": {
+      "rtn": [
+        1.0,
+        1.0
+      ],
+      "compensated": [
+        1.0,
+        0.0
+      ],
+      "rtn_loss": 0.4800000000000001,
+      "compensated_loss": 0.27999999999999997,
+      "identity_compensated": [
+        1.0,
+        1.0
+      ],
+      "identity_loss": 0.16
+    },
+    "05_asymmetric_calibration": {
+      "delta": [
+        0.4,
+        -0.1
+      ]
+    },
+    "06_transforms": {
+      "rotation_identity_max_error": 7.105427357601002e-15,
+      "relu_commutation_gap": 2.870689737447014
+    },
+    "07_scaling": {
+      "awq_best_alpha": 0.25,
+      "awq_rtn_mse": 0.0890354773525967,
+      "awq_best_mse": 0.0018693438668361125,
+      "w8a8_before_mse": 0.0009133290619616933,
+      "w8a8_after_smoothing_mse": 4.9081431635302485e-05,
+      "small_activation_alpha0": 0.001,
+      "small_activation_alpha1": 1.0
+    },
+    "08_codebooks": {
+      "weighted_center": 0.1,
+      "gaussian_nf4_mse": 0.008735325582440397,
+      "gaussian_symmetric_int4_15level_mse": 0.011802631395117072,
+      "gaussian_uniform16_absmax_mse": 0.010264860223824182,
+      "gaussian_affine_int4_16level_mse": 0.008359069111344809
+    },
+    "09_loftq_principle": {
+      "error_before": 0.2682557165109483,
+      "error_after_rank2": 0.10363774119467747
+    },
+    "10_attention": {
+      "first_order_relative_error": 4.705202588538766e-06,
+      "key_centering_error": 1.1102230246251565e-16
+    },
+    "11_qjl": {
+      "target_inner_product": 4.243940469307503,
+      "sample_mean": 4.214840366100833,
+      "standard_error": 0.019645076228762,
+      "samples": 120000
+    },
+    "12_hqq_subproblem": {
+      "shrunk_residual": [
+        -0.19999999999999998,
+        -0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "optimal_offset": 1.0666666666666667
+    },
+    "13_storage": {
+      "kv_fp16_gib": 1.0,
+      "kv_int4_payload_gib": 0.25,
+      "int4_group128_fp16_scale_bpw": 4.125,
+      "nf4_double_scale_overhead_bpw": 0.126953125,
+      "mxfp4_bpv": 4.25,
+      "nvfp4_block_bpv": 4.5,
+      "ternary_ideal_bits": 1.584962500721156,
+      "amdahl_60pct_4x": 1.8181818181818181
+    },
+    "14_lsq": {
+      "ste_scale_gradient": 0.3999999999999999,
+      "surrogate_finite_difference": 0.40000000003925784
+    }
+  }
+}

@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "symmetric",
+    "title": "对称均匀量化",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-1",
+    "guide": "docs/01_均匀量化与误差.md#symmetric",
+    "diagram": "figures/techniques/symmetric.svg",
+    "code_sha256": "2694125687086eec28f993066fdcf3d14aeaaecb8a7217f77101530c81847bfd",
+    "run": "python experiments/technique_lab.py --technique symmetric",
+    "source_references": "第 01 章基础推导",
+    "scope": "此处 int8 是便于观察的容器，四个编码并没有自动打包成两个字节。全零组和显式 bound 校验见 quant_lab.py 的 symmetric_qdq。",
+    "reading_resources": [
+      "P01",
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "affine",
+    "title": "仿射量化与整数零点",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-2",
+    "guide": "docs/01_均匀量化与误差.md#affine",
+    "diagram": "figures/techniques/affine.svg",
+    "code_sha256": "65a6c50855e25b18c968d7bacdc57679e703b8ef514a335d224490fa51995e93",
+    "run": "python experiments/technique_lab.py --technique affine",
+    "source_references": "第 01 章基础推导",
+    "scope": "浮点 offset 的 min-max 编码与这里的整数零点不同；存储成本还包含 scale 和 zero point。",
+    "reading_resources": [
+      "P01",
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "rtn",
+    "title": "RTN：最近格点舍入",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-4",
+    "guide": "docs/01_均匀量化与误差.md#rtn",
+    "diagram": "figures/techniques/rtn.svg",
+    "code_sha256": "3bf422714656d0403b717f27b41d0124340498ad6d3888871ce52e06cd6ae416",
+    "run": "python experiments/technique_lab.py --technique rtn",
+    "source_references": "第 01、02 章推导",
+    "scope": "枚举只适合这个二维反例；真实模型中的离散搜索无法直接穷举。",
+    "reading_resources": [
+      "P01",
+      "B01"
+    ]
+  },
+  {
+    "id": "grouping",
+    "title": "按通道、按 token 与按组量化",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-5",
+    "guide": "docs/01_均匀量化与误差.md#grouping",
+    "diagram": "figures/techniques/grouping.svg",
+    "code_sha256": "c74ef78266c8974b1c43f63e06dab576f5efa404c2cf6aca4a6773debfe18d98",
+    "run": "python experiments/technique_lab.py --technique grouping",
+    "source_references": "第 01 章分组与位宽公式",
+    "scope": "示例只支持完整组，不做 padding；小组精度改善是本例观察，不能据此保证真实任务或速度单调改善。",
+    "reading_resources": [
+      "P01",
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "minmax",
+    "title": "MinMax / AbsMax 校准",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-8",
+    "guide": "docs/01_均匀量化与误差.md#minmax",
+    "diagram": "figures/techniques/minmax.svg",
+    "code_sha256": "dbe896905d8e73417029f066da20e8f92f0c2c850f93a69d554e4c5b13b3d5ed",
+    "run": "python experiments/technique_lab.py --technique minmax",
+    "source_references": "第 01 章范围校准",
+    "scope": "校准集之外仍可能出现更大值；保存全部校准范围不代表完全没有线上溢出。",
+    "reading_resources": [
+      "P01",
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "percentile",
+    "title": "Percentile 分位数裁剪",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-8",
+    "guide": "docs/01_均匀量化与误差.md#percentile",
+    "diagram": "figures/techniques/percentile.svg",
+    "code_sha256": "4b0ce338561311f71badbfe4c38f3c6205b3a03d0f3b95a1a517f01b4408be9c",
+    "run": "python experiments/technique_lab.py --technique percentile",
+    "source_references": "第 01 章范围校准",
+    "scope": "本例不把分位数法优于 AbsMax 写成断言，避免把构造数据的收益误当成定理。",
+    "reading_resources": [
+      "P01",
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "mse_clipping",
+    "title": "MSE 裁剪搜索",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-8",
+    "guide": "docs/01_均匀量化与误差.md#mse_clipping",
+    "diagram": "figures/techniques/mse_clipping.svg",
+    "code_sha256": "69dc3c7f8407bcf0571763f8b0c6ca4691230470d128c9841763ce279a7d414b",
+    "run": "python experiments/technique_lab.py --technique mse_clipping",
+    "source_references": "第 01 章裁剪误差积分",
+    "scope": "这是有限网格上的最优候选，不是连续阈值的全局解析最优。",
+    "reading_resources": [
+      "P01",
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "kl_calibration",
+    "title": "KL 直方图校准",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-8",
+    "guide": "docs/01_均匀量化与误差.md#kl_calibration",
+    "diagram": "figures/techniques/kl_calibration.svg",
+    "code_sha256": "b1f4b112c760d34fba81baf1f1b52b8a789b8d2fa2ec37f9da370f6e61945d10",
+    "run": "python experiments/technique_lab.py --technique kl_calibration",
+    "source_references": "第 01 章 KL 定义",
+    "scope": "这是明确约定的非负直方图教学算法，不能宣称与某版本 TensorRT 校准器逐位一致；KL 也不等于任务损失。",
+    "reading_resources": [
+      "P01",
+      "B12",
+      "B01"
+    ]
+  },
+  {
+    "id": "integer_matmul",
+    "title": "整数矩阵乘与零点修正",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-9",
+    "guide": "docs/01_均匀量化与误差.md#integer_matmul",
+    "diagram": "figures/techniques/integer_matmul.svg",
+    "code_sha256": "f01ea2bc941c65fb41802e60c0a7feafd47eb22aa6b91f927b494fedfb815164",
+    "run": "python experiments/technique_lab.py --technique integer_matmul",
+    "source_references": "第 01 章整数点积推导",
+    "scope": "NumPy 例子不测量 Tensor Core 性能；真实内核还需管理溢出、归约长度与累加类型。",
+    "reading_resources": [
+      "P02",
+      "B01"
+    ]
+  },
+  {
+    "id": "stochastic_rounding",
+    "title": "随机舍入",
+    "principle": "docs/01_均匀量化与误差.md#principle-1-10",
+    "guide": "docs/01_均匀量化与误差.md#stochastic_rounding",
+    "diagram": "figures/techniques/stochastic_rounding.svg",
+    "code_sha256": "4043e99ced0244862a0aee1d706961d5e7f58e73254a665a4eee2734e4040adf",
+    "run": "python experiments/technique_lab.py --technique stochastic_rounding",
+    "source_references": "第 01 章随机舍入期望推导",
+    "scope": "截断到编码边界会破坏这里的无偏条件；随机数开销和训练收益需另外评估。",
+    "reading_resources": [
+      "P03",
+      "B10"
+    ]
+  },
+  {
+    "id": "gptq",
+    "title": "OBQ / GPTQ：二阶误差补偿",
+    "principle": "docs/02_GPTQ与二阶误差补偿.md#principle-2-4",
+    "guide": "docs/02_GPTQ与二阶误差补偿.md#gptq",
+    "diagram": "figures/techniques/gptq.svg",
+    "code_sha256": "5d19c6521dc6392de50efd5320ae613a8968895560d8a9927919f7ac1c93ce44",
+    "run": "python experiments/technique_lab.py --technique gptq",
+    "source_references": "R01",
+    "scope": "代码是固定顺序、单输出行的 OBQ/GPTQ 核心机制，没有实现完整 GPTQ 的块更新、分组尺度和权重打包。",
+    "reading_resources": [
+      "R01",
+      "B02",
+      "C01"
+    ]
+  },
+  {
+    "id": "damping",
+    "title": "Damping：正则化二阶求解",
+    "principle": "docs/02_GPTQ与二阶误差补偿.md#principle-2-6",
+    "guide": "docs/02_GPTQ与二阶误差补偿.md#damping",
+    "diagram": "figures/techniques/damping.svg",
+    "code_sha256": "474837276ccab4da02d869f18a347a6a025fbfc9d84a93906e029b9f28e336f5",
+    "run": "python experiments/technique_lab.py --technique damping",
+    "source_references": "R01",
+    "scope": "全零 Hessian 的对角均值仍为零，需要另设 λ 下限；这里用非零奇异矩阵展示常用相对 damping。",
+    "reading_resources": [
+      "R01",
+      "P01",
+      "C01"
+    ]
+  },
+  {
+    "id": "gptaq",
+    "title": "GPTAQ / GPTQv2：非对称校准",
+    "principle": "docs/02_GPTQ与二阶误差补偿.md#principle-2-7",
+    "guide": "docs/02_GPTQ与二阶误差补偿.md#gptaq",
+    "diagram": "figures/techniques/gptaq.svg",
+    "code_sha256": "dabdf75dbc1a082392ce09cbb81635c0cad6e9543596402ebcb2af8b0cd21a4f",
+    "run": "python experiments/technique_lab.py --technique gptaq",
+    "source_references": "R02",
+    "scope": "这是一轮局部二次补偿，不是论文完整的可扩展矩阵更新流程；名称与版本对应关系见正文。",
+    "reading_resources": [
+      "R02",
+      "C02"
+    ]
+  },
+  {
+    "id": "llm_int8",
+    "title": "LLM.int8()：离群通道分流",
+    "principle": "docs/03_离群值与缩放.md#principle-3-2",
+    "guide": "docs/03_离群值与缩放.md#llm_int8",
+    "diagram": "figures/techniques/llm_int8.svg",
+    "code_sha256": "1be0a82be74a56846c86ed7f3e65e36e671e4bf785854b571e7212951ec4763f",
+    "run": "python experiments/technique_lab.py --technique llm_int8",
+    "source_references": "R03",
+    "scope": "高精度支路在这里使用 float64 验证代数；真实实现常用 FP16，并需处理空支路及检测、索引开销。",
+    "reading_resources": [
+      "R03",
+      "B03"
+    ]
+  },
+  {
+    "id": "smoothquant",
+    "title": "SmoothQuant：平衡激活与权重范围",
+    "principle": "docs/03_离群值与缩放.md#principle-3-4",
+    "guide": "docs/03_离群值与缩放.md#smoothquant",
+    "diagram": "figures/techniques/smoothquant.svg",
+    "code_sha256": "976edbb5011ef76f21af0a1a6510c718e7e5593ee46e7898264386b4924d614d",
+    "run": "python experiments/technique_lab.py --technique smoothquant",
+    "source_references": "R04",
+    "scope": "实际网络还需处理共享输入分支、归一化融合和校准范围漂移；示例并不寻找真实模型的最优 α。",
+    "reading_resources": [
+      "R04",
+      "B04"
+    ]
+  },
+  {
+    "id": "awq",
+    "title": "AWQ：激活感知的权重缩放",
+    "principle": "docs/03_离群值与缩放.md#principle-3-5",
+    "guide": "docs/03_离群值与缩放.md#awq",
+    "diagram": "figures/techniques/awq.svg",
+    "code_sha256": "3642171e2f215dd9989de98fbe6294902e1288e85523bbb55233946c06d7ab62",
+    "run": "python experiments/technique_lab.py --technique awq",
+    "source_references": "R05",
+    "scope": "未实现完整 AWQ 的裁剪搜索、Transformer 模块融合或设备内核；保存的是低比特主体，不是额外保留固定 1% FP16 权重。",
+    "reading_resources": [
+      "R05",
+      "B05"
+    ]
+  },
+  {
+    "id": "zeroquant",
+    "title": "ZeroQuant：细粒度量化与逐层蒸馏",
+    "principle": "docs/03_离群值与缩放.md#principle-3-7",
+    "guide": "docs/03_离群值与缩放.md#zeroquant",
+    "diagram": "figures/techniques/zeroquant.svg",
+    "code_sha256": "217e279306e6d542c5410c5bf9ef9768563684fbf3a6fd4601095095d42f5a4d",
+    "run": "python experiments/technique_lab.py --technique zeroquant",
+    "source_references": "R06",
+    "scope": "用单层 NumPy 和 W4A8 展示局部蒸馏机制；不包含论文的完整配置、数据流程或 fused kernel，不能测出其系统加速。",
+    "reading_resources": [
+      "R06",
+      "B06"
+    ]
+  },
+  {
+    "id": "rptq",
+    "title": "RPTQ：通道聚类重排",
+    "principle": "docs/03_离群值与缩放.md#principle-3-8",
+    "guide": "docs/03_离群值与缩放.md#rptq",
+    "diagram": "figures/techniques/rptq.svg",
+    "code_sha256": "0955baef56a1df7d7b35f959da528031b36382422d69f66259b5cce4946c1867",
+    "run": "python experiments/technique_lab.py --technique rptq",
+    "source_references": "R07",
+    "scope": "实际方法还要把置换融合到归一化及权重布局；每层额外执行 gather 可能抵消收益。",
+    "reading_resources": [
+      "R07",
+      "C03"
+    ]
+  },
+  {
+    "id": "omni_lwc",
+    "title": "OmniQuant LWC：可学习权重裁剪",
+    "principle": "docs/04_可学习校准与HQQ.md#principle-4-2",
+    "guide": "docs/04_可学习校准与HQQ.md#omni_lwc",
+    "diagram": "figures/techniques/omni_lwc.svg",
+    "code_sha256": "374af476b9c1a84b7305412b376acc0fe8aae1b2c0206c0ca5119591ea7d47e1",
+    "run": "python experiments/technique_lab.py --technique omni_lwc",
+    "source_references": "R08",
+    "scope": "示例只处理同时含正负值的一组权重，使用枚举代替优化器；这不是完整 OmniQuant 校准实现。",
+    "reading_resources": [
+      "R08",
+      "C04"
+    ]
+  },
+  {
+    "id": "omni_let",
+    "title": "OmniQuant LET：可学习平移与缩放",
+    "principle": "docs/04_可学习校准与HQQ.md#principle-4-3",
+    "guide": "docs/04_可学习校准与HQQ.md#omni_let",
+    "diagram": "figures/techniques/omni_let.svg",
+    "code_sha256": "dc06fe1876bf5a7abd395f50bca0627abd6f459558a9bf446b5417825fd99bdd",
+    "run": "python experiments/technique_lab.py --technique omni_let",
+    "source_references": "R08",
+    "scope": "这里只展示 LET 参数化及前向，不实现联合优化；无偏置模型、归一化与多分支融合须按架构处理。",
+    "reading_resources": [
+      "R08",
+      "C04"
+    ]
+  },
+  {
+    "id": "autoround",
+    "title": "AutoRound / SignRound：优化舍入决策",
+    "principle": "docs/04_可学习校准与HQQ.md#principle-4-4",
+    "guide": "docs/04_可学习校准与HQQ.md#autoround",
+    "diagram": "figures/techniques/autoround.svg",
+    "code_sha256": "d5e0e273a848536127dbeff5e10ea8c07a6bdf0c32209d168ef21a9bdb4f3054",
+    "run": "python experiments/technique_lab.py --technique autoround",
+    "source_references": "R09",
+    "scope": "仅演示固定尺度下的舍入偏移与 SignSGD；完整 AutoRound 还涉及裁剪、块重建、版本相关的优化策略。",
+    "reading_resources": [
+      "R09",
+      "B07",
+      "C05"
+    ]
+  },
+  {
+    "id": "hqq",
+    "title": "HQQ：半二次分裂与浮点 offset",
+    "principle": "docs/04_可学习校准与HQQ.md#principle-4-5",
+    "guide": "docs/04_可学习校准与HQQ.md#hqq",
+    "diagram": "figures/techniques/hqq.svg",
+    "code_sha256": "2a214d0e8608b8756974a3726ef5368840fb8014eddb5173662bb0baf9004adc",
+    "run": "python experiments/technique_lab.py --technique hqq",
+    "source_references": "R10",
+    "scope": "固定 s、p=1 的教学路径，没有作者实现的完整提前停止逻辑；p<1 的收缩通常是近似，z 也不是整数 zero point。",
+    "reading_resources": [
+      "C06",
+      "D01",
+      "R10"
+    ]
+  },
+  {
+    "id": "quarot",
+    "title": "QuaRot：合法位置的配对旋转",
+    "principle": "docs/05_旋转与非相干化.md#principle-5-4",
+    "guide": "docs/05_旋转与非相干化.md#quarot",
+    "diagram": "figures/techniques/quarot.svg",
+    "code_sha256": "34639f5c49eaba73ded163c0e1aaa5eab44ff87551fac1970b34a88d97fb63ca",
+    "run": "python experiments/technique_lab.py --technique quarot",
+    "source_references": "R11",
+    "scope": "只验证一个线性层与无增益 RMSNorm；整个 Transformer 还要处理残差、非线性、RoPE 和在线旋转位置。",
+    "reading_resources": [
+      "R11",
+      "C07"
+    ]
+  },
+  {
+    "id": "spinquant",
+    "title": "SpinQuant：学习正交旋转",
+    "principle": "docs/05_旋转与非相干化.md#principle-5-5",
+    "guide": "docs/05_旋转与非相干化.md#spinquant",
+    "diagram": "figures/techniques/spinquant.svg",
+    "code_sha256": "aab93383071a5a73a43810d74b41b0e5230fd8296c6a82dd4b6ddce0e0cc75aa",
+    "run": "python experiments/technique_lab.py --technique spinquant",
+    "source_references": "R12",
+    "scope": "用单层输出重建展示学习旋转；原始 SpinQuant 的模型级损失、旋转位置、动量和优化预算不在此例中。",
+    "reading_resources": [
+      "R12",
+      "C08"
+    ]
+  },
+  {
+    "id": "flatquant",
+    "title": "FlatQuant：结构化可逆变换",
+    "principle": "docs/05_旋转与非相干化.md#principle-5-6",
+    "guide": "docs/05_旋转与非相干化.md#flatquant",
+    "diagram": "figures/techniques/flatquant.svg",
+    "code_sha256": "9d74ebf43dc585603a8e8f1d3e3ac3ceee0ace9f421973665b3ea9c230414f59",
+    "run": "python experiments/technique_lab.py --technique flatquant",
+    "source_references": "R13",
+    "scope": "给定一组变换验证结构和前向，没有复现 FlatQuant 对变换、裁剪及多模块位置的完整学习过程。",
+    "reading_resources": [
+      "R13",
+      "C09"
+    ]
+  },
+  {
+    "id": "quip",
+    "title": "QuIP：非相干化与 LDLQ",
+    "principle": "docs/05_旋转与非相干化.md#principle-5-7",
+    "guide": "docs/05_旋转与非相干化.md#quip",
+    "diagram": "figures/techniques/quip.svg",
+    "code_sha256": "8e5294b5eb9b85e2c7ab390fd74f014189b7b0dcd4d8d4f16a3312a6d43ccd07",
+    "run": "python experiments/technique_lab.py --technique quip",
+    "source_references": "R14",
+    "scope": "只验证 LDLQ 子步骤；完整 QuIP 还包括非相干预处理、有限网格范围与理论假设，不能由本例宣称 2 bit 任务质量保证。",
+    "reading_resources": [
+      "R14",
+      "C10"
+    ]
+  },
+  {
+    "id": "lloyd_max",
+    "title": "Lloyd-Max / k-means：学习标量码本",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-2",
+    "guide": "docs/06_码本_稀疏与混合精度.md#lloyd_max",
+    "diagram": "figures/techniques/lloyd_max.svg",
+    "code_sha256": "d51a7de4c21ef810aa59ab2ba94c58269116b1943a3a05f294f979ee0bfd7c9d",
+    "run": "python experiments/technique_lab.py --technique lloyd_max",
+    "source_references": "第 06 章推导，R17",
+    "scope": "这是有限样本的加权一维 k-means；连续分布的 Lloyd-Max 用区间条件均值，初始化也会影响局部解。",
+    "reading_resources": [
+      "P04",
+      "P05",
+      "D05"
+    ]
+  },
+  {
+    "id": "squeezellm",
+    "title": "SqueezeLLM：加权非均匀主体与稀疏例外",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-3",
+    "guide": "docs/06_码本_稀疏与混合精度.md#squeezellm",
+    "diagram": "figures/techniques/squeezellm.svg",
+    "code_sha256": "9bab2698f8f058339961da7ad7108d1023b642c2305cba6542123d72a0ad9966",
+    "run": "python experiments/technique_lab.py --technique squeezellm",
+    "source_references": "R17",
+    "scope": "示例省略 Fisher 采集、稀疏索引编码和专用查表内核；稀疏项在 NumPy 中仍以稠密数组表示。",
+    "reading_resources": [
+      "R17",
+      "C13"
+    ]
+  },
+  {
+    "id": "quip_sharp",
+    "title": "QuIP#：Hadamard 与 E8 格点子问题",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-5",
+    "guide": "docs/06_码本_稀疏与混合精度.md#quip_sharp",
+    "diagram": "figures/techniques/quip_sharp.svg",
+    "code_sha256": "20cc1318ca535c823a84c1e4f88ea08f55a724e82136ab6490bee945eceedeaf",
+    "run": "python experiments/technique_lab.py --technique quip_sharp",
+    "source_references": "R15",
+    "scope": "代码量化到无限 E8 格，不能把结果直接宣称为 16 bit/向量或完整 QuIP#；有限 E8P 截断、索引打包和 BlockLDLQ 需按 R15 实现。",
+    "reading_resources": [
+      "R15",
+      "C11"
+    ]
+  },
+  {
+    "id": "aqlm",
+    "title": "AQLM：多个向量码本相加",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-6",
+    "guide": "docs/06_码本_稀疏与混合精度.md#aqlm",
+    "diagram": "figures/techniques/aqlm.svg",
+    "code_sha256": "4aeb53cfe1ce3dec601d208667feefaa296ee6a375497299a73109434b85fde1",
+    "run": "python experiments/technique_lab.py --technique aqlm",
+    "source_references": "R16",
+    "scope": "此例固定码本展示离散搜索；完整 AQLM 还会学习码本、行尺度并进行块级联合优化。",
+    "reading_resources": [
+      "R16",
+      "C12"
+    ]
+  },
+  {
+    "id": "spqr",
+    "title": "SpQR：敏感离群值与二级元数据量化",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-7",
+    "guide": "docs/06_码本_稀疏与混合精度.md#spqr",
+    "diagram": "figures/techniques/spqr.svg",
+    "code_sha256": "8963c45f17bf4472f0977356cb32c997022ef606972d0e85a38b7ab4031d0d59",
+    "run": "python experiments/technique_lab.py --technique spqr",
+    "source_references": "R18",
+    "scope": "没有实现完整顺序补偿及 SpQR 的具体元数据布局；二级尺度使用教学 INT8，不能作为官方 codec 导出。",
+    "reading_resources": [
+      "R18",
+      "C14"
+    ]
+  },
+  {
+    "id": "owq",
+    "title": "OWQ：高精度 weak columns",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-8",
+    "guide": "docs/06_码本_稀疏与混合精度.md#owq",
+    "diagram": "figures/techniques/owq.svg",
+    "code_sha256": "ba1abe15ee652092b5263fe38abdc5d5891b8e6d03ff605090c64f2dec301e30",
+    "run": "python experiments/technique_lab.py --technique owq",
+    "source_references": "R19",
+    "scope": "此评分是教学对角近似，不替代 OWQ 原实现的完整排序、预算分配与量化补偿。",
+    "reading_resources": [
+      "R19",
+      "C15"
+    ]
+  },
+  {
+    "id": "mixed_precision",
+    "title": "层级与组级混合精度：在预算内分配 bit",
+    "principle": "docs/06_码本_稀疏与混合精度.md#principle-6-10",
+    "guide": "docs/06_码本_稀疏与混合精度.md#mixed_precision",
+    "diagram": "figures/techniques/mixed_precision.svg",
+    "code_sha256": "35f96cba6a8fdf001d6e6d8579df907785b738039dc6a75983ee21bd6d41ac1e",
+    "run": "python experiments/technique_lab.py --technique mixed_precision",
+    "source_references": "第 06 章混合精度推导",
+    "scope": "层级例子使用高分辨率误差代理且只计 payload；组级例子显式计入所声明的元数据，但未物理打包或实现混合位宽 kernel。真实部署还要计入实际对齐和调度成本，并核对后端支持。",
+    "reading_resources": [
+      "P08",
+      "P01",
+      "B01"
+    ]
+  },
+  {
+    "id": "qat_ste",
+    "title": "QAT / STE：高精度累积、低精度前向",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-2",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#qat_ste",
+    "diagram": "figures/techniques/qat_ste.svg",
+    "code_sha256": "bded43fd14743b59d1ce28f88ddfe900d49b9d1871a40c4147f7d9517ceb6e63",
+    "run": "python experiments/technique_lab.py --technique qat_ste",
+    "source_references": "第 07 章 STE 推导",
+    "scope": "仅训练一个权重向量的平方误差；真实 QAT 还需管理激活、任务损失、梯度和优化器状态，训练内存不会变成纯 4 bit。",
+    "reading_resources": [
+      "P06",
+      "P01",
+      "B01"
+    ]
+  },
+  {
+    "id": "lsq",
+    "title": "LSQ：学习量化步长",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-3",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#lsq",
+    "diagram": "figures/techniques/lsq.svg",
+    "code_sha256": "abc753e44fb453ee733c7b2210af7d12f742bab90a0d098321feea7a63043107",
+    "run": "python experiments/technique_lab.py --technique lsq",
+    "source_references": "R21",
+    "scope": "演示 LSQ 的步长替代梯度，未构建训练器；初始化和梯度缩放应按权重/激活的实际设置选择。",
+    "reading_resources": [
+      "R21",
+      "B01"
+    ]
+  },
+  {
+    "id": "pact",
+    "title": "PACT：学习非负激活裁剪阈值",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-4",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#pact",
+    "diagram": "figures/techniques/pact.svg",
+    "code_sha256": "67b094e22c64044d92f7e94bfa9b8cdbe7cea89b33a2c34101dea3e939d23fad",
+    "run": "python experiments/technique_lab.py --technique pact",
+    "source_references": "R20",
+    "scope": "本例使用完整步长 STE 展示可学习裁剪，原 PACT 的具体梯度和正则化配置需查 R20；有正负值的 LLM 激活不能直接套单边裁剪。",
+    "reading_resources": [
+      "R20",
+      "B01"
+    ]
+  },
+  {
+    "id": "llm_qat",
+    "title": "LLM-QAT：教师分布蒸馏",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-5",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#llm_qat",
+    "diagram": "figures/techniques/llm_qat.svg",
+    "code_sha256": "0d2680d26ed2a75c35b5c7ffa1d48be11b5901943ab01a9dbe0acb8797ed4d26",
+    "run": "python experiments/technique_lab.py --technique llm_qat",
+    "source_references": "R22",
+    "scope": "用随机特征代替文本和 Transformer，只演示蒸馏更新；没有实现文本生成以及权重、激活、KV 的完整联合 QAT。",
+    "reading_resources": [
+      "R22",
+      "C16"
+    ]
+  },
+  {
+    "id": "efficientqat",
+    "title": "EfficientQAT：Block-AP 与 E2E-QP",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-6",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#efficientqat",
+    "diagram": "figures/techniques/efficientqat.svg",
+    "code_sha256": "63a1ed644bd310f875dab1f30f737a26cbcfa58acbe1bb7986a5d5cf46772fcd",
+    "run": "python experiments/technique_lab.py --technique efficientqat",
+    "source_references": "R23",
+    "scope": "单层玩具例子展示两阶段的可训练对象，无法体现真实逐块训练节省内存或跨 Transformer 层的端到端协调。",
+    "reading_resources": [
+      "R23",
+      "C17"
+    ]
+  },
+  {
+    "id": "lora",
+    "title": "LoRA：低秩增量",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-7",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#lora",
+    "diagram": "figures/techniques/lora.svg",
+    "code_sha256": "f5d122f11b70db42d52c560cad0b639c94fd985df7c54bfcaff3aae63ac0e8e8",
+    "run": "python experiments/technique_lab.py --technique lora",
+    "source_references": "第 07 章 LoRA 推导，R24",
+    "scope": "代码验证线性合并关系，不包含 dropout 或多模块训练；把增量合入量化基础权重后通常还需重新量化。",
+    "reading_resources": [
+      "P07",
+      "D06"
+    ]
+  },
+  {
+    "id": "qlora",
+    "title": "QLoRA：冻结 NF4 基础模型，训练 LoRA",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-8",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#qlora",
+    "diagram": "figures/techniques/qlora.svg",
+    "code_sha256": "a12e7f7cb16a746ddc47d72afc8dfeba508a3de521e07466d78ca84c59610a8a",
+    "run": "python experiments/technique_lab.py --technique qlora",
+    "source_references": "R24",
+    "scope": "为便于 NumPy 检验，base 是常驻 float64 重建数组，不能据此测量 QLoRA 显存；实际实现保留打包基础权重并按算子反量化。",
+    "reading_resources": [
+      "R24",
+      "B08"
+    ]
+  },
+  {
+    "id": "nf4",
+    "title": "NF4：非均匀 16 点码本",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-9",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#nf4",
+    "diagram": "figures/techniques/nf4.svg",
+    "code_sha256": "f9b752d6f1492eca6d2b834bcf4690628cd7608ea0eb8ad236edb25c936d51c0",
+    "run": "python experiments/technique_lab.py --technique nf4",
+    "source_references": "R24",
+    "scope": "此例不做物理 nibble 打包。NF4 与 15 级对称 INT4、16 级等间隔及仿射格式的完整对照见基础实验 08。",
+    "reading_resources": [
+      "R24",
+      "B08"
+    ]
+  },
+  {
+    "id": "double_quant",
+    "title": "Double Quantization：压缩量化尺度",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-10",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#double_quant",
+    "diagram": "figures/techniques/double_quant.svg",
+    "code_sha256": "3f63ebfa7ba6c85d8debd0c0a5faa0bea031d5794ce989ebe18529c3a161c88a",
+    "run": "python experiments/technique_lab.py --technique double_quant",
+    "source_references": "R24",
+    "scope": "这里用均匀 INT8 示范嵌套量化，不等同于 bitsandbytes 的具体 8 bit 动态码本和序列化格式。",
+    "reading_resources": [
+      "R24",
+      "B08"
+    ]
+  },
+  {
+    "id": "paged_optimizer",
+    "title": "Paged Optimizer：按需迁移优化器状态",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-10",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#paged_optimizer",
+    "diagram": "figures/techniques/paged_optimizer.svg",
+    "code_sha256": "91bb841d21120cd1d834bc2f6cf3b79854895691f49ff3f5fb19fb793b98604f",
+    "run": "python experiments/technique_lab.py --technique paged_optimizer",
+    "source_references": "R24",
+    "scope": "这是 LRU 状态迁移的教学模拟；实际 QLoRA paged optimizer 使用统一内存等机制，不等同于本例调度器，也没有在这里测量 GPU 内存。",
+    "reading_resources": [
+      "R24",
+      "B08"
+    ]
+  },
+  {
+    "id": "loftq",
+    "title": "LoftQ：量化与低秩补偿交替初始化",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-11",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#loftq",
+    "diagram": "figures/techniques/loftq.svg",
+    "code_sha256": "6dfa8ba1981b9123700fe0b6466476541f73e85eda32cdcbe6c5fcb2303ed89f",
+    "run": "python experiments/technique_lab.py --technique loftq",
+    "source_references": "R25",
+    "scope": "当前 quantizer 的尺度重新估计是启发式，不能保证交替过程每轮单调下降；实际 LoRA 的 α/r 缩放也需纳入初始化。",
+    "reading_resources": [
+      "R25",
+      "C18",
+      "D06"
+    ]
+  },
+  {
+    "id": "bitnet",
+    "title": "BitNet b1.58：三值权重",
+    "principle": "docs/07_QAT_QLoRA与原生低比特.md#principle-7-12",
+    "guide": "docs/07_QAT_QLoRA与原生低比特.md#bitnet",
+    "diagram": "figures/techniques/bitnet.svg",
+    "code_sha256": "baa06d188af8eb1613b9bf59ded516e70cac8a5ee1fe8f84f7bda4d9b596b480",
+    "run": "python experiments/technique_lab.py --technique bitnet",
+    "source_references": "R26",
+    "scope": "未实现完整 BitLinear 的激活量化、归一化或原生训练；直接把现成 BF16 模型三值化通常不能复现论文能力。",
+    "reading_resources": [
+      "R26",
+      "N31",
+      "C19"
+    ]
+  },
+  {
+    "id": "kivi",
+    "title": "KIVI：不同量化轴与流式残留区",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-3",
+    "guide": "docs/08_KV缓存与Attention量化.md#kivi",
+    "diagram": "figures/techniques/kivi.svg",
+    "code_sha256": "52c0aec0aedc0e26662f611bf83c32aaaf9435d0e13316db3b6ad8f4eeade58d",
+    "run": "python experiments/technique_lab.py --technique kivi",
+    "source_references": "R27",
+    "scope": "单头 CPU 模型，2 bit 编码存入 uint8 容器，未物理打包；不实现融合 Attention、分页或实际压缩率测量。",
+    "reading_resources": [
+      "R27",
+      "B09",
+      "C20"
+    ]
+  },
+  {
+    "id": "kvquant",
+    "title": "KVQuant：pre-RoPE Key 与非均匀稀疏表示",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-4",
+    "guide": "docs/08_KV缓存与Attention量化.md#kvquant",
+    "diagram": "figures/techniques/kvquant.svg",
+    "code_sha256": "08b853c0b75a4d3ef772022e07745a2caf5d77bd8fea71cb9c4bd80584f793d9",
+    "run": "python experiments/technique_lab.py --technique kvquant",
+    "source_references": "R28",
+    "scope": "为缩短例子，码本未使用真实 Fisher 敏感性加权；展示的是 pre-RoPE、码本和稀疏恢复机制，未实现 KVQuant 的全部 Value 策略与 kernel。",
+    "reading_resources": [
+      "R28",
+      "C21"
+    ]
+  },
+  {
+    "id": "turboquant",
+    "title": "TurboQuant：球面分布的预计算量化",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-5",
+    "guide": "docs/08_KV缓存与Attention量化.md#turboquant",
+    "diagram": "figures/techniques/turboquant.svg",
+    "code_sha256": "3cdbedeedf71083dd79693d44d4244d063fb234673e8bdd01d5ee8ed25eb0b51",
+    "run": "python experiments/technique_lab.py --technique turboquant",
+    "source_references": "R29",
+    "scope": "用离散积分近似标量码本，只演示 MSE 路径；零向量需直接编码为零，快速结构化旋转也不自动满足相同 Haar 假设。",
+    "reading_resources": [
+      "R29",
+      "B11"
+    ]
+  },
+  {
+    "id": "qjl",
+    "title": "QJL：一位残差内积修正",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-6",
+    "guide": "docs/08_KV缓存与Attention量化.md#qjl",
+    "diagram": "figures/techniques/qjl.svg",
+    "code_sha256": "f5c0f6e9fa99cce96907360dcccce90a3c731aa0bbb36cdcccf08b1c04280e33",
+    "run": "python experiments/technique_lab.py --technique qjl",
+    "source_references": "R29",
+    "scope": "G 必须满足独立性与分布条件；残差为零时应直接返回零。内积无偏不推出 softmax、Attention 或生成文本无偏。",
+    "reading_resources": [
+      "P10",
+      "R29",
+      "C22"
+    ]
+  },
+  {
+    "id": "sageattention",
+    "title": "SageAttention：Key 平滑与 INT8 QK",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-8",
+    "guide": "docs/08_KV缓存与Attention量化.md#sageattention",
+    "diagram": "figures/techniques/sageattention.svg",
+    "code_sha256": "d90940b635ad6003f16785bc36a6b46de075d4d14d2ecd73b0ab66a616f33f4a",
+    "run": "python experiments/technique_lab.py --technique sageattention",
+    "source_references": "R30",
+    "scope": "按行 QDQ 的 CPU 教学实现，没有复现分块在线 softmax、融合内核或论文的速度数字。",
+    "reading_resources": [
+      "R30",
+      "C23"
+    ]
+  },
+  {
+    "id": "sageattention2",
+    "title": "SageAttention2：Query 修正、INT4 与 FP8",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-9",
+    "guide": "docs/08_KV缓存与Attention量化.md#sageattention2",
+    "diagram": "figures/techniques/sageattention2.svg",
+    "code_sha256": "250ed0071d13fd501dc54637a54802068c3f13ce12973bcd123033bf79b033b2",
+    "run": "python experiments/technique_lab.py --technique sageattention2",
+    "source_references": "R31",
+    "scope": "未复现 per-thread 数据布局，代码用按行 QDQ 与显式 P 展示数据流；原生 FP8 部分累加和 FP32 buffer 的误差需在 GPU 上验证。",
+    "reading_resources": [
+      "R31",
+      "C23"
+    ]
+  },
+  {
+    "id": "sageattention3",
+    "title": "SageAttention3：FP4 Attention 与 P 两级缩放",
+    "principle": "docs/08_KV缓存与Attention量化.md#principle-8-10",
+    "guide": "docs/08_KV缓存与Attention量化.md#sageattention3",
+    "diagram": "figures/techniques/sageattention3.svg",
+    "code_sha256": "d2218314805daa012ba8288b1803db95e99b1a8f48d97056922193c516d0159d",
+    "run": "python experiments/technique_lab.py --technique sageattention3",
+    "source_references": "R32",
+    "scope": "展示完整概率矩阵的数值路径；真实内核使用未最终归一化的分块概率并维护在线 softmax 统计，不会显式存整个 P。有限 LUT 舍入也不是硬件逐位仿真。",
+    "reading_resources": [
+      "R32",
+      "C23"
+    ]
+  },
+  {
+    "id": "fp8",
+    "title": "FP8：E4M3 与 E5M2",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-1",
+    "guide": "docs/09_浮点格式与推理系统.md#fp8",
+    "diagram": "figures/techniques/fp8.svg",
+    "code_sha256": "e2540beb8cc32078ea4fb4dcfe0dfeda14d5a356e3dba70df07204713d94487d",
+    "run": "python experiments/technique_lab.py --technique fp8",
+    "source_references": "R33",
+    "scope": "不含 NaN、无穷传播和有符号零；LUT 在恰好半格处取排序中的先值，不是硬件 ties-to-even 的逐位替代。",
+    "reading_resources": [
+      "R33",
+      "D02"
+    ]
+  },
+  {
+    "id": "dynamic_scaling",
+    "title": "静态、当前动态与延迟缩放",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-3",
+    "guide": "docs/09_浮点格式与推理系统.md#dynamic_scaling",
+    "diagram": "figures/techniques/dynamic_scaling.svg",
+    "code_sha256": "f4f96d992bfdfcc68e039c418c285c6152950d1ccc3117b8fef65b1fb4a848c0",
+    "run": "python experiments/technique_lab.py --technique dynamic_scaling",
+    "source_references": "R33，第 09 章缩放分类",
+    "scope": "生产延迟缩放常用多步历史最大值和 margin，本例只用一帧历史展示时序；饱和、溢出策略也需按后端确定。",
+    "reading_resources": [
+      "R33",
+      "D02"
+    ]
+  },
+  {
+    "id": "fp4",
+    "title": "FP4 E2M1：指数型非均匀代表值",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-4",
+    "guide": "docs/09_浮点格式与推理系统.md#fp4",
+    "diagram": "figures/techniques/fp4.svg",
+    "code_sha256": "5fba92a45801f277b514af2d708b0733f751bc1eed6784460e057932aadbe4cc",
+    "run": "python experiments/technique_lab.py --technique fp4",
+    "source_references": "R34、R35",
+    "scope": "代码不返回 E2M1 的原始 4 bit 位模式，也不模拟有符号零；只检查有限值几何。",
+    "reading_resources": [
+      "P09",
+      "R34",
+      "D02"
+    ]
+  },
+  {
+    "id": "mxfp4",
+    "title": "MXFP4：32 元素共享二次幂尺度",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-5",
+    "guide": "docs/09_浮点格式与推理系统.md#mxfp4",
+    "diagram": "figures/techniques/mxfp4.svg",
+    "code_sha256": "a3b2b16b89c8a0269ce98cf6631a300be61c52532d7c8c1e787da0f14195d504",
+    "run": "python experiments/technique_lab.py --technique mxfp4",
+    "source_references": "R34",
+    "scope": "这里采用保守 ceil 选尺度策略，不承诺等于任一设备的默认 recipe；E8M0 极端范围和特殊编码未逐位实现。",
+    "reading_resources": [
+      "P09",
+      "R34",
+      "D02"
+    ]
+  },
+  {
+    "id": "nvfp4",
+    "title": "NVFP4：16 元素、E4M3 尺度与全局尺度",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-6",
+    "guide": "docs/09_浮点格式与推理系统.md#nvfp4",
+    "diagram": "figures/techniques/nvfp4.svg",
+    "code_sha256": "f095cc7c66e46003f08ee0f5d74ddd612e5a9cf7e17900e01a93f41f56287bc2",
+    "run": "python experiments/technique_lab.py --technique nvfp4",
+    "source_references": "R35",
+    "scope": "NumPy 数值分解不执行原生 NVFP4 指令；真实速度、数据布局和舍入规则依赖硬件及后端。",
+    "reading_resources": [
+      "P13",
+      "R35",
+      "D02"
+    ]
+  },
+  {
+    "id": "gguf",
+    "title": "GGUF：容器与量化类型分离",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-7",
+    "guide": "docs/09_浮点格式与推理系统.md#gguf",
+    "diagram": "figures/techniques/gguf.svg",
+    "code_sha256": "866235ad50c846a2de34c4f8893aff56b9513badf873a96f5cf0fe6802bcca1a",
+    "run": "python experiments/technique_lab.py --technique gguf",
+    "source_references": "R36，GGUF 官方规范",
+    "scope": "只构造空容器头来解释格式层次，不生成可加载的 LLM，也不覆盖完整 GGUF 元数据或对齐规范。",
+    "reading_resources": [
+      "D07",
+      "D04"
+    ]
+  },
+  {
+    "id": "q4_0",
+    "title": "Q4_0：真实 nibble 打包与块解码",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-8",
+    "guide": "docs/09_浮点格式与推理系统.md#q4_0",
+    "diagram": "figures/techniques/q4_0.svg",
+    "code_sha256": "8be6ea04d27ee203ff5f5e320b56478a7b70ba4e321b9b95cef6dcc4309e4e65",
+    "run": "python experiments/technique_lab.py --technique q4_0",
+    "source_references": "R36",
+    "scope": "展示基础参考量化与块布局，不承诺与含 importance 优化的所有 llama.cpp 版本编码一致；本例不拼装完整 GGUF。",
+    "reading_resources": [
+      "D08",
+      "R36",
+      "C24"
+    ]
+  },
+  {
+    "id": "q4_k",
+    "title": "Q4_K：超块与子块参数量化",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-8",
+    "guide": "docs/09_浮点格式与推理系统.md#q4_k",
+    "diagram": "figures/techniques/q4_k.svg",
+    "code_sha256": "22a90e666d54407d3612c530ecf70e2936654a27fbfecb0fbb2b26fb76d7a1a8",
+    "run": "python experiments/technique_lab.py --technique q4_k",
+    "source_references": "R36",
+    "scope": "用简单 min/max 展示分层数值关系，不生成 Q4_K 官方位布局；真实编码器的搜索、负最小值约定和边界处理更加完整。",
+    "reading_resources": [
+      "D08",
+      "R36",
+      "C24"
+    ]
+  },
+  {
+    "id": "q4_k_m",
+    "title": "Q4_K_M：混合量化预设",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-8",
+    "guide": "docs/09_浮点格式与推理系统.md#q4_k_m",
+    "diagram": "figures/techniques/q4_k_m.svg",
+    "code_sha256": "14ffc60755d023d5a9a5c276d33717f8a3a40a841249009cffced1e53877be5b",
+    "run": "python experiments/technique_lab.py --technique q4_k_m",
+    "source_references": "R36",
+    "scope": "上述张量分配不是 llama.cpp 的固定 Q4_K_M 默认规则；真实映射随架构与版本变化，应读取实际 GGUF 张量类型。",
+    "reading_resources": [
+      "D08",
+      "D04",
+      "R36"
+    ]
+  },
+  {
+    "id": "iq",
+    "title": "IQ 系列与 importance matrix",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-8",
+    "guide": "docs/09_浮点格式与推理系统.md#iq",
+    "diagram": "figures/techniques/iq.svg",
+    "code_sha256": "3fdd54c41bf910a7450b5082fbe9111da973df8c1173a28320fd583dffc00e78",
+    "run": "python experiments/technique_lab.py --technique iq",
+    "source_references": "R36",
+    "scope": "toy_codebook 不是任何具体 IQ 格式的官方码本；IQ2、IQ3、IQ4 等各有规则，部署须选择对应编码器和解码内核。",
+    "reading_resources": [
+      "D09",
+      "D08",
+      "R36"
+    ]
+  },
+  {
+    "id": "roofline",
+    "title": "Roofline 与 Amdahl：估计加速边界",
+    "principle": "docs/09_浮点格式与推理系统.md#principle-9-10",
+    "guide": "docs/09_浮点格式与推理系统.md#roofline",
+    "diagram": "figures/techniques/roofline.svg",
+    "code_sha256": "cd89fdda9871fcfab10a4b56916d69e6db9c52bcc7a75a6ab550408f8d4556ee",
+    "run": "python experiments/technique_lab.py --technique roofline",
+    "source_references": "第 09 章性能模型",
+    "scope": "全部数值都是预算假设，没有进行 CPU/GPU 性能测量；通信、缓存和依赖也未包含在这个简单模型中。",
+    "reading_resources": [
+      "P11",
+      "P12",
+      "D03"
+    ]
+  },
+  {
+    "id": "duquant",
+    "title": "DuQuant：块内旋转与跨块重排",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-1",
+    "guide": "docs/12_新进展_变换与编码.md#duquant",
+    "diagram": "figures/techniques/duquant.svg",
+    "code_sha256": "9fc501bb578203cb984fbc2dbfe4003618b3e797f3cc22a7279bf168664c7eb3",
+    "run": "python experiments/technique_lab.py --technique duquant",
+    "source_references": "arXiv:2406.01721",
+    "scope": "用固定 Hadamard 代替论文的离群值引导贪心旋转，省略初始平滑和完整校准；本例验证组合变换，不保证每组数据的峰值都下降。",
+    "reading_resources": [
+      "N01",
+      "L01",
+      "L02"
+    ]
+  },
+  {
+    "id": "ostquant",
+    "title": "OSTQuant：正交与尺度联合变换",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-2",
+    "guide": "docs/12_新进展_变换与编码.md#ostquant",
+    "diagram": "figures/techniques/ostquant.svg",
+    "code_sha256": "0a22afeebe7d65864fa56f932cf94da47541cbc875652cab9efbf2c501238d35",
+    "run": "python experiments/technique_lab.py --technique ostquant",
+    "source_references": "arXiv:2501.13987",
+    "scope": "仅验证变换和 KL-Top 的计算，没有实现 QSUR 评估、WOMI 初始化或跨 Transformer 块的优化与融合。",
+    "reading_resources": [
+      "N02",
+      "L03"
+    ]
+  },
+  {
+    "id": "paroquant",
+    "title": "ParoQuant：可并行的成对旋转",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-3",
+    "guide": "docs/12_新进展_变换与编码.md#paroquant",
+    "diagram": "figures/techniques/paroquant.svg",
+    "code_sha256": "a7a040adbcadee8833ac3d9d7acc01921d1057af3cbb6bb51922ea6572a187fb",
+    "run": "python experiments/technique_lab.py --technique paroquant",
+    "source_references": "arXiv:2511.10645",
+    "scope": "枚举代替多轮成对变换学习；省略非对称块重建、第二阶段权重与量化参数微调，以及融合 kernel 和真实推理测时。",
+    "reading_resources": [
+      "N03",
+      "L04",
+      "L05"
+    ]
+  },
+  {
+    "id": "vptq",
+    "title": "VPTQ：二阶感知向量与残差码本",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-4",
+    "guide": "docs/12_新进展_变换与编码.md#vptq",
+    "diagram": "figures/techniques/vptq.svg",
+    "code_sha256": "66421aca493f5e672f5402fc29edcbf53da8db92dd3ac5dd491fba5499e07dfc",
+    "run": "python experiments/technique_lab.py --technique vptq",
+    "source_references": "arXiv:2409.17066",
+    "scope": "固定小码本，仅演示一列与下一列的连续补偿；未实现共享码本训练、完整顺序量化、离群码本或模型微调。",
+    "reading_resources": [
+      "N04",
+      "L06"
+    ]
+  },
+  {
+    "id": "qtip",
+    "title": "QTIP：有状态 trellis 量化",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-5",
+    "guide": "docs/12_新进展_变换与编码.md#qtip",
+    "diagram": "figures/techniques/qtip.svg",
+    "code_sha256": "887e4c49d33bd38e849913de6b5a6380f8f40102778a69b3e53768f5669d5372",
+    "run": "python experiments/technique_lab.py --technique qtip",
+    "source_references": "arXiv:2406.11235",
+    "scope": "四状态、固定起点的教学 trellis；未实现 QTIP 的非相干预处理、尾咬合约束、Gaussian 码构造及 GPU 解码。",
+    "reading_resources": [
+      "N05",
+      "L07"
+    ]
+  },
+  {
+    "id": "higgs",
+    "title": "HIGGS：Hadamard 与高斯 MSE 码本",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-6",
+    "guide": "docs/12_新进展_变换与编码.md#higgs",
+    "diagram": "figures/techniques/higgs.svg",
+    "code_sha256": "fc6a4305b3e2920a221966d90a8a7c6582a254854b4a562c3fe49ab6dba980c9",
+    "run": "python experiments/technique_lab.py --technique higgs",
+    "source_references": "arXiv:2411.17525",
+    "scope": "使用一维离散 Lloyd 近似展示流程；完整 HIGGS 使用多维 MSE 网格、特定内核及可选非均匀位宽分配。",
+    "reading_resources": [
+      "N06",
+      "L08"
+    ]
+  },
+  {
+    "id": "slim_llm",
+    "title": "SliM-LLM：显著性驱动的组级位宽",
+    "principle": "docs/12_新进展_变换与编码.md#principle-12-7",
+    "guide": "docs/12_新进展_变换与编码.md#slim_llm",
+    "diagram": "figures/techniques/slim_llm.svg",
+    "code_sha256": "8b33ac26cdcdef762bcdaaa1b064c0267872b86a40202f2435196b457be49b29",
+    "run": "python experiments/technique_lab.py --technique slim_llm",
+    "source_references": "arXiv:2405.14917",
+    "scope": "按固定作者版本演示 SBA 评分与预算约束，并对照论文正文的字面公式；未实现候选数量搜索、SQC、1-bit 编码和实际打包。",
+    "reading_resources": [
+      "N07",
+      "L09",
+      "L09_code"
+    ]
+  },
+  {
+    "id": "dash_q",
+    "title": "DASH-Q：稳定对角曲率与加权回归",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-1",
+    "guide": "docs/13_新进展_FP4与误差修正.md#dash_q",
+    "diagram": "figures/techniques/dash_q.svg",
+    "code_sha256": "447ef635393114392f0a55329ec2306e3fe90db889a953b01b3fbfa00237f10a",
+    "run": "python experiments/technique_lab.py --technique dash_q",
+    "source_references": "arXiv:2604.13806",
+    "scope": "一组 2-bit 权重的回归子问题；未实现整模型校准、分组导出、停止准则和论文部署后端。",
+    "reading_resources": [
+      "N08"
+    ]
+  },
+  {
+    "id": "arcquant",
+    "title": "ARCQuant：扩展激活残差通道",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-2",
+    "guide": "docs/13_新进展_FP4与误差修正.md#arcquant",
+    "diagram": "figures/techniques/arcquant.svg",
+    "code_sha256": "c68b822bcf609ba964a76ecbe20bc4210e1cf8e292194a5470fa3101c0f863c0",
+    "run": "python experiments/technique_lab.py --technique arcquant",
+    "source_references": "arXiv:2601.07475",
+    "scope": "预先指定补偿通道，省略论文阈值选择与重排；micro_fp4 是 CPU 数值模拟，无法测出统一 GEMM 的实际加速。",
+    "reading_resources": [
+      "N09",
+      "L10"
+    ]
+  },
+  {
+    "id": "torq",
+    "title": "TORQ：块间均衡与块内码本对齐",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-3",
+    "guide": "docs/13_新进展_FP4与误差修正.md#torq",
+    "diagram": "figures/techniques/torq.svg",
+    "code_sha256": "2a93f636d15b0d8795c3df40183d46ae06c518675a637e47b0811cf6a3a40c0f",
+    "run": "python experiments/technique_lab.py --technique torq",
+    "source_references": "arXiv:2605.19561",
+    "scope": "演示宏观均衡子问题，未实现论文的 Givens 构造或微观占用率搜索；FP4 下方差均衡是代理目标，不能声称严格最优失真。",
+    "reading_resources": [
+      "N10"
+    ]
+  },
+  {
+    "id": "soar",
+    "title": "SOAR：闭式尺度优化与解耦搜索",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-4",
+    "guide": "docs/13_新进展_FP4与误差修正.md#soar",
+    "diagram": "figures/techniques/soar.svg",
+    "code_sha256": "f0eead06eef9ed163426310dd26deaff73eabce905e8f2cb0cd44c252be38041",
+    "run": "python experiments/technique_lab.py --technique soar",
+    "source_references": "arXiv:2605.12245",
+    "scope": "只实现 CJSO 的全局尺度子步；完整 SOAR 还重算码字、投影局部尺度，并执行 DSS 联合候选搜索。",
+    "reading_resources": [
+      "N11",
+      "L11"
+    ]
+  },
+  {
+    "id": "focus",
+    "title": "FOCUS：编码与解码尺度解耦",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-5",
+    "guide": "docs/13_新进展_FP4与误差修正.md#focus",
+    "diagram": "figures/techniques/focus.svg",
+    "code_sha256": "d39a126c81e7a50f37acdb78f169a116f3c057580fea9d54295f0021e1b59215",
+    "run": "python experiments/technique_lab.py --technique focus",
+    "source_references": "arXiv:2608.01847",
+    "scope": "有限候选搜索代替端到端尺度学习，只展示 CRS/DGS 自由度；不实现整模型训练和导出。",
+    "reading_resources": [
+      "N12",
+      "L12"
+    ]
+  },
+  {
+    "id": "prquant",
+    "title": "PRQuant：离线权重残差与连续尾块",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-6",
+    "guide": "docs/13_新进展_FP4与误差修正.md#prquant",
+    "diagram": "figures/techniques/prquant.svg",
+    "code_sha256": "1cbecb995cdb7bd0131497210fd740cb664e1089208c002f5f080d5a69d9e133",
+    "run": "python experiments/technique_lab.py --technique prquant",
+    "source_references": "arXiv:2609.22106",
+    "scope": "使用 INT4 数值代理验证增强乘法，残差保留浮点；真实 PRQuant 还使用缩放、MXFP4 残差编码和融合内核。",
+    "reading_resources": [
+      "N13"
+    ]
+  },
+  {
+    "id": "osfp4",
+    "title": "OSFP4：平滑与块尺度联合优化",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-7",
+    "guide": "docs/13_新进展_FP4与误差修正.md#osfp4",
+    "diagram": "figures/techniques/osfp4.svg",
+    "code_sha256": "0ae0c28b25dafb1daff43879e5327c6d2cb280602053ccaede9b0ec3d1021b3a",
+    "run": "python experiments/technique_lab.py --technique osfp4",
+    "source_references": "arXiv:2610.08231",
+    "scope": "少量平滑与全局尺度候选仅解释联合目标；未实现论文的乘性 dither 分析、分块优化、精细 E4M3 搜索或 SIC。",
+    "reading_resources": [
+      "N14",
+      "L13",
+      "L14"
+    ]
+  },
+  {
+    "id": "drq",
+    "title": "DRQ：固定量化网格上的分布鲁棒修正",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-8",
+    "guide": "docs/13_新进展_FP4与误差修正.md#drq",
+    "diagram": "figures/techniques/drq.svg",
+    "code_sha256": "f7ec6c438cb5ad67c1665bba267e2bcfb850307865ed9e0ff112d7b9da795c13",
+    "run": "python experiments/technique_lab.py --technique drq",
+    "source_references": "arXiv:2610.11226",
+    "scope": "验证 DRQ 的最坏分布子问题；未执行码值更新排序、检查集校准损失增长限制或整模型离线细化。",
+    "reading_resources": [
+      "N15"
+    ]
+  },
+  {
+    "id": "differentiable_bits",
+    "title": "DBW：可微位宽与零位剪枝",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-9",
+    "guide": "docs/13_新进展_FP4与误差修正.md#differentiable_bits",
+    "diagram": "figures/techniques/differentiable_bits.svg",
+    "code_sha256": "3d92c4fb2cab8ad0abd57f8c406c1f6b65ae886a9013b0bb8b3156798fdcbb85",
+    "run": "python experiments/technique_lab.py --technique differentiable_bits",
+    "source_references": "arXiv:2610.06026",
+    "scope": "仅实现预算离散化和零位掩码，保留分量未做实际量化；省略 STE 位宽训练、奇异值熵损失、双层预算和 mixed-precision GEMM。",
+    "reading_resources": [
+      "N16",
+      "L15"
+    ]
+  },
+  {
+    "id": "align_correct",
+    "title": "Align, Then Correct：对齐后重新截断补偿",
+    "principle": "docs/13_新进展_FP4与误差修正.md#principle-13-10",
+    "guide": "docs/13_新进展_FP4与误差修正.md#align_correct",
+    "diagram": "figures/techniques/align_correct.svg",
+    "code_sha256": "abc4660e257d9332d8c501f4577bd61fc063d711d35ccbe51c3f0364cb5784bb",
+    "run": "python experiments/technique_lab.py --technique align_correct",
+    "source_references": "arXiv:2610.08164",
+    "scope": "省略非单位 Fisher 的白化、信赖比例缩放和真实反向统计采集；gradient 是给定示例，不能据此宣称训练免费或实际任务恢复。",
+    "reading_resources": [
+      "N17"
+    ]
+  },
+  {
+    "id": "quest",
+    "title": "QuEST：高斯拟合与信任梯度",
+    "principle": "docs/14_新进展_训练与MoE.md#principle-14-1",
+    "guide": "docs/14_新进展_训练与MoE.md#quest",
+    "diagram": "figures/techniques/quest.svg",
+    "code_sha256": "b5f2e647584f3990c4c6851a506ca15e17f8e854a2257ffd5429ccb3b34d22bd",
+    "run": "python experiments/technique_lab.py --technique quest",
+    "source_references": "arXiv:2502.05003",
+    "scope": "只展示一次前向拟合和信任梯度传播；没有训练完整 LLM、优化稀疏扩展或测试 GPU kernel。",
+    "reading_resources": [
+      "N18",
+      "L16"
+    ]
+  },
+  {
+    "id": "paretoq",
+    "title": "ParetoQ：位宽、网格与训练预算一起比较",
+    "principle": "docs/14_新进展_训练与MoE.md#principle-14-2",
+    "guide": "docs/14_新进展_训练与MoE.md#paretoq",
+    "diagram": "figures/techniques/paretoq.svg",
+    "code_sha256": "bbc17254d35f8032521d67db784a2970e4de9a9e7a5d2728c9efcfe913cc2d0f",
+    "run": "python experiments/technique_lab.py --technique paretoq",
+    "source_references": "arXiv:2502.02631",
+    "scope": "仅示范网格族和单组尺度优化，不是 ParetoQ 的完整 SEQ/LSQ 梯度或训练调度；论文的最优位宽结论依赖其预算与模型设置。",
+    "reading_resources": [
+      "N19",
+      "L17",
+      "L18"
+    ]
+  },
+  {
+    "id": "onlineqat",
+    "title": "OnlineQAT：在学生生成的前缀上蒸馏",
+    "principle": "docs/14_新进展_训练与MoE.md#principle-14-3",
+    "guide": "docs/14_新进展_训练与MoE.md#onlineqat",
+    "diagram": "figures/techniques/onlineqat.svg",
+    "code_sha256": "b92926367435f289d20b31e4c9d5aa1a9da7ff9887c7394e7e1f5f6baecbf066",
+    "run": "python experiments/technique_lab.py --technique onlineqat",
+    "source_references": "arXiv:2610.09346",
+    "scope": "只验证固定前缀的梯度估计；未实现长序列 rollout、块级初始化、策略更新或训练稳定性。",
+    "reading_resources": [
+      "N20"
+    ]
+  },
+  {
+    "id": "eaquant",
+    "title": "EAQuant：专家共享平滑与路由校准",
+    "principle": "docs/14_新进展_训练与MoE.md#principle-14-4",
+    "guide": "docs/14_新进展_训练与MoE.md#eaquant",
+    "diagram": "figures/techniques/eaquant.svg",
+    "code_sha256": "0739d48a630ca3a69d96ba93655f37cc4665f2fae5ea2f8f9e8697e257b8b2eb",
+    "run": "python experiments/technique_lab.py --technique eaquant",
+    "source_references": "arXiv:2506.13329",
+    "scope": "只演示共享平滑和覆盖检测，未实现路由 KL-Top/MSE 优化、数据补采集及完整 MoE 激活量化。",
+    "reading_resources": [
+      "N21",
+      "L19"
+    ]
+  },
+  {
+    "id": "milo",
+    "title": "MiLo：MoE 的低秩补偿组合",
+    "principle": "docs/14_新进展_训练与MoE.md#principle-14-5",
+    "guide": "docs/14_新进展_训练与MoE.md#milo",
+    "diagram": "figures/techniques/milo.svg",
+    "code_sha256": "336f88cd24a031a9ae41605f1cda4459d2e6bdcb9138b054881f0ffadc2b3fb6",
+    "run": "python experiments/technique_lab.py --technique milo",
+    "source_references": "arXiv:2504.02658",
+    "scope": "使用 RTN 代替 HQQ 并预设秩，补偿因子保持浮点；省略因子的 INT3 量化、秩策略和专用推理内核。",
+    "reading_resources": [
+      "N22",
+      "L20"
+    ]
+  },
+  {
+    "id": "bitsmoe",
+    "title": "BitsMoE：共享谱基与成本感知位宽",
+    "principle": "docs/14_新进展_训练与MoE.md#principle-14-6",
+    "guide": "docs/14_新进展_训练与MoE.md#bitsmoe",
+    "diagram": "figures/techniques/bitsmoe.svg",
+    "code_sha256": "d7ff35dc4bd94578870e6062823411b3295f7a24f2d07bfd027afd62b75146e4",
+    "run": "python experiments/technique_lab.py --technique bitsmoe",
+    "source_references": "arXiv:2606.00079",
+    "scope": "用六分量穷举代替 ILP，共享基保持浮点；省略共享基 GPTQ、低位宽经验系数、误差交叉项和 GPU 执行。",
+    "reading_resources": [
+      "N23",
+      "L21",
+      "L22"
+    ]
+  },
+  {
+    "id": "polarquant_recursive",
+    "title": "PolarQuant：递归极坐标编码",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-1",
+    "guide": "docs/15_新进展_KV与推理系统.md#polarquant_recursive",
+    "diagram": "figures/techniques/polarquant_recursive.svg",
+    "code_sha256": "0e174bcb33d1537a78ea3de3075e803bf6068808874cdf6dfa54def8fa1a8626",
+    "run": "python experiments/technique_lab.py --technique polarquant_recursive",
+    "source_references": "arXiv:2502.02617",
+    "scope": "省略随机预条件和按理论密度设计的分层码本，均匀角度仅用于解释递归结构；不是另一篇 RoPE 配对的同名 PolarQuant。",
+    "reading_resources": [
+      "N24"
+    ]
+  },
+  {
+    "id": "polarquant_rope",
+    "title": "PolarQuant：RoPE 配对与 QK 查表",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-2",
+    "guide": "docs/15_新进展_KV与推理系统.md#polarquant_rope",
+    "diagram": "figures/techniques/polarquant_rope.svg",
+    "code_sha256": "ff08d813582897bde7e3016dd170ccf5da6406e12556ebba20dd3d7862071dbc",
+    "run": "python experiments/technique_lab.py --technique polarquant_rope",
+    "source_references": "arXiv:2502.00527",
+    "scope": "单个二维配对，码本为手工候选；实际模型必须遵守各自 RoPE 配对布局，量化器校准与 Triton 内核未复现。",
+    "reading_resources": [
+      "N25"
+    ]
+  },
+  {
+    "id": "oscar_spectral",
+    "title": "OSCAR：Attention 感知的谱旋转",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-3",
+    "guide": "docs/15_新进展_KV与推理系统.md#oscar_spectral",
+    "diagram": "figures/techniques/oscar_spectral.svg",
+    "code_sha256": "b963b143701571cda3dc24b13e4e08ad5c8834530fa93bf5595e42442124a075",
+    "run": "python experiments/technique_lab.py --technique oscar_spectral",
+    "source_references": "arXiv:2605.17757",
+    "scope": "只展示谱目标和数值数据流，省略百分位裁剪、sink/recent 高精度区及分页缓存内核；理论最优性依赖冻结误差等假设。",
+    "reading_resources": [
+      "N26",
+      "L23"
+    ]
+  },
+  {
+    "id": "oscar_token",
+    "title": "OScaR：旋转后的 token 范数平衡",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-4",
+    "guide": "docs/15_新进展_KV与推理系统.md#oscar_token",
+    "diagram": "figures/techniques/oscar_token.svg",
+    "code_sha256": "73370e79b0a26f224c2f04ab8e4440b27107a0b3e07a23f9db50f6a130a3ca2d",
+    "run": "python experiments/technique_lab.py --technique oscar_token",
+    "source_references": "arXiv:2605.19660",
+    "scope": "只处理一个 Key 块，省略多模态实现、完整 Value 路径、流式残留区和 CUDA 性能测量。",
+    "reading_resources": [
+      "N27",
+      "L24",
+      "L25"
+    ]
+  },
+  {
+    "id": "kvarn",
+    "title": "KVarN：token 与通道双向方差归一化",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-5",
+    "guide": "docs/15_新进展_KV与推理系统.md#kvarn",
+    "diagram": "figures/techniques/kvarn.svg",
+    "code_sha256": "eea9707cc41f464ea4fc6d708536fc90852d92225b4eca0f442d5681e9fac0ee",
+    "run": "python experiments/technique_lab.py --technique kvarn",
+    "source_references": "arXiv:2606.03458",
+    "scope": "直接标准差迭代解释可逆缩放，省略论文对数域稳定更新、实际 KV 分块布局和长推理评估。",
+    "reading_resources": [
+      "N28",
+      "L26"
+    ]
+  },
+  {
+    "id": "attn_qat",
+    "title": "Attn-QAT：前后向量化状态一致",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-6",
+    "guide": "docs/15_新进展_KV与推理系统.md#attn_qat",
+    "diagram": "figures/techniques/attn_qat.svg",
+    "code_sha256": "4563452ff4b8bd0e5aca0da89a29e1293dc82f9ae2141ce99c531d2e31e92473",
+    "run": "python experiments/technique_lab.py --technique attn_qat",
+    "source_references": "arXiv:2603.00040",
+    "scope": "验证一个关键反向恒等式，未实现 FlashAttention 分块重算、完整反向 kernel 或模型级 QAT。",
+    "reading_resources": [
+      "N29"
+    ]
+  },
+  {
+    "id": "qserve",
+    "title": "QServe / QoQ：W4A8KV4 系统协同",
+    "principle": "docs/15_新进展_KV与推理系统.md#principle-15-7",
+    "guide": "docs/15_新进展_KV与推理系统.md#qserve",
+    "diagram": "figures/techniques/qserve.svg",
+    "code_sha256": "049104e8298902dade9b6765e03a8f1d30cec76eba76ec1380fd8a89b4c1bf85",
+    "run": "python experiments/technique_lab.py --technique qserve",
+    "source_references": "arXiv:2405.04532",
+    "scope": "仅验证渐进式量化和保护范围反例；省略外层 FP16 scale、SmoothAttention、KV4 管理和融合 CUDA 内核。",
+    "reading_resources": [
+      "N30",
+      "L27",
+      "L28"
+    ]
+  }
+]

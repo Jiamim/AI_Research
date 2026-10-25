@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>量化未来趋势：成功任务成本情景计算器</title>
+  <style>
+    :root { color-scheme: light; --ink:#17324d; --muted:#526b82; --accent:#176b86; --bad:#a64035; --good:#1b725a; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f3f7fb; color:var(--ink); font:16px/1.65 system-ui,"Noto Sans CJK SC","Microsoft YaHei",sans-serif; }
+    main { max-width:1120px; margin:auto; padding:36px 24px; }
+    h1 { font-size:clamp(25px,4vw,36px); line-height:1.3; margin:0 0 12px; }
+    h2 { font-size:20px; margin:0 0 18px; }
+    p { margin:10px 0; }
+    a { color:var(--accent); }
+    .lead { max-width:880px; color:var(--muted); }
+    .layout { display:grid; grid-template-columns:minmax(270px,1fr) minmax(0,1.6fr); gap:24px; margin-top:28px; }
+    .panel { background:white; border:1px solid #d7e3ee; border-radius:16px; padding:24px; }
+    .control { margin:0 0 23px; }
+    label { display:flex; justify-content:space-between; align-items:baseline; gap:12px; font-weight:600; }
+    label output { color:var(--accent); white-space:nowrap; }
+    input[type=range] { width:100%; margin:10px 0 0; accent-color:var(--accent); }
+    small { display:block; color:var(--muted); font-size:13px; }
+    button { padding:9px 16px; border:1px solid #b9cddb; border-radius:8px; color:var(--ink); background:#f3f8fb; cursor:pointer; font:inherit; }
+    button:focus-visible,input:focus-visible { outline:3px solid #6eb4d4; outline-offset:3px; }
+    .metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+    .metric { padding:14px 10px; background:#f4f8fb; border-radius:10px; }
+    .metric span { display:block; font-size:13px; color:var(--muted); }
+    .metric strong { display:block; font-size:25px; margin-top:5px; }
+    #verdict { font-size:19px; font-weight:650; margin:20px 0 8px; }
+    .plot { width:100%; margin-top:16px; overflow:visible; }
+    .formula { margin-top:24px; padding:16px 20px; border-left:4px solid var(--accent); background:#eaf3f8; overflow-wrap:anywhere; }
+    .notes { margin-top:24px; color:var(--muted); }
+    .notes li { margin:6px 0; }
+    @media (max-width:760px) { .layout { grid-template-columns:1fr; } main { padding:24px 16px; } .panel { padding:20px; } }
+    @media (max-width:420px) { .metrics { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>每 token 更便宜，成功完成任务也更便宜吗？</h1>
+  <p class="lead">调整假设，观察输出长度和任务成功率如何改变量化的成本收益。所有数值均为情景输入，不是任何模型的测量结果，也不预测某项技术的成功率。</p>
+  <p><a href="../docs/16_未来趋势与研究路线.md#successful-task-cost">返回第 16 章的推导与适用条件</a></p>
+  <div class="layout">
+    <section class="panel" aria-labelledby="controls-title">
+      <h2 id="controls-title">情景假设</h2>
+      <div class="control">
+        <label for="fraction">基线输出阶段成本占比 <output id="fraction-value" for="fraction"></output></label>
+        <input id="fraction" type="range" min="0" max="1" step="0.01" value="0.8">
+        <small>剩余成本暂时假设不变，包括未受影响的前处理等。</small>
+      </div>
+      <div class="control">
+        <label for="token">每 token 成本比 <output id="token-value" for="token"></output></label>
+        <input id="token" type="range" min="0.1" max="1.5" step="0.01" value="0.7">
+        <small>0.70 表示单位 token 成本降到基线的 70%。</small>
+      </div>
+      <div class="control">
+        <label for="length">输出长度比 <output id="length-value" for="length"></output></label>
+        <input id="length" type="range" min="0.5" max="2.5" step="0.01" value="1.5">
+        <small>1.50 表示相同任务平均生成长度增加 50%。</small>
+      </div>
+      <div class="control">
+        <label for="baseline">基线成功率 <output id="baseline-value" for="baseline"></output></label>
+        <input id="baseline" type="range" min="0.01" max="1" step="0.01" value="0.90">
+      </div>
+      <div class="control">
+        <label for="quantized">量化方案成功率 <output id="quantized-value" for="quantized"></output></label>
+        <input id="quantized" type="range" min="0.01" max="1" step="0.01" value="0.85">
+        <small>请使用同一任务集和相同成功判定，不允许通过删掉困难任务提高该值。</small>
+      </div>
+      <button id="reset" type="button">恢复文档示例</button>
+    </section>
+    <section class="panel" aria-labelledby="results-title">
+      <h2 id="results-title">相对于基线的成本</h2>
+      <div aria-live="polite" aria-atomic="true">
+        <div class="metrics">
+          <div class="metric"><span>输出阶段</span><strong id="decode-result"></strong></div>
+          <div class="metric"><span>单次尝试</span><strong id="attempt-result"></strong></div>
+          <div class="metric"><span>成功任务</span><strong id="success-result"></strong></div>
+        </div>
+        <p id="verdict"></p>
+      </div>
+      <p class="lead">图中只改变输出长度比，其他参数固定为左侧输入。虚线 1.0 表示与基线成本相同。</p>
+      <svg id="chart" class="plot" viewBox="0 0 620 350" role="img" aria-labelledby="chart-title chart-desc">
+        <title id="chart-title">输出长度比与成功任务成本比</title>
+        <desc id="chart-desc">由当前假设计算的情景曲线；不表示测得的趋势。</desc>
+        <g id="chart-content"></g>
+      </svg>
+      <div class="formula">
+        <div>输出阶段：r<sub>decode</sub> = r<sub>token</sub> × r<sub>length</sub></div>
+        <div>单次尝试：r<sub>attempt</sub> = 1 − f + f × r<sub>decode</sub></div>
+        <div>成功任务：r<sub>success</sub> = r<sub>attempt</sub> × p<sub>base</sub> / p<sub>quant</sub></div>
+      </div>
+    </section>
+  </div>
+  <section class="notes">
+    <h2>如何解释结果</h2>
+    <ul>
+      <li>比值小于 1 表示该成本口径下降，大于 1 表示上升。单次尝试与成功任务是不同口径。</li>
+      <li>成功任务公式使用独立重复尝试、成功概率和平均成本稳定的简化模型。相关失败、有限重试、改变 prompt 的恢复和外部工具费用需要单独建模。</li>
+      <li>本计算器不估计量化会导致怎样的输出长度或成功率，这些必须来自独立评测。也没有计入一次性训练/校准摊销、排队、内存和服务尾延迟。</li>
+      <li>成本比需要在质量底线和固定任务分布内解释。便宜但不满足最低成功率的方案仍然不可接受。</li>
+    </ul>
+  </section>
+</main>
+<script>
+"use strict";
+
+// This pure function is also used by the numerical verification of this page.
+function evaluateScenario(fraction, tokenRatio, lengthRatio, baselineSuccess, quantizedSuccess) {
+  const values = [fraction, tokenRatio, lengthRatio, baselineSuccess, quantizedSuccess];
+  if (!values.every(Number.isFinite) || fraction < 0 || fraction > 1 || tokenRatio <= 0 || lengthRatio <= 0 || baselineSuccess <= 0 || baselineSuccess > 1 || quantizedSuccess <= 0 || quantizedSuccess > 1) {
+    throw new RangeError("Invalid scenario parameters");
+  }
+  const decode = tokenRatio * lengthRatio;
+  const attempt = 1 - fraction + fraction * decode;
+  return {decode, attempt, success: attempt * baselineSuccess / quantizedSuccess};
+}
+
+const defaults = {fraction: 0.8, token: 0.7, length: 1.5, baseline: 0.90, quantized: 0.85};
+const ids = Object.keys(defaults);
+const inputs = Object.fromEntries(ids.map(id => [id, document.getElementById(id)]));
+
+function drawChart(params, current) {
+  const left = 66, right = 594, top = 28, bottom = 287;
+  const maxCost = evaluateScenario(params.fraction, params.token, 2.5, params.baseline, params.quantized).success;
+  const yMax = Math.max(1.4, Math.ceil(maxCost * 1.12 * 5) / 5);
+  const x = value => left + (value - 0.5) / 2 * (right - left);
+  const y = value => bottom - value / yMax * (bottom - top);
+  const parts = [];
+  for (let i = 0; i <= 4; i++) {
+    const value = i * yMax / 4;
+    parts.push(`<line x1="${left}" y1="${y(value)}" x2="${right}" y2="${y(value)}" stroke="#e3ebf2"/>`);
+    parts.push(`<text x="${left - 9}" y="${y(value) + 5}" text-anchor="end" font-size="13" fill="#526b82">${value.toFixed(2)}</text>`);
+  }
+  for (let i = 0; i <= 4; i++) {
+    const value = 0.5 + i * 0.5;
+    parts.push(`<text x="${x(value)}" y="${bottom + 24}" text-anchor="middle" font-size="13" fill="#526b82">${value.toFixed(1)}</text>`);
+  }
+  parts.push(`<line x1="${left}" y1="${bottom}" x2="${right}" y2="${bottom}" stroke="#9bb1c2"/>`);
+  parts.push(`<line x1="${left}" y1="${top}" x2="${left}" y2="${bottom}" stroke="#9bb1c2"/>`);
+  parts.push(`<line x1="${left}" y1="${y(1)}" x2="${right}" y2="${y(1)}" stroke="#a64035" stroke-dasharray="6 5"/>`);
+  const points = [];
+  for (let i = 0; i <= 80; i++) {
+    const length = 0.5 + i / 40;
+    const value = evaluateScenario(params.fraction, params.token, length, params.baseline, params.quantized).success;
+    points.push(`${x(length)},${y(value)}`);
+  }
+  parts.push(`<polyline points="${points.join(" ")}" fill="none" stroke="#176b86" stroke-width="3"/>`);
+  parts.push(`<circle cx="${x(params.length)}" cy="${y(current.success)}" r="6" fill="${current.success > 1 ? "#a64035" : "#1b725a"}" stroke="white" stroke-width="2"/>`);
+  parts.push(`<text x="${left}" y="17" font-size="14" fill="#17324d">成功任务成本比</text>`);
+  parts.push(`<text x="330" y="338" text-anchor="middle" font-size="14" fill="#17324d">输出长度比</text>`);
+  document.getElementById("chart-content").innerHTML = parts.join("");
+}
+
+function update() {
+  const params = Object.fromEntries(ids.map(id => [id, Number(inputs[id].value)]));
+  for (const id of ids) {
+    const ratio = id === "token" || id === "length";
+    document.getElementById(id + "-value").value = ratio ? params[id].toFixed(2) + "×" : (100 * params[id]).toFixed(0) + "%";
+  }
+  const result = evaluateScenario(params.fraction, params.token, params.length, params.baseline, params.quantized);
+  for (const key of ["decode", "attempt", "success"]) {
+    document.getElementById(key + "-result").textContent = result[key].toFixed(3) + "×";
+  }
+  const difference = 100 * (result.success - 1);
+  const verdict = document.getElementById("verdict");
+  verdict.style.color = difference > 0 ? "#a64035" : "#1b725a";
+  verdict.textContent = Math.abs(difference) < 0.05 ? "在当前假设下，成功任务成本约与基线持平。" : `在当前假设下，成功任务成本${difference > 0 ? "增加" : "下降"} ${Math.abs(difference).toFixed(1)}%。`;
+  drawChart(params, result);
+}
+
+for (const input of Object.values(inputs)) input.addEventListener("input", update);
+document.getElementById("reset").addEventListener("click", () => {
+  for (const id of ids) inputs[id].value = defaults[id];
+  update();
+});
+update();
+</script>
+</body>
+</html>

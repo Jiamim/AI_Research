@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+<title id="title">QAT / STE：高精度累积、低精度前向</title>
+<desc id="desc">前向使用量化权重，反向用人为指定的替代梯度更新高精度主权重。主权重能够累积小于量化步长的更新，避免每一步都把小更新舍掉。；高精度 master 权重；前向舍入为低比特值；STE 传递区间内梯度；更新 master，下一步重新量化</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="340" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">QAT / STE：高精度累积、低精度前向</text>
+<path d="M272 162 L294 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M542 162 L564 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M812 162 L834 162" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="127" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="154" font-size="17" text-anchor="middle" fill="#173650">高精度 master 权重</text>
+<rect x="294" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="312" y="127" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="418.0" y="154" font-size="17" text-anchor="middle" fill="#173650">前向舍入为低比特值</text>
+<rect x="564" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="582" y="127" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="688.0" y="154" font-size="17" text-anchor="middle" fill="#173650">STE 传递区间内梯度</text>
+<rect x="834" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="852" y="127" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="958.0" y="154" font-size="17" text-anchor="middle" fill="#173650">更新 master，下一步重新量</text>
+<text x="958.0" y="178" font-size="17" text-anchor="middle" fill="#173650">化</text>
+<path d="M952 224 L952 276 L418.0 276 L418.0 224" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<text x="590" y="267" font-size="13" fill="#31748f">继续下一轮</text>
+<text x="30" y="321" font-size="13" fill="#546c82">教学数据流；实际实现范围与省略内容见配套代码说明</text></g></svg>

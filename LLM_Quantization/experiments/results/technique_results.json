@@ -1,0 +1,929 @@
+{
+  "schema_version": 2,
+  "created_utc": "2026-10-25T03:38:49.785502+00:00",
+  "python": "3.12.7",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4"
+  },
+  "parameters": {
+    "technique": "all",
+    "check_docs": true
+  },
+  "source_files_sha256": {
+    "constraints-cpu.txt": "a539311fb4199ddf63f61a757c24a3c4efe714b3a9f16bb23692dc037d27fceb",
+    "docs/01_均匀量化与误差.md": "131c84b3b77e473997607094b67e84c229292a81de823f127f1a9aeccc3f949f",
+    "docs/02_GPTQ与二阶误差补偿.md": "d2ac3b5e7ff4097ac689358dcb396b473c542790862d7325321ed8b63e44966d",
+    "docs/03_离群值与缩放.md": "92b20ef9d0adbb53f4d9e5e12cfe7c7062acf3f71d1015522ef2474d53edfad2",
+    "docs/04_可学习校准与HQQ.md": "a3aa63a1cde6e95d54007ac53af29db98c8310e2820caccb595adb0e6bd7d066",
+    "docs/05_旋转与非相干化.md": "bf52d3e458e16dde4df2f30b0be015635a010e3c9b465a522f9875ef5d63fa91",
+    "docs/06_码本_稀疏与混合精度.md": "7c1b0892f07eb223104689070701deb1e8fadafc9a0899d3ddab03a600688146",
+    "docs/07_QAT_QLoRA与原生低比特.md": "0c07919d8c41f46c75330e2046efe2fca8c6864b6cabdb147241b3aa669c8454",
+    "docs/08_KV缓存与Attention量化.md": "4287881e601a23d472aadbe39870b504d00949a9c4beee5d61274b48685f3889",
+    "docs/09_浮点格式与推理系统.md": "ce0882d3abf600f29452845beb76c91ff8baa16a11bad75f7ec47346a2b3bf36",
+    "docs/12_新进展_变换与编码.md": "baeeb666e4f58cacc6ea998d0a5e9ab2ded1917804e854f268f750ec76d06b45",
+    "docs/13_新进展_FP4与误差修正.md": "e15bb9bdfd3155d930f2cb98f0fba81ff9a843180311eeb22116067e3b724168",
+    "docs/14_新进展_训练与MoE.md": "232b85c2b552ae9b377afd2d4f45150ed5ccf2ae986fadbc734c7db76ac3cdc6",
+    "docs/15_新进展_KV与推理系统.md": "81660cff0e5354da930088284385e7be38c9e3292c2005f1e079963811fbb719",
+    "experiments/build_chapter_demos.py": "546d6c270ade38a3dc0aa1e84f16f4c9a271b8d77d3a15bf9f793498d20616ff",
+    "experiments/build_colab_chapter_demos.py": "f8a6ba2aef5f53e6de9bc37354a27296cefca71f2f2557b39bc8f13fbfbc5190",
+    "experiments/build_technique_docs.py": "a883e022d3d71473d6d26c4d49c697a874fa286e67649dacfad99fb936e52506",
+    "experiments/chapter_demo_catalog.py": "5f7266bcc35ea65cd88e8204efc96f02e6c4fb223f6deac8ae6eeec7cf0fa247",
+    "experiments/chapter_demo_lab.py": "5ba215f8484839772906f766804bf6a8316632d912a9853660e6ad8ceff75d11",
+    "experiments/check_project.py": "23ca5e058a579a378c328274cd47ab71d91d689b7abb189df6d49909e236d883",
+    "experiments/cuda_cases.py": "15e2d9b6272d4e086ab342415b530be4c7e14407d2878740bf29fd548ca27a28",
+    "experiments/cuda_kernels.py": "f84b65d24ef69e8537d343b6f75b139a10330d952dfdb1b451fb32f3d8e83f2b",
+    "experiments/cuda_lab.py": "1ade99e315542ce02f77df7365942b68e0f16a5cbff1e41f8389416213db3442",
+    "experiments/cuda_runtime.py": "7d6a4f36a67a8649284440c1bcadabcc26ea76f5593450c5f2bfaff5a63ceaae",
+    "experiments/deep_dive_lab.py": "f9cd0243010310c37c24939748deba984b374876e14e47494e37ccf3cf85e96c",
+    "experiments/demo_runtime.py": "89e46156a48f6f54d80ec7f4e6ae402737af34e6c3270d6ee028d2f971e3da9a",
+    "experiments/demo_torch_kernels.py": "ec360d3d9d75259c62615fa690f05d0864c456b4f270e2fa913c1dae92d11e10",
+    "experiments/demos/appendix_math.py": "ed16f46b02e3c16b9537b33ef90f79cd40bcdcf8040472de99d5c459be398a19",
+    "experiments/demos/ch00.py": "580ea848bc90e6ab7033ba6f5c915ae88334fcd57173770bd7feed8364333c9e",
+    "experiments/demos/ch01.py": "d8d72483782a047aed21270361ed95bb80b61ab9ff24a09e08cc0b1a5b45abc9",
+    "experiments/demos/ch02.py": "f3058de94c32600649343dd0a6402083e54a3dbc80f35a6d81aa237b4d17dd2b",
+    "experiments/demos/ch03.py": "074077800f4021c473618d62f453ea4f507a34d653aeb97aab475011eec48ed2",
+    "experiments/demos/ch04.py": "bd93f7f726c187f16c2c55d58508942d08892f030f0cf01fa56b7b9bda9893a3",
+    "experiments/demos/ch05.py": "35d67681b61f1814e9f1aee71099224c5e94600d343b095072720496052af7bf",
+    "experiments/demos/ch06.py": "722f2a63ef8b89607842abaa55467d72f8c6d0e9cf3e7eadfea807bf61c535fa",
+    "experiments/demos/ch07.py": "f7747f36f40d47c2fb3cd80b8241eb25555464c076626879be4f1ee928548c20",
+    "experiments/demos/ch08.py": "48f59a004c6dd16bdefad560a5a98b9b7de06002354531dc95559dbc063ca7d8",
+    "experiments/demos/ch09.py": "fcbfbd604f735eb10c8445f768e44e38bfc0abc5fc132610b581a026c3177401",
+    "experiments/demos/ch10.py": "11d9f303a75fe85c1f3b8984df99381c152395737b92e843262faa0c956a20b7",
+    "experiments/demos/ch11.py": "f870dd5575ca166180a1ba8adaabfb7a9b534ee9fd400d04e6139f354f60382b",
+    "experiments/demos/ch12.py": "fb8b0b3658db1031c9bb65185be68cb0bbdbe33c3266f58696ab02764ab3a2ae",
+    "experiments/demos/ch13.py": "50e21cc21c88a2bdff1762135dfd735bd3e16d830f32b9c805dcd24f78186d28",
+    "experiments/demos/ch14.py": "a4be35f937e2040ddd731c1b4b19d62477a444ec250ea2f3a0151ecac9d8dd79",
+    "experiments/demos/ch15.py": "496e55f07763eee112024026431898faa454d6ac950290712152152a48fd5736",
+    "experiments/demos/ch16.py": "2109c05d1ddaa0296edeb3114401df3063f38eaf38b36747ba1f95c5ba473cfc",
+    "experiments/demos/four_over_six.py": "1277e292a36f4376a4b67bc0c74f413d0c2aaea2f89961c3b2191aad2c5919ed",
+    "experiments/demos/gpu_formats.py": "3ba13b12fe6b0df2443567775b8c4205de34619d5518339ddfecb4839a230173",
+    "experiments/demos/gradient_rounding.py": "c0921881fc3ac311ae9bed1aad25bb1d7010adda4c920773553a8170e5cf8f0a",
+    "experiments/demos/int8.py": "b6fc39ae5bdda0c75c4a13bbb030f86b87ab639f4f43c69b3e101ea279b13c22",
+    "experiments/demos/mr_gptq.py": "6579b55ef11bad6bd6782fb1907418096d2ed5476875a22742fa7b49e516d4b7",
+    "experiments/demos/oscillation.py": "f37fa504b549dbdee82d3715f105348525a8cee22b187baa860e8349514aee69",
+    "experiments/demos/research.py": "efb056afe0371cd93a8d22c00d6f828abb0574b03ca64320854a4883482e0fc1",
+    "experiments/demos/scale_layout.py": "5fb3a7197ae5dc19edb8ede406e7f5d161f10942b1d2c0482840993766989c49",
+    "experiments/demos/training_transpose.py": "bfe98f5aa7f7eb7724a6392e07c1be6b17796312f8a9b0c8f86f2deb871f6159",
+    "experiments/inspect_run.py": "dddc83e6e8b297fe3c7c2f4ddabd467f2c9ea5c8d2b60d0701b67a8d2160d7b9",
+    "experiments/latest_techniques.py": "a577f31a6f1293d42365feae43a2a8f5a0681f0e6af2405441847c6595731c95",
+    "experiments/llm_int8_lab.py": "bbc7b8d308b122a55193b1c30cbc154e8e08407de88e4b3241581ef0ada50ef4",
+    "experiments/native_nvfp4_probe.py": "565c3559539d62eaac2e4ef2188e54757ab66bd6f0b11d6b362b6970875983b3",
+    "experiments/outlook_scenarios.py": "6f5cb98ceec4e63be575793ec65f36dd439097a696aee47cf83153cb716c9fdb",
+    "experiments/quant_lab.py": "fd19a8677f98d708e11a8a5600e046a21b4cadf4fea31ad546dbfa4a1d04b6bb",
+    "experiments/result_utils.py": "3cd1b298a3a539da99b4826eb61d3128a8ea95fb2c46d3bdb1a6c613fed0b2e4",
+    "experiments/technique_catalog.py": "112fdc0bc3add673ce0537f4ab7ff10d3ef573920ed5146d3283ee027b73668f",
+    "experiments/technique_kernels.py": "71e69b95ee6cf3318151226ba993b0e040ef7fd0a77e654d66317672b204cda3",
+    "experiments/technique_lab.py": "675ae2484e7f7fd1ad623144d07320c5da9222cc158e862cad22320ac303a90a",
+    "experiments/validation.py": "1ebceff9e90ec8ac3d4b66699e2617fbc09441d94a8275d635f380d6262bf982",
+    "references/reading_links.json": "2cad6defe56cc5d6304a58a31adce6c87620648748471713c407e6445fe6795f",
+    "requirements-cuda.txt": "2932d35ffcaf721c872f48eb31bff8c6cf714129be2295bf93e175560e9f1db4",
+    "requirements-demos.txt": "dd3ea7b15eb35c23d7948fb9c4bd0dcca055a087ba788fb108ab0edd6f2dd99b",
+    "requirements.txt": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081"
+  },
+  "source_sha256": "ec6369c708939fc3bcd793abd627e62ac59a3a2adcf6f9605e3d938b5981b702",
+  "numpy": "2.1.3",
+  "scope": "Synthetic CPU demonstrations, not complete paper or hardware reproductions",
+  "passed_techniques": 93,
+  "checked_docs": 93,
+  "results": [
+    {
+      "id": "symmetric",
+      "title": "对称均匀量化",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "2694125687086eec28f993066fdcf3d14aeaaecb8a7217f77101530c81847bfd",
+      "output": "scale, codes, restored: 0.14285714285714285 [-7 -2  1  6] [-1.         -0.28571429  0.14285714  0.85714286]",
+      "scope": "此处 int8 是便于观察的容器，四个编码并没有自动打包成两个字节。全零组和显式 bound 校验见 quant_lab.py 的 symmetric_qdq。"
+    },
+    {
+      "id": "affine",
+      "title": "仿射量化与整数零点",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "65a6c50855e25b18c968d7bacdc57679e703b8ef514a335d224490fa51995e93",
+      "output": "zero point, codes, restored: 1 [0 1 2 3] [-1.  0.  1.  2.]",
+      "scope": "浮点 offset 的 min-max 编码与这里的整数零点不同；存储成本还包含 scale 和 zero point。"
+    },
+    {
+      "id": "rtn",
+      "title": "RTN：最近格点舍入",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "3bf422714656d0403b717f27b41d0124340498ad6d3888871ce52e06cd6ae416",
+      "output": "RTN: [1. 1.] best output candidate: [0. 1.]",
+      "scope": "枚举只适合这个二维反例；真实模型中的离散搜索无法直接穷举。"
+    },
+    {
+      "id": "grouping",
+      "title": "按通道、按 token 与按组量化",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "c74ef78266c8974b1c43f63e06dab576f5efa404c2cf6aca4a6773debfe18d98",
+      "output": "bits, group, MSE, effective bits: 4 4 0.035 8.0\nbits, group, MSE, effective bits: 4 2 0.022551020408163265 12.0\nbits, group, MSE, effective bits: 8 4 0.0004969309938619875 12.0\nbits, group, MSE, effective bits: 8 2 5.611011222022448e-05 16.0",
+      "scope": "示例只支持完整组，不做 padding；小组精度改善是本例观察，不能据此保证真实任务或速度单调改善。"
+    },
+    {
+      "id": "minmax",
+      "title": "MinMax / AbsMax 校准",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "dbe896905d8e73417029f066da20e8f92f0c2c850f93a69d554e4c5b13b3d5ed",
+      "output": "AbsMax scale: 1.4285714285714286 output: [ 0.  0.  0. 10.]\nAffine output and zero point: [ 0.  0.  0. 10.] [0]",
+      "scope": "校准集之外仍可能出现更大值；保存全部校准范围不代表完全没有线上溢出。"
+    },
+    {
+      "id": "percentile",
+      "title": "Percentile 分位数裁剪",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "4b0ce338561311f71badbfe4c38f3c6205b3a03d0f3b95a1a517f01b4408be9c",
+      "output": "bound, clipped fraction: 1.2722727023667861 0.01\nMSE percentile, AbsMax: 0.010799670357067932 0.15087650358829752",
+      "scope": "本例不把分位数法优于 AbsMax 写成断言，避免把构造数据的收益误当成定理。"
+    },
+    {
+      "id": "mse_clipping",
+      "title": "MSE 裁剪搜索",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "69dc3c7f8407bcf0571763f8b0c6ca4691230470d128c9841763ce279a7d414b",
+      "output": "best bound, MSE, AbsMax MSE: 1.317721518987342 0.011145284274816031 0.0831068343579614",
+      "scope": "这是有限网格上的最优候选，不是连续阈值的全局解析最优。"
+    },
+    {
+      "id": "kl_calibration",
+      "title": "KL 直方图校准",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "b1f4b112c760d34fba81baf1f1b52b8a789b8d2fa2ec37f9da370f6e61945d10",
+      "output": "selected bin count: 5\nKL values: [0.0005970057243315958, 0.0024905579577872844, 0.005914965024230964, 0.00594262110439613, 0.00889126355447873, 0.019629997481153055, 0.027016451412161968, 0.02820295513951908]",
+      "scope": "这是明确约定的非负直方图教学算法，不能宣称与某版本 TensorRT 校准器逐位一致；KL 也不等于任务损失。"
+    },
+    {
+      "id": "integer_matmul",
+      "title": "整数矩阵乘与零点修正",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "f01ea2bc941c65fb41802e60c0a7feafd47eb22aa6b91f927b494fedfb815164",
+      "output": "corrected integer sum, restored output: 21 0.4200000000000001",
+      "scope": "NumPy 例子不测量 Tensor Core 性能；真实内核还需管理溢出、归约长度与累加类型。"
+    },
+    {
+      "id": "stochastic_rounding",
+      "title": "随机舍入",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "4043e99ced0244862a0aee1d706961d5e7f58e73254a665a4eee2734e4040adf",
+      "output": "mean, target, standard error: 0.26013699999999995 0.26 0.00015483104351686188",
+      "scope": "截断到编码边界会破坏这里的无偏条件；随机数开销和训练收益需另外评估。"
+    },
+    {
+      "id": "gptq",
+      "title": "OBQ / GPTQ：二阶误差补偿",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "5d19c6521dc6392de50efd5320ae613a8968895560d8a9927919f7ac1c93ce44",
+      "output": "compensated, loss, RTN loss: [1. 0.] 0.27999999999999997 0.4800000000000001",
+      "scope": "代码是固定顺序、单输出行的 OBQ/GPTQ 核心机制，没有实现完整 GPTQ 的块更新、分组尺度和权重打包。"
+    },
+    {
+      "id": "gptaq",
+      "title": "GPTAQ / GPTQv2：非对称校准",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "dabdf75dbc1a082392ce09cbb81635c0cad6e9543596402ebcb2af8b0cd21a4f",
+      "output": "existing gradient, constrained correction: [ 0.132 -0.048] [ 0.4        -0.18490566]",
+      "scope": "这是一轮局部二次补偿，不是论文完整的可扩展矩阵更新流程；名称与版本对应关系见正文。"
+    },
+    {
+      "id": "damping",
+      "title": "Damping：正则化二阶求解",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "474837276ccab4da02d869f18a347a6a025fbfc9d84a93906e029b9f28e336f5",
+      "output": "lambda, direction: 0.1 [ 5.02487562 -4.97512438]",
+      "scope": "全零 Hessian 的对角均值仍为零，需要另设 λ 下限；这里用非零奇异矩阵展示常用相对 damping。"
+    },
+    {
+      "id": "llm_int8",
+      "title": "LLM.int8()：离群通道分流",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "1be0a82be74a56846c86ed7f3e65e36e671e4bf785854b571e7212951ec4763f",
+      "output": "outlier columns, output MSE: [1] 1.498409686632285e-07",
+      "scope": "高精度支路在这里使用 float64 验证代数；真实实现常用 FP16，并需处理空支路及检测、索引开销。"
+    },
+    {
+      "id": "smoothquant",
+      "title": "SmoothQuant：平衡激活与权重范围",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "976edbb5011ef76f21af0a1a6510c718e7e5593ee46e7898264386b4924d614d",
+      "output": "alpha, output MSE, activation max spread: 0.0 0.0005002331682038546 42.51330754662793\nalpha, output MSE, activation max spread: 0.5 3.2511594671633545e-05 6.520222967554707\nalpha, output MSE, activation max spread: 1.0 0.0001738675254643202 1.0",
+      "scope": "实际网络还需处理共享输入分支、归一化融合和校准范围漂移；示例并不寻找真实模型的最优 α。"
+    },
+    {
+      "id": "awq",
+      "title": "AWQ：激活感知的权重缩放",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "3642171e2f215dd9989de98fbe6294902e1288e85523bbb55233946c06d7ab62",
+      "output": "selected alpha, best MSE, RTN MSE: 0.25 0.0010032384517941464 0.041139659852561156",
+      "scope": "未实现完整 AWQ 的裁剪搜索、Transformer 模块融合或设备内核；保存的是低比特主体，不是额外保留固定 1% FP16 权重。"
+    },
+    {
+      "id": "zeroquant",
+      "title": "ZeroQuant：细粒度量化与逐层蒸馏",
+      "passed": true,
+      "assertion_locations": 4,
+      "code_sha256": "217e279306e6d542c5410c5bf9ef9768563684fbf3a6fd4601095095d42f5a4d",
+      "output": "best local reconstruction MSE: 0.018247917190815963",
+      "scope": "用单层 NumPy 和 W4A8 展示局部蒸馏机制；不包含论文的完整配置、数据流程或 fused kernel，不能测出其系统加速。"
+    },
+    {
+      "id": "rptq",
+      "title": "RPTQ：通道聚类重排",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "0955baef56a1df7d7b35f959da528031b36382422d69f66259b5cce4946c1867",
+      "output": "order, output MSE before/after: [0 2 3 1] 0.4 0.1882653061224498",
+      "scope": "实际方法还要把置换融合到归一化及权重布局；每层额外执行 gather 可能抵消收益。"
+    },
+    {
+      "id": "omni_lwc",
+      "title": "OmniQuant LWC：可学习权重裁剪",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "374af476b9c1a84b7305412b376acc0fe8aae1b2c0206c0ca5119591ea7d47e1",
+      "output": "best output MSE, u, v: (0.002726169610465439, 2.0, 2.0)",
+      "scope": "示例只处理同时含正负值的一组权重，使用枚举代替优化器；这不是完整 OmniQuant 校准实现。"
+    },
+    {
+      "id": "omni_let",
+      "title": "OmniQuant LET：可学习平移与缩放",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "dc06fe1876bf5a7abd395f50bca0627abd6f459558a9bf446b5417825fd99bdd",
+      "output": "bias correction, quantized output MSE: [ 4.24 -2.  ] 0.0002499436962993841",
+      "scope": "这里只展示 LET 参数化及前向，不实现联合优化；无偏置模型、归一化与多分支融合须按架构处理。"
+    },
+    {
+      "id": "autoround",
+      "title": "AutoRound / SignRound：优化舍入决策",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "d5e0e273a848536127dbeff5e10ea8c07a6bdf0c32209d168ef21a9bdb4f3054",
+      "output": "best codes, output squared error: [1. 0.] 0.0025000000000000044",
+      "scope": "仅演示固定尺度下的舍入偏移与 SignSGD；完整 AutoRound 还涉及裁剪、块重建、版本相关的优化策略。"
+    },
+    {
+      "id": "hqq",
+      "title": "HQQ：半二次分裂与浮点 offset",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "2a214d0e8608b8756974a3726ef5368840fb8014eddb5173662bb0baf9004adc",
+      "output": "floating offset, final reconstruction: 5.1 [-0.31 -0.11  0.09  0.49]",
+      "scope": "固定 s、p=1 的教学路径，没有作者实现的完整提前停止逻辑；p<1 的收缩通常是近似，z 也不是整数 zero point。"
+    },
+    {
+      "id": "quarot",
+      "title": "QuaRot：合法位置的配对旋转",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "34639f5c49eaba73ded163c0e1aaa5eab44ff87551fac1970b34a88d97fb63ca",
+      "output": "peaks before/after: 12.0 6.2\nrotated W4A4 output MSE: 0.1338953144523107",
+      "scope": "只验证一个线性层与无增益 RMSNorm；整个 Transformer 还要处理残差、非线性、RoPE 和在线旋转位置。"
+    },
+    {
+      "id": "spinquant",
+      "title": "SpinQuant：学习正交旋转",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "aab93383071a5a73a43810d74b41b0e5230fd8296c6a82dd4b6ddce0e0cc75aa",
+      "output": "initial/best local loss: 0.13002256790783254 0.0919885679637145",
+      "scope": "用单层输出重建展示学习旋转；原始 SpinQuant 的模型级损失、旋转位置、动量和优化预算不在此例中。"
+    },
+    {
+      "id": "flatquant",
+      "title": "FlatQuant：结构化可逆变换",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "9d74ebf43dc585603a8e8f1d3e3ac3ceee0ace9f421973665b3ea9c230414f59",
+      "output": "condition number, QDQ MSE: 2.080675876528818 0.01274993497132973",
+      "scope": "给定一组变换验证结构和前向，没有复现 FlatQuant 对变换、裁剪及多模块位置的完整学习过程。"
+    },
+    {
+      "id": "quip",
+      "title": "QuIP：非相干化与 LDLQ",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "8e5294b5eb9b85e2c7ab390fd74f014189b7b0dcd4d8d4f16a3312a6d43ccd07",
+      "output": "reverse-order LDLQ, quadratic loss: [0. 1.] 0.5599999999999999",
+      "scope": "只验证 LDLQ 子步骤；完整 QuIP 还包括非相干预处理、有限网格范围与理论假设，不能由本例宣称 2 bit 任务质量保证。"
+    },
+    {
+      "id": "quip_sharp",
+      "title": "QuIP#：Hadamard 与 E8 格点子问题",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "20cc1318ca535c823a84c1e4f88ea08f55a724e82136ab6490bee945eceedeaf",
+      "output": "E8 point, reconstruction error: [ 0.5 -0.5 -0.5  0.5  0.5  0.5  0.5  0.5] 0.7340168043839489",
+      "scope": "代码量化到无限 E8 格，不能把结果直接宣称为 16 bit/向量或完整 QuIP#；有限 E8P 截断、索引打包和 BlockLDLQ 需按 R15 实现。"
+    },
+    {
+      "id": "lloyd_max",
+      "title": "Lloyd-Max / k-means：学习标量码本",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "d51a7de4c21ef810aa59ab2ba94c58269116b1943a3a05f294f979ee0bfd7c9d",
+      "output": "centers, reconstructed values: [0.1 3.5] [0.1 0.1 3.5 3.5]",
+      "scope": "这是有限样本的加权一维 k-means；连续分布的 Lloyd-Max 用区间条件均值，初始化也会影响局部解。"
+    },
+    {
+      "id": "squeezellm",
+      "title": "SqueezeLLM：加权非均匀主体与稀疏例外",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "9bab2698f8f058339961da7ad7108d1023b642c2305cba6542123d72a0ad9966",
+      "output": "centers, protected count: [-0.25       -0.1         0.125       0.33333333] 1\nweighted error: 0.03416666666666667",
+      "scope": "示例省略 Fisher 采集、稀疏索引编码和专用查表内核；稀疏项在 NumPy 中仍以稠密数组表示。"
+    },
+    {
+      "id": "aqlm",
+      "title": "AQLM：多个向量码本相加",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "4aeb53cfe1ce3dec601d208667feefaa296ee6a375497299a73109434b85fde1",
+      "output": "indices, reconstruction, output error: (0, 0) [1.2 0.2] 0.004500000000000008\nindex bits per weight: 1.0",
+      "scope": "此例固定码本展示离散搜索；完整 AQLM 还会学习码本、行尺度并进行块级联合优化。"
+    },
+    {
+      "id": "spqr",
+      "title": "SpQR：敏感离群值与二级元数据量化",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "8963c45f17bf4472f0977356cb32c997022ef606972d0e85a38b7ab4031d0d59",
+      "output": "protected location, scale quantization error: [[0 2]] 0.0012373453318335198",
+      "scope": "没有实现完整顺序补偿及 SpQR 的具体元数据布局；二级尺度使用教学 INT8，不能作为官方 codec 导出。"
+    },
+    {
+      "id": "owq",
+      "title": "OWQ：高精度 weak columns",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "ba1abe15ee652092b5263fe38abdc5d5891b8e6d03ff605090c64f2dec301e30",
+      "output": "protected column, output MSE: [1] 0.0034722222222222424",
+      "scope": "此评分是教学对角近似，不替代 OWQ 原实现的完整排序、预算分配与量化补偿。"
+    },
+    {
+      "id": "mixed_precision",
+      "title": "层级与组级混合精度：在预算内分配 bit",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "35f96cba6a8fdf001d6e6d8579df907785b738039dc6a75983ee21bd6d41ac1e",
+      "output": "selected bits, payload budget, proxy error: (8, 2) 96 0.06280517578125\ngroup bits, stored bits, bytes: (8, 2) 368 46.0\nfull-layer MSE, uniform-4 MSE: 0.0001232057634741067 0.015603254326223398",
+      "scope": "层级例子使用高分辨率误差代理且只计 payload；组级例子显式计入所声明的元数据，但未物理打包或实现混合位宽 kernel。真实部署还要计入实际对齐和调度成本，并核对后端支持。"
+    },
+    {
+      "id": "qat_ste",
+      "title": "QAT / STE：高精度累积、低精度前向",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "bded43fd14743b59d1ce28f88ddfe900d49b9d1871a40c4147f7d9517ceb6e63",
+      "output": "master, forward weights, best loss: [ 0.26 -0.36] [ 0.2 -0.3] 0.0012500000000000022",
+      "scope": "仅训练一个权重向量的平方误差；真实 QAT 还需管理激活、任务损失、梯度和优化器状态，训练内存不会变成纯 4 bit。"
+    },
+    {
+      "id": "lsq",
+      "title": "LSQ：学习量化步长",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "abc753e44fb453ee733c7b2210af7d12f742bab90a0d098321feea7a63043107",
+      "output": "STE derivatives, scaled loss gradient: [ 0.4 -7.   7. ] -0.3709704134011871",
+      "scope": "演示 LSQ 的步长替代梯度，未构建训练器；初始化和梯度缩放应按权重/激活的实际设置选择。"
+    },
+    {
+      "id": "pact",
+      "title": "PACT：学习非负激活裁剪阈值",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "67b094e22c64044d92f7e94bfa9b8cdbe7cea89b33a2c34101dea3e939d23fad",
+      "output": "learned alpha, quantized nonnegative output: 1.8973065148174142 [0.         0.24946569 0.74839708 1.8709927 ]",
+      "scope": "本例使用完整步长 STE 展示可学习裁剪，原 PACT 的具体梯度和正则化配置需查 R20；有正负值的 LLM 激活不能直接套单边裁剪。"
+    },
+    {
+      "id": "llm_qat",
+      "title": "LLM-QAT：教师分布蒸馏",
+      "passed": true,
+      "assertion_locations": 4,
+      "code_sha256": "0d2680d26ed2a75c35b5c7ffa1d48be11b5901943ab01a9dbe0acb8797ed4d26",
+      "output": "initial/best teacher-student KL: 0.012286015785321082 0.004120738987662032",
+      "scope": "用随机特征代替文本和 Transformer，只演示蒸馏更新；没有实现文本生成以及权重、激活、KV 的完整联合 QAT。"
+    },
+    {
+      "id": "efficientqat",
+      "title": "EfficientQAT：Block-AP 与 E2E-QP",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "63a1ed644bd310f875dab1f30f737a26cbcfa58acbe1bb7986a5d5cf46772fcd",
+      "output": "fixed codes, final scale, before/after MSE: [ 1. -4.] 0.17100633157936002 0.006082416805726976 0.0026727792075649155",
+      "scope": "单层玩具例子展示两阶段的可训练对象，无法体现真实逐块训练节省内存或跨 Transformer 层的端到端协调。"
+    },
+    {
+      "id": "lora",
+      "title": "LoRA：低秩增量",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "f5d122f11b70db42d52c560cad0b639c94fd985df7c54bfcaff3aae63ac0e8e8",
+      "output": "base and trainable parameters: 48 28",
+      "scope": "代码验证线性合并关系，不包含 dropout 或多模块训练；把增量合入量化基础权重后通常还需重新量化。"
+    },
+    {
+      "id": "qlora",
+      "title": "QLoRA：冻结 NF4 基础模型，训练 LoRA",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "a12e7f7cb16a746ddc47d72afc8dfeba508a3de521e07466d78ca84c59610a8a",
+      "output": "frozen-base adapter loss before/best: 0.05513274317684191 0.02028040242454451",
+      "scope": "为便于 NumPy 检验，base 是常驻 float64 重建数组，不能据此测量 QLoRA 显存；实际实现保留打包基础权重并按算子反量化。"
+    },
+    {
+      "id": "nf4",
+      "title": "NF4：非均匀 16 点码本",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "f9b752d6f1492eca6d2b834bcf4690628cd7608ea0eb8ad236edb25c936d51c0",
+      "output": "indices, decoded weights: [[ 2  5  7  8 11 15]] [[-1.0501461  -0.36954686  0.          0.1591606   0.67583048  2.        ]]",
+      "scope": "此例不做物理 nibble 打包。NF4 与 15 级对称 INT4、16 级等间隔及仿射格式的完整对照见基础实验 08。"
+    },
+    {
+      "id": "double_quant",
+      "title": "Double Quantization：压缩量化尺度",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "3f63ebfa7ba6c85d8debd0c0a5faa0bea031d5794ce989ebe18529c3a161c88a",
+      "output": "scale overhead before/after, extra center bits: 0.5 0.126953125 0.001953125",
+      "scope": "这里用均匀 INT8 示范嵌套量化，不等同于 bitsandbytes 的具体 8 bit 动态码本和序列化格式。"
+    },
+    {
+      "id": "loftq",
+      "title": "LoftQ：量化与低秩补偿交替初始化",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "6dfa8ba1981b9123700fe0b6466476541f73e85eda32cdcbe6c5fcb2303ed89f",
+      "output": "iteration, residual SSE: 0 0.029576584672820795\niteration, residual SSE: 1 0.020123357341446955\niteration, residual SSE: 2 0.017873738169821303\niteration, residual SSE: 3 0.017018059382809876",
+      "scope": "当前 quantizer 的尺度重新估计是启发式，不能保证交替过程每轮单调下降；实际 LoRA 的 α/r 缩放也需纳入初始化。"
+    },
+    {
+      "id": "bitnet",
+      "title": "BitNet b1.58：三值权重",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "baa06d188af8eb1613b9bf59ded516e70cac8a5ee1fe8f84f7bda4d9b596b480",
+      "output": "ternary weights, output, ideal bits: [-1  0  0  1] 1.35 1.584962500721156",
+      "scope": "未实现完整 BitLinear 的激活量化、归一化或原生训练；直接把现成 BF16 模型三值化通常不能复现论文能力。"
+    },
+    {
+      "id": "paged_optimizer",
+      "title": "Paged Optimizer：按需迁移优化器状态",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "91bb841d21120cd1d834bc2f6cf3b79854895691f49ff3f5fb19fb793b98604f",
+      "output": "resident pages, total loads: 2 4",
+      "scope": "这是 LRU 状态迁移的教学模拟；实际 QLoRA paged optimizer 使用统一内存等机制，不等同于本例调度器，也没有在这里测量 GPU 内存。"
+    },
+    {
+      "id": "kivi",
+      "title": "KIVI：不同量化轴与流式残留区",
+      "passed": true,
+      "assertion_locations": 6,
+      "code_sha256": "52c0aec0aedc0e26662f611bf83c32aaaf9435d0e13316db3b6ad8f4eeade58d",
+      "output": "K/V high-precision tail lengths: 1 4",
+      "scope": "单头 CPU 模型，2 bit 编码存入 uint8 容器，未物理打包；不实现融合 Attention、分页或实际压缩率测量。"
+    },
+    {
+      "id": "kvquant",
+      "title": "KVQuant：pre-RoPE Key 与非均匀稀疏表示",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "08b853c0b75a4d3ef772022e07745a2caf5d77bd8fea71cb9c4bd80584f793d9",
+      "output": "sparse exceptions, post-RoPE SSE: 1 40.342745536001765",
+      "scope": "为缩短例子，码本未使用真实 Fisher 敏感性加权；展示的是 pre-RoPE、码本和稀疏恢复机制，未实现 KVQuant 的全部 Value 策略与 kernel。"
+    },
+    {
+      "id": "turboquant",
+      "title": "TurboQuant：球面分布的预计算量化",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "3cdbedeedf71083dd79693d44d4244d063fb234673e8bdd01d5ee8ed25eb0b51",
+      "output": "precomputed centers, reconstruction MSE: [-0.66030852 -0.43940885 -0.25501879 -0.08389013  0.08389013  0.25501879\n  0.43940885  0.66030852] 0.004287889410643713",
+      "scope": "用离散积分近似标量码本，只演示 MSE 路径；零向量需直接编码为零，快速结构化旋转也不自动满足相同 Haar 假设。"
+    },
+    {
+      "id": "qjl",
+      "title": "QJL：一位残差内积修正",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "f5c0f6e9fa99cce96907360dcccce90a3c731aa0bbb36cdcccf08b1c04280e33",
+      "output": "true dot, estimated mean, standard error: 2.5972702720260235 2.6440539443687956 0.04500552152811583",
+      "scope": "G 必须满足独立性与分布条件；残差为零时应直接返回零。内积无偏不推出 softmax、Attention 或生成文本无偏。"
+    },
+    {
+      "id": "sageattention",
+      "title": "SageAttention：Key 平滑与 INT8 QK",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "d90940b635ad6003f16785bc36a6b46de075d4d14d2ecd73b0ab66a616f33f4a",
+      "output": "smoothed INT8 attention output MSE: 1.5264464150478909e-06",
+      "scope": "按行 QDQ 的 CPU 教学实现，没有复现分块在线 softmax、融合内核或论文的速度数字。"
+    },
+    {
+      "id": "sageattention2",
+      "title": "SageAttention2：Query 修正、INT4 与 FP8",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "250ed0071d13fd501dc54637a54802068c3f13ce12973bcd123033bf79b033b2",
+      "output": "INT4 QK plus FP8 PV output MSE: 0.0011736289248463537",
+      "scope": "未复现 per-thread 数据布局，代码用按行 QDQ 与显式 P 展示数据流；原生 FP8 部分累加和 FP32 buffer 的误差需在 GPU 上验证。"
+    },
+    {
+      "id": "sageattention3",
+      "title": "SageAttention3：FP4 Attention 与 P 两级缩放",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "d2218314805daa012ba8288b1803db95e99b1a8f48d97056922193c516d0159d",
+      "output": "two-level FP4 attention MSE: 0.001847714379403998",
+      "scope": "展示完整概率矩阵的数值路径；真实内核使用未最终归一化的分块概率并维护在线 softmax 统计，不会显式存整个 P。有限 LUT 舍入也不是硬件逐位仿真。"
+    },
+    {
+      "id": "fp8",
+      "title": "FP8：E4M3 与 E5M2",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "e2540beb8cc32078ea4fb4dcfe0dfeda14d5a356e3dba70df07204713d94487d",
+      "output": "E4M3 scaled reconstruction: [-0.00000000e+00  9.59123884e-02  1.25558036e+00  2.00892857e+01\n  1.00000000e+03]\nE5M2 scaled reconstruction: [-0.00000000e+00  1.04631696e-01  1.39508929e+00  1.78571429e+01\n  1.00000000e+03]",
+      "scope": "不含 NaN、无穷传播和有符号零；LUT 在恰好半格处取排序中的先值，不是硬件 ties-to-even 的逐位替代。"
+    },
+    {
+      "id": "dynamic_scaling",
+      "title": "静态、当前动态与延迟缩放",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "f4f96d992bfdfcc68e039c418c285c6152950d1ccc3117b8fef65b1fb4a848c0",
+      "output": "static/current/delayed: [0.19642857 1.        ] [0.19642857 1.        ] [0.19642857 1.        ]\nstatic/current/delayed: [1. 1.] [ 1. 16.] [1. 1.]",
+      "scope": "生产延迟缩放常用多步历史最大值和 margin，本例只用一帧历史展示时序；饱和、溢出策略也需按后端确定。"
+    },
+    {
+      "id": "fp4",
+      "title": "FP4 E2M1：指数型非均匀代表值",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "5fba92a45801f277b514af2d708b0733f751bc1eed6784460e057932aadbe4cc",
+      "output": "inputs, E2M1 values: [0.1 0.6 1.2 2.7 5.8] [-0.   0.5  1.   3.   6. ]\nunique real values: 15",
+      "scope": "代码不返回 E2M1 的原始 4 bit 位模式，也不模拟有符号零；只检查有限值几何。"
+    },
+    {
+      "id": "mxfp4",
+      "title": "MXFP4：32 元素共享二次幂尺度",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "a3b2b16b89c8a0269ce98cf6631a300be61c52532d7c8c1e787da0f14195d504",
+      "output": "block scales, MSE, bits/value: [0.25 2.  ] 0.10205330141129026 4.25",
+      "scope": "这里采用保守 ceil 选尺度策略，不承诺等于任一设备的默认 recipe；E8M0 极端范围和特殊编码未逐位实现。"
+    },
+    {
+      "id": "nvfp4",
+      "title": "NVFP4：16 元素、E4M3 尺度与全局尺度",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "f095cc7c66e46003f08ee0f5d74ddd612e5a9cf7e17900e01a93f41f56287bc2",
+      "output": "tensor scale, block scales: 0.002976190476190476 [ 44. 448.]\nMSE, block-only bits/value: 0.11766689696712018 4.5",
+      "scope": "NumPy 数值分解不执行原生 NVFP4 指令；真实速度、数据布局和舍入规则依赖硬件及后端。"
+    },
+    {
+      "id": "gguf",
+      "title": "GGUF：容器与量化类型分离",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "866235ad50c846a2de34c4f8893aff56b9513badf873a96f5cf0fe6802bcca1a",
+      "output": "header fields: b'GGUF' 3 0 0",
+      "scope": "只构造空容器头来解释格式层次，不生成可加载的 LLM，也不覆盖完整 GGUF 元数据或对齐规范。"
+    },
+    {
+      "id": "q4_0",
+      "title": "Q4_0：真实 nibble 打包与块解码",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "8be6ea04d27ee203ff5f5e320b56478a7b70ba4e321b9b95cef6dcc4309e4e65",
+      "output": "bytes, effective bits, reconstruction MSE: 18 4.5 0.0017483620153320167",
+      "scope": "展示基础参考量化与块布局，不承诺与含 importance 优化的所有 llama.cpp 版本编码一致；本例不拼装完整 GGUF。"
+    },
+    {
+      "id": "q4_k",
+      "title": "Q4_K：超块与子块参数量化",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "22a90e666d54407d3612c530ecf70e2936654a27fbfecb0fbb2b26fb76d7a1a8",
+      "output": "Q4_K byte accounting, toy MSE: 144 0.006378364941615814",
+      "scope": "用简单 min/max 展示分层数值关系，不生成 Q4_K 官方位布局；真实编码器的搜索、负最小值约定和边界处理更加完整。"
+    },
+    {
+      "id": "q4_k_m",
+      "title": "Q4_K_M：混合量化预设",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "14ffc60755d023d5a9a5c276d33717f8a3a40a841249009cffced1e53877be5b",
+      "output": "weighted effective bits, bytes: 5.534480654217014 23216128.0",
+      "scope": "上述张量分配不是 llama.cpp 的固定 Q4_K_M 默认规则；真实映射随架构与版本变化，应读取实际 GGUF 张量类型。"
+    },
+    {
+      "id": "iq",
+      "title": "IQ 系列与 importance matrix",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "3fdd54c41bf910a7450b5082fbe9111da973df8c1173a28320fd583dffc00e78",
+      "output": "importance, unweighted/weighted choices: [  5. 200.] 0 1",
+      "scope": "toy_codebook 不是任何具体 IQ 格式的官方码本；IQ2、IQ3、IQ4 等各有规则，部署须选择对应编码器和解码内核。"
+    },
+    {
+      "id": "roofline",
+      "title": "Roofline 与 Amdahl：估计加速边界",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "cd89fdda9871fcfab10a4b56916d69e6db9c52bcc7a75a6ab550408f8d4556ee",
+      "output": "estimated FP16/INT4 milliseconds: 14.0 4.500000000000001\nlocal estimate and Amdahl example: 3.1111111111111107 1.8181818181818181",
+      "scope": "全部数值都是预算假设，没有进行 CPU/GPU 性能测量；通信、缓存和依赖也未包含在这个简单模型中。"
+    },
+    {
+      "id": "duquant",
+      "title": "DuQuant：块内旋转与跨块重排",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "9fc501bb578203cb984fbc2dbfe4003618b3e797f3cc22a7279bf168664c7eb3",
+      "output": "zigzag order: [np.int64(0), np.int64(3), np.int64(4), np.int64(7), np.int64(2), np.int64(1), np.int64(6), np.int64(5)]\npeak before/after: 10.0 5.1499999999999995",
+      "scope": "用固定 Hadamard 代替论文的离群值引导贪心旋转，省略初始平滑和完整校准；本例验证组合变换，不保证每组数据的峰值都下降。"
+    },
+    {
+      "id": "ostquant",
+      "title": "OSTQuant：正交与尺度联合变换",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "0a22afeebe7d65864fa56f932cf94da47541cbc875652cab9efbf2c501238d35",
+      "output": "teacher top-2 indices and partial KL: [[2 1]\n [2 1]\n [1 2]\n [0 1]\n [0 1]\n [2 1]] 0.00610406532315669",
+      "scope": "仅验证变换和 KL-Top 的计算，没有实现 QSUR 评估、WOMI 初始化或跨 Transformer 块的优化与融合。"
+    },
+    {
+      "id": "paroquant",
+      "title": "ParoQuant：可并行的成对旋转",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "a7a040adbcadee8833ac3d9d7acc01921d1057af3cbb6bb51922ea6572a187fb",
+      "output": "candidate-angle output MSE: [0.002132050954655434, 0.0045226728898325125, 0.060711091753858075]",
+      "scope": "枚举代替多轮成对变换学习；省略非对称块重建、第二阶段权重与量化参数微调，以及融合 kernel 和真实推理测时。"
+    },
+    {
+      "id": "vptq",
+      "title": "VPTQ：二阶感知向量与残差码本",
+      "passed": true,
+      "assertion_locations": 5,
+      "code_sha256": "66421aca493f5e672f5402fc29edcbf53da8db92dd3ac5dd491fba5499e07dfc",
+      "output": "main/residual indices: 2 1\ncolumn error and compensated loss: [1.11022302e-16 5.00000000e-02] 0.001874999999999999",
+      "scope": "固定小码本，仅演示一列与下一列的连续补偿；未实现共享码本训练、完整顺序量化、离群码本或模型微调。"
+    },
+    {
+      "id": "qtip",
+      "title": "QTIP：有状态 trellis 量化",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "887e4c49d33bd38e849913de6b5a6380f8f40102778a69b3e53768f5669d5372",
+      "output": "bit path, decoded values, SSE: [0, 1, 1, 0, 1] [-1.   -0.25  1.    0.25 -0.25] 0.09749999999999999",
+      "scope": "四状态、固定起点的教学 trellis；未实现 QTIP 的非相干预处理、尾咬合约束、Gaussian 码构造及 GPU 解码。"
+    },
+    {
+      "id": "higgs",
+      "title": "HIGGS：Hadamard 与高斯 MSE 码本",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "fc6a4305b3e2920a221966d90a8a7c6582a254854b4a562c3fe49ab6dba980c9",
+      "output": "Gaussian grid and weight MSE: [-3.18307871 -2.5613745  -2.10201575 -1.69490084 -1.30878646 -0.93123884\n -0.55841592 -0.18778443  0.18284272  0.5534741   0.92629833  1.30589763\n  1.69298689  2.09709087  2.5578392   3.18307871] 0.02282585896590426",
+      "scope": "使用一维离散 Lloyd 近似展示流程；完整 HIGGS 使用多维 MSE 网格、特定内核及可选非均匀位宽分配。"
+    },
+    {
+      "id": "slim_llm",
+      "title": "SliM-LLM：显著性驱动的组级位宽",
+      "passed": true,
+      "assertion_locations": 4,
+      "code_sha256": "8b33ac26cdcdef762bcdaaa1b064c0267872b86a40202f2435196b457be49b29",
+      "output": "literal paper / implementation salience: [2.040200e+00 5.145632e+00 2.040200e-02 5.100500e-03] [2.02    1.2832  0.0202  0.00505]\ngroup salience, assigned bits: [2.02    1.2832  0.0202  0.00505] [3 2 2 1]\npayload bits: 16",
+      "scope": "按固定作者版本演示 SBA 评分与预算约束，并对照论文正文的字面公式；未实现候选数量搜索、SQC、1-bit 编码和实际打包。"
+    },
+    {
+      "id": "dash_q",
+      "title": "DASH-Q：稳定对角曲率与加权回归",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "447ef635393114392f0a55329ec2306e3fe90db889a953b01b3fbfa00237f10a",
+      "output": "scale, floating offset, weighted SSE: 0.4846261901045731 0.7353649654024244 0.2734832979757431",
+      "scope": "一组 2-bit 权重的回归子问题；未实现整模型校准、分组导出、停止准则和论文部署后端。"
+    },
+    {
+      "id": "arcquant",
+      "title": "ARCQuant：扩展激活残差通道",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "c68b822bcf609ba964a76ecbe20bc4210e1cf8e292194a5470fa3101c0f863c0",
+      "output": "reduction dimension before/after: 32 48\ncorrected output MSE: 3.1039294463105906",
+      "scope": "预先指定补偿通道，省略论文阈值选择与重排；micro_fp4 是 CPU 数值模拟，无法测出统一 GEMM 的实际加速。"
+    },
+    {
+      "id": "torq",
+      "title": "TORQ：块间均衡与块内码本对齐",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "2a93f636d15b0d8795c3df40183d46ae06c518675a637e47b0811cf6a3a40c0f",
+      "output": "inter-block covariance diagonals equalized at all four positions",
+      "scope": "演示宏观均衡子问题，未实现论文的 Givens 构造或微观占用率搜索；FP4 下方差均衡是代理目标，不能声称严格最优失真。"
+    },
+    {
+      "id": "soar",
+      "title": "SOAR：闭式尺度优化与解耦搜索",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "f0eead06eef9ed163426310dd26deaff73eabce905e8f2cb0cd44c252be38041",
+      "output": "closed-form global scale, SSE before/after: 1.0130875576036864 0.1310483870967741 0.129174966552698",
+      "scope": "只实现 CJSO 的全局尺度子步；完整 SOAR 还重算码字、投影局部尺度，并执行 DSS 联合候选搜索。"
+    },
+    {
+      "id": "focus",
+      "title": "FOCUS：编码与解码尺度解耦",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "d39a126c81e7a50f37acdb78f169a116f3c057580fea9d54295f0021e1b59215",
+      "output": "chosen subblock coefficients and output MSE: (1.0, 1.2) 0.008752461543984288",
+      "scope": "有限候选搜索代替端到端尺度学习，只展示 CRS/DGS 自由度；不实现整模型训练和导出。"
+    },
+    {
+      "id": "prquant",
+      "title": "PRQuant：离线权重残差与连续尾块",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "1cbecb995cdb7bd0131497210fd740cb664e1089208c002f5f080d5a69d9e133",
+      "output": "contiguous tail columns: [7 6]\naugmented reduction dimension: 10",
+      "scope": "使用 INT4 数值代理验证增强乘法，残差保留浮点；真实 PRQuant 还使用缩放、MXFP4 残差编码和融合内核。"
+    },
+    {
+      "id": "osfp4",
+      "title": "OSFP4：平滑与块尺度联合优化",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "0ae0c28b25dafb1daff43879e5327c6d2cb280602053ccaede9b0ec3d1021b3a",
+      "output": "best limited joint candidate: (np.float64(0.5840065245355537), 0.0, 1.0)",
+      "scope": "少量平滑与全局尺度候选仅解释联合目标；未实现论文的乘性 dither 分析、分块优化、精细 E4M3 搜索或 SIC。"
+    },
+    {
+      "id": "drq",
+      "title": "DRQ：固定量化网格上的分布鲁棒修正",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "f7ec6c438cb5ad67c1665bba267e2bcfb850307865ed9e0ff112d7b9da795c13",
+      "output": "calibration loss and attained worst-case loss: 0.21799999999999997 0.6437050920595824",
+      "scope": "验证 DRQ 的最坏分布子问题；未执行码值更新排序、检查集校准损失增长限制或整模型离线细化。"
+    },
+    {
+      "id": "differentiable_bits",
+      "title": "DBW：可微位宽与零位剪枝",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "3d92c4fb2cab8ad0abd57f8c406c1f6b65ae886a9013b0bb8b3156798fdcbb85",
+      "output": "continuous/integer component bits: [5.55555556 2.22222222 0.22222222 0.        ] [6 2 0 0]",
+      "scope": "仅实现预算离散化和零位掩码，保留分量未做实际量化；省略 STE 位宽训练、奇异值熵损失、双层预算和 mixed-precision GEMM。"
+    },
+    {
+      "id": "align_correct",
+      "title": "Align, Then Correct：对齐后重新截断补偿",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "abc4660e257d9332d8c501f4577bd61fc063d711d35ccbe51c3f0364cb5784bb",
+      "output": "final rank versus separate-truncation rank: 1 2",
+      "scope": "省略非单位 Fisher 的白化、信赖比例缩放和真实反向统计采集；gradient 是给定示例，不能据此宣称训练免费或实际任务恢复。"
+    },
+    {
+      "id": "quest",
+      "title": "QuEST：高斯拟合与信任梯度",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "b5f2e647584f3990c4c6851a506ca15e17f8e854a2257ffd5429ccb3b34d22bd",
+      "output": "Gaussian-fit range and trusted coordinates: 1.4810126582278482 [False  True  True  True  True  True  True  True]",
+      "scope": "只展示一次前向拟合和信任梯度传播；没有训练完整 LLM、优化稀疏扩展或测试 GPU kernel。"
+    },
+    {
+      "id": "paretoq",
+      "title": "ParetoQ：位宽、网格与训练预算一起比较",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "bbc17254d35f8032521d67db784a2970e4de9a9e7a5d2728c9efcfe913cc2d0f",
+      "output": "two four-level geometries: [-1.         -0.33333333  0.33333333  1.        ] [-2. -1.  0.  1.]\nlearned representative scale: 0.8113636363636363",
+      "scope": "仅示范网格族和单组尺度优化，不是 ParetoQ 的完整 SEQ/LSQ 梯度或训练调度；论文的最优位宽结论依赖其预算与模型设置。"
+    },
+    {
+      "id": "onlineqat",
+      "title": "OnlineQAT：在学生生成的前缀上蒸馏",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "b92926367435f289d20b31e4c9d5aa1a9da7ff9887c7394e7e1f5f6baecbf066",
+      "output": "sampled/exact reverse-KL logit gradients: [ 0.04211985 -0.10894287  0.06682302] [ 0.04095049 -0.10740529  0.0664548 ]",
+      "scope": "只验证固定前缀的梯度估计；未实现长序列 rollout、块级初始化、策略更新或训练稳定性。"
+    },
+    {
+      "id": "eaquant",
+      "title": "EAQuant：专家共享平滑与路由校准",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "0739d48a630ca3a69d96ba93655f37cc4665f2fae5ea2f8f9e8697e257b8b2eb",
+      "output": "routed sample counts: [8 4]\nshared smoothing scale: [1.41421356e+00 1.50806032e+03 1.66077501e+03 1.32877192e+03]",
+      "scope": "只演示共享平滑和覆盖检测，未实现路由 KL-Top/MSE 优化、数据补采集及完整 MoE 激活量化。"
+    },
+    {
+      "id": "milo",
+      "title": "MiLo：MoE 的低秩补偿组合",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "336f88cd24a031a9ae41605f1cda4459d2e6bdcb9138b054881f0ffadc2b3fb6",
+      "output": "rank and residual SSE: 1 1.0076549917531663\nrank and residual SSE: 3 0.1952265704196841\nadditional low-rank parameters: 56",
+      "scope": "使用 RTN 代替 HQQ 并预设秩，补偿因子保持浮点；省略因子的 INT3 量化、秩策略和专用推理内核。"
+    },
+    {
+      "id": "bitsmoe",
+      "title": "BitsMoE：共享谱基与成本感知位宽",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "d7ff35dc4bd94578870e6062823411b3295f7a24f2d07bfd027afd62b75146e4",
+      "output": "component bits and factorized cost: (4, 4, 2, 2, 4, 2) 0.007034607526732354",
+      "scope": "用六分量穷举代替 ILP，共享基保持浮点；省略共享基 GPTQ、低位宽经验系数、误差交叉项和 GPU 执行。"
+    },
+    {
+      "id": "polarquant_recursive",
+      "title": "PolarQuant：递归极坐标编码",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "0e174bcb33d1537a78ea3de3075e803bf6068808874cdf6dfa54def8fa1a8626",
+      "output": "angle count, root radius, MSE: 7 1.63707055437449 0.0033813274962912494",
+      "scope": "省略随机预条件和按理论密度设计的分层码本，均匀角度仅用于解释递归结构；不是另一篇 RoPE 配对的同名 PolarQuant。"
+    },
+    {
+      "id": "polarquant_rope",
+      "title": "PolarQuant：RoPE 配对与 QK 查表",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "ff08d813582897bde7e3016dd170ccf5da6406e12556ebba20dd3d7862071dbc",
+      "output": "lookup QK, full-precision QK: [ 0.7       -0.6363961  0.1      ] [ 0.66 -0.44  0.13]",
+      "scope": "单个二维配对，码本为手工候选；实际模型必须遵守各自 RoPE 配对布局，量化器校准与 Triton 内核未复现。"
+    },
+    {
+      "id": "oscar_spectral",
+      "title": "OSCAR：Attention 感知的谱旋转",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "b963b143701571cda3dc24b13e4e08ad5c8834530fa93bf5595e42442124a075",
+      "output": "spectral INT2 attention MSE: 0.0171038836120688",
+      "scope": "只展示谱目标和数值数据流，省略百分位裁剪、sink/recent 高精度区及分页缓存内核；理论最优性依赖冻结误差等假设。"
+    },
+    {
+      "id": "oscar_token",
+      "title": "OScaR：旋转后的 token 范数平衡",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "73370e79b0a26f224c2f04ab8e4440b27107a0b3e07a23f9db50f6a130a3ca2d",
+      "output": "token norms: [12.00583192  1.02956301  0.02645751  0.        ]\nrestored cache MSE: 0.2520307627807101",
+      "scope": "只处理一个 Key 块，省略多模态实现、完整 Value 路径、流式残留区和 CUDA 性能测量。"
+    },
+    {
+      "id": "kvarn",
+      "title": "KVarN：token 与通道双向方差归一化",
+      "passed": true,
+      "assertion_locations": 1,
+      "code_sha256": "eea9707cc41f464ea4fc6d708536fc90852d92225b4eca0f442d5681e9fac0ee",
+      "output": "dual-scale cache MSE: 13.131679712072035",
+      "scope": "直接标准差迭代解释可逆缩放，省略论文对数域稳定更新、实际 KV 分块布局和长推理评估。"
+    },
+    {
+      "id": "attn_qat",
+      "title": "Attn-QAT：前后向量化状态一致",
+      "passed": true,
+      "assertion_locations": 3,
+      "code_sha256": "4563452ff4b8bd0e5aca0da89a29e1293dc82f9ae2141ce99c531d2e31e92473",
+      "output": "gradient mismatch from using low-precision output: 0.059613300819778864",
+      "scope": "验证一个关键反向恒等式，未实现 FlashAttention 分块重算、完整反向 kernel 或模型级 QAT。"
+    },
+    {
+      "id": "qserve",
+      "title": "QServe / QoQ：W4A8KV4 系统协同",
+      "passed": true,
+      "assertion_locations": 2,
+      "code_sha256": "049104e8298902dade9b6765e03a8f1d30cec76eba76ec1380fd8a89b4c1bf85",
+      "output": "unprotected/protected intermediate INT8: [-112  128] [-120  105]\nINT4 codes, integer step, zero point: [ 0 15] 15 8",
+      "scope": "仅验证渐进式量化和保护范围反例；省略外层 FP16 scale、SmoothAttention、KV4 管理和融合 CUDA 内核。"
+    }
+  ]
+}

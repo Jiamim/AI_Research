@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="450" viewBox="0 0 1100 450" role="img" aria-labelledby="title desc">
+<title id="title">QLoRA：冻结 NF4 基础模型，训练 LoRA</title>
+<desc id="desc">基础权重压缩保存、计算时反量化，训练只更新高精度低秩适配器。梯度仍可通过基础计算路径传递到适配器，但基础权重和编码保持冻结。；输入 X；基础 NF4 编码冻结；基础路径：反量化 W 后相乘；适配路径：(XAᵀ)Bᵀ；输出求和，仅更新 A/B</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="450" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">QLoRA：冻结 NF4 基础模型，训练 LoRA</text>
+<path d="M272 238 L335 238 L335 147 L420 147" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M272 238 L335 238 L335 320 L420 320" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M668 147 L748 147 L748 238 L828 238" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M668 320 L748 320 L748 238 L828 238" fill="none" stroke="#31748f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="24" y="176" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="203" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="230" font-size="17" text-anchor="middle" fill="#173650">输入 X；基础 NF4 编码冻结</text>
+<rect x="420" y="85" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="438" y="112" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="544.0" y="139" font-size="17" text-anchor="middle" fill="#173650">基础路径：反量化 W 后相乘</text>
+<rect x="420" y="258" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="438" y="285" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="544.0" y="312" font-size="17" text-anchor="middle" fill="#173650">适配路径：(XA^T)B^T</text>
+<rect x="828" y="176" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="846" y="203" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="952.0" y="230" font-size="17" text-anchor="middle" fill="#173650">输出求和，仅更新 A/B</text>
+<text x="30" y="431" font-size="13" fill="#546c82">教学数据流；实际实现范围与省略内容见配套代码说明</text></g></svg>

@@ -1,0 +1,247 @@
+{
+  "schema_version": 2,
+  "created_utc": "2026-10-25T03:38:49.978598+00:00",
+  "python": "3.12.7",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "nbformat": "5.10.4"
+  },
+  "parameters": {
+    "case": "all"
+  },
+  "source_files_sha256": {
+    "constraints-cpu.txt": "a539311fb4199ddf63f61a757c24a3c4efe714b3a9f16bb23692dc037d27fceb",
+    "docs/01_均匀量化与误差.md": "131c84b3b77e473997607094b67e84c229292a81de823f127f1a9aeccc3f949f",
+    "docs/03_离群值与缩放.md": "92b20ef9d0adbb53f4d9e5e12cfe7c7062acf3f71d1015522ef2474d53edfad2",
+    "docs/04_可学习校准与HQQ.md": "a3aa63a1cde6e95d54007ac53af29db98c8310e2820caccb595adb0e6bd7d066",
+    "docs/05_旋转与非相干化.md": "bf52d3e458e16dde4df2f30b0be015635a010e3c9b465a522f9875ef5d63fa91",
+    "docs/07_QAT_QLoRA与原生低比特.md": "0c07919d8c41f46c75330e2046efe2fca8c6864b6cabdb147241b3aa669c8454",
+    "docs/08_KV缓存与Attention量化.md": "4287881e601a23d472aadbe39870b504d00949a9c4beee5d61274b48685f3889",
+    "docs/09_浮点格式与推理系统.md": "ce0882d3abf600f29452845beb76c91ff8baa16a11bad75f7ec47346a2b3bf36",
+    "docs/10_实验_评估与选型.md": "56e7e170c06271ca3d1fbb22c9502211a4f91c470962a3dc416d70b7d37bc2cc",
+    "docs/12_新进展_变换与编码.md": "baeeb666e4f58cacc6ea998d0a5e9ab2ded1917804e854f268f750ec76d06b45",
+    "docs/13_新进展_FP4与误差修正.md": "e15bb9bdfd3155d930f2cb98f0fba81ff9a843180311eeb22116067e3b724168",
+    "docs/14_新进展_训练与MoE.md": "232b85c2b552ae9b377afd2d4f45150ed5ccf2ae986fadbc734c7db76ac3cdc6",
+    "docs/15_新进展_KV与推理系统.md": "81660cff0e5354da930088284385e7be38c9e3292c2005f1e079963811fbb719",
+    "experiments/build_chapter_demos.py": "546d6c270ade38a3dc0aa1e84f16f4c9a271b8d77d3a15bf9f793498d20616ff",
+    "experiments/build_colab_chapter_demos.py": "f8a6ba2aef5f53e6de9bc37354a27296cefca71f2f2557b39bc8f13fbfbc5190",
+    "experiments/build_technique_docs.py": "a883e022d3d71473d6d26c4d49c697a874fa286e67649dacfad99fb936e52506",
+    "experiments/chapter_demo_catalog.py": "5f7266bcc35ea65cd88e8204efc96f02e6c4fb223f6deac8ae6eeec7cf0fa247",
+    "experiments/chapter_demo_lab.py": "5ba215f8484839772906f766804bf6a8316632d912a9853660e6ad8ceff75d11",
+    "experiments/check_project.py": "23ca5e058a579a378c328274cd47ab71d91d689b7abb189df6d49909e236d883",
+    "experiments/cuda_cases.py": "15e2d9b6272d4e086ab342415b530be4c7e14407d2878740bf29fd548ca27a28",
+    "experiments/cuda_kernels.py": "f84b65d24ef69e8537d343b6f75b139a10330d952dfdb1b451fb32f3d8e83f2b",
+    "experiments/cuda_lab.py": "1ade99e315542ce02f77df7365942b68e0f16a5cbff1e41f8389416213db3442",
+    "experiments/cuda_runtime.py": "7d6a4f36a67a8649284440c1bcadabcc26ea76f5593450c5f2bfaff5a63ceaae",
+    "experiments/deep_dive_lab.py": "f9cd0243010310c37c24939748deba984b374876e14e47494e37ccf3cf85e96c",
+    "experiments/demo_runtime.py": "89e46156a48f6f54d80ec7f4e6ae402737af34e6c3270d6ee028d2f971e3da9a",
+    "experiments/demo_torch_kernels.py": "ec360d3d9d75259c62615fa690f05d0864c456b4f270e2fa913c1dae92d11e10",
+    "experiments/demos/appendix_math.py": "ed16f46b02e3c16b9537b33ef90f79cd40bcdcf8040472de99d5c459be398a19",
+    "experiments/demos/ch00.py": "580ea848bc90e6ab7033ba6f5c915ae88334fcd57173770bd7feed8364333c9e",
+    "experiments/demos/ch01.py": "d8d72483782a047aed21270361ed95bb80b61ab9ff24a09e08cc0b1a5b45abc9",
+    "experiments/demos/ch02.py": "f3058de94c32600649343dd0a6402083e54a3dbc80f35a6d81aa237b4d17dd2b",
+    "experiments/demos/ch03.py": "074077800f4021c473618d62f453ea4f507a34d653aeb97aab475011eec48ed2",
+    "experiments/demos/ch04.py": "bd93f7f726c187f16c2c55d58508942d08892f030f0cf01fa56b7b9bda9893a3",
+    "experiments/demos/ch05.py": "35d67681b61f1814e9f1aee71099224c5e94600d343b095072720496052af7bf",
+    "experiments/demos/ch06.py": "722f2a63ef8b89607842abaa55467d72f8c6d0e9cf3e7eadfea807bf61c535fa",
+    "experiments/demos/ch07.py": "f7747f36f40d47c2fb3cd80b8241eb25555464c076626879be4f1ee928548c20",
+    "experiments/demos/ch08.py": "48f59a004c6dd16bdefad560a5a98b9b7de06002354531dc95559dbc063ca7d8",
+    "experiments/demos/ch09.py": "fcbfbd604f735eb10c8445f768e44e38bfc0abc5fc132610b581a026c3177401",
+    "experiments/demos/ch10.py": "11d9f303a75fe85c1f3b8984df99381c152395737b92e843262faa0c956a20b7",
+    "experiments/demos/ch11.py": "f870dd5575ca166180a1ba8adaabfb7a9b534ee9fd400d04e6139f354f60382b",
+    "experiments/demos/ch12.py": "fb8b0b3658db1031c9bb65185be68cb0bbdbe33c3266f58696ab02764ab3a2ae",
+    "experiments/demos/ch13.py": "50e21cc21c88a2bdff1762135dfd735bd3e16d830f32b9c805dcd24f78186d28",
+    "experiments/demos/ch14.py": "a4be35f937e2040ddd731c1b4b19d62477a444ec250ea2f3a0151ecac9d8dd79",
+    "experiments/demos/ch15.py": "496e55f07763eee112024026431898faa454d6ac950290712152152a48fd5736",
+    "experiments/demos/ch16.py": "2109c05d1ddaa0296edeb3114401df3063f38eaf38b36747ba1f95c5ba473cfc",
+    "experiments/demos/four_over_six.py": "1277e292a36f4376a4b67bc0c74f413d0c2aaea2f89961c3b2191aad2c5919ed",
+    "experiments/demos/gpu_formats.py": "3ba13b12fe6b0df2443567775b8c4205de34619d5518339ddfecb4839a230173",
+    "experiments/demos/gradient_rounding.py": "c0921881fc3ac311ae9bed1aad25bb1d7010adda4c920773553a8170e5cf8f0a",
+    "experiments/demos/int8.py": "b6fc39ae5bdda0c75c4a13bbb030f86b87ab639f4f43c69b3e101ea279b13c22",
+    "experiments/demos/mr_gptq.py": "6579b55ef11bad6bd6782fb1907418096d2ed5476875a22742fa7b49e516d4b7",
+    "experiments/demos/oscillation.py": "f37fa504b549dbdee82d3715f105348525a8cee22b187baa860e8349514aee69",
+    "experiments/demos/research.py": "efb056afe0371cd93a8d22c00d6f828abb0574b03ca64320854a4883482e0fc1",
+    "experiments/demos/scale_layout.py": "5fb3a7197ae5dc19edb8ede406e7f5d161f10942b1d2c0482840993766989c49",
+    "experiments/demos/training_transpose.py": "bfe98f5aa7f7eb7724a6392e07c1be6b17796312f8a9b0c8f86f2deb871f6159",
+    "experiments/inspect_run.py": "dddc83e6e8b297fe3c7c2f4ddabd467f2c9ea5c8d2b60d0701b67a8d2160d7b9",
+    "experiments/latest_techniques.py": "a577f31a6f1293d42365feae43a2a8f5a0681f0e6af2405441847c6595731c95",
+    "experiments/llm_int8_lab.py": "bbc7b8d308b122a55193b1c30cbc154e8e08407de88e4b3241581ef0ada50ef4",
+    "experiments/native_nvfp4_probe.py": "565c3559539d62eaac2e4ef2188e54757ab66bd6f0b11d6b362b6970875983b3",
+    "experiments/outlook_scenarios.py": "6f5cb98ceec4e63be575793ec65f36dd439097a696aee47cf83153cb716c9fdb",
+    "experiments/quant_lab.py": "fd19a8677f98d708e11a8a5600e046a21b4cadf4fea31ad546dbfa4a1d04b6bb",
+    "experiments/result_utils.py": "3cd1b298a3a539da99b4826eb61d3128a8ea95fb2c46d3bdb1a6c613fed0b2e4",
+    "experiments/technique_catalog.py": "112fdc0bc3add673ce0537f4ab7ff10d3ef573920ed5146d3283ee027b73668f",
+    "experiments/technique_kernels.py": "71e69b95ee6cf3318151226ba993b0e040ef7fd0a77e654d66317672b204cda3",
+    "experiments/technique_lab.py": "675ae2484e7f7fd1ad623144d07320c5da9222cc158e862cad22320ac303a90a",
+    "experiments/validation.py": "1ebceff9e90ec8ac3d4b66699e2617fbc09441d94a8275d635f380d6262bf982",
+    "requirements-cuda.txt": "2932d35ffcaf721c872f48eb31bff8c6cf714129be2295bf93e175560e9f1db4",
+    "requirements-demos.txt": "dd3ea7b15eb35c23d7948fb9c4bd0dcca055a087ba788fb108ab0edd6f2dd99b",
+    "requirements.txt": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081"
+  },
+  "source_sha256": "aaf87328e105c40d704774a8342080ba48672be1f1b7755dc4f3177315a08d3c",
+  "scope": "Supplemental algebra and counterexamples, not new algorithms or model benchmarks",
+  "passed_derivations": 20,
+  "results": [
+    {
+      "id": "transformed_hessian",
+      "title": "坐标变换与 Hessian/damping",
+      "document": "docs/05_旋转与非相干化.md",
+      "code_sha256": "12b83157230b8d92444cf5e838ff0c89a89196f171a6c3640edd50784a1a168a",
+      "passed": true,
+      "output": "output SSE: 0.0015282962574693767"
+    },
+    {
+      "id": "segmented_attention",
+      "title": "不同缓存分段的 softmax 合并",
+      "document": "docs/08_KV缓存与Attention量化.md",
+      "code_sha256": "bfc39d9e88be7db428a1d34e5f423a35442585834802348d3b5d6496677c34da",
+      "passed": true,
+      "output": "merged attention: [-0.33279304  2.06968598]"
+    },
+    {
+      "id": "fp4_scale_error",
+      "title": "FP4 码字与两级尺度误差",
+      "document": "docs/09_浮点格式与推理系统.md",
+      "code_sha256": "03e969b6f9523affe7abf6de0c6a16bfe1c467913788f358c0d61443436bf04a",
+      "passed": true,
+      "output": "complete error: [ 0.04714062 -0.06171875 -0.16584375]"
+    },
+    {
+      "id": "residual_cancellation",
+      "title": "精确残差不保证完整输出误差最小",
+      "document": "docs/13_新进展_FP4与误差修正.md",
+      "code_sha256": "925e8312de0a344b90f134bad2061acee500f7196779e058ef23203d2878a5cb",
+      "passed": true,
+      "output": "scalar SSE, exact / quantized residual: 0.0014745599999999991 2.5600000000001466e-06\nNVFP4 simulation SSE, exact / quantized residual: 0.00023545847108306665 2.6551859078764144e-05"
+    },
+    {
+      "id": "truncated_kl",
+      "title": "截断 KL 与条件分布 KL",
+      "document": "docs/12_新进展_变换与编码.md",
+      "code_sha256": "a59e9f2b0816db6f6665e1f4f88854b93f946a5d565d455253571978fbfd46e0",
+      "passed": true,
+      "output": "partial / full / renormalized: -0.24327906486489864 0.31123867958305756 0.0"
+    },
+    {
+      "id": "variance_equalization",
+      "title": "方差均衡需要同构代价",
+      "document": "docs/13_新进展_FP4与误差修正.md",
+      "code_sha256": "94bc199af6880367505c4e065b51dce8e7af305960210f5afda055895918d93b",
+      "passed": true,
+      "output": "same / different block costs: 1.0 1.6"
+    },
+    {
+      "id": "moe_error_proxy",
+      "title": "MoE 误差交叉项与局部代理",
+      "document": "docs/14_新进展_训练与MoE.md",
+      "code_sha256": "319b3e6a0f0279e509e8f4d292bc45ba33f2649b07615d8404992b539d08fb8a",
+      "passed": true,
+      "output": "actual / local weighted proxy: 0.0 1.0"
+    },
+    {
+      "id": "polar_error_geometry",
+      "title": "极坐标范数与方向误差",
+      "document": "docs/15_新进展_KV与推理系统.md",
+      "code_sha256": "a09b11d7f8791f2c4d9334ead5777586608bcd92fa6f2b5788f6554b3bc3bc60",
+      "passed": true,
+      "output": "magnitude / direction error: 0.03999999999999998 0.03597000999821489"
+    },
+    {
+      "id": "rope_scale_commutation",
+      "title": "RoPE 与配对尺度可交换条件",
+      "document": "docs/15_新进展_KV与推理系统.md",
+      "code_sha256": "0a9907b9d7123fcc127de0484af24424935c1acfbfbb2239a83195e3377dd7cf",
+      "passed": true,
+      "output": "unequal-scale commutator norm: 1.3665920856182572"
+    },
+    {
+      "id": "dual_axis_scaling",
+      "title": "双轴尺度的等价计算与固定码字拟合",
+      "document": "docs/04_可学习校准与HQQ.md",
+      "code_sha256": "000613334b9e4e20924dc52fb55b228231e1b2bfbcbee6fc560ca73791a7b3b3",
+      "passed": true,
+      "output": "row scales: [0.29285714 0.7       ]"
+    },
+    {
+      "id": "discrete_code_update",
+      "title": "离散码字更新的步长限制",
+      "document": "docs/07_QAT_QLoRA与原生低比特.md",
+      "code_sha256": "169f4ef724d3153e703ee09b20b09dc08ae3fc42d2ec51e6fc580b97e78cad85",
+      "passed": true,
+      "output": "small / larger projected steps: [0. 0.] [1. 0.]"
+    },
+    {
+      "id": "bitplane_lookup",
+      "title": "位平面与激活查表的点积等价性",
+      "document": "docs/09_浮点格式与推理系统.md",
+      "code_sha256": "070262b1ed26f38caf017b3870e39afb5d2a81b4940373785731f18cf5140f22",
+      "passed": true,
+      "output": "lookup dot: 5.75"
+    },
+    {
+      "id": "ternary_support_fit",
+      "title": "三值支持集合与尺度联合拟合",
+      "document": "docs/13_新进展_FP4与误差修正.md",
+      "code_sha256": "426a9938528008dbe96566e146d901acd730992370b3f5623890491c5ffc55ff",
+      "passed": true,
+      "output": "ternary scale / codes: 0.8 [1. 0. 0.]"
+    },
+    {
+      "id": "recurrent_update_loss",
+      "title": "重复量化导致的小更新丢失",
+      "document": "docs/15_新进展_KV与推理系统.md",
+      "code_sha256": "e407e4ee1c4e9b35bc66cf03a8f44ef5f900d48fc5dab1a5617a3dbc52c526d6",
+      "passed": true,
+      "output": "exact / repeated rounding / buffered: 0.30000000000000004 0.0 0.30000000000000004"
+    },
+    {
+      "id": "integer_requantization",
+      "title": "整数偏置、输出重定标与残差尺度",
+      "document": "docs/01_均匀量化与误差.md",
+      "code_sha256": "9980a843c7e99f496c618e295a07671206665be681447b0a638e6e44d2ba8c5d",
+      "passed": true,
+      "output": "acc, bias code, output code: 21 2 14"
+    },
+    {
+      "id": "lowbit_packing",
+      "title": "二比特补码、尾部填充与字节往返",
+      "document": "docs/01_均匀量化与误差.md",
+      "code_sha256": "1da5e94718f7a82f3358b855d6bf50b2ceb0920621a14769e346edd40e9bc227",
+      "passed": true,
+      "output": "values / packed bytes: 1027 257"
+    },
+    {
+      "id": "bias_correction",
+      "title": "输出均值修正与中心化误差",
+      "document": "docs/03_离群值与缩放.md",
+      "code_sha256": "45d327527f9137bba24ec5321b3a61702a9c750edb2d0de1d5d1609703537f50",
+      "passed": true,
+      "output": "MSE before / after: 0.023333333333333345 0.0033333333333333353"
+    },
+    {
+      "id": "adapter_merge_base",
+      "title": "QLoRA 合并时的基础权重差异",
+      "document": "docs/07_QAT_QLoRA与原生低比特.md",
+      "code_sha256": "d0660d6e25c32473a57c4dab75206dbd0603476b50f4db708c441d9516191c88",
+      "passed": true,
+      "output": "trained / original-base merge / requantized: -2.6799999999999997 -2.5300000000000002 -2.7"
+    },
+    {
+      "id": "calibration_weighting",
+      "title": "padding 掩码与校准样本权重",
+      "document": "docs/10_实验_评估与选型.md",
+      "code_sha256": "a5b8c6f1f7fd383a2b1e791a96d89969019f1a4afed87a8cff81975387c69dc0",
+      "passed": true,
+      "output": "token / unmasked / sequence: 7.0 4.666666666666667 5.0"
+    },
+    {
+      "id": "serving_goodput",
+      "title": "请求时序、吞吐与延迟达标率",
+      "document": "docs/10_实验_评估与选型.md",
+      "code_sha256": "a2f66bd9b44d9b010a34cac3192c679fa2fdcf97bd14cbb2f17b862599b30aa4",
+      "passed": true,
+      "output": "requests/s, latency-good requests/s, output tokens/s: 1.0 0.5 3.5"
+    }
+  ]
+}

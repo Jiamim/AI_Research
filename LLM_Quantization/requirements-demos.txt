@@ -1,0 +1,3 @@
+# Colab 通常已有CUDA版torch。不要用CPU专用index覆盖Colab已有安装。
+numpy>=1.24
+torch>=2.2

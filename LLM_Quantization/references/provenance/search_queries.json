@@ -1,0 +1,1897 @@
+{
+  "checked_on": "2026-10-18",
+  "cutoff": "2026-10-18",
+  "discovery_method": "Historical web discovery plus arXiv API route-gap and bounded-date queries; metadata followed by selected primary method sections. Search output is not evidence of method validity.",
+  "arxiv_api": {
+    "attempted": true,
+    "status": "unavailable",
+    "reason": "Tunnel connection failed: 504 Gateway Timeout",
+    "latest_attempt": {
+      "date": "2026-10-18",
+      "status": "available",
+      "note": "Original unavailability retained as historical context; later API requests succeeded."
+    }
+  },
+  "queries": [
+    {
+      "index": 1,
+      "query": "large language model quantization 2026 September October new methods arxiv",
+      "returned_urls": [
+        "https://arxiv.org/abs/2610.08164",
+        "https://arxiv.org/abs/2610.11226",
+        "https://arxiv.org/pdf/2604.13806v2",
+        "https://arxiv.org/abs/2610.06026",
+        "https://arxiv.org/abs/2610.09346"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "d293e953e7bed5701b0bda9fe50c2a95fe1fb031b22960b35d4f5c8e0277a9bb",
+      "result_text_characters": 2210
+    },
+    {
+      "index": 2,
+      "query": "LLM quantization 2025 2026 survey FP4 W4A4 post training",
+      "returned_urls": [
+        "https://arxiv.org/html/2507.17417v2/",
+        "https://arxiv.org/html/2608.01847v1",
+        "https://openreview.net/pdf?id=JoKzpQqqnC",
+        "https://arxiv.org/html/2601.07475v1",
+        "https://developer.nvidia.com/blog/?p=119071"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "b2310828de8f453c11643333282e0e120e7abda849f7c95e421b848dcfb6c62b",
+      "result_text_characters": 2987
+    },
+    {
+      "index": 3,
+      "query": "LLM quantization 2026 mixture of experts MoE quantization",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2604.06798v3",
+        "https://arxiv.org/html/2606.00079",
+        "https://arxiv.org/html/2602.11184v2",
+        "https://ai.zol.com.cn/1215/12158298.html",
+        "https://varjosoft.com/quantization-stack-may-2026.html"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "1a961be12bcfe5ea54f4fa51551712b1a84194468428d1e07372c69983cf31d5",
+      "result_text_characters": 2684
+    },
+    {
+      "index": 4,
+      "query": "KV cache quantization 2026 PolarQuant OScaR TurboAngle",
+      "returned_urls": [
+        "https://arxiv.org/html/2603.27467",
+        "https://oscar-quantize.github.io/",
+        "https://www.superteams.ai/glossary/turboquant/",
+        "https://iridescent-gcrace.github.io/OScaR/",
+        "https://turboquant.net/"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "4acdefdf3c61cfeba4a532c105f2264735902e9d938c8d0653a0c9e1295a8248",
+      "result_text_characters": 2687
+    },
+    {
+      "index": 5,
+      "query": "PRQuant Permutation Residual Quantization 2609.22106",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2609.22106",
+        "https://arxiv.org/list/cs/pastweek?skip=1145",
+        "https://arxiv.org/pdf/2605.26092v3",
+        "https://scholar.google.com/citations?user=43VmtLIAAAAJ"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "4103b0ad4c49d38c2dca566b3109bf281ecc6eb0709596903183d1b76f2bcf06",
+      "result_text_characters": 4467
+    },
+    {
+      "index": 6,
+      "query": "ParetoQ QuEST low bit training quantization paper 2025",
+      "returned_urls": [
+        "https://arxiv.org/html/2502.02631v2",
+        "https://pytorch.ac.cn/blog/paretoq-scaling-laws-in-extremely-low-bit-llm-quantization/",
+        "https://pytorch.org/blog/paretoq-scaling-laws-in-extremely-low-bit-llm-quantization/",
+        "https://arxiv.org/html/2502.05003",
+        "https://arxiv.org/html/2507.16099"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "e2c50f09015e9d2a72928d5dc853a071e1457413ad1f765c5ad74e338248ea98",
+      "result_text_characters": 2460
+    },
+    {
+      "index": 7,
+      "query": "\"large language model\" quantization \"2026\" \"September\" arxiv",
+      "returned_urls": [
+        "https://arxiv.org/html/2609.02846v1",
+        "https://arxiv.org/html/2609.17475v1",
+        "https://arxiv.org/html/2605.19561v1",
+        "https://www.semanticscholar.org/author/Cheng-Zhu-Bao/2384128825",
+        "https://www.semanticscholar.org/paper/Towards-Full-Pipeline-FP8-Reinforcement-Learning-Chen-Jiang/c9568ef74185a29fbfc8910a559636863ed555f8"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "c4414d9f25ec7cc33a24070cc6d9d9d4a1c8967a3b046f964d39eff2b0402259",
+      "result_text_characters": 2552
+    },
+    {
+      "index": 8,
+      "query": "\"large language model\" quantization \"2026\" \"October\" arxiv",
+      "returned_urls": [
+        "https://arxiv.org/html/2605.10793",
+        "https://arxiv.org/list/cs.AI/recent?skip=537&show=50",
+        "https://arxiv.org/html/2607.23047v1",
+        "https://par.nsf.gov/search/award_ids:2443992",
+        "https://www.llm-releases.com/local-llms"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "093aea380f90bbf08392de4072f8598d820a2dcde26b565a6f6420738a4329e0",
+      "result_text_characters": 2253
+    },
+    {
+      "index": 9,
+      "query": "LLM quantization 2025 2026 OstQuant DuQuant QTIP VPTQ HIGGS",
+      "returned_urls": [
+        "https://arxiv.org/html/2606.23406",
+        "https://arxiv.org/html/2507.17417v1/",
+        "https://openreview.net/forum?id=9mo5O8m7vv",
+        "https://arxiv.org/pdf/2606.10520v2"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "ef2e643c9bfb9ac091babf907ea01a3092edb84110f83cd94988f6b4240cc6c1",
+      "result_text_characters": 2330
+    },
+    {
+      "index": 10,
+      "query": "MoE quantization 2025 expert activation calibration MoEQuant",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2606.05688",
+        "https://arxiv.org/html/2506.13329",
+        "https://arxiv.org/pdf/2509.02512",
+        "https://pypi.org/project/GPTQModel/5.7.0/"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "98507ca9f52a2de3223229f05704dbe293826aa6d431bf0e1c861f5554a96990",
+      "result_text_characters": 2521
+    },
+    {
+      "index": 11,
+      "query": "LLM reasoning quantization 2026 accuracy recovery distillation",
+      "returned_urls": [
+        "https://arxiv.org/html/2609.26708v1",
+        "https://arxiv.org/html/2606.04238v1",
+        "https://arxiv.org/html/2608.20953v1",
+        "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer/",
+        "https://arxiv.org/html/2601.14888"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "cb1657725ae39addde9b610e0a356ed01aca98c50e87f8d7a1247b7c55085c1f",
+      "result_text_characters": 3036
+    },
+    {
+      "index": 12,
+      "query": "PolarQuant Quantizing KV Caches with Polar Transformation arxiv",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2502.02617",
+        "https://arxiv.org/html/2502.00527",
+        "https://arxiv.org/html/2605.21226v1",
+        "https://arxiv.org/html/2606.03458v1",
+        "https://arxiv.org/pdf/2606.21448.pdf"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "f7a044eec22a7e0c50126079367b57214b110284b6cfa304fc2291abda011104",
+      "result_text_characters": 3053
+    },
+    {
+      "index": 13,
+      "query": "SageAttention4 attention quantization 2026",
+      "returned_urls": [
+        "https://research.nvidia.com/labs/eai/blogs/pushing-intelligence-to-4-bit/",
+        "https://arxiv.org/pdf/2410.02367v1.pdf",
+        "https://pypi.org/project/auto-round-lib/",
+        "https://www.semanticscholar.org/paper/Attn-QAT:-4-Bit-Attention-With-Quantization-Aware-Zhang-Noto/d683b02de71d9981cc5b74237d133567ecbc1ecf/figure/1",
+        "https://vds.sogang.ac.kr/wp-content/uploads/2025/12/2026_VDSL_%EB%8F%99%EA%B3%84%EC%84%B8%EB%AF%B8%EB%82%98_%EC%96%91%EC%A7%84%EC%B2%A0.pdf"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "a083e75246c98d2969c4d2124cd6221c82108eb5ff271e9fac26af06a67ba26c",
+      "result_text_characters": 2731
+    },
+    {
+      "index": 14,
+      "query": "FP4 quantization 2026 FOCUS TORQ ARCQuant",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2601.07475v1",
+        "https://arxiv.org/html/2605.19561v1",
+        "https://pytorch.ac.cn/blog/quantization-aware-training-in-torchao-ii/",
+        "https://aclanthology.org/2026.acl-long.388.pdf",
+        "https://github.com/actypedef/ARCQuant.",
+        "https://arxiv.org/pdf/2608.01847.pdf"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "1568224299ee34b655dbee06071b6620955062ce0ac8353e6967fe2bc83df687",
+      "result_text_characters": 4455
+    },
+    {
+      "index": 15,
+      "query": "QServe Efficient LLM Serving 4 bit paper 2405.04532",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2405.04532v1",
+        "https://hanlab.mit.edu/projects/qserve",
+        "https://arxiv.org/pdf/2412.18653.pdf",
+        "https://arxiv.org/pdf/2504.03664v1",
+        "https://scholar.google.com/citations?user=sRGO-EcAAAAJ&hl"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "bb6e526ba915b9ad34590f060b6a1c0ec41ceb5d4c1a6ee2b840a2f0babd7766",
+      "result_text_characters": 2099
+    },
+    {
+      "index": 16,
+      "query": "DuQuant Distributing Outliers via Dual Transformation 2406.01721",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2406.01721v2",
+        "http://arxiv.org/list/cs/2024-06?skip=755&show=1000",
+        "https://arxiv.org/pdf/2411.04965?",
+        "https://arxiv.org/pdf/2412.18135",
+        "https://arxiv.org/pdf/2511.22316v1"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "f4c106aee25b4605b7b844b580d9f0b080cfda4c50a11a376e95011881c006ad",
+      "result_text_characters": 2491
+    },
+    {
+      "index": 17,
+      "query": "VPTQ vector post training quantization 2409.17066",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2409.17066v1.pdf",
+        "https://pypi.org/project/vptq-aqua/",
+        "https://blog.openvino.ai/blog-posts/q424-technology-update---low-precision-and-model-optimization",
+        "https://www.semanticscholar.org/paper/VPTQ:-Extreme-Low-bit-Vector-Post-Training-for-Liu-Wen/e8735aa9bc89f25619fe4f6e5465ade7ec8fc344",
+        "https://www.rohan-paul.com/p/vptq-extreme-low-bit-vector-post"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "aeb1e8fe20cd0c052ca61c87a112d9b21aa290b2d8778dd9528049dfac889e63",
+      "result_text_characters": 3259
+    },
+    {
+      "index": 18,
+      "query": "QTIP trellis incoherence quantization paper",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2406.11235?",
+        "https://www.cs.cornell.edu/~cdesa/",
+        "https://www.semanticscholar.org/paper/Structured-Transforms-for-Low-Overhead-Quantization-Cherniuk-Rudikov/aa2d1e435c726e052e5550468c8d4cf60db59331",
+        "https://arxiv.org/pdf/2406.11235",
+        "https://arxiv.org/pdf/2507.07145.pdf"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "cd8d19e8bd9fe9b86932957b3e06a6dab409c0a2460ed65845ca7116c8972e93",
+      "result_text_characters": 3896
+    },
+    {
+      "index": 19,
+      "query": "HIGGS quantization paper 2025 Hadamard",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2505.11076v1",
+        "https://arxiv.org/html/2502.13633v3/",
+        "https://arxiv.org/html/2509.01673"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "e6d5df1beedfab1cdf310673ad44c28fbd1e9a885ee79d8a06d53585bbc321cf",
+      "result_text_characters": 1422
+    },
+    {
+      "index": 20,
+      "query": "OSTQuant orthogonal scaling quantization paper",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2501.13987.pdf",
+        "https://arxiv.org/pdf/2606.10520v2",
+        "https://arxiv.org/html/2604.11080v2",
+        "https://www.elastic.co/search-labs/cn/blog/elasticsearch-bbq-osq-vs-turbo",
+        "https://quark.docs.amd.com/v0.11.1/pytorch/tutorial_rotation.html"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "330a8504435b8ce33bb2fc32a6392d653d680711816c43a639d1c704c2efd8e7",
+      "result_text_characters": 3016
+    },
+    {
+      "index": 21,
+      "query": "OScaR Occam Razor Extreme KV Cache Quantization arxiv",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2605.19660",
+        "https://iridescent-gcrace.github.io/OScaR/",
+        "https://arxiv.org/html/2605.17757",
+        "https://arxiv.org/pdf/2605.17757v1",
+        "https://oscar-quantize.github.io/"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "7e29d267e92e2f83d59416d3a5a810443d858e73649a30ba7b96284365d97505",
+      "result_text_characters": 4564
+    },
+    {
+      "index": 22,
+      "query": "SliM-LLM 2024 2025 salience driven mixed precision quantization",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2405.14917",
+        "https://www.semanticscholar.org/paper/Mixed-Precision-Quantization-for-Language-Models%3A-Rakka-Fournarakis/e9c3f9f1c7d03b58bc385acc392b5faac0b5ba12",
+        "https://arxiv.org/html/2602.01027v1/",
+        "https://arxiv.org/html/2510.20984v2",
+        "https://deepmind.google/research/publications/slim-one-shot-quantized-sparse-plus-low-rank-approximation-of-llms/"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "76b30d6e8e39bd723b2d2c5c5932abc4e441c741d92bad0388a03e4b0314d696",
+      "result_text_characters": 3265
+    },
+    {
+      "index": 23,
+      "query": "HIGGS linearity theorem arxiv",
+      "returned_urls": [
+        "https://arxiv.org/html/2505.11076v3",
+        "https://indico.mitp.uni-mainz.de/event/341/sessions/1084/attachments/3221/3865/Mannel-10yMITP.pdf",
+        "https://marow.ai/research/qbe-spec-v7.md",
+        "https://arxiv.org/html/2605.00649",
+        "https://arxiv.org/html/2605.02404v1"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "ad5703f6caca21e40c20e2915d22afc0e66c70fb53cdccda2e95f129dee2462a",
+      "result_text_characters": 2627
+    },
+    {
+      "index": 24,
+      "query": "HIGGS 2411 quantization",
+      "returned_urls": [
+        "https://arxiv.org/html/2411.18859v1",
+        "https://arxiv.org/html/2412.09675v1",
+        "https://arxiv.org/html/2411.07476v3",
+        "https://ar5iv.labs.arxiv.org/html/2411.07476",
+        "https://inspirehep.net/literature/2969994"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "5e84a3e24f84f093e08c32758f8eeb9e175541803fd2f67df5e3f0afa2377c45",
+      "result_text_characters": 3075
+    },
+    {
+      "index": 25,
+      "query": "BitNet b1.58 2B4T paper",
+      "returned_urls": [
+        "https://aiwiki.ai/wiki/bitnet_b1_58",
+        "https://aiwiki.ai/wiki/bitnet",
+        "https://djimit.nl/blog/een-sprong-in-low-bit-large-language-models-bitnet-b158-2b4t",
+        "https://arxiv.org/abs/2504.12285",
+        "https://github.com/microsoft...",
+        "https://pranavdeshpande.com/books/build-your-own-ai/09-model-compression.html",
+        "https://www.theagenttimes.com/v1/articles/microsoft-s-bitnet-cpp-lets-us-run-100b-parameter-models-on--8dc10229",
+        "https://deepmind."
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "2686595a807adc5c11a7078b7ce18563a30cd57c532e21d35c3b9171dcc53e2c",
+      "result_text_characters": 2225
+    },
+    {
+      "index": 26,
+      "query": "SOAR Scale Optimization NVFP4",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2605.12245",
+        "https://arxiv.org/pdf/2610.08231",
+        "https://www.thenextgentechinsider.com/pulse/developers-warn-of-accuracy-degradation-in-fp4-inference-engines",
+        "https://arxiv.org/pdf/2605.12245v1",
+        "https://github.com/steven-bao1/SOAR",
+        "https://pulseaugur.com/entity/soar"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "0b50ebe85007b8aa996ac4c13b911805bc6525adcaa267321181cbc373042a89",
+      "result_text_characters": 4137
+    },
+    {
+      "index": 27,
+      "query": "\"HIGGS\" \"Linearity Theorem\" quantization",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2411.17525",
+        "https://arxiv.org/pdf/2606.23406",
+        "https://blog.openvino.ai/?8a96435a_page=2&c1e36865_page=5",
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/10df8641edc837ca49360d5fb1d182f0-Paper-Conference.pdf",
+        "https://openreview.net/forum?id=sYcP5HIh5U"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "6b07789040ddcebd56d38c8d36aa79a67677b95d33a22120f65dea6ae74e526a",
+      "result_text_characters": 2905
+    },
+    {
+      "index": 28,
+      "query": "\"ParoQuant\" quantization arxiv",
+      "returned_urls": [
+        "https://arxiv.org/pdf/2511.10645",
+        "https://arxiv.org/html/2605.08755v1",
+        "https://z-lab.ai/projects/paroquant/",
+        "https://arxiv.org/pdf/2606.25519",
+        "http://raw.githubusercontent.com/z-lab/paroquant/main/pyproject.toml"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "092e6573f24b4e7d3bd05739abfe0578b8b2f7d0391a23ce3ae04e2d47933469",
+      "result_text_characters": 2654
+    },
+    {
+      "index": 29,
+      "query": "\"2026\" \"quantization\" \"September\" \"LLM\" \"arxiv.org/abs\"",
+      "returned_urls": [
+        "https://arxiv.org/html/2609.27367v1",
+        "https://arxiv.org/pdf/2608.28652",
+        "https://arxiv.org/pdf/2609.01587",
+        "https://rocm.blogs.amd.com/software-tools-optimization/ultraquant-kv4/README.html",
+        "https://www.eye-on.ai/ai-articles/yx7a7c4fhj25kbd-htf9x-r35fb-42rlh-99nw9-z7tw8-kwg2d-ay935-fn9zt-w2ls7-fyptc-hd5js-2bh8y-l9l6n-hyb5z-set77-a5esw-2fgja-mdkab-4fzr8-fmnnp-wbppp-yw5hc-a45na-pk4fa-fsa8h"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "382377048e677e31a917156163ad2ab337cf50119cf65baf90697c49ecd7307e",
+      "result_text_characters": 2761
+    },
+    {
+      "index": 30,
+      "query": "\"2026\" \"quantization\" \"October\" \"MoE\" arxiv",
+      "returned_urls": [
+        "https://arxiv.org/html/2610.07219v1",
+        "https://arxiv.org/list/cs.CL/recent?skip=369",
+        "https://arxiv.org/list/cs.CL/pastweek?skip=382",
+        "https://arxiv.org/pdf/2504.02658",
+        "https://github.com/Supercomputing-System-AI-Lab/MiLo.",
+        "https://dev.to/felipe0liveira/the-kv-cache-is-the-bottleneck-now-1-bit-quantization-moe-stragglers-and-per-second-gpu-billing-1p7"
+      ],
+      "searched_on": "2026-10-10",
+      "result_text_sha256": "025087727c693f2147b5f7f7c7d85a73d1d8d141d4f9c79206149bf96692cee3",
+      "result_text_characters": 3324
+    },
+    {
+      "index": 31,
+      "searched_on": "2026-10-11",
+      "query": "\"LLM\" \"quantization\" \"9 Oct 2026\" arxiv",
+      "returned_urls": [
+        "https://arxiv.org/list/cs.LG/recent?skip=261",
+        "https://arxiv.org/list/cs/pastweek?skip=2745",
+        "https://arxiv.org/list/cs.AI/pastweek?skip=655",
+        "https://arxiv.org/list/cs.LG/pastweek?skip=621",
+        "https://arxiv.org/list/cs.AI/recent?skip=866"
+      ],
+      "result_text_sha256": "7784be12cff1e8b3a92938b1ac6e1d392ae2a4eb53a2c9b36403e4448cb331b4",
+      "result_text_characters": 2233
+    },
+    {
+      "index": 32,
+      "searched_on": "2026-10-11",
+      "query": "\"LLM\" \"quantization\" \"10 Oct 2026\" OR \"11 Oct 2026\" arxiv",
+      "returned_urls": [],
+      "result_text_sha256": "a2f7521521d2ac39348e4500fd35ff5948f91a096d6b4fd7308a0103aade0b84",
+      "result_text_characters": 90
+    },
+    {
+      "index": 33,
+      "query": "all:SINQ",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3ASINQ&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "3de1ba49ed9c03fa31a619942a060e7e20611649f4773544d3cff436ebb9bae9",
+      "max_results": 60,
+      "returned_urls": [
+        "https://arxiv.org/abs/2604.17010v2",
+        "https://arxiv.org/abs/2509.22944v4",
+        "https://arxiv.org/abs/2505.03818v3",
+        "https://arxiv.org/abs/2501.08845v2",
+        "https://arxiv.org/abs/2205.12536v3",
+        "https://arxiv.org/abs/2011.12553v2",
+        "https://arxiv.org/abs/2007.14796v3",
+        "https://arxiv.org/abs/1807.10388v2",
+        "https://arxiv.org/abs/1806.03732v1",
+        "https://arxiv.org/abs/1703.02095v1",
+        "https://arxiv.org/abs/1501.02364v1",
+        "https://arxiv.org/abs/1306.6378v1",
+        "https://arxiv.org/abs/1108.4537v2",
+        "https://arxiv.org/abs/1102.2747v1",
+        "https://arxiv.org/abs/0807.2968v1",
+        "https://arxiv.org/abs/hep-ex/0107009v1",
+        "https://arxiv.org/abs/hep-ex/0003022v1"
+      ],
+      "results": [
+        {
+          "url": "https://arxiv.org/abs/2604.17010v2",
+          "title": "Improving LLM Code Reasoning via Semantic Equivalence Self-Play with Formal Verification",
+          "first_submitted": "2026-04-18T14:43:00Z",
+          "updated": "2026-05-03T12:28:34Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.22944v4",
+          "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
+          "first_submitted": "2025-09-26T21:22:54Z",
+          "updated": "2026-01-29T14:15:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.03818v3",
+          "title": "Program Semantic Inequivalence Game with Large Language Models",
+          "first_submitted": "2025-05-02T20:03:35Z",
+          "updated": "2026-08-12T12:41:22Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2501.08845v2",
+          "title": "DMCpy: A powder and single crystal neutron diffraction software for DMC",
+          "first_submitted": "2025-01-15T14:57:27Z",
+          "updated": "2025-01-23T08:43:50Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2205.12536v3",
+          "title": "Probing the losses for a high power beam",
+          "first_submitted": "2022-05-25T07:15:24Z",
+          "updated": "2022-06-02T11:42:43Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2011.12553v2",
+          "title": "Evolution from sinusoidal to collinear A-type antiferromagnetic spin-ordered magnetic phase transition in Tb0.6Pr0.4MnO3",
+          "first_submitted": "2020-11-25T07:25:13Z",
+          "updated": "2021-02-08T21:34:28Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2007.14796v3",
+          "title": "Commissioning of the novel Continuous Angle Multi-Energy Analysis Spectrometer at the Paul Scherrer Institut",
+          "first_submitted": "2020-07-29T12:43:19Z",
+          "updated": "2023-03-13T09:01:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1807.10388v2",
+          "title": "Architecture of the data aggregation and streaming system for the European Spallation Source neutron instrument suite",
+          "first_submitted": "2018-07-26T22:32:57Z",
+          "updated": "2018-08-30T12:49:36Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1806.03732v1",
+          "title": "Po-production in lead: A benchmark between Geant4, FLUKA and MCNPX",
+          "first_submitted": "2018-06-10T21:56:13Z",
+          "updated": "2018-06-10T21:56:13Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1703.02095v1",
+          "title": "In-situ Polarized Neutron Reflectometry: Epitaxial Thin Film Growth of Fe on Cu(001) by DC Magnetron Sputtering",
+          "first_submitted": "2017-03-03T11:43:03Z",
+          "updated": "2017-03-03T11:43:03Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1501.02364v1",
+          "title": "Overcoming High Energy Backgrounds at Pulsed Spallation Sources",
+          "first_submitted": "2015-01-10T15:45:10Z",
+          "updated": "2015-01-10T15:45:10Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1306.6378v1",
+          "title": "Robust Reduced-Rank Adaptive Processing Based on Parallel Subgradient Projection and Krylov Subspace Techniques",
+          "first_submitted": "2013-06-26T23:28:51Z",
+          "updated": "2013-06-26T23:28:51Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1108.4537v2",
+          "title": "Single-Crystal and Powder Neutron Diffraction Study of FeXMn1-XS Solid Solutions",
+          "first_submitted": "2011-08-23T09:50:26Z",
+          "updated": "2011-08-25T02:40:02Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/1102.2747v1",
+          "title": "High intensity specular reflectometry - first experiments",
+          "first_submitted": "2011-02-14T12:01:11Z",
+          "updated": "2011-02-14T12:01:11Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/0807.2968v1",
+          "title": "Neutron photocrystallography: simulation and experiment",
+          "first_submitted": "2008-07-18T13:01:40Z",
+          "updated": "2008-07-18T13:01:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/hep-ex/0107009v1",
+          "title": "Final results from the Palo Verde Neutrino Oscillation Experiment",
+          "first_submitted": "2001-07-04T01:51:31Z",
+          "updated": "2001-07-04T01:51:31Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/hep-ex/0003022v1",
+          "title": "Results from the Palo Verde Neutrino Oscillation Experiment",
+          "first_submitted": "2000-03-16T17:32:10Z",
+          "updated": "2000-03-16T17:32:10Z"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "query": "all:QRazor",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3AQRazor&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "13bd0923ad77fe6d85e1e4a00d6e6e4f11f70e75277e04eb781fb484e882302e",
+      "max_results": 60,
+      "returned_urls": [
+        "https://arxiv.org/abs/2501.13331v2"
+      ],
+      "results": [
+        {
+          "url": "https://arxiv.org/abs/2501.13331v2",
+          "title": "Qrazor: Reliable and Effortless 4-bit LLM Quantization by Significant Data Razoring",
+          "first_submitted": "2025-01-23T02:20:08Z",
+          "updated": "2025-02-05T08:10:45Z"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "query": "all:KVTuner",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3AKVTuner&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "969a4ed5114e2f73921f3036197b9aadb9fa091f9a225f6afa33e41664a7c7b3",
+      "max_results": 60,
+      "returned_urls": [
+        "https://arxiv.org/abs/2502.04420v5"
+      ],
+      "results": [
+        {
+          "url": "https://arxiv.org/abs/2502.04420v5",
+          "title": "KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference",
+          "first_submitted": "2025-02-06T15:26:26Z",
+          "updated": "2025-11-20T15:25:17Z"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "query": "(ti:quantization OR ti:quantized OR ti:low-bit) AND (all:language OR all:LLM) AND submittedDate:[202610090000 TO 202610182359]",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=%28ti%3Aquantization+OR+ti%3Aquantized+OR+ti%3Alow-bit%29+AND+%28all%3Alanguage+OR+all%3ALLM%29+AND+submittedDate%3A%5B202610090000+TO+202610182359%5D&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "01563b88350943dbcdebcd482f3782b45254179fba50c46b410c2829bc181782",
+      "max_results": 60,
+      "returned_urls": [
+        "https://arxiv.org/abs/2610.21810v1",
+        "https://arxiv.org/abs/2610.21257v1",
+        "https://arxiv.org/abs/2610.20826v1",
+        "https://arxiv.org/abs/2610.20353v1",
+        "https://arxiv.org/abs/2610.20303v1",
+        "https://arxiv.org/abs/2610.19605v1",
+        "https://arxiv.org/abs/2610.19498v1",
+        "https://arxiv.org/abs/2610.18642v1",
+        "https://arxiv.org/abs/2610.18481v1",
+        "https://arxiv.org/abs/2610.18139v1",
+        "https://arxiv.org/abs/2610.17637v1",
+        "https://arxiv.org/abs/2610.17531v1",
+        "https://arxiv.org/abs/2610.16368v1",
+        "https://arxiv.org/abs/2610.16289v1",
+        "https://arxiv.org/abs/2610.15709v1",
+        "https://arxiv.org/abs/2610.15675v1",
+        "https://arxiv.org/abs/2610.15384v1",
+        "https://arxiv.org/abs/2610.15324v1",
+        "https://arxiv.org/abs/2610.15243v1",
+        "https://arxiv.org/abs/2610.15139v1",
+        "https://arxiv.org/abs/2610.14934v1",
+        "https://arxiv.org/abs/2610.14745v1",
+        "https://arxiv.org/abs/2610.13767v1"
+      ],
+      "results": [
+        {
+          "url": "https://arxiv.org/abs/2610.21810v1",
+          "title": "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
+          "first_submitted": "2026-10-15T12:57:19Z",
+          "updated": "2026-10-15T12:57:19Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.21257v1",
+          "title": "Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference",
+          "first_submitted": "2026-10-15T04:50:03Z",
+          "updated": "2026-10-15T04:50:03Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.20826v1",
+          "title": "Task-Phase-Conditioned Expert Routing Is Not a Reliable Proxy for Quantization Sensitivity in MoE FFN Tensors",
+          "first_submitted": "2026-10-14T19:12:53Z",
+          "updated": "2026-10-14T19:12:53Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.20353v1",
+          "title": "Beyond Expert Rankings: Contrast Calibration for Mixed-Precision MoE Quantization",
+          "first_submitted": "2026-10-14T15:29:40Z",
+          "updated": "2026-10-14T15:29:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.20303v1",
+          "title": "SpectrumQuant: Spectrum Alignment for LLM Quantization",
+          "first_submitted": "2026-10-14T14:54:16Z",
+          "updated": "2026-10-14T14:54:16Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.19605v1",
+          "title": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+          "first_submitted": "2026-10-14T05:29:08Z",
+          "updated": "2026-10-14T05:29:08Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.19498v1",
+          "title": "What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains",
+          "first_submitted": "2026-10-14T03:16:29Z",
+          "updated": "2026-10-14T03:16:29Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.18642v1",
+          "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+          "first_submitted": "2026-10-13T16:10:45Z",
+          "updated": "2026-10-13T16:10:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.18481v1",
+          "title": "ProTok: Unified Protein Tokenization via Modular Multi-Codebook Quantization",
+          "first_submitted": "2026-10-13T14:43:03Z",
+          "updated": "2026-10-13T14:43:03Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.18139v1",
+          "title": "Revisiting Error Feedback for Model Quantization",
+          "first_submitted": "2026-10-13T10:47:01Z",
+          "updated": "2026-10-13T10:47:01Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.17637v1",
+          "title": "Mixed Precision Scaling Laws for Quantized Pretraining",
+          "first_submitted": "2026-10-13T03:05:01Z",
+          "updated": "2026-10-13T03:05:01Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.17531v1",
+          "title": "Towards Green AI: Evaluating Energy Efficiency for Quantized LLM Inference",
+          "first_submitted": "2026-10-13T00:52:32Z",
+          "updated": "2026-10-13T00:52:32Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.16368v1",
+          "title": "LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers",
+          "first_submitted": "2026-10-12T08:20:04Z",
+          "updated": "2026-10-12T08:20:04Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.16289v1",
+          "title": "Fast Quantized Johnson$-$Lindenstrauss Transforms",
+          "first_submitted": "2026-10-12T07:16:40Z",
+          "updated": "2026-10-12T07:16:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15709v1",
+          "title": "Preserving Updates in Low-Bit Recurrent State Quantization",
+          "first_submitted": "2026-10-11T15:46:25Z",
+          "updated": "2026-10-11T15:46:25Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15675v1",
+          "title": "Recovering Low-Bit Failures in Vision-Language-Action Policies via Quantization-Conditioned Reinforcement Learning",
+          "first_submitted": "2026-10-11T14:56:31Z",
+          "updated": "2026-10-11T14:56:31Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15384v1",
+          "title": "E8 Lattice Key Quantization for Low-Bit KV-Cache Compression",
+          "first_submitted": "2026-10-11T06:22:28Z",
+          "updated": "2026-10-11T06:22:28Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15324v1",
+          "title": "TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation",
+          "first_submitted": "2026-10-11T03:59:25Z",
+          "updated": "2026-10-11T03:59:25Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15243v1",
+          "title": "HE-NAC: High-Efficiency Neural Audio Coding via Hierarchical and Residual Multi-Band Quantization",
+          "first_submitted": "2026-10-11T00:33:45Z",
+          "updated": "2026-10-11T00:33:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15139v1",
+          "title": "When Dynamic Scaling Fails: A Scale-State Feedback Governs Recurrent-State Quantization in Linear-Attention and SSM LLMs",
+          "first_submitted": "2026-10-10T19:30:50Z",
+          "updated": "2026-10-10T19:30:50Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.14934v1",
+          "title": "FidelityQ: Preserving Predictive Fidelity in Ultra-Low-Bit Language Model Quantization",
+          "first_submitted": "2026-10-10T14:06:52Z",
+          "updated": "2026-10-10T14:06:52Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.14745v1",
+          "title": "SAGE: Pushing 2-Bit Vector-Quantized LLMs toward Real-World Usability",
+          "first_submitted": "2026-10-10T09:05:14Z",
+          "updated": "2026-10-10T09:05:14Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.13767v1",
+          "title": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+          "first_submitted": "2026-10-09T15:51:38Z",
+          "updated": "2026-10-09T15:51:38Z"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "query": "all:\"KV cache\" AND (ti:quantization OR ti:quantized) AND submittedDate:[202501010000 TO 202610182359]",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22KV+cache%22+AND+%28ti%3Aquantization+OR+ti%3Aquantized%29+AND+submittedDate%3A%5B202501010000+TO+202610182359%5D&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "880372e760f123cfb3ad93dc8b676de6374382fefe772ac5311781e2de9a0875",
+      "max_results": 60,
+      "returned_urls": [
+        "https://arxiv.org/abs/2610.19605v1",
+        "https://arxiv.org/abs/2610.18642v1",
+        "https://arxiv.org/abs/2610.16289v1",
+        "https://arxiv.org/abs/2610.15384v1",
+        "https://arxiv.org/abs/2610.15324v1",
+        "https://arxiv.org/abs/2610.14448v1",
+        "https://arxiv.org/abs/2610.11245v1",
+        "https://arxiv.org/abs/2610.11214v1",
+        "https://arxiv.org/abs/2610.10381v1",
+        "https://arxiv.org/abs/2610.07767v2",
+        "https://arxiv.org/abs/2610.07121v1",
+        "https://arxiv.org/abs/2610.03027v1",
+        "https://arxiv.org/abs/2609.38169v1",
+        "https://arxiv.org/abs/2609.38121v1",
+        "https://arxiv.org/abs/2609.36760v2",
+        "https://arxiv.org/abs/2609.36032v1",
+        "https://arxiv.org/abs/2609.33746v1",
+        "https://arxiv.org/abs/2609.26425v3",
+        "https://arxiv.org/abs/2609.35800v1",
+        "https://arxiv.org/abs/2609.19880v1",
+        "https://arxiv.org/abs/2609.13031v1",
+        "https://arxiv.org/abs/2609.11582v1",
+        "https://arxiv.org/abs/2609.05764v1",
+        "https://arxiv.org/abs/2609.04098v1",
+        "https://arxiv.org/abs/2609.04263v1",
+        "https://arxiv.org/abs/2609.00450v2",
+        "https://arxiv.org/abs/2608.30996v1",
+        "https://arxiv.org/abs/2608.28911v1",
+        "https://arxiv.org/abs/2608.28003v1",
+        "https://arxiv.org/abs/2608.27875v3",
+        "https://arxiv.org/abs/2608.27513v2",
+        "https://arxiv.org/abs/2608.15117v1",
+        "https://arxiv.org/abs/2608.18147v1",
+        "https://arxiv.org/abs/2608.05326v1",
+        "https://arxiv.org/abs/2608.04074v1",
+        "https://arxiv.org/abs/2608.02691v4",
+        "https://arxiv.org/abs/2607.28699v3",
+        "https://arxiv.org/abs/2607.20981v1",
+        "https://arxiv.org/abs/2607.17019v1",
+        "https://arxiv.org/abs/2607.16184v1",
+        "https://arxiv.org/abs/2608.11212v1",
+        "https://arxiv.org/abs/2607.01831v1",
+        "https://arxiv.org/abs/2607.01065v1",
+        "https://arxiv.org/abs/2606.31519v1",
+        "https://arxiv.org/abs/2607.16248v1",
+        "https://arxiv.org/abs/2606.27205v2",
+        "https://arxiv.org/abs/2606.24033v1",
+        "https://arxiv.org/abs/2606.23406v1",
+        "https://arxiv.org/abs/2606.15682v1",
+        "https://arxiv.org/abs/2606.12487v2",
+        "https://arxiv.org/abs/2606.03458v1",
+        "https://arxiv.org/abs/2606.09864v2",
+        "https://arxiv.org/abs/2606.07618v1",
+        "https://arxiv.org/abs/2605.27646v1",
+        "https://arxiv.org/abs/2605.26266v1",
+        "https://arxiv.org/abs/2605.21226v1",
+        "https://arxiv.org/abs/2605.20868v1",
+        "https://arxiv.org/abs/2605.19660v3",
+        "https://arxiv.org/abs/2605.17757v1",
+        "https://arxiv.org/abs/2605.17170v1"
+      ],
+      "results": [
+        {
+          "url": "https://arxiv.org/abs/2610.19605v1",
+          "title": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+          "first_submitted": "2026-10-14T05:29:08Z",
+          "updated": "2026-10-14T05:29:08Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.18642v1",
+          "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+          "first_submitted": "2026-10-13T16:10:45Z",
+          "updated": "2026-10-13T16:10:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.16289v1",
+          "title": "Fast Quantized Johnson$-$Lindenstrauss Transforms",
+          "first_submitted": "2026-10-12T07:16:40Z",
+          "updated": "2026-10-12T07:16:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15384v1",
+          "title": "E8 Lattice Key Quantization for Low-Bit KV-Cache Compression",
+          "first_submitted": "2026-10-11T06:22:28Z",
+          "updated": "2026-10-11T06:22:28Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.15324v1",
+          "title": "TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation",
+          "first_submitted": "2026-10-11T03:59:25Z",
+          "updated": "2026-10-11T03:59:25Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.14448v1",
+          "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+          "first_submitted": "2026-10-10T01:24:03Z",
+          "updated": "2026-10-10T01:24:03Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.11245v1",
+          "title": "Read What Matters: Query-Adaptive Quantization for KV Caches",
+          "first_submitted": "2026-10-08T04:47:41Z",
+          "updated": "2026-10-08T04:47:41Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.11214v1",
+          "title": "Bridging KV-Cache Quantization and Linear Attention: From Theory to Pretrained Weight Migration",
+          "first_submitted": "2026-10-08T04:12:49Z",
+          "updated": "2026-10-08T04:12:49Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.10381v1",
+          "title": "ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals",
+          "first_submitted": "2026-10-07T16:40:21Z",
+          "updated": "2026-10-07T16:40:21Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.07767v2",
+          "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+          "first_submitted": "2026-10-06T05:03:47Z",
+          "updated": "2026-10-09T04:13:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.07121v1",
+          "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+          "first_submitted": "2026-10-05T17:30:54Z",
+          "updated": "2026-10-05T17:30:54Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.03027v1",
+          "title": "Tailoring the Quantization Space for 1-Bit KV Cache Compression",
+          "first_submitted": "2026-10-02T09:04:25Z",
+          "updated": "2026-10-02T09:04:25Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.38169v1",
+          "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+          "first_submitted": "2026-09-29T17:59:40Z",
+          "updated": "2026-09-29T17:59:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.38121v1",
+          "title": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
+          "first_submitted": "2026-09-29T17:50:50Z",
+          "updated": "2026-09-29T17:50:50Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.36760v2",
+          "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+          "first_submitted": "2026-09-29T05:31:42Z",
+          "updated": "2026-09-30T03:53:27Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.36032v1",
+          "title": "TORQUE: Optimizing What (not) to Quantize Before and After Rotation",
+          "first_submitted": "2026-09-28T18:04:24Z",
+          "updated": "2026-09-28T18:04:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.33746v1",
+          "title": "PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention",
+          "first_submitted": "2026-09-27T16:47:14Z",
+          "updated": "2026-09-27T16:47:14Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.26425v3",
+          "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models",
+          "first_submitted": "2026-09-22T13:50:54Z",
+          "updated": "2026-09-28T15:28:38Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.35800v1",
+          "title": "HeadGuard: Selective Head Protection for Low-Bit VLM KV-Cache Quantization",
+          "first_submitted": "2026-09-18T01:14:32Z",
+          "updated": "2026-09-18T01:14:32Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.19880v1",
+          "title": "D-Quant: Driftable Entropy Coding for KV Cache Quantization",
+          "first_submitted": "2026-09-17T08:29:17Z",
+          "updated": "2026-09-17T08:29:17Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.13031v1",
+          "title": "Attention Quantization for Tabular Foundation Models",
+          "first_submitted": "2026-09-11T16:31:29Z",
+          "updated": "2026-09-11T16:31:29Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.11582v1",
+          "title": "OmniKVQuant: KV Cache Quantization for Omni-LLMs",
+          "first_submitted": "2026-09-10T14:14:12Z",
+          "updated": "2026-09-10T14:14:12Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.05764v1",
+          "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+          "first_submitted": "2026-09-04T22:58:21Z",
+          "updated": "2026-09-04T22:58:21Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.04098v1",
+          "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+          "first_submitted": "2026-09-03T17:04:26Z",
+          "updated": "2026-09-03T17:04:26Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.04263v1",
+          "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
+          "first_submitted": "2026-09-02T13:37:04Z",
+          "updated": "2026-09-02T13:37:04Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.00450v2",
+          "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+          "first_submitted": "2026-08-31T22:39:52Z",
+          "updated": "2026-09-21T18:52:07Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.30996v1",
+          "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
+          "first_submitted": "2026-08-31T15:47:23Z",
+          "updated": "2026-08-31T15:47:23Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.28911v1",
+          "title": "SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference",
+          "first_submitted": "2026-08-28T22:19:47Z",
+          "updated": "2026-08-28T22:19:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.28003v1",
+          "title": "A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint",
+          "first_submitted": "2026-08-28T07:13:42Z",
+          "updated": "2026-08-28T07:13:42Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.27875v3",
+          "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+          "first_submitted": "2026-08-28T03:30:28Z",
+          "updated": "2026-09-16T01:12:44Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.27513v2",
+          "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+          "first_submitted": "2026-08-27T09:11:48Z",
+          "updated": "2026-09-30T12:35:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.15117v1",
+          "title": "Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",
+          "first_submitted": "2026-08-15T08:39:43Z",
+          "updated": "2026-08-15T08:39:43Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.18147v1",
+          "title": "Entropy-Constrained Adaptive Stochastic Quantization",
+          "first_submitted": "2026-08-10T17:32:40Z",
+          "updated": "2026-08-10T17:32:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.05326v1",
+          "title": "QEvict: Recoverable Quantized KV Eviction for Attention-Drift-Robust Long-Context Decoding",
+          "first_submitted": "2026-08-05T18:29:47Z",
+          "updated": "2026-08-05T18:29:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.04074v1",
+          "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
+          "first_submitted": "2026-08-04T16:10:59Z",
+          "updated": "2026-08-04T16:10:59Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.02691v4",
+          "title": "Output-Aware Rotation for INT2 KV-Cache Quantization",
+          "first_submitted": "2026-08-03T09:24:23Z",
+          "updated": "2026-09-23T10:30:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.28699v3",
+          "title": "WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization",
+          "first_submitted": "2026-07-30T11:04:45Z",
+          "updated": "2026-08-16T15:41:57Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.20981v1",
+          "title": "Beyond Independent Optimization: Compression, MoE Routing, and Quantization Interactions in Multimodal Edge Intelligence",
+          "first_submitted": "2026-07-23T07:03:33Z",
+          "updated": "2026-07-23T07:03:33Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.17019v1",
+          "title": "Regularize or Localize: When Training-Time KV-Cache Geometry Pays Under Quantization",
+          "first_submitted": "2026-07-19T01:13:09Z",
+          "updated": "2026-07-19T01:13:09Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.16184v1",
+          "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
+          "first_submitted": "2026-07-17T17:58:29Z",
+          "updated": "2026-07-17T17:58:29Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.11212v1",
+          "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+          "first_submitted": "2026-07-14T01:12:04Z",
+          "updated": "2026-07-14T01:12:04Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.01831v1",
+          "title": "Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference",
+          "first_submitted": "2026-07-02T07:52:43Z",
+          "updated": "2026-07-02T07:52:43Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.01065v1",
+          "title": "GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache",
+          "first_submitted": "2026-07-01T15:25:21Z",
+          "updated": "2026-07-01T15:25:21Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.31519v1",
+          "title": "RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference",
+          "first_submitted": "2026-06-30T11:32:14Z",
+          "updated": "2026-06-30T11:32:14Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.16248v1",
+          "title": "High-accuracy Low-Bit KV-Cache Quantization via Local Distribution Restoration",
+          "first_submitted": "2026-06-27T01:22:47Z",
+          "updated": "2026-06-27T01:22:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.27205v2",
+          "title": "Smaller Models, Unexpected Costs: Trade-offs in LLM Quantization for Automated Program Repair",
+          "first_submitted": "2026-06-25T16:02:05Z",
+          "updated": "2026-07-03T12:47:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.24033v1",
+          "title": "RoPE-Aware Bit Allocation for KV-Cache Quantization",
+          "first_submitted": "2026-06-23T00:17:48Z",
+          "updated": "2026-06-23T00:17:48Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.23406v1",
+          "title": "HyperQuant: A Rate-Distortion-Optimal Quantization Pipeline for Large Language and Diffusion Models",
+          "first_submitted": "2026-06-22T14:30:47Z",
+          "updated": "2026-06-22T14:30:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.15682v1",
+          "title": "ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training",
+          "first_submitted": "2026-06-14T09:00:06Z",
+          "updated": "2026-06-14T09:00:06Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.12487v2",
+          "title": "PhaseQuant: Mitigating Activation Quantization Collapse via Residual-Stream Dynamics",
+          "first_submitted": "2026-06-10T09:25:45Z",
+          "updated": "2026-10-13T11:59:59Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.03458v1",
+          "title": "KVarN: Variance-Normalized KV-Cache Quantization Mitigates Error Accumulation in Reasoning Tasks",
+          "first_submitted": "2026-06-02T10:34:56Z",
+          "updated": "2026-06-02T10:34:56Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.09864v2",
+          "title": "Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation",
+          "first_submitted": "2026-06-01T02:02:20Z",
+          "updated": "2026-08-08T15:57:15Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.07618v1",
+          "title": "ScaleSweep: Accurate NVFP4 Post-Training Quantization of LLMs via Block Scale Initialization",
+          "first_submitted": "2026-05-30T08:26:16Z",
+          "updated": "2026-05-30T08:26:16Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.27646v1",
+          "title": "Hurwitz Quaternion Multiplicative Quantization for KV Cache Compression",
+          "first_submitted": "2026-05-26T20:09:17Z",
+          "updated": "2026-05-26T20:09:17Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.26266v1",
+          "title": "Quantized Keys Steal Attention: Bias Correction for KV-Cache Compression in Video Diffusion",
+          "first_submitted": "2026-05-25T18:51:59Z",
+          "updated": "2026-05-25T18:51:59Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.21226v1",
+          "title": "OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under optimal Squared error quantization",
+          "first_submitted": "2026-05-20T14:19:51Z",
+          "updated": "2026-05-20T14:19:51Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.20868v1",
+          "title": "Runtime-Certified Bounded-Error Quantized Attention",
+          "first_submitted": "2026-05-20T08:04:40Z",
+          "updated": "2026-05-20T08:04:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.19660v3",
+          "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+          "first_submitted": "2026-05-19T10:53:03Z",
+          "updated": "2026-10-14T05:26:57Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.17757v1",
+          "title": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization",
+          "first_submitted": "2026-05-18T02:24:29Z",
+          "updated": "2026-05-18T02:24:29Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.17170v1",
+          "title": "TriAxialKV: Toward Extreme Low-Precision KV-Cache Quantization for Agentic Inference Tasks",
+          "first_submitted": "2026-05-16T21:58:28Z",
+          "updated": "2026-05-16T21:58:28Z"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "query": "all:\"language models\" AND (ti:survey OR ti:evaluation) AND all:quantization",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3A%22language+models%22+AND+%28ti%3Asurvey+OR+ti%3Aevaluation%29+AND+all%3Aquantization&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "d84cf8b874a153b4f2a036eff2682b25096847b98aef1cf20c7ee3238d4f5441",
+      "max_results": 60,
+      "returned_urls": [
+        "https://arxiv.org/abs/2610.17531v1",
+        "https://arxiv.org/abs/2610.11482v1",
+        "https://arxiv.org/abs/2610.10358v2",
+        "https://arxiv.org/abs/2610.07781v1",
+        "https://arxiv.org/abs/2609.36437v1",
+        "https://arxiv.org/abs/2609.16599v1",
+        "https://arxiv.org/abs/2609.07664v2",
+        "https://arxiv.org/abs/2608.24615v1",
+        "https://arxiv.org/abs/2606.12801v1",
+        "https://arxiv.org/abs/2604.11655v1",
+        "https://arxiv.org/abs/2604.02367v1",
+        "https://arxiv.org/abs/2603.21418v1",
+        "https://arxiv.org/abs/2603.21280v1",
+        "https://arxiv.org/abs/2604.02360v1",
+        "https://arxiv.org/abs/2602.09130v6",
+        "https://arxiv.org/abs/2602.13289v1",
+        "https://arxiv.org/abs/2602.04099v1",
+        "https://arxiv.org/abs/2601.14277v1",
+        "https://arxiv.org/abs/2601.06779v1",
+        "https://arxiv.org/abs/2601.03273v2",
+        "https://arxiv.org/abs/2512.14562v1",
+        "https://arxiv.org/abs/2601.11541v3",
+        "https://arxiv.org/abs/2511.07425v1",
+        "https://arxiv.org/abs/2510.12178v1",
+        "https://arxiv.org/abs/2509.25494v1",
+        "https://arxiv.org/abs/2509.24210v2",
+        "https://arxiv.org/abs/2509.21173v6",
+        "https://arxiv.org/abs/2509.18382v1",
+        "https://arxiv.org/abs/2509.13514v1",
+        "https://arxiv.org/abs/2509.04534v1",
+        "https://arxiv.org/abs/2508.19667v1",
+        "https://arxiv.org/abs/2508.19432v1",
+        "https://arxiv.org/abs/2508.17467v1",
+        "https://arxiv.org/abs/2508.11269v1",
+        "https://arxiv.org/abs/2508.00305v1",
+        "https://arxiv.org/abs/2507.17417v3",
+        "https://arxiv.org/abs/2507.22920v2",
+        "https://arxiv.org/abs/2507.10580v2",
+        "https://arxiv.org/abs/2506.21901v1",
+        "https://arxiv.org/abs/2506.16419v1",
+        "https://arxiv.org/abs/2506.13759v5",
+        "https://arxiv.org/abs/2506.10274v3",
+        "https://arxiv.org/abs/2506.07896v1",
+        "https://arxiv.org/abs/2505.24826v2",
+        "https://arxiv.org/abs/2505.22179v2",
+        "https://arxiv.org/abs/2505.19529v2",
+        "https://arxiv.org/abs/2505.19433v2",
+        "https://arxiv.org/abs/2505.15030v5",
+        "https://arxiv.org/abs/2505.02309v2",
+        "https://arxiv.org/abs/2504.18376v3",
+        "https://arxiv.org/abs/2504.03360v1",
+        "https://arxiv.org/abs/2503.16161v1",
+        "https://arxiv.org/abs/2503.07103v2",
+        "https://arxiv.org/abs/2503.05788v3",
+        "https://arxiv.org/abs/2502.19008v1",
+        "https://arxiv.org/abs/2502.13178v4",
+        "https://arxiv.org/abs/2502.07855v2",
+        "https://arxiv.org/abs/2502.00681v2",
+        "https://arxiv.org/abs/2501.03265v2",
+        "https://arxiv.org/abs/2412.19442v3"
+      ],
+      "results": [
+        {
+          "url": "https://arxiv.org/abs/2610.17531v1",
+          "title": "Towards Green AI: Evaluating Energy Efficiency for Quantized LLM Inference",
+          "first_submitted": "2026-10-13T00:52:32Z",
+          "updated": "2026-10-13T00:52:32Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.11482v1",
+          "title": "Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows",
+          "first_submitted": "2026-10-08T08:26:46Z",
+          "updated": "2026-10-08T08:26:46Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.10358v2",
+          "title": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
+          "first_submitted": "2026-10-07T16:30:59Z",
+          "updated": "2026-10-13T10:15:51Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.07781v1",
+          "title": "Quantization Effects on Tool-Failure Recovery Vary Across Prompts and Evaluation Designs",
+          "first_submitted": "2026-10-06T05:17:10Z",
+          "updated": "2026-10-06T05:17:10Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.36437v1",
+          "title": "Bits Under ZK-LLM: Evaluating Zero-Knowledge-Friendly Quantization for Verifiable Private LLM Inference",
+          "first_submitted": "2026-09-29T00:54:35Z",
+          "updated": "2026-09-29T00:54:35Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.16599v1",
+          "title": "Large Language Models in the Loop: A Stability- and Network-Aware Survey in Networked Control, Cyber-Physical, and Multi-Agent Systems",
+          "first_submitted": "2026-09-15T03:50:12Z",
+          "updated": "2026-09-15T03:50:12Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.07664v2",
+          "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
+          "first_submitted": "2026-09-07T15:49:52Z",
+          "updated": "2026-09-09T08:50:36Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.24615v1",
+          "title": "Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation",
+          "first_submitted": "2026-08-25T14:36:09Z",
+          "updated": "2026-08-25T14:36:09Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.12801v1",
+          "title": "AiAWE: An Open-Source LLM Automated Writing Evaluation System Using LoRA-Adapted Instruction-Tuned Models",
+          "first_submitted": "2026-06-11T01:55:03Z",
+          "updated": "2026-06-11T01:55:03Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.11655v1",
+          "title": "RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents",
+          "first_submitted": "2026-04-13T16:08:03Z",
+          "updated": "2026-04-13T16:08:03Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.02367v1",
+          "title": "Evaluating Small Language Models for Front-Door Routing: A Harmonized Benchmark and Synthetic-Traffic Experiment",
+          "first_submitted": "2026-03-26T15:57:46Z",
+          "updated": "2026-03-26T15:57:46Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2603.21418v1",
+          "title": "Efficient Fine-Tuning Methods for Portuguese Question Answering: A Comparative Study of PEFT on BERTimbau and Exploratory Evaluation of Generative LLMs",
+          "first_submitted": "2026-03-22T21:56:05Z",
+          "updated": "2026-03-22T21:56:05Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2603.21280v1",
+          "title": "WARBENCH: A Comprehensive Benchmark for Evaluating LLMs in Military Decision-Making",
+          "first_submitted": "2026-03-22T15:13:29Z",
+          "updated": "2026-03-22T15:13:29Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.02360v1",
+          "title": "Fighting AI with AI: AI-Agent Augmented DNS Blocking of LLM Services during Student Evaluations",
+          "first_submitted": "2026-03-20T21:02:45Z",
+          "updated": "2026-03-20T21:02:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2602.09130v6",
+          "title": "UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization, and Distillation",
+          "first_submitted": "2026-02-09T19:20:56Z",
+          "updated": "2026-08-28T12:37:51Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2602.13289v1",
+          "title": "Evaluating the Impact of Post-Training Quantization on Reliable VQA with Multimodal LLMs",
+          "first_submitted": "2026-02-08T20:06:24Z",
+          "updated": "2026-02-08T20:06:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2602.04099v1",
+          "title": "Rethinking Perplexity: Revealing the Impact of Input Length on Perplexity Evaluation in LLMs",
+          "first_submitted": "2026-02-04T00:34:27Z",
+          "updated": "2026-02-04T00:34:27Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.14277v1",
+          "title": "Which Quantization Should I Use? A Unified Evaluation of llama.cpp Quantization on Llama-3.1-8B-Instruct",
+          "first_submitted": "2026-01-11T18:52:37Z",
+          "updated": "2026-01-11T18:52:37Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.06779v1",
+          "title": "CyberLLM-FINDS 2025: Instruction-Tuned Fine-tuning of Domain-Specific LLMs with Retrieval-Augmented Generation and Graph Integration for MITRE Evaluation",
+          "first_submitted": "2026-01-11T05:07:57Z",
+          "updated": "2026-01-11T05:07:57Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.03273v2",
+          "title": "A Multi-Perspective Benchmark and Moderation Model for Evaluating Safety and Adversarial Robustness",
+          "first_submitted": "2025-12-22T14:49:28Z",
+          "updated": "2026-03-19T21:13:25Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2512.14562v1",
+          "title": "Polypersona: Persona-Grounded LLM for Synthetic Survey Responses",
+          "first_submitted": "2025-12-16T16:33:23Z",
+          "updated": "2025-12-16T16:33:23Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.11541v3",
+          "title": "A Comparative Study of Student Perspectives on Technical Writing Feedback Quality: Evaluating LLMs, SLMs, and Humans in Computer Science Topics",
+          "first_submitted": "2025-12-01T22:51:54Z",
+          "updated": "2026-06-27T18:09:16Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.07425v1",
+          "title": "An Evaluation of LLMs Inference on Popular Single-board Computers",
+          "first_submitted": "2025-10-20T01:35:45Z",
+          "updated": "2025-10-20T01:35:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2510.12178v1",
+          "title": "Evolution of meta's llama models and parameter-efficient fine-tuning of large language models: a survey",
+          "first_submitted": "2025-10-14T06:12:44Z",
+          "updated": "2025-10-14T06:12:44Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.25494v1",
+          "title": "On-Premise AI for the Newsroom: Evaluating Small Language Models for Investigative Document Search",
+          "first_submitted": "2025-09-29T20:50:40Z",
+          "updated": "2025-09-29T20:50:40Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.24210v2",
+          "title": "BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models",
+          "first_submitted": "2025-09-29T02:49:01Z",
+          "updated": "2026-03-04T19:28:14Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.21173v6",
+          "title": "Less Precise Can Be More Reliable: A Systematic Evaluation of Quantization's Impact on VLMs Beyond Accuracy",
+          "first_submitted": "2025-09-25T13:54:34Z",
+          "updated": "2026-05-15T15:27:46Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.18382v1",
+          "title": "Evaluating the Safety and Skill Reasoning of Large Reasoning Models Under Compute Constraints",
+          "first_submitted": "2025-09-22T20:09:37Z",
+          "updated": "2025-09-22T20:09:37Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.13514v1",
+          "title": "AQUA-LLM: Evaluating Accuracy, Quantization, and Adversarial Robustness Trade-offs in LLMs for Cybersecurity Question Answering",
+          "first_submitted": "2025-09-16T20:19:24Z",
+          "updated": "2025-09-16T20:19:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.04534v1",
+          "title": "Quantized Large Language Models in Biomedical Natural Language Processing: Evaluation and Recommendation",
+          "first_submitted": "2025-09-04T04:18:45Z",
+          "updated": "2025-09-04T04:18:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2508.19667v1",
+          "title": "Survey of Specialized Large Language Model",
+          "first_submitted": "2025-08-27T08:27:23Z",
+          "updated": "2025-08-27T08:27:23Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2508.19432v1",
+          "title": "Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs",
+          "first_submitted": "2025-08-26T21:01:45Z",
+          "updated": "2025-08-26T21:01:45Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2508.17467v1",
+          "title": "MoE-Inference-Bench: Performance Evaluation of Mixture of Expert Large Language and Vision Models",
+          "first_submitted": "2025-08-24T17:49:53Z",
+          "updated": "2025-08-24T17:49:53Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2508.11269v1",
+          "title": "Inference performance evaluation for LLMs on edge devices with a novel benchmarking framework and metric",
+          "first_submitted": "2025-08-15T07:08:46Z",
+          "updated": "2025-08-15T07:08:46Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2508.00305v1",
+          "title": "Systematic Evaluation of Optimization Techniques for Long-Context Language Models",
+          "first_submitted": "2025-08-01T04:17:24Z",
+          "updated": "2025-08-01T04:17:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.17417v3",
+          "title": "A Comprehensive Evaluation on Quantization Techniques for Large Language Models",
+          "first_submitted": "2025-07-23T11:21:21Z",
+          "updated": "2026-01-29T11:28:59Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.22920v2",
+          "title": "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey",
+          "first_submitted": "2025-07-21T10:52:14Z",
+          "updated": "2026-09-21T12:43:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.10580v2",
+          "title": "An Offline Mobile Conversational Agent for Mental Health Support: Learning from Emotional Dialogues and Psychological Texts with Student-Centered Evaluation",
+          "first_submitted": "2025-07-11T11:23:07Z",
+          "updated": "2025-12-10T11:47:24Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.21901v1",
+          "title": "A Survey of LLM Inference Systems",
+          "first_submitted": "2025-06-27T04:38:20Z",
+          "updated": "2025-06-27T04:38:20Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.16419v1",
+          "title": "Optimizing MoE Routers: Design, Implementation, and Evaluation in Transformer Models",
+          "first_submitted": "2025-06-19T15:55:43Z",
+          "updated": "2025-06-19T15:55:43Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.13759v5",
+          "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+          "first_submitted": "2025-06-16T17:59:08Z",
+          "updated": "2025-09-19T07:18:31Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.10274v3",
+          "title": "Discrete Audio Tokens: More Than a Survey!",
+          "first_submitted": "2025-06-12T01:35:43Z",
+          "updated": "2025-09-27T12:26:57Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.07896v1",
+          "title": "Evaluating Large Language Models on the Frame and Symbol Grounding Problems: A Zero-shot Benchmark",
+          "first_submitted": "2025-06-09T16:12:47Z",
+          "updated": "2025-06-09T16:12:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.24826v2",
+          "title": "LegalEval-Q: A New Benchmark for The Quality Evaluation of LLM-Generated Legal Text",
+          "first_submitted": "2025-05-30T17:30:18Z",
+          "updated": "2025-11-10T11:30:26Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.22179v2",
+          "title": "Speculative Decoding Meets Quantization: Compatibility Evaluation and Hierarchical Framework Design",
+          "first_submitted": "2025-05-28T09:55:08Z",
+          "updated": "2025-05-29T04:07:33Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.19529v2",
+          "title": "Small Language Models: Architectures, Techniques, Evaluation, Problems and Future Adaptation",
+          "first_submitted": "2025-05-26T05:29:47Z",
+          "updated": "2025-05-29T16:57:36Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.19433v2",
+          "title": "Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression",
+          "first_submitted": "2025-05-26T02:49:07Z",
+          "updated": "2025-06-01T13:59:15Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.15030v5",
+          "title": "A Systematic Evaluation of On-Device LLMs: Quantization, Performance, and Resources",
+          "first_submitted": "2025-05-21T02:23:01Z",
+          "updated": "2026-03-16T07:07:47Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.02309v2",
+          "title": "Optimizing LLMs for Resource-Constrained Environments: A Survey of Model Compression Techniques",
+          "first_submitted": "2025-05-05T01:27:47Z",
+          "updated": "2025-05-08T05:55:48Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.18376v3",
+          "title": "Evaluating the Scalability and Adversarial Generalization of GRPO-Trained NLI Models",
+          "first_submitted": "2025-04-25T14:20:57Z",
+          "updated": "2026-09-08T09:45:31Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.03360v1",
+          "title": "Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy Efficiency, Output Accuracy, and Inference Latency",
+          "first_submitted": "2025-04-04T11:29:30Z",
+          "updated": "2025-04-04T11:29:30Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.16161v1",
+          "title": "Towards Lighter and Robust Evaluation for Retrieval Augmented Generation",
+          "first_submitted": "2025-03-20T13:58:32Z",
+          "updated": "2025-03-20T13:58:32Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.07103v2",
+          "title": "Evaluating the Impact of Post-Training Quantization on Large Language Models for Code Generation",
+          "first_submitted": "2025-03-10T09:26:08Z",
+          "updated": "2026-01-27T07:41:13Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.05788v3",
+          "title": "Emergent Abilities in Large Language Models: A Survey",
+          "first_submitted": "2025-02-28T01:20:01Z",
+          "updated": "2026-08-26T13:04:50Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.19008v1",
+          "title": "Binary Neural Networks for Large Language Model: A Survey",
+          "first_submitted": "2025-02-26T10:14:19Z",
+          "updated": "2025-02-26T10:14:19Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.13178v4",
+          "title": "Benchmarking Post-Training Quantization in LLMs: Comprehensive Taxonomy, Unified Evaluation, and Comparative Analysis",
+          "first_submitted": "2025-02-18T07:35:35Z",
+          "updated": "2025-05-21T14:11:19Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.07855v2",
+          "title": "Vision-Language Models for Edge Networks: A Comprehensive Survey",
+          "first_submitted": "2025-02-11T14:04:43Z",
+          "updated": "2025-06-13T12:20:30Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.00681v2",
+          "title": "A Survey of Quantized Graph Representation Learning: Connecting Graph Structures with Large Language Models",
+          "first_submitted": "2025-02-02T05:57:34Z",
+          "updated": "2026-01-21T05:37:19Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2501.03265v2",
+          "title": "Cognitive Edge Computing: A Comprehensive Survey on Optimizing Large Models and AI Agents for Pervasive Deployment",
+          "first_submitted": "2025-01-04T06:17:48Z",
+          "updated": "2025-11-07T13:51:28Z"
+        },
+        {
+          "url": "https://arxiv.org/abs/2412.19442v3",
+          "title": "A Survey on Large Language Model Acceleration based on KV Cache Management",
+          "first_submitted": "2024-12-27T04:17:57Z",
+          "updated": "2025-07-30T05:24:46Z"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "query": "all:quantization AND all:language",
+      "searched_on": "2026-10-18",
+      "provider": "arxiv_api",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all:quantization+AND+all:language&start=0&max_results=30&sortBy=submittedDate&sortOrder=descending",
+      "response_sha256": "a35f1c6dfdc8b68fbff000144ac19478c9c07f57041135fe9a426016d1847921",
+      "max_results": 30,
+      "returned_urls": [
+        "https://arxiv.org/abs/2610.22110v1",
+        "https://arxiv.org/abs/2610.21810v1",
+        "https://arxiv.org/abs/2610.21808v1",
+        "https://arxiv.org/abs/2610.21436v1",
+        "https://arxiv.org/abs/2610.21257v1",
+        "https://arxiv.org/abs/2610.21045v1",
+        "https://arxiv.org/abs/2610.20826v1",
+        "https://arxiv.org/abs/2610.20808v1",
+        "https://arxiv.org/abs/2610.20687v1",
+        "https://arxiv.org/abs/2610.20353v1",
+        "https://arxiv.org/abs/2610.20303v1",
+        "https://arxiv.org/abs/2610.20136v1",
+        "https://arxiv.org/abs/2610.19605v1",
+        "https://arxiv.org/abs/2610.19472v1",
+        "https://arxiv.org/abs/2610.18642v1",
+        "https://arxiv.org/abs/2610.18481v1",
+        "https://arxiv.org/abs/2610.18139v1",
+        "https://arxiv.org/abs/2610.17969v1",
+        "https://arxiv.org/abs/2610.17966v1",
+        "https://arxiv.org/abs/2610.17531v1",
+        "https://arxiv.org/abs/2610.17309v1",
+        "https://arxiv.org/abs/2610.17202v1",
+        "https://arxiv.org/abs/2610.16538v1",
+        "https://arxiv.org/abs/2610.16368v1",
+        "https://arxiv.org/abs/2610.16289v1",
+        "https://arxiv.org/abs/2610.15802v1",
+        "https://arxiv.org/abs/2610.15709v1",
+        "https://arxiv.org/abs/2610.15675v1",
+        "https://arxiv.org/abs/2610.15640v1",
+        "https://arxiv.org/abs/2610.15427v1"
+      ],
+      "results": [
+        {
+          "id": "http://arxiv.org/abs/2610.22110v1",
+          "title": "Unfragmenting Nawatl NMT: Single-Variant Specialization for Masewalkopa",
+          "published": "2026-10-15T15:51:41Z",
+          "updated": "2026-10-15T15:51:41Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.21810v1",
+          "title": "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
+          "published": "2026-10-15T12:57:19Z",
+          "updated": "2026-10-15T12:57:19Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.21808v1",
+          "title": "RoleQ: Role-Aligned Scales for Converting Language Models to Ternary",
+          "published": "2026-10-15T12:56:57Z",
+          "updated": "2026-10-15T12:56:57Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.21436v1",
+          "title": "HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding",
+          "published": "2026-10-15T07:45:49Z",
+          "updated": "2026-10-15T07:45:49Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.21257v1",
+          "title": "Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference",
+          "published": "2026-10-15T04:50:03Z",
+          "updated": "2026-10-15T04:50:03Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.21045v1",
+          "title": "Learning When to Withdraw: Curriculum Coverage and Rule-Specific Failures in Fine-Tuned Language Agents",
+          "published": "2026-10-15T00:38:39Z",
+          "updated": "2026-10-15T00:38:39Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.20826v1",
+          "title": "Task-Phase-Conditioned Expert Routing Is Not a Reliable Proxy for Quantization Sensitivity in MoE FFN Tensors",
+          "published": "2026-10-14T19:12:53Z",
+          "updated": "2026-10-14T19:12:53Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.20808v1",
+          "title": "PRISM: Transfer and Limits of Activation Interventions in Tool-Calling Language Models",
+          "published": "2026-10-14T18:55:23Z",
+          "updated": "2026-10-14T18:55:23Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.20687v1",
+          "title": "On-Policy Residual Learning for Diffusion Language Models",
+          "published": "2026-10-14T17:13:17Z",
+          "updated": "2026-10-14T17:13:17Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.20353v1",
+          "title": "Beyond Expert Rankings: Contrast Calibration for Mixed-Precision MoE Quantization",
+          "published": "2026-10-14T15:29:40Z",
+          "updated": "2026-10-14T15:29:40Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.20303v1",
+          "title": "SpectrumQuant: Spectrum Alignment for LLM Quantization",
+          "published": "2026-10-14T14:54:16Z",
+          "updated": "2026-10-14T14:54:16Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.20136v1",
+          "title": "Seeing at the Edge: Energy Characterization of Vision-Language Model Inference on Edge Platforms",
+          "published": "2026-10-14T12:55:12Z",
+          "updated": "2026-10-14T12:55:12Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.19605v1",
+          "title": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+          "published": "2026-10-14T05:29:08Z",
+          "updated": "2026-10-14T05:29:08Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.19472v1",
+          "title": "MemCode: Discrete Semantic Representations for Long-Term Agent Memory",
+          "published": "2026-10-14T02:51:29Z",
+          "updated": "2026-10-14T02:51:29Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.18642v1",
+          "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+          "published": "2026-10-13T16:10:45Z",
+          "updated": "2026-10-13T16:10:45Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.18481v1",
+          "title": "ProTok: Unified Protein Tokenization via Modular Multi-Codebook Quantization",
+          "published": "2026-10-13T14:43:03Z",
+          "updated": "2026-10-13T14:43:03Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.18139v1",
+          "title": "Revisiting Error Feedback for Model Quantization",
+          "published": "2026-10-13T10:47:01Z",
+          "updated": "2026-10-13T10:47:01Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.17969v1",
+          "title": "Neural Dimensional Analysis: Foundations of Dimensionless and Scale-Consistent Computation",
+          "published": "2026-10-13T08:43:24Z",
+          "updated": "2026-10-13T08:43:24Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.17966v1",
+          "title": "BELT : BEhavior-Aligned Low-Rank KV Cache Compression with Learned Top-k Rank Allocation",
+          "published": "2026-10-13T08:42:38Z",
+          "updated": "2026-10-13T08:42:38Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.17531v1",
+          "title": "Towards Green AI: Evaluating Energy Efficiency for Quantized LLM Inference",
+          "published": "2026-10-13T00:52:32Z",
+          "updated": "2026-10-13T00:52:32Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.17309v1",
+          "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+          "published": "2026-10-12T19:05:56Z",
+          "updated": "2026-10-12T19:05:56Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.17202v1",
+          "title": "MLAfication: Efficiently Enabling High-Fidelity MLA for Modern LLMs",
+          "published": "2026-10-12T17:59:10Z",
+          "updated": "2026-10-12T17:59:10Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.16538v1",
+          "title": "PatTransBench: an ipc-stratified, multi-dimensional benchmark for patent machine translation evaluation",
+          "published": "2026-10-12T10:25:06Z",
+          "updated": "2026-10-12T10:25:06Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.16368v1",
+          "title": "LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers",
+          "published": "2026-10-12T08:20:04Z",
+          "updated": "2026-10-12T08:20:04Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.16289v1",
+          "title": "Fast Quantized Johnson$-$Lindenstrauss Transforms",
+          "published": "2026-10-12T07:16:40Z",
+          "updated": "2026-10-12T07:16:40Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.15802v1",
+          "title": "High-Fidelity Song Generation with Joint Discrete and Continuous Modeling",
+          "published": "2026-10-11T17:44:28Z",
+          "updated": "2026-10-11T17:44:28Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.15709v1",
+          "title": "Preserving Updates in Low-Bit Recurrent State Quantization",
+          "published": "2026-10-11T15:46:25Z",
+          "updated": "2026-10-11T15:46:25Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.15675v1",
+          "title": "Recovering Low-Bit Failures in Vision-Language-Action Policies via Quantization-Conditioned Reinforcement Learning",
+          "published": "2026-10-11T14:56:31Z",
+          "updated": "2026-10-11T14:56:31Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.15640v1",
+          "title": "Context-Aware Precision Scheduling for Small Language Models",
+          "published": "2026-10-11T14:16:06Z",
+          "updated": "2026-10-11T14:16:06Z"
+        },
+        {
+          "id": "http://arxiv.org/abs/2610.15427v1",
+          "title": "Riemannian Graph Tokenizer for Structural Knowledge Transfer",
+          "published": "2026-10-11T08:03:03Z",
+          "updated": "2026-10-11T08:03:03Z"
+        }
+      ]
+    }
+  ],
+  "started_on": "2026-10-10",
+  "publication_note": "Raw search response bodies omitted; queries, returned URLs, dates, response hashes and structured candidate metadata retained. Search output is discovery evidence, not primary-source validation."
+}

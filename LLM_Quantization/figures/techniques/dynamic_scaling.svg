@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+<title id="title">静态、当前动态与延迟缩放</title>
+<desc id="desc">静态尺度来自离线校准，当前动态尺度依赖当前输入的最大值，延迟尺度使用历史统计以减轻当前归约依赖。突发范围变化可能使后两种方案产生不同的裁剪行为。；静态：固定校准 amax；当前动态：先归约本步 amax；延迟：读取历史 amax；记录本步统计供未来使用</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#31748f"/></marker></defs>
+<rect width="1100" height="340" rx="18" fill="#f5f8fc"/>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="30" y="44" font-size="24" font-weight="700" fill="#15324f">静态、当前动态与延迟缩放</text>
+<rect x="24" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="42" y="127" font-size="14" font-weight="700" fill="#31748f">01</text>
+<text x="148.0" y="154" font-size="17" text-anchor="middle" fill="#173650">静态：固定校准 amax</text>
+<rect x="294" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="312" y="127" font-size="14" font-weight="700" fill="#31748f">02</text>
+<text x="418.0" y="154" font-size="17" text-anchor="middle" fill="#173650">当前动态：先归约本步 amax</text>
+<rect x="564" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="582" y="127" font-size="14" font-weight="700" fill="#31748f">03</text>
+<text x="688.0" y="154" font-size="17" text-anchor="middle" fill="#173650">延迟：读取历史 amax</text>
+<rect x="834" y="100" width="248" height="124" rx="12" fill="white" stroke="#c7d6e5" stroke-width="1.5"/>
+<text x="852" y="127" font-size="14" font-weight="700" fill="#31748f">04</text>
+<text x="958.0" y="154" font-size="17" text-anchor="middle" fill="#173650">记录本步统计供未来使用</text>
+<text x="30" y="321" font-size="13" fill="#546c82">三种尺度时序的对照；本步统计可供未来使用</text></g></svg>
