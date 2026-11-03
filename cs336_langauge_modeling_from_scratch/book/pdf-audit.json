@@ -1,0 +1,190 @@
+{
+  "file": "book/CS336中文学习指南.pdf",
+  "sha256": "4db3c6039163cd7b72aa456e2a523fe2b7c084e5472410507b3d69ccd963ddd2",
+  "pages": 292,
+  "missing_glyphs": [],
+  "replacement_or_control_characters": [],
+  "outside_page": [],
+  "blank_pages": [],
+  "sparse_pages": [
+    {
+      "page": 58,
+      "characters": 99
+    }
+  ],
+  "fonts": [
+    {
+      "xref": 4,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 5,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 6,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 7,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 8,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 9,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 10,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 11,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 12,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 13,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 14,
+      "name": "BAAAAA+DejaVuSans",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 22476
+    },
+    {
+      "xref": 66,
+      "name": "CAAAAA+DejaVuSansMono",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 29160
+    },
+    {
+      "xref": 67,
+      "name": "DAAAAA+KaTeX_Math-Italic",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 21788
+    },
+    {
+      "xref": 68,
+      "name": "EAAAAA+KaTeX_Main-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 24880
+    },
+    {
+      "xref": 71,
+      "name": "FAAAAA+KaTeX_Size2-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 5524
+    },
+    {
+      "xref": 72,
+      "name": "GAAAAA+KaTeX_Caligraphic-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 6436
+    },
+    {
+      "xref": 73,
+      "name": "HAAAAA+KaTeX_Size1-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 5508
+    },
+    {
+      "xref": 76,
+      "name": "IAAAAA+KaTeX_AMS-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 6312
+    },
+    {
+      "xref": 77,
+      "name": "JAAAAA+KaTeX_Main-Bold",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 5104
+    },
+    {
+      "xref": 83,
+      "name": "(embedded Type3 glyph programs)",
+      "subtype": "/Type3",
+      "embedded": true,
+      "bytes": 0
+    },
+    {
+      "xref": 125,
+      "name": "LAAAAA+KaTeX_Size3-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 5316
+    },
+    {
+      "xref": 160,
+      "name": "MAAAAA+KaTeX_Size4-Regular",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 5724
+    },
+    {
+      "xref": 224,
+      "name": "NAAAAA+DejaVuSans",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 23948
+    },
+    {
+      "xref": 232,
+      "name": "OAAAAA+DejaVuSansMono-Bold",
+      "subtype": "/Type0",
+      "embedded": true,
+      "bytes": 4880
+    }
+  ],
+  "rasterized_pages": 292,
+  "exported_pages": [],
+  "contact_sheets": [],
+  "unembedded_fonts": [],
+  "passed": true
+}

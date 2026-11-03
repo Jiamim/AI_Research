@@ -1,0 +1,275 @@
+[
+ {
+  "id": "2306.15595",
+  "url": "https://arxiv.org/abs/2306.15595",
+  "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+  "published": "2023-06-27",
+  "chapters": "30",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2309.00071",
+  "url": "https://arxiv.org/abs/2309.00071",
+  "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+  "published": "2023-08-31",
+  "chapters": "30",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2309.17453",
+  "url": "https://arxiv.org/abs/2309.17453",
+  "title": "Efficient Streaming Language Models with Attention Sinks",
+  "published": "2023-09-29",
+  "chapters": "29, 30",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2309.17453",
+  "fulltext_sha256": "3872f94d235da1a3903f162602e12a9759bbd35e3d4813f8816513dc04d9b0bf",
+  "retrieved_utc": "2026-10-27T11:53:18+00:00"
+ },
+ {
+  "id": "2310.10537",
+  "url": "https://arxiv.org/abs/2310.10537",
+  "title": "Microscaling Data Formats for Deep Learning",
+  "published": "2023-10-16",
+  "chapters": "34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2310.10537",
+  "fulltext_sha256": "e34dfc4d1661b21d363017f53e6192ca9e8a0527e7a66b3df60135710e4647e4",
+  "retrieved_utc": "2026-10-27T11:36:54+00:00"
+ },
+ {
+  "id": "2406.08464",
+  "url": "https://arxiv.org/abs/2406.08464",
+  "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing",
+  "published": "2024-06-12",
+  "chapters": "33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2406.08464",
+  "fulltext_sha256": "aaa2f05b34ae65d85c1ae30f4d65acc17bfcd6a241a2fe1d0664df1fe816cc75",
+  "retrieved_utc": "2026-10-27T11:41:52+00:00"
+ },
+ {
+  "id": "2406.11794",
+  "url": "https://arxiv.org/abs/2406.11794",
+  "title": "DataComp-LM: In search of the next generation of training sets for language models",
+  "published": "2024-06-17",
+  "chapters": "33",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2406.17557",
+  "url": "https://arxiv.org/abs/2406.17557",
+  "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+  "published": "2024-06-25",
+  "chapters": "33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2406.17557",
+  "fulltext_sha256": "059d9418f0a111cdc55c9057dc1595a03ba392abc5e2140832635a520192dc99",
+  "retrieved_utc": "2026-10-27T11:25:43+00:00"
+ },
+ {
+  "id": "2407.08608",
+  "url": "https://arxiv.org/abs/2407.08608",
+  "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+  "published": "2024-07-11",
+  "chapters": "34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2407.08608",
+  "fulltext_sha256": "4d5e9ca3a40bdc9f47df848d9e236c29ede70bd18cfbc9f047ddeb17377aa93a",
+  "retrieved_utc": "2026-10-27T11:27:13+00:00"
+ },
+ {
+  "id": "2410.02660",
+  "url": "https://arxiv.org/abs/2410.02660",
+  "title": "How to Train Long-Context Language Models (Effectively)",
+  "published": "2024-10-03",
+  "chapters": "30",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2411.04330",
+  "url": "https://arxiv.org/abs/2411.04330",
+  "title": "Scaling Laws for Precision",
+  "published": "2024-11-07",
+  "chapters": "34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2411.04330",
+  "fulltext_sha256": "3177bbdb9afda787ad14998fbc8ff8fe0a106d5b3cf6a72524cfc3ab6a49c1a8",
+  "retrieved_utc": "2026-10-27T11:27:14+00:00"
+ },
+ {
+  "id": "2411.15124",
+  "url": "https://arxiv.org/abs/2411.15124",
+  "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+  "published": "2024-11-22",
+  "chapters": "33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2411.15124",
+  "fulltext_sha256": "0a437403a0fce0cab42931983f67753c1260df36df66dbd34abfe4603e9ef0ef",
+  "retrieved_utc": "2026-10-27T11:41:51+00:00"
+ },
+ {
+  "id": "2412.06464",
+  "url": "https://arxiv.org/abs/2412.06464",
+  "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+  "published": "2024-12-09",
+  "chapters": "29",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2412.08905",
+  "url": "https://arxiv.org/abs/2412.08905",
+  "title": "Phi-4 Technical Report",
+  "published": "2024-12-12",
+  "chapters": "33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2412.08905",
+  "fulltext_sha256": "ea992c788f6af02a7c236aaac8539b973f1230c5459140925b1a28e53de34de4",
+  "retrieved_utc": "2026-10-27T11:41:52+00:00"
+ },
+ {
+  "id": "2412.19437",
+  "url": "https://arxiv.org/abs/2412.19437",
+  "title": "DeepSeek-V3 Technical Report",
+  "published": "2024-12-27",
+  "chapters": "29, 33, 34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2412.19437",
+  "fulltext_sha256": "0768b63dd7e9cb632e71002c823275cf018a49dd3053ea9663c9c5a58eaee4a2",
+  "retrieved_utc": "2026-10-27T11:12:50+00:00"
+ },
+ {
+  "id": "2501.00656",
+  "url": "https://arxiv.org/abs/2501.00656",
+  "title": "2 OLMo 2 Furious",
+  "published": "2024-12-31",
+  "chapters": "29, 33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2501.00656",
+  "fulltext_sha256": "8148672fe0946e4e132fc95a1d70013335160b8947072f46df72830ec43c485f",
+  "retrieved_utc": "2026-10-27T11:53:17+00:00"
+ },
+ {
+  "id": "2501.12948",
+  "url": "https://arxiv.org/abs/2501.12948",
+  "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+  "published": "2025-01-22",
+  "chapters": "31, 33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2501.12948",
+  "fulltext_sha256": "208476cece3e2c19db405c49d2e599f208fbdcae8d0606f86302c9c21008e45f",
+  "retrieved_utc": "2026-10-27T11:27:26+00:00"
+ },
+ {
+  "id": "2502.11089",
+  "url": "https://arxiv.org/abs/2502.11089",
+  "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+  "published": "2025-02-16",
+  "chapters": "30",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2503.14476",
+  "url": "https://arxiv.org/abs/2503.14476",
+  "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+  "published": "2025-03-18",
+  "chapters": "31",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2503.14476",
+  "fulltext_sha256": "eecec377627988d871263e7c26e912fdc8458eebe215d25059e4084263651458",
+  "retrieved_utc": "2026-10-27T11:06:26+00:00"
+ },
+ {
+  "id": "2503.19786",
+  "url": "https://arxiv.org/abs/2503.19786",
+  "title": "Gemma 3 Technical Report",
+  "published": "2025-03-25",
+  "chapters": "29, 30",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2503.19786",
+  "fulltext_sha256": "77f6cf62fc469ece9904b22f909745ae8a4d4f59ac5f2c6c567b27c1b014c7e6",
+  "retrieved_utc": "2026-10-27T11:10:55+00:00"
+ },
+ {
+  "id": "2504.13837",
+  "url": "https://arxiv.org/abs/2504.13837",
+  "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+  "published": "2025-04-18",
+  "chapters": "31",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2504.13837",
+  "fulltext_sha256": "a6f78c9c5d88a2dbabae9181f660c7534393c24b0d50792546bc2948605b0366",
+  "retrieved_utc": "2026-10-27T11:53:44+00:00"
+ },
+ {
+  "id": "2505.09388",
+  "url": "https://arxiv.org/abs/2505.09388",
+  "title": "Qwen3 Technical Report",
+  "published": "2025-05-14",
+  "chapters": "29, 33, 34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2505.09388",
+  "fulltext_sha256": "575a9490a057190a0809f810c94c602792e111e767845b63610cddd7fcb60b5e",
+  "retrieved_utc": "2026-10-27T11:07:44+00:00"
+ },
+ {
+  "id": "2505.22617",
+  "url": "https://arxiv.org/abs/2505.22617",
+  "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+  "published": "2025-05-28",
+  "chapters": "31",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2505.22617",
+  "fulltext_sha256": "1a7373d0e8515f252bf3836193b41fbe9814af901e614ce8da287eee7d65a965",
+  "retrieved_utc": "2026-10-27T11:53:45+00:00"
+ },
+ {
+  "id": "2505.24864",
+  "url": "https://arxiv.org/abs/2505.24864",
+  "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models",
+  "published": "2025-05-30",
+  "chapters": "31",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2506.13585",
+  "url": "https://arxiv.org/abs/2506.13585",
+  "title": "MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention",
+  "published": "2025-06-16",
+  "chapters": "29, 30, 31, 32, 34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2506.13585",
+  "fulltext_sha256": "3424f9407a61bfb4e9c9ebb51b96095a56ec965ed992dbf1cfe903a19865c9fd",
+  "retrieved_utc": "2026-10-27T11:25:16+00:00"
+ },
+ {
+  "id": "2506.14245",
+  "url": "https://arxiv.org/abs/2506.14245",
+  "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+  "published": "2025-06-17",
+  "chapters": "31",
+  "status": "abstract_read"
+ },
+ {
+  "id": "2507.20534",
+  "url": "https://arxiv.org/abs/2507.20534",
+  "title": "Kimi K2: Open Agentic Intelligence",
+  "published": "2025-07-28",
+  "chapters": "29, 32, 33",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2507.20534",
+  "fulltext_sha256": "7d666dad1198af628b04b1174f185bcba93733c8528497d4e139faee104c80cd",
+  "retrieved_utc": "2026-10-27T11:12:50+00:00"
+ },
+ {
+  "id": "2508.10925",
+  "url": "https://arxiv.org/abs/2508.10925",
+  "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+  "published": "2025-08-08",
+  "chapters": "29, 30, 32, 34",
+  "status": "fulltext_checked",
+  "fulltext_url": "https://arxiv.org/html/2508.10925",
+  "fulltext_sha256": "902010af198553e37c044835a64e195e4fb683eea87ff977d69c44ddbc35346f",
+  "retrieved_utc": "2026-10-27T11:09:24+00:00"
+ }
+]

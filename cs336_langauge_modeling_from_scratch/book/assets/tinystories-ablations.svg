@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="345.6pt" viewBox="0 0 648 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="tinystories-ablations-figure_1">
+  <g id="tinystories-ablations-patch_1">
+   <path d="M 0 345.6 
+L 648 345.6 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="tinystories-ablations-axes_1">
+   <g id="tinystories-ablations-patch_2">
+    <path d="M 53.93 303.64 
+L 388.458 303.64 
+L 388.458 26.88 
+L 53.93 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="tinystories-ablations-matplotlib.axis_1">
+    <g id="tinystories-ablations-xtick_1">
+     <g id="tinystories-ablations-line2d_1">
+      <path d="M 90.858416 303.64 
+L 90.858416 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_2">
+      <defs>
+       <path id="tinystories-ablations-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="90.858416" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="90.858416" y="318.238437" transform="rotate(-0 90.858416 318.238437)">200</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-xtick_2">
+     <g id="tinystories-ablations-line2d_3">
+      <path d="M 134.30361 303.64 
+L 134.30361 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_4">
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="134.30361" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="134.30361" y="318.238437" transform="rotate(-0 134.30361 318.238437)">400</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-xtick_3">
+     <g id="tinystories-ablations-line2d_5">
+      <path d="M 177.748805 303.64 
+L 177.748805 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_6">
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="177.748805" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="177.748805" y="318.238437" transform="rotate(-0 177.748805 318.238437)">600</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-xtick_4">
+     <g id="tinystories-ablations-line2d_7">
+      <path d="M 221.194 303.64 
+L 221.194 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_8">
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="221.194" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="221.194" y="318.238437" transform="rotate(-0 221.194 318.238437)">800</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-xtick_5">
+     <g id="tinystories-ablations-line2d_9">
+      <path d="M 264.639195 303.64 
+L 264.639195 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_10">
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="264.639195" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="264.639195" y="318.238437" transform="rotate(-0 264.639195 318.238437)">1000</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-xtick_6">
+     <g id="tinystories-ablations-line2d_11">
+      <path d="M 308.08439 303.64 
+L 308.08439 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_12">
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="308.08439" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="308.08439" y="318.238437" transform="rotate(-0 308.08439 318.238437)">1200</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-xtick_7">
+     <g id="tinystories-ablations-line2d_13">
+      <path d="M 351.529584 303.64 
+L 351.529584 26.88 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_14">
+      <g>
+       <use xlink:href="#tinystories-ablations-m21fce4b813" x="351.529584" y="303.64" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="351.529584" y="318.238437" transform="rotate(-0 351.529584 318.238437)">1400</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-text_8">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="221.194" y="331.916562" transform="rotate(-0 221.194 331.916562)">Optimizer updates</text>
+    </g>
+   </g>
+   <g id="tinystories-ablations-matplotlib.axis_2">
+    <g id="tinystories-ablations-ytick_1">
+     <g id="tinystories-ablations-line2d_15">
+      <path d="M 53.93 300.874092 
+L 388.458 300.874092 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_16">
+      <defs>
+       <path id="tinystories-ablations-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="300.874092" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="304.673311" transform="rotate(-0 46.93 304.673311)">2.25</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_2">
+     <g id="tinystories-ablations-line2d_17">
+      <path d="M 53.93 268.333999 
+L 388.458 268.333999 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_18">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="268.333999" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="272.133218" transform="rotate(-0 46.93 272.133218)">2.50</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_3">
+     <g id="tinystories-ablations-line2d_19">
+      <path d="M 53.93 235.793906 
+L 388.458 235.793906 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_20">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="235.793906" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="239.593125" transform="rotate(-0 46.93 239.593125)">2.75</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_4">
+     <g id="tinystories-ablations-line2d_21">
+      <path d="M 53.93 203.253813 
+L 388.458 203.253813 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_22">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="203.253813" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="207.053031" transform="rotate(-0 46.93 207.053031)">3.00</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_5">
+     <g id="tinystories-ablations-line2d_23">
+      <path d="M 53.93 170.71372 
+L 388.458 170.71372 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_24">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="170.71372" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="174.512938" transform="rotate(-0 46.93 174.512938)">3.25</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_6">
+     <g id="tinystories-ablations-line2d_25">
+      <path d="M 53.93 138.173626 
+L 388.458 138.173626 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_26">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="138.173626" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="141.972845" transform="rotate(-0 46.93 141.972845)">3.50</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_7">
+     <g id="tinystories-ablations-line2d_27">
+      <path d="M 53.93 105.633533 
+L 388.458 105.633533 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_28">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="105.633533" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="109.432752" transform="rotate(-0 46.93 109.432752)">3.75</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_8">
+     <g id="tinystories-ablations-line2d_29">
+      <path d="M 53.93 73.09344 
+L 388.458 73.09344 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_30">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="73.09344" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="76.892659" transform="rotate(-0 46.93 76.892659)">4.00</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-ytick_9">
+     <g id="tinystories-ablations-line2d_31">
+      <path d="M 53.93 40.553347 
+L 388.458 40.553347 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="tinystories-ablations-line2d_32">
+      <g>
+       <use xlink:href="#tinystories-ablations-m2df64f757d" x="53.93" y="40.553347" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="tinystories-ablations-text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="46.93" y="44.352566" transform="rotate(-0 46.93 44.352566)">4.25</text>
+     </g>
+    </g>
+    <g id="tinystories-ablations-text_18">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="18.584688" y="165.26" transform="rotate(-90 18.584688 165.26)">Validation loss (nats / token)</text>
+    </g>
+   </g>
+   <g id="tinystories-ablations-line2d_33">
+    <path d="M 69.135818 116.567005 
+L 90.858416 178.354133 
+L 112.581013 202.446818 
+L 134.30361 218.131143 
+L 156.026208 230.990988 
+L 177.748805 240.622856 
+L 199.471403 249.473761 
+L 221.194 258.506891 
+L 242.916597 265.756824 
+L 264.639195 272.395003 
+L 286.361792 277.588401 
+L 308.08439 282.547512 
+L 329.806987 286.439307 
+L 351.529584 288.756161 
+L 373.252182 291.06 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-line2d_34">
+    <path d="M 69.135818 120.901345 
+L 90.858416 176.440776 
+L 112.581013 198.060414 
+L 134.30361 212.06567 
+L 156.026208 223.92328 
+L 177.748805 233.359907 
+L 199.471403 241.976524 
+L 221.194 251.517279 
+L 242.916597 259.079596 
+L 264.639195 267.527005 
+L 286.361792 273.566446 
+L 308.08439 278.629684 
+L 329.806987 282.690688 
+L 351.529584 285.424056 
+L 373.252182 287.897103 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-line2d_35">
+    <path d="M 69.135818 39.46 
+L 90.858416 131.977993 
+L 112.581013 168.891474 
+L 134.30361 190.068567 
+L 156.026208 209.800879 
+L 177.748805 223.29851 
+L 199.471403 235.169136 
+L 221.194 245.790222 
+L 242.916597 254.810336 
+L 264.639195 262.94536 
+L 286.361792 269.219089 
+L 308.08439 274.412488 
+L 329.806987 278.473492 
+L 351.529584 281.310988 
+L 373.252182 283.744987 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #1baf7a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-line2d_36">
+    <path d="M 69.135818 104.930667 
+L 90.858416 162.682825 
+L 112.581013 191.877796 
+L 134.30361 207.666249 
+L 156.026208 221.424201 
+L 177.748805 231.563694 
+L 199.471403 240.310471 
+L 221.194 249.239472 
+L 242.916597 256.593533 
+L 264.639195 264.832685 
+L 286.361792 270.299421 
+L 308.08439 274.724873 
+L 329.806987 278.408412 
+L 351.529584 280.959555 
+L 373.252182 283.497682 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #eda100; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-line2d_37">
+    <path d="M 69.135818 89.402535 
+L 90.858416 133.500869 
+L 112.581013 158.049115 
+L 134.30361 176.935385 
+L 156.026208 192.606694 
+L 177.748805 207.562121 
+L 199.471403 220.994671 
+L 221.194 231.381469 
+L 242.916597 241.950491 
+L 264.639195 250.332819 
+L 286.361792 257.257351 
+L 308.08439 263.192664 
+L 329.806987 267.318748 
+L 351.529584 270.429581 
+L 373.252182 272.746436 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #e87ba4; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-line2d_38">
+    <path d="M 69.135818 67.57464 
+L 90.858416 146.43881 
+L 112.581013 177.950636 
+L 134.30361 197.071195 
+L 156.026208 211.024387 
+L 177.748805 222.048971 
+L 199.471403 230.964956 
+L 221.194 239.047915 
+L 242.916597 245.972447 
+L 264.639195 252.975075 
+L 286.361792 257.387512 
+L 308.08439 261.435499 
+L 329.806987 264.767605 
+L 351.529584 266.667946 
+L 373.252182 268.763528 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke: #008300; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-line2d_39">
+    <path d="M 69.135818 99.385835 
+L 90.858416 159.298655 
+L 112.581013 186.306932 
+L 134.30361 199.036617 
+" clip-path="url(#tinystories-ablations-p1c9cddebed)" style="fill: none; stroke-dasharray: 2,4; stroke-dashoffset: 0; stroke: #52514e; stroke-width: 2"/>
+   </g>
+   <g id="tinystories-ablations-patch_3">
+    <path d="M 53.93 303.64 
+L 53.93 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-patch_4">
+    <path d="M 53.93 303.64 
+L 388.458 303.64 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tinystories-ablations-text_19">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="53.93" y="20.88" transform="rotate(-0 53.93 20.88)">TinyStories ablations, same 1,500-step budget</text>
+   </g>
+   <g id="tinystories-ablations-legend_1">
+    <g id="tinystories-ablations-line2d_40">
+     <path d="M 399.90328 38.668594 
+L 408.90328 38.668594 
+L 417.90328 38.668594 
+" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="tinystories-ablations-text_20">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="41.818594" transform="rotate(-0 425.10328 41.818594)">pre-norm RoPE SwiGLU (base): 2.325</text>
+    </g>
+    <g id="tinystories-ablations-line2d_41">
+     <path d="M 399.90328 51.878906 
+L 408.90328 51.878906 
+L 417.90328 51.878906 
+" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="tinystories-ablations-text_21">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="55.028906" transform="rotate(-0 425.10328 55.028906)">post-norm: 2.350</text>
+    </g>
+    <g id="tinystories-ablations-line2d_42">
+     <path d="M 399.90328 65.089219 
+L 408.90328 65.089219 
+L 417.90328 65.089219 
+" style="fill: none; stroke: #1baf7a; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="tinystories-ablations-text_22">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="68.239219" transform="rotate(-0 425.10328 68.239219)">tied embeddings: 2.382</text>
+    </g>
+    <g id="tinystories-ablations-line2d_43">
+     <path d="M 399.90328 78.299531 
+L 408.90328 78.299531 
+L 417.90328 78.299531 
+" style="fill: none; stroke: #eda100; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="tinystories-ablations-text_23">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="81.449531" transform="rotate(-0 425.10328 81.449531)">SiLU FFN, d_ff = 4d: 2.384</text>
+    </g>
+    <g id="tinystories-ablations-line2d_44">
+     <path d="M 399.90328 91.760156 
+L 408.90328 91.760156 
+L 417.90328 91.760156 
+" style="fill: none; stroke: #e87ba4; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="tinystories-ablations-text_24">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="94.910156" transform="rotate(-0 425.10328 94.910156)">no position (NoPE): 2.466</text>
+    </g>
+    <g id="tinystories-ablations-line2d_45">
+     <path d="M 399.90328 104.970469 
+L 408.90328 104.970469 
+L 417.90328 104.970469 
+" style="fill: none; stroke: #008300; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="tinystories-ablations-text_25">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="108.120469" transform="rotate(-0 425.10328 108.120469)">no RMSNorm, lr / 3: 2.497</text>
+    </g>
+    <g id="tinystories-ablations-line2d_46">
+     <path d="M 399.90328 118.180781 
+L 408.90328 118.180781 
+L 417.90328 118.180781 
+" style="fill: none; stroke-dasharray: 2,4; stroke-dashoffset: 0; stroke: #52514e; stroke-width: 2"/>
+    </g>
+    <g id="tinystories-ablations-text_26">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="425.10328" y="121.330781" transform="rotate(-0 425.10328 121.330781)">no RMSNorm, lr 0.003: failed; last finite 3.032</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="tinystories-ablations-p1c9cddebed">
+   <rect x="53.93" y="26.88" width="334.528" height="276.76"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 538" role="img" aria-label="Packing：可见关系与目标边界是两套独立约束">
+<title>Packing：可见关系与目标边界是两套独立约束</title><desc>例：BOS_A、a、EOS_A、BOS_B、b、EOS_B、PAD；按独立文档似然训练</desc>
+<defs><marker id="packing-boundaries-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" text-anchor="start" fill="#18334a">Packing：可见关系与目标边界是两套独立约束</text>
+<text x="34" y="70" font-size="15" text-anchor="start" fill="#18334a">例：BOS_A、a、EOS_A、BOS_B、b、EOS_B、PAD；按独立文档似然训练</text>
+<text x="34" y="108" font-size="14" text-anchor="start" fill="#18334a">A0/B0 是 BOS；A2/B2 是 EOS；PAD 不属于任何文档</text>
+<text x="282" y="137" font-size="15" text-anchor="middle" fill="#18334a">注意力：行 query → 列 key</text>
+<text x="620" y="137" font-size="15" text-anchor="start" fill="#18334a">移位后的输入 → 目标</text>
+<text x="963" y="137" font-size="15" text-anchor="middle" fill="#18334a">loss mask</text>
+<text x="110" y="191" font-size="14" text-anchor="end" fill="#18334a">A0</text>
+<text x="148" y="160" font-size="13" text-anchor="middle" fill="#18334a">A0</text>
+<rect x="128" y="172" width="38" height="38" fill="#d6e9fa"/>
+<text x="147" y="197" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="168" y="172" width="38" height="38" fill="#edf0f3"/>
+<text x="187" y="197" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="208" y="172" width="38" height="38" fill="#edf0f3"/>
+<text x="227" y="197" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="248" y="172" width="38" height="38" fill="#edf0f3"/>
+<text x="267" y="197" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="288" y="172" width="38" height="38" fill="#edf0f3"/>
+<text x="307" y="197" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="328" y="172" width="38" height="38" fill="#edf0f3"/>
+<text x="347" y="197" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="368" y="172" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="197" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="110" y="231" font-size="14" text-anchor="end" fill="#18334a">A1</text>
+<text x="188" y="160" font-size="13" text-anchor="middle" fill="#18334a">A1</text>
+<rect x="128" y="212" width="38" height="38" fill="#d6e9fa"/>
+<text x="147" y="237" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="168" y="212" width="38" height="38" fill="#d6e9fa"/>
+<text x="187" y="237" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="208" y="212" width="38" height="38" fill="#edf0f3"/>
+<text x="227" y="237" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="248" y="212" width="38" height="38" fill="#edf0f3"/>
+<text x="267" y="237" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="288" y="212" width="38" height="38" fill="#edf0f3"/>
+<text x="307" y="237" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="328" y="212" width="38" height="38" fill="#edf0f3"/>
+<text x="347" y="237" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="368" y="212" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="237" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="110" y="271" font-size="14" text-anchor="end" fill="#18334a">A2</text>
+<text x="228" y="160" font-size="13" text-anchor="middle" fill="#18334a">A2</text>
+<rect x="128" y="252" width="38" height="38" fill="#d6e9fa"/>
+<text x="147" y="277" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="168" y="252" width="38" height="38" fill="#d6e9fa"/>
+<text x="187" y="277" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="208" y="252" width="38" height="38" fill="#d6e9fa"/>
+<text x="227" y="277" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="248" y="252" width="38" height="38" fill="#edf0f3"/>
+<text x="267" y="277" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="288" y="252" width="38" height="38" fill="#edf0f3"/>
+<text x="307" y="277" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="328" y="252" width="38" height="38" fill="#edf0f3"/>
+<text x="347" y="277" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="368" y="252" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="277" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="110" y="311" font-size="14" text-anchor="end" fill="#18334a">B0</text>
+<text x="268" y="160" font-size="13" text-anchor="middle" fill="#18334a">B0</text>
+<rect x="128" y="292" width="38" height="38" fill="#edf0f3"/>
+<text x="147" y="317" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="168" y="292" width="38" height="38" fill="#edf0f3"/>
+<text x="187" y="317" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="208" y="292" width="38" height="38" fill="#edf0f3"/>
+<text x="227" y="317" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="248" y="292" width="38" height="38" fill="#d6e9fa"/>
+<text x="267" y="317" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="288" y="292" width="38" height="38" fill="#edf0f3"/>
+<text x="307" y="317" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="328" y="292" width="38" height="38" fill="#edf0f3"/>
+<text x="347" y="317" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="368" y="292" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="317" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="110" y="351" font-size="14" text-anchor="end" fill="#18334a">B1</text>
+<text x="308" y="160" font-size="13" text-anchor="middle" fill="#18334a">B1</text>
+<rect x="128" y="332" width="38" height="38" fill="#edf0f3"/>
+<text x="147" y="357" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="168" y="332" width="38" height="38" fill="#edf0f3"/>
+<text x="187" y="357" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="208" y="332" width="38" height="38" fill="#edf0f3"/>
+<text x="227" y="357" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="248" y="332" width="38" height="38" fill="#d6e9fa"/>
+<text x="267" y="357" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="288" y="332" width="38" height="38" fill="#d6e9fa"/>
+<text x="307" y="357" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="328" y="332" width="38" height="38" fill="#edf0f3"/>
+<text x="347" y="357" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="368" y="332" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="357" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="110" y="391" font-size="14" text-anchor="end" fill="#18334a">B2</text>
+<text x="348" y="160" font-size="13" text-anchor="middle" fill="#18334a">B2</text>
+<rect x="128" y="372" width="38" height="38" fill="#edf0f3"/>
+<text x="147" y="397" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="168" y="372" width="38" height="38" fill="#edf0f3"/>
+<text x="187" y="397" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="208" y="372" width="38" height="38" fill="#edf0f3"/>
+<text x="227" y="397" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="248" y="372" width="38" height="38" fill="#d6e9fa"/>
+<text x="267" y="397" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="288" y="372" width="38" height="38" fill="#d6e9fa"/>
+<text x="307" y="397" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="328" y="372" width="38" height="38" fill="#d6e9fa"/>
+<text x="347" y="397" font-size="14" text-anchor="middle" fill="#18334a">1</text>
+<rect x="368" y="372" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="397" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="110" y="431" font-size="14" text-anchor="end" fill="#18334a">PAD</text>
+<text x="388" y="160" font-size="13" text-anchor="middle" fill="#18334a">PAD</text>
+<rect x="128" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="147" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="168" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="187" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="208" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="227" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="248" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="267" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="288" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="307" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="328" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="347" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<rect x="368" y="412" width="38" height="38" fill="#edf0f3"/>
+<text x="387" y="437" font-size="14" text-anchor="middle" fill="#8392a0">0</text>
+<text x="646" y="192" font-size="17" text-anchor="start" fill="#18334a">A0 → A1</text>
+<text x="963" y="192" font-size="17" text-anchor="middle" fill="#18334a">1</text>
+<text x="646" y="233" font-size="17" text-anchor="start" fill="#18334a">A1 → A2</text>
+<text x="963" y="233" font-size="17" text-anchor="middle" fill="#18334a">1</text>
+<rect x="526" y="250" width="506" height="35" rx="5" fill="#fff1d6"/>
+<text x="646" y="274" font-size="17" text-anchor="start" fill="#18334a">A2 → B0</text>
+<text x="963" y="274" font-size="17" text-anchor="middle" fill="#18334a">0</text>
+<text x="646" y="315" font-size="17" text-anchor="start" fill="#18334a">B0 → B1</text>
+<text x="963" y="315" font-size="17" text-anchor="middle" fill="#18334a">1</text>
+<text x="646" y="356" font-size="17" text-anchor="start" fill="#18334a">B1 → B2</text>
+<text x="963" y="356" font-size="17" text-anchor="middle" fill="#18334a">1</text>
+<rect x="526" y="373" width="506" height="35" rx="5" fill="#fff1d6"/>
+<text x="646" y="397" font-size="17" text-anchor="start" fill="#18334a">B2 → PAD</text>
+<text x="963" y="397" font-size="17" text-anchor="middle" fill="#18334a">0</text>
+<text x="540" y="488" font-size="16" text-anchor="middle" fill="#18334a">阻断跨文档注意力，不会自动删除 A2 → B0 标签；EOS 的监督仍要保留。</text>
+<text x="540" y="512" font-size="14" text-anchor="middle" fill="#18334a">全空 PAD query 另作数值处理；角色监督还需与目标位置的掩码相交。</text>
+</g></svg>

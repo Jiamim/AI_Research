@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="331.2pt" viewBox="0 0 648 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="training-figure_1">
+  <g id="training-patch_1">
+   <path d="M 0 331.2 
+L 648 331.2 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="training-axes_1">
+   <g id="training-patch_2">
+    <path d="M 38.27 289.24 
+L 637.2 289.24 
+L 637.2 26.88 
+L 38.27 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="training-matplotlib.axis_1">
+    <g id="training-xtick_1">
+     <g id="training-line2d_1">
+      <path d="M 65.494091 289.24 
+L 65.494091 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_2">
+      <defs>
+       <path id="training-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="65.494091" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="65.494091" y="303.838437" transform="rotate(-0 65.494091 303.838437)">0</text>
+     </g>
+    </g>
+    <g id="training-xtick_2">
+     <g id="training-line2d_3">
+      <path d="M 156.241061 289.24 
+L 156.241061 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_4">
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="156.241061" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="156.241061" y="303.838437" transform="rotate(-0 156.241061 303.838437)">20</text>
+     </g>
+    </g>
+    <g id="training-xtick_3">
+     <g id="training-line2d_5">
+      <path d="M 246.98803 289.24 
+L 246.98803 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_6">
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="246.98803" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="246.98803" y="303.838437" transform="rotate(-0 246.98803 303.838437)">40</text>
+     </g>
+    </g>
+    <g id="training-xtick_4">
+     <g id="training-line2d_7">
+      <path d="M 337.735 289.24 
+L 337.735 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_8">
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="337.735" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="337.735" y="303.838437" transform="rotate(-0 337.735 303.838437)">60</text>
+     </g>
+    </g>
+    <g id="training-xtick_5">
+     <g id="training-line2d_9">
+      <path d="M 428.48197 289.24 
+L 428.48197 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_10">
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="428.48197" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="428.48197" y="303.838437" transform="rotate(-0 428.48197 303.838437)">80</text>
+     </g>
+    </g>
+    <g id="training-xtick_6">
+     <g id="training-line2d_11">
+      <path d="M 519.228939 289.24 
+L 519.228939 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_12">
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="519.228939" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="519.228939" y="303.838437" transform="rotate(-0 519.228939 303.838437)">100</text>
+     </g>
+    </g>
+    <g id="training-xtick_7">
+     <g id="training-line2d_13">
+      <path d="M 609.975909 289.24 
+L 609.975909 26.88 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_14">
+      <g>
+       <use xlink:href="#training-m21fce4b813" x="609.975909" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="609.975909" y="303.838437" transform="rotate(-0 609.975909 303.838437)">120</text>
+     </g>
+    </g>
+    <g id="training-text_8">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="337.735" y="317.516562" transform="rotate(-0 337.735 317.516562)">Optimizer updates</text>
+    </g>
+   </g>
+   <g id="training-matplotlib.axis_2">
+    <g id="training-ytick_1">
+     <g id="training-line2d_15">
+      <path d="M 38.27 287.47428 
+L 637.2 287.47428 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_16">
+      <defs>
+       <path id="training-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#training-m2df64f757d" x="38.27" y="287.47428" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="31.27" y="291.273498" transform="rotate(-0 31.27 291.273498)">1</text>
+     </g>
+    </g>
+    <g id="training-ytick_2">
+     <g id="training-line2d_17">
+      <path d="M 38.27 232.873151 
+L 637.2 232.873151 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_18">
+      <g>
+       <use xlink:href="#training-m2df64f757d" x="38.27" y="232.873151" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="31.27" y="236.67237" transform="rotate(-0 31.27 236.67237)">2</text>
+     </g>
+    </g>
+    <g id="training-ytick_3">
+     <g id="training-line2d_19">
+      <path d="M 38.27 178.272023 
+L 637.2 178.272023 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_20">
+      <g>
+       <use xlink:href="#training-m2df64f757d" x="38.27" y="178.272023" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="31.27" y="182.071242" transform="rotate(-0 31.27 182.071242)">3</text>
+     </g>
+    </g>
+    <g id="training-ytick_4">
+     <g id="training-line2d_21">
+      <path d="M 38.27 123.670894 
+L 637.2 123.670894 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_22">
+      <g>
+       <use xlink:href="#training-m2df64f757d" x="38.27" y="123.670894" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="31.27" y="127.470113" transform="rotate(-0 31.27 127.470113)">4</text>
+     </g>
+    </g>
+    <g id="training-ytick_5">
+     <g id="training-line2d_23">
+      <path d="M 38.27 69.069766 
+L 637.2 69.069766 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="training-line2d_24">
+      <g>
+       <use xlink:href="#training-m2df64f757d" x="38.27" y="69.069766" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="training-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="31.27" y="72.868985" transform="rotate(-0 31.27 72.868985)">5</text>
+     </g>
+    </g>
+    <g id="training-text_14">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="18.827813" y="158.06" transform="rotate(-90 18.827813 158.06)">Validation NLL (nats / byte)</text>
+    </g>
+   </g>
+   <g id="training-line2d_25">
+    <path d="M 65.494091 38.805455 
+L 156.241061 218.436994 
+L 246.98803 273.81492 
+L 337.735 276.967153 
+L 428.48197 277.073085 
+L 519.228939 277.095467 
+L 609.975909 277.314545 
+" clip-path="url(#training-pc47d972a40)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="training-md551f70b3c" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#training-pc47d972a40)">
+     <use xlink:href="#training-md551f70b3c" x="65.494091" y="38.805455" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#training-md551f70b3c" x="156.241061" y="218.436994" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#training-md551f70b3c" x="246.98803" y="273.81492" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#training-md551f70b3c" x="337.735" y="276.967153" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#training-md551f70b3c" x="428.48197" y="277.073085" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#training-md551f70b3c" x="519.228939" y="277.095467" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#training-md551f70b3c" x="609.975909" y="277.314545" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="training-patch_3">
+    <path d="M 38.27 289.24 
+L 38.27 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="training-patch_4">
+    <path d="M 38.27 289.24 
+L 637.2 289.24 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="training-text_15">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="38.27" y="20.88" transform="rotate(-0 38.27 20.88)">Measured CPU run: 125,248-parameter decoder on synthetic arithmetic text</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="training-pc47d972a40">
+   <rect x="38.27" y="26.88" width="598.93" height="262.36"/>
+  </clipPath>
+ </defs>
+</svg>

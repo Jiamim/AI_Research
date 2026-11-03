@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 248" role="img" aria-label="在线 softmax：每个 query 行的状态更新">
+<defs><marker id="online-softmax-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" font-weight="700">在线 softmax：每个 query 行的状态更新</text>
+<text x="34" y="70" font-size="15" fill="#52687c">所有块处理完毕：O = u / ℓ；不把完整 T × T 概率矩阵写入 HBM</text>
+<rect x="30" y="98" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="44" y="126" font-size="16" font-weight="600">旧状态</text>
+<text x="44" y="149" font-size="14" font-weight="400">m：最大值，ℓ：分母</text>
+<text x="44" y="172" font-size="14" font-weight="400">u：未归一化输出</text>
+<path d="M266,140 H296" stroke="#64748b" stroke-width="2" marker-end="url(#online-softmax-arrow)"/>
+<rect x="300" y="98" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="314" y="126" font-size="16" font-weight="600">读入 K/V 新块</text>
+<text x="314" y="149" font-size="14" font-weight="400">计算局部 QKᵀ 与 mask</text>
+<path d="M536,140 H566" stroke="#64748b" stroke-width="2" marker-end="url(#online-softmax-arrow)"/>
+<rect x="570" y="98" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="584" y="126" font-size="16" font-weight="600">统一数值尺度</text>
+<text x="584" y="149" font-size="14" font-weight="400">m′ = max(m, max scores)</text>
+<text x="584" y="172" font-size="14" font-weight="400">α = exp(m − m′)</text>
+<path d="M806,140 H836" stroke="#64748b" stroke-width="2" marker-end="url(#online-softmax-arrow)"/>
+<rect x="840" y="98" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="854" y="126" font-size="16" font-weight="600">更新与输出</text>
+<text x="854" y="149" font-size="14" font-weight="400">ℓ′ = αℓ + 新块分母</text>
+<text x="854" y="172" font-size="14" font-weight="400">u′ = αu + 新块分子</text>
+</g></svg>

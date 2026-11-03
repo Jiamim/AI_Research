@@ -1,0 +1,140 @@
+{
+ "retrieved": "2026-10-27",
+ "note": "config.json copies at the pinned revision; parameter totals from the Hugging Face safetensors metadata API",
+ "models": {
+  "Qwen/Qwen3-8B": {
+   "file": "Qwen__Qwen3-8B.json",
+   "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+   "safetensors_total": 8190735360,
+   "safetensors_by_dtype": {
+    "BF16": 8190735360
+   },
+   "source": "https://huggingface.co/Qwen/Qwen3-8B/blob/b968826d9c46dd6066d109eabc6255188de91218/config.json"
+  },
+  "Qwen/Qwen3-30B-A3B": {
+   "file": "Qwen__Qwen3-30B-A3B.json",
+   "revision": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39",
+   "safetensors_total": 30532122624,
+   "safetensors_by_dtype": {
+    "BF16": 30532122624
+   },
+   "source": "https://huggingface.co/Qwen/Qwen3-30B-A3B/blob/ad44e777bcd18fa416d9da3bd8f70d33ebb85d39/config.json"
+  },
+  "Qwen/Qwen3-235B-A22B": {
+   "file": "Qwen__Qwen3-235B-A22B.json",
+   "revision": "8efa61729e24bd65b1d152b5ab5409052aa80e65",
+   "safetensors_total": 235093634560,
+   "safetensors_by_dtype": {
+    "BF16": 235093634560
+   },
+   "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B/blob/8efa61729e24bd65b1d152b5ab5409052aa80e65/config.json"
+  },
+  "deepseek-ai/DeepSeek-V3": {
+   "file": "deepseek-ai__DeepSeek-V3.json",
+   "revision": "e815299b0bcbac849fa540c768ef21845365c9eb",
+   "safetensors_total": 684489845504,
+   "safetensors_by_dtype": {
+    "BF16": 3918786560,
+    "F8_E4M3": 680571043840,
+    "F32": 15104
+   },
+   "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3/blob/e815299b0bcbac849fa540c768ef21845365c9eb/config.json"
+  },
+  "moonshotai/Kimi-K2-Instruct": {
+   "file": "moonshotai__Kimi-K2-Instruct.json",
+   "revision": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
+   "safetensors_total": 1026408235864,
+   "safetensors_by_dtype": {
+    "F32": 23040,
+    "BF16": 2514970968,
+    "F8_E4M3": 1023893241856
+   },
+   "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/fd1984e2b7a3350dbf7305fe73a4ede25c14de50/config.json"
+  },
+  "openai/gpt-oss-120b": {
+   "file": "openai__gpt-oss-120b.json",
+   "revision": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+   "safetensors_total": 116829156672,
+   "safetensors_by_dtype": {
+    "BF16": 2167371072,
+    "U8": 114661785600
+   },
+   "source": "https://huggingface.co/openai/gpt-oss-120b/blob/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/config.json"
+  },
+  "openai/gpt-oss-20b": {
+   "file": "openai__gpt-oss-20b.json",
+   "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+   "safetensors_total": 20914757184,
+   "safetensors_by_dtype": {
+    "BF16": 1804459584,
+    "U8": 19110297600
+   },
+   "source": "https://huggingface.co/openai/gpt-oss-20b/blob/6cee5e81ee83917806bbde320786a8fb61efebee/config.json"
+  },
+  "allenai/OLMo-2-0425-1B": {
+   "file": "allenai__OLMo-2-0425-1B.json",
+   "revision": "a1847dff35000b4271fa70afc5db10fd29fedbdf",
+   "safetensors_total": 1484916736,
+   "safetensors_by_dtype": {
+    "F32": 1484916736
+   },
+   "source": "https://huggingface.co/allenai/OLMo-2-0425-1B/blob/a1847dff35000b4271fa70afc5db10fd29fedbdf/config.json"
+  },
+  "allenai/OLMo-2-1124-7B": {
+   "file": "allenai__OLMo-2-1124-7B.json",
+   "revision": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+   "safetensors_total": 7298617344,
+   "safetensors_by_dtype": {
+    "F32": 7298617344
+   },
+   "source": "https://huggingface.co/allenai/OLMo-2-1124-7B/blob/7df9a82518afdecae4e8c026b27adccc8c1f0032/config.json"
+  },
+  "Qwen/Qwen3-Next-80B-A3B-Instruct": {
+   "file": "Qwen__Qwen3-Next-80B-A3B-Instruct.json",
+   "revision": "9c7f2fbe84465e40164a94cc16cd30b6999b0cc7",
+   "safetensors_total": 81324862720,
+   "safetensors_by_dtype": {
+    "BF16": 81324862720
+   },
+   "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct/blob/9c7f2fbe84465e40164a94cc16cd30b6999b0cc7/config.json"
+  },
+  "HuggingFaceTB/SmolLM3-3B": {
+   "file": "HuggingFaceTB__SmolLM3-3B.json",
+   "revision": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+   "safetensors_total": 3075098624,
+   "safetensors_by_dtype": {
+    "BF16": 3075098624
+   },
+   "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B/blob/a07cc9a04f16550a088caea529712d1d335b0ac1/config.json"
+  },
+  "mistralai/Mistral-Small-24B-Base-2501": {
+   "file": "mistralai__Mistral-Small-24B-Base-2501.json",
+   "revision": "b0a2e4ed093c26997495ae625528f81ea04b749f",
+   "safetensors_total": 23572403200,
+   "safetensors_by_dtype": {
+    "BF16": 23572403200
+   },
+   "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501/blob/b0a2e4ed093c26997495ae625528f81ea04b749f/config.json"
+  },
+  "zai-org/GLM-4.5": {
+   "file": "zai-org__GLM-4.5.json",
+   "revision": "cbb2c7cfb52fa128a9660cb1a7a78e017899e115",
+   "safetensors_total": 358337791296,
+   "safetensors_by_dtype": {
+    "BF16": 358337776896,
+    "F32": 14400
+   },
+   "source": "https://huggingface.co/zai-org/GLM-4.5/blob/cbb2c7cfb52fa128a9660cb1a7a78e017899e115/config.json"
+  },
+  "MiniMaxAI/MiniMax-M1-80k": {
+   "file": "MiniMaxAI__MiniMax-M1-80k.json",
+   "revision": "8d1494b1a260e22040d5b9b2eb332eb44500b34d",
+   "safetensors_total": 456089655296,
+   "safetensors_by_dtype": {
+    "BF16": 456073926656,
+    "F32": 15728640
+   },
+   "source": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k/blob/8d1494b1a260e22040d5b9b2eb332eb44500b34d/config.json"
+  }
+ }
+}

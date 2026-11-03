@@ -1,0 +1,36 @@
+{
+  "chapters": 37,
+  "math": 1698,
+  "mathErrors": [],
+  "missingAnchors": [],
+  "externalAssets": [],
+  "width": 1440,
+  "viewport": 1440,
+  "pageErrors": [],
+  "htmlSha256": "5e5816f1e7fd936040f75163dbf149c5efb9379c50b49c488311ed7d83b704ea",
+  "printOverflows": [],
+  "pdfPages": 292,
+  "pdfBookmarks": 37,
+  "pdfOutsidePageText": [],
+  "pdfSha256": "4db3c6039163cd7b72aa456e2a523fe2b7c084e5472410507b3d69ccd963ddd2",
+  "glyphAudit": {
+    "pages": 292,
+    "rasterized_pages": 292,
+    "exported_pages": [],
+    "passed": true,
+    "missing_glyphs": [],
+    "replacement_or_control_characters": [],
+    "blank_pages": [],
+    "sparse_pages": [
+      {
+        "page": 58,
+        "characters": 99
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "viewport": 390
+  },
+  "filteredTocEntries": 1
+}

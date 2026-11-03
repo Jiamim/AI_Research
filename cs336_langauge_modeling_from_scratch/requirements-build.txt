@@ -1,0 +1,4 @@
+-r requirements.txt
+fonttools[woff]>=4.50
+playwright>=1.40
+Pillow>=10

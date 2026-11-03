@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="331.2pt" viewBox="0 0 648 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="roofline-figure_1">
+  <g id="roofline-patch_1">
+   <path d="M 0 331.2 
+L 648 331.2 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="roofline-axes_1">
+   <g id="roofline-patch_2">
+    <path d="M 50.092685 279.928 
+L 575.783825 279.928 
+L 575.783825 26.88 
+L 50.092685 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="roofline-matplotlib.axis_1">
+    <g id="roofline-xtick_1">
+     <g id="roofline-line2d_1">
+      <path d="M 73.987737 279.928 
+L 73.987737 26.88 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_2">
+      <defs>
+       <path id="roofline-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#roofline-m21fce4b813" x="73.987737" y="279.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_1">
+      <!-- $\mathdefault{10^{-1}}$ -->
+      <g style="fill: #52514e" transform="translate(62.237737 294.526437)">
+       <text>
+        <tspan x="0" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">−</tspan>
+        <tspan x="18.685547" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_2">
+     <g id="roofline-line2d_3">
+      <path d="M 180.730666 279.928 
+L 180.730666 26.88 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_4">
+      <g>
+       <use xlink:href="#roofline-m21fce4b813" x="180.730666" y="279.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_2">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g style="fill: #52514e" transform="translate(171.930666 294.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_3">
+     <g id="roofline-line2d_5">
+      <path d="M 287.473595 279.928 
+L 287.473595 26.88 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_6">
+      <g>
+       <use xlink:href="#roofline-m21fce4b813" x="287.473595" y="279.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_3">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g style="fill: #52514e" transform="translate(278.673595 294.526437)">
+       <text>
+        <tspan x="0" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_4">
+     <g id="roofline-line2d_7">
+      <path d="M 394.216524 279.928 
+L 394.216524 26.88 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_8">
+      <g>
+       <use xlink:href="#roofline-m21fce4b813" x="394.216524" y="279.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_4">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g style="fill: #52514e" transform="translate(385.416524 294.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_5">
+     <g id="roofline-line2d_9">
+      <path d="M 500.959453 279.928 
+L 500.959453 26.88 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_10">
+      <g>
+       <use xlink:href="#roofline-m21fce4b813" x="500.959453" y="279.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_5">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g style="fill: #52514e" transform="translate(492.159453 294.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_6">
+     <g id="roofline-line2d_11">
+      <defs>
+       <path id="roofline-ma92e308117" d="M 0 0 
+L 0 2 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="50.306951" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_7">
+     <g id="roofline-line2d_12">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="57.453048" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_8">
+     <g id="roofline-line2d_13">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="63.643278" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_9">
+     <g id="roofline-line2d_14">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="69.103448" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_10">
+     <g id="roofline-line2d_15">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="106.12056" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_11">
+     <g id="roofline-line2d_16">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="124.917057" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_12">
+     <g id="roofline-line2d_17">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="138.253384" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_13">
+     <g id="roofline-line2d_18">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="148.597842" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_14">
+     <g id="roofline-line2d_19">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="157.04988" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_15">
+     <g id="roofline-line2d_20">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="164.195977" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_16">
+     <g id="roofline-line2d_21">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="170.386207" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_17">
+     <g id="roofline-line2d_22">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="175.846377" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_18">
+     <g id="roofline-line2d_23">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="212.863489" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_19">
+     <g id="roofline-line2d_24">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="231.659986" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_20">
+     <g id="roofline-line2d_25">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="244.996313" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_21">
+     <g id="roofline-line2d_26">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="255.340771" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_22">
+     <g id="roofline-line2d_27">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="263.79281" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_23">
+     <g id="roofline-line2d_28">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="270.938906" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_24">
+     <g id="roofline-line2d_29">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="277.129136" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_25">
+     <g id="roofline-line2d_30">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="282.589306" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_26">
+     <g id="roofline-line2d_31">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="319.606418" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_27">
+     <g id="roofline-line2d_32">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="338.402915" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_28">
+     <g id="roofline-line2d_33">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="351.739242" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_29">
+     <g id="roofline-line2d_34">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="362.083701" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_30">
+     <g id="roofline-line2d_35">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="370.535739" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_31">
+     <g id="roofline-line2d_36">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="377.681835" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_32">
+     <g id="roofline-line2d_37">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="383.872065" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_33">
+     <g id="roofline-line2d_38">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="389.332236" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_34">
+     <g id="roofline-line2d_39">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="426.349348" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_35">
+     <g id="roofline-line2d_40">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="445.145844" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_36">
+     <g id="roofline-line2d_41">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="458.482171" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_37">
+     <g id="roofline-line2d_42">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="468.82663" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_38">
+     <g id="roofline-line2d_43">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="477.278668" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_39">
+     <g id="roofline-line2d_44">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="484.424764" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_40">
+     <g id="roofline-line2d_45">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="490.614995" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_41">
+     <g id="roofline-line2d_46">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="496.075165" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_42">
+     <g id="roofline-line2d_47">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="533.092277" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_43">
+     <g id="roofline-line2d_48">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="551.888774" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_44">
+     <g id="roofline-line2d_49">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="565.2251" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-xtick_45">
+     <g id="roofline-line2d_50">
+      <g>
+       <use xlink:href="#roofline-ma92e308117" x="575.569559" y="279.928" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-text_6">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="312.938255" y="314.204563" transform="rotate(-0 312.938255 314.204563)">Arithmetic intensity (FLOPs / byte)</text>
+    </g>
+   </g>
+   <g id="roofline-matplotlib.axis_2">
+    <g id="roofline-ytick_1">
+     <g id="roofline-line2d_51">
+      <path d="M 50.092685 236.94004 
+L 575.783825 236.94004 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_52">
+      <defs>
+       <path id="roofline-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#roofline-m2df64f757d" x="50.092685" y="236.94004" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_7">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g style="fill: #52514e" transform="translate(25.492685 240.739259)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_2">
+     <g id="roofline-line2d_53">
+      <path d="M 50.092685 170.647938 
+L 575.783825 170.647938 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_54">
+      <g>
+       <use xlink:href="#roofline-m2df64f757d" x="50.092685" y="170.647938" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_8">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g style="fill: #52514e" transform="translate(25.492685 174.447157)">
+       <text>
+        <tspan x="0" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_3">
+     <g id="roofline-line2d_55">
+      <path d="M 50.092685 104.355836 
+L 575.783825 104.355836 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_56">
+      <g>
+       <use xlink:href="#roofline-m2df64f757d" x="50.092685" y="104.355836" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_9">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g style="fill: #52514e" transform="translate(25.492685 108.155055)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_4">
+     <g id="roofline-line2d_57">
+      <path d="M 50.092685 38.063734 
+L 575.783825 38.063734 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="roofline-line2d_58">
+      <g>
+       <use xlink:href="#roofline-m2df64f757d" x="50.092685" y="38.063734" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="roofline-text_10">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g style="fill: #52514e" transform="translate(25.492685 41.862953)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+        <tspan x="6.362305" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+        <tspan x="12.820312" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_5">
+     <g id="roofline-line2d_59">
+      <defs>
+       <path id="roofline-mf564245a25" d="M 0 0 
+L -2 0 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="271.602771" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_6">
+     <g id="roofline-line2d_60">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="263.32032" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_7">
+     <g id="roofline-line2d_61">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="256.895951" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_8">
+     <g id="roofline-line2d_62">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="251.64686" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_9">
+     <g id="roofline-line2d_63">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="247.208817" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_10">
+     <g id="roofline-line2d_64">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="243.364409" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_11">
+     <g id="roofline-line2d_65">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="239.9734" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_12">
+     <g id="roofline-line2d_66">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="216.984129" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_13">
+     <g id="roofline-line2d_67">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="205.310669" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_14">
+     <g id="roofline-line2d_68">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="197.028218" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_15">
+     <g id="roofline-line2d_69">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="190.603849" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_16">
+     <g id="roofline-line2d_70">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="185.354758" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_17">
+     <g id="roofline-line2d_71">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="180.916715" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_18">
+     <g id="roofline-line2d_72">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="177.072306" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_19">
+     <g id="roofline-line2d_73">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="173.681298" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_20">
+     <g id="roofline-line2d_74">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="150.692027" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_21">
+     <g id="roofline-line2d_75">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="139.018567" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_22">
+     <g id="roofline-line2d_76">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="130.736116" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_23">
+     <g id="roofline-line2d_77">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="124.311747" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_24">
+     <g id="roofline-line2d_78">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="119.062656" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_25">
+     <g id="roofline-line2d_79">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="114.624612" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_26">
+     <g id="roofline-line2d_80">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="110.780204" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_27">
+     <g id="roofline-line2d_81">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="107.389196" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_28">
+     <g id="roofline-line2d_82">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="84.399925" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_29">
+     <g id="roofline-line2d_83">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="72.726465" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_30">
+     <g id="roofline-line2d_84">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="64.444014" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_31">
+     <g id="roofline-line2d_85">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="58.019645" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_32">
+     <g id="roofline-line2d_86">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="52.770554" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_33">
+     <g id="roofline-line2d_87">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="48.33251" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_34">
+     <g id="roofline-line2d_88">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="44.488102" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-ytick_35">
+     <g id="roofline-line2d_89">
+      <g>
+       <use xlink:href="#roofline-mf564245a25" x="50.092685" y="41.097094" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="roofline-text_11">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="19.412997" y="153.404" transform="rotate(-90 19.412997 153.404)">Ideal upper bound (TFLOP/s)</text>
+    </g>
+   </g>
+   <g id="roofline-line2d_90">
+    <path d="M 73.987737 268.425818 
+L 444.091547 38.574907 
+L 445.289294 38.382182 
+L 551.888774 38.382182 
+L 551.888774 38.382182 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="roofline-line2d_91">
+    <path d="M 444.401871 279.928 
+L 444.401871 26.88 
+" clip-path="url(#roofline-p32df8ee1bb)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+   </g>
+   <g id="roofline-line2d_92">
+    <defs>
+     <path id="roofline-mf81851119f" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#roofline-p32df8ee1bb)">
+     <use xlink:href="#roofline-mf81851119f" x="180.730666" y="202.133716" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="roofline-line2d_93">
+    <g clip-path="url(#roofline-p32df8ee1bb)">
+     <use xlink:href="#roofline-mf81851119f" x="373.527607" y="82.398249" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="roofline-line2d_94">
+    <g clip-path="url(#roofline-p32df8ee1bb)">
+     <use xlink:href="#roofline-mf81851119f" x="533.092277" y="38.382182" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="roofline-patch_3">
+    <path d="M 50.092685 279.928 
+L 50.092685 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="roofline-patch_4">
+    <path d="M 50.092685 279.928 
+L 575.783825 279.928 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="roofline-text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="450.401871" y="139.018567" transform="rotate(-0 450.401871 139.018567)">ridge ≈ 295 FLOPs/byte</text>
+   </g>
+   <g id="roofline-text_13">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="185.730666" y="215.133716" transform="rotate(-0 185.730666 215.133716)">matvec model (B=1)</text>
+   </g>
+   <g id="roofline-text_14">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="378.527607" y="95.398249" transform="rotate(-0 378.527607 95.398249)">batch-64 matmul model</text>
+   </g>
+   <g id="roofline-text_15">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="538.092277" y="51.382182" transform="rotate(-0 538.092277 51.382182)">large-matmul example</text>
+   </g>
+   <g id="roofline-text_16">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="50.092685" y="20.88" transform="rotate(-0 50.092685 20.88)">H100 matmul roofline: theoretical bounds, not measured points</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="roofline-p32df8ee1bb">
+   <rect x="50.092685" y="26.88" width="525.691141" height="253.048"/>
+  </clipPath>
+ </defs>
+</svg>

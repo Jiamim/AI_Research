@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 373" role="img" aria-label="Unigram：在字符边界图上选择路径或累加路径">
+<title>Unigram：在字符边界图上选择路径或累加路径</title><desc>结点是已读字符数，边是词片；这是固定字符串的切分权重，尚未定义停止分布</desc>
+<defs><marker id="unigram-paths-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" text-anchor="start" fill="#18334a">Unigram：在字符边界图上选择路径或累加路径</text>
+<text x="34" y="70" font-size="15" text-anchor="start" fill="#18334a">结点是已读字符数，边是词片；这是固定字符串的切分权重，尚未定义停止分布</text>
+<circle cx="180" cy="220" r="28" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="180" y="227" font-size="21" text-anchor="middle" fill="#18334a">0</text>
+<text x="180" y="270" font-size="15" text-anchor="middle" fill="#18334a">空前缀</text>
+<circle cx="535" cy="220" r="28" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="535" y="227" font-size="21" text-anchor="middle" fill="#18334a">1</text>
+<text x="535" y="270" font-size="15" text-anchor="middle" fill="#18334a">a</text>
+<circle cx="890" cy="220" r="28" fill="#fff1d6" stroke="#bacbda"/>
+<text x="890" y="227" font-size="21" text-anchor="middle" fill="#18334a">2</text>
+<text x="890" y="270" font-size="15" text-anchor="middle" fill="#18334a">ab</text>
+<path d="M208,220 H503 M563,220 H858" stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#unigram-paths-arrow)"/>
+<path d="M198,198 C340,95 730,95 872,198" stroke="#087e8b" stroke-width="3" fill="none" marker-end="url(#unigram-paths-arrow)"/>
+<text x="355" y="202" font-size="16" text-anchor="middle" fill="#18334a">a：0.4</text>
+<text x="712" y="202" font-size="16" text-anchor="middle" fill="#18334a">b：0.4</text>
+<text x="535" y="120" font-size="16" text-anchor="middle" fill="#087e8b">ab：0.2</text>
+<text x="540" y="316" font-size="16" text-anchor="middle" fill="#18334a">两条路径：[ab] 权重 0.2；[a,b] 权重 0.4 × 0.4 = 0.16</text>
+<text x="540" y="344" font-size="16" text-anchor="middle" fill="#18334a">Viterbi 取 max = 0.2；forward 求和 = 0.36</text>
+</g></svg>

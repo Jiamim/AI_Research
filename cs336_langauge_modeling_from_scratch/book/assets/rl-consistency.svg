@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 248" role="img" aria-label="RL 一致性诊断：先冻结权重，再允许更新">
+<defs><marker id="rl-consistency-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" font-weight="700">RL 一致性诊断：先冻结权重，再允许更新</text>
+<text x="34" y="70" font-size="15" fill="#52687c">μ 与 π old 的差异是引擎问题；π θ 与 π old 的差异是更新问题</text>
+<rect x="30" y="98" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="44" y="126" font-size="16" font-weight="600">实际 rollout 引擎 μ</text>
+<text x="44" y="149" font-size="14" font-weight="400">版本、dtype、路由、mask</text>
+<path d="M266,140 H296" stroke="#64748b" stroke-width="2" marker-end="url(#rl-consistency-arrow)"/>
+<rect x="300" y="98" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="314" y="126" font-size="16" font-weight="600">旧训练引擎 π old</text>
+<text x="314" y="149" font-size="14" font-weight="400">冻结权重 replay 同一前缀</text>
+<path d="M536,140 H566" stroke="#64748b" stroke-width="2" marker-end="url(#rl-consistency-arrow)"/>
+<rect x="570" y="98" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="584" y="126" font-size="16" font-weight="600">当前策略 π θ</text>
+<text x="584" y="149" font-size="14" font-weight="400">更新/数据复用造成 lag</text>
+<path d="M806,140 H836" stroke="#64748b" stroke-width="2" marker-end="url(#rl-consistency-arrow)"/>
+<rect x="840" y="98" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="854" y="126" font-size="16" font-weight="600">核对目标</text>
+<text x="854" y="149" font-size="14" font-weight="400">log-ratio 尾部与支持</text>
+</g></svg>

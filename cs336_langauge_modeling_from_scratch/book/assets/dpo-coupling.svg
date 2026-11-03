@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="309.6pt" viewBox="0 0 648 309.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="dpo-coupling-figure_1">
+  <g id="dpo-coupling-patch_1">
+   <path d="M 0 309.6 
+L 648 309.6 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="dpo-coupling-axes_1">
+   <g id="dpo-coupling-patch_2">
+    <path d="M 60.32 267.64 
+L 321.011033 267.64 
+L 321.011033 48.48 
+L 60.32 48.48 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="dpo-coupling-matplotlib.axis_1">
+    <g id="dpo-coupling-xtick_1">
+     <g id="dpo-coupling-line2d_1">
+      <path d="M 72.169592 267.64 
+L 72.169592 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_2">
+      <defs>
+       <path id="dpo-coupling-mb45a6b7dd8" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="72.169592" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="72.169592" y="282.238437" transform="rotate(-0 72.169592 282.238437)">0.00</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_2">
+     <g id="dpo-coupling-line2d_3">
+      <path d="M 119.567962 267.64 
+L 119.567962 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_4">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="119.567962" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="119.567962" y="282.238437" transform="rotate(-0 119.567962 282.238437)">0.02</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_3">
+     <g id="dpo-coupling-line2d_5">
+      <path d="M 166.966332 267.64 
+L 166.966332 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_6">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="166.966332" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="166.966332" y="282.238437" transform="rotate(-0 166.966332 282.238437)">0.04</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_4">
+     <g id="dpo-coupling-line2d_7">
+      <path d="M 214.364701 267.64 
+L 214.364701 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_8">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="214.364701" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="214.364701" y="282.238437" transform="rotate(-0 214.364701 282.238437)">0.06</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_5">
+     <g id="dpo-coupling-line2d_9">
+      <path d="M 261.763071 267.64 
+L 261.763071 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_10">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="261.763071" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="261.763071" y="282.238437" transform="rotate(-0 261.763071 282.238437)">0.08</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_6">
+     <g id="dpo-coupling-line2d_11">
+      <path d="M 309.161441 267.64 
+L 309.161441 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_12">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="309.161441" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="309.161441" y="282.238437" transform="rotate(-0 309.161441 282.238437)">0.10</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-text_7">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="190.665517" y="295.994687" transform="rotate(-0 190.665517 295.994687)">Shared parameter θ</text>
+    </g>
+   </g>
+   <g id="dpo-coupling-matplotlib.axis_2">
+    <g id="dpo-coupling-ytick_1">
+     <g id="dpo-coupling-line2d_13">
+      <path d="M 60.32 251.277259 
+L 321.011033 251.277259 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_14">
+      <defs>
+       <path id="dpo-coupling-m9ec00fc737" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="251.277259" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="255.076478" transform="rotate(-0 53.32 255.076478)">0.215</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_2">
+     <g id="dpo-coupling-line2d_15">
+      <path d="M 60.32 223.729339 
+L 321.011033 223.729339 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_16">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="223.729339" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="227.528558" transform="rotate(-0 53.32 227.528558)">0.220</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_3">
+     <g id="dpo-coupling-line2d_17">
+      <path d="M 60.32 196.181419 
+L 321.011033 196.181419 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_18">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="196.181419" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="199.980638" transform="rotate(-0 53.32 199.980638)">0.225</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_4">
+     <g id="dpo-coupling-line2d_19">
+      <path d="M 60.32 168.633499 
+L 321.011033 168.633499 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_20">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="168.633499" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="172.432718" transform="rotate(-0 53.32 172.432718)">0.230</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_5">
+     <g id="dpo-coupling-line2d_21">
+      <path d="M 60.32 141.085579 
+L 321.011033 141.085579 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_22">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="141.085579" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="144.884797" transform="rotate(-0 53.32 144.884797)">0.235</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_6">
+     <g id="dpo-coupling-line2d_23">
+      <path d="M 60.32 113.537659 
+L 321.011033 113.537659 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_24">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="113.537659" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="117.336877" transform="rotate(-0 53.32 117.336877)">0.240</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_7">
+     <g id="dpo-coupling-line2d_25">
+      <path d="M 60.32 85.989738 
+L 321.011033 85.989738 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_26">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="85.989738" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="89.788957" transform="rotate(-0 53.32 89.788957)">0.245</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_8">
+     <g id="dpo-coupling-line2d_27">
+      <path d="M 60.32 58.441818 
+L 321.011033 58.441818 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_28">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="60.32" y="58.441818" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="53.32" y="62.241037" transform="rotate(-0 53.32 62.241037)">0.250</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-text_16">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="18.612188" y="158.06" transform="rotate(-90 18.612188 158.06)">Sequence probability</text>
+    </g>
+   </g>
+   <g id="dpo-coupling-line2d_29">
+    <path d="M 72.169592 58.441818 
+L 102.978533 67.510391 
+L 133.787473 76.806336 
+L 165.781372 86.69449 
+L 197.775272 96.815368 
+L 230.954131 107.549789 
+L 264.132989 118.519702 
+L 298.496807 130.121293 
+L 309.161441 133.77005 
+L 309.161441 133.77005 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #087e8b; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-line2d_30">
+    <path d="M 72.169592 58.441818 
+L 106.53341 88.253821 
+L 140.897228 117.766959 
+L 174.076087 145.970399 
+L 207.254946 173.879079 
+L 239.248845 200.504857 
+L 271.242745 226.843152 
+L 303.236644 252.887799 
+L 309.161441 257.678182 
+L 309.161441 257.678182 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke: #c28636; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-line2d_31">
+    <path d="M 190.665517 267.64 
+L 190.665517 48.48 
+" clip-path="url(#dpo-coupling-p54f05c1f21)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #607181"/>
+   </g>
+   <g id="dpo-coupling-patch_3">
+    <path d="M 60.32 267.64 
+L 60.32 48.48 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-patch_4">
+    <path d="M 60.32 267.64 
+L 321.011033 267.64 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-text_17">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="190.665517" y="42.48" transform="rotate(-0 190.665517 42.48)">Both probabilities can decrease</text>
+   </g>
+   <g id="dpo-coupling-legend_1">
+    <g id="dpo-coupling-patch_5">
+     <path d="M 211.874783 78.365 
+L 315.411033 78.365 
+Q 317.011033 78.365 317.011033 76.765 
+L 317.011033 54.08 
+Q 317.011033 52.48 315.411033 52.48 
+L 211.874783 52.48 
+Q 210.274783 52.48 210.274783 54.08 
+L 210.274783 76.765 
+Q 210.274783 78.365 211.874783 78.365 
+z
+" style="fill: #fcfcfb; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="dpo-coupling-line2d_32">
+     <path d="M 213.474783 58.95875 
+L 221.474783 58.95875 
+L 229.474783 58.95875 
+" style="fill: none; stroke: #087e8b; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="dpo-coupling-text_18">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start" x="235.874783" y="61.75875" transform="rotate(-0 235.874783 61.75875)">chosen probability</text>
+    </g>
+    <g id="dpo-coupling-line2d_33">
+     <path d="M 213.474783 70.70125 
+L 221.474783 70.70125 
+L 229.474783 70.70125 
+" style="fill: none; stroke: #c28636; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="dpo-coupling-text_19">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start" x="235.874783" y="73.50125" transform="rotate(-0 235.874783 73.50125)">rejected probability</text>
+    </g>
+   </g>
+  </g>
+  <g id="dpo-coupling-axes_2">
+   <g id="dpo-coupling-patch_6">
+    <path d="M 375.815 267.64 
+L 636.506033 267.64 
+L 636.506033 48.48 
+L 375.815 48.48 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="dpo-coupling-matplotlib.axis_3">
+    <g id="dpo-coupling-xtick_7">
+     <g id="dpo-coupling-line2d_34">
+      <path d="M 387.664592 267.64 
+L 387.664592 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_35">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="387.664592" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_20">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="387.664592" y="282.238437" transform="rotate(-0 387.664592 282.238437)">0.00</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_8">
+     <g id="dpo-coupling-line2d_36">
+      <path d="M 435.062962 267.64 
+L 435.062962 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_37">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="435.062962" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_21">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="435.062962" y="282.238437" transform="rotate(-0 435.062962 282.238437)">0.02</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_9">
+     <g id="dpo-coupling-line2d_38">
+      <path d="M 482.461332 267.64 
+L 482.461332 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_39">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="482.461332" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_22">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="482.461332" y="282.238437" transform="rotate(-0 482.461332 282.238437)">0.04</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_10">
+     <g id="dpo-coupling-line2d_40">
+      <path d="M 529.859701 267.64 
+L 529.859701 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_41">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="529.859701" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_23">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="529.859701" y="282.238437" transform="rotate(-0 529.859701 282.238437)">0.06</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_11">
+     <g id="dpo-coupling-line2d_42">
+      <path d="M 577.258071 267.64 
+L 577.258071 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_43">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="577.258071" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_24">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="577.258071" y="282.238437" transform="rotate(-0 577.258071 282.238437)">0.08</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-xtick_12">
+     <g id="dpo-coupling-line2d_44">
+      <path d="M 624.656441 267.64 
+L 624.656441 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_45">
+      <g>
+       <use xlink:href="#dpo-coupling-mb45a6b7dd8" x="624.656441" y="267.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_25">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="624.656441" y="282.238437" transform="rotate(-0 624.656441 282.238437)">0.10</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-text_26">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="506.160517" y="295.994687" transform="rotate(-0 506.160517 295.994687)">Shared parameter θ</text>
+    </g>
+   </g>
+   <g id="dpo-coupling-matplotlib.axis_4">
+    <g id="dpo-coupling-ytick_9">
+     <g id="dpo-coupling-line2d_46">
+      <path d="M 375.815 257.678182 
+L 636.506033 257.678182 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_47">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="375.815" y="257.678182" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_27">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="368.815" y="261.477401" transform="rotate(-0 368.815 261.477401)">1.00</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_10">
+     <g id="dpo-coupling-line2d_48">
+      <path d="M 375.815 219.790072 
+L 636.506033 219.790072 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_49">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="375.815" y="219.790072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_28">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="368.815" y="223.589291" transform="rotate(-0 368.815 223.589291)">1.02</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_11">
+     <g id="dpo-coupling-line2d_50">
+      <path d="M 375.815 181.901963 
+L 636.506033 181.901963 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_51">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="375.815" y="181.901963" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_29">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="368.815" y="185.701181" transform="rotate(-0 368.815 185.701181)">1.04</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_12">
+     <g id="dpo-coupling-line2d_52">
+      <path d="M 375.815 144.013853 
+L 636.506033 144.013853 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_53">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="375.815" y="144.013853" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_30">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="368.815" y="147.813072" transform="rotate(-0 368.815 147.813072)">1.06</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_13">
+     <g id="dpo-coupling-line2d_54">
+      <path d="M 375.815 106.125743 
+L 636.506033 106.125743 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_55">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="375.815" y="106.125743" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_31">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="368.815" y="109.924962" transform="rotate(-0 368.815 109.924962)">1.08</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-ytick_14">
+     <g id="dpo-coupling-line2d_56">
+      <path d="M 375.815 68.237634 
+L 636.506033 68.237634 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="dpo-coupling-line2d_57">
+      <g>
+       <use xlink:href="#dpo-coupling-m9ec00fc737" x="375.815" y="68.237634" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dpo-coupling-text_32">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="368.815" y="72.036852" transform="rotate(-0 368.815 72.036852)">1.10</text>
+     </g>
+    </g>
+    <g id="dpo-coupling-text_33">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="340.469688" y="158.06" transform="rotate(-90 340.469688 158.06)">chosen / rejected</text>
+    </g>
+   </g>
+   <g id="dpo-coupling-line2d_58">
+    <path d="M 387.664592 257.678182 
+L 416.103614 234.808372 
+L 444.542636 211.66247 
+L 472.981658 188.237145 
+L 501.42068 164.529023 
+L 529.859701 140.534689 
+L 558.298723 116.250689 
+L 586.737745 91.673525 
+L 615.176767 66.799659 
+L 624.656441 58.441818 
+L 624.656441 58.441818 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke: #8c5072; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-line2d_59">
+    <path d="M 506.160517 267.64 
+L 506.160517 48.48 
+" clip-path="url(#dpo-coupling-p4587b62054)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #607181"/>
+   </g>
+   <g id="dpo-coupling-patch_7">
+    <path d="M 375.815 267.64 
+L 375.815 48.48 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-patch_8">
+    <path d="M 375.815 267.64 
+L 636.506033 267.64 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="dpo-coupling-text_34">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="506.160517" y="42.48" transform="rotate(-0 506.160517 42.48)">Relative preference still improves</text>
+   </g>
+  </g>
+  <g id="dpo-coupling-text_35">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="324" y="14.636219" transform="rotate(-0 324 14.636219)">Analytical normalized toy model; one DPO step reaches θ = 0.05</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="dpo-coupling-p54f05c1f21">
+   <rect x="60.32" y="48.48" width="260.691033" height="219.16"/>
+  </clipPath>
+  <clipPath id="dpo-coupling-p4587b62054">
+   <rect x="375.815" y="48.48" width="260.691033" height="219.16"/>
+  </clipPath>
+ </defs>
+</svg>

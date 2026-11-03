@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="374.4pt" viewBox="0 0 648 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="open-models-figure_1">
+  <g id="open-models-patch_1">
+   <path d="M 0 374.4 
+L 648 374.4 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="open-models-axes_1">
+   <g id="open-models-patch_2">
+    <path d="M 50.96 332.44 
+L 447.408 332.44 
+L 447.408 26.88 
+L 50.96 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="open-models-matplotlib.axis_1">
+    <g id="open-models-xtick_1">
+     <g id="open-models-line2d_1">
+      <path d="M 61.953256 332.44 
+L 61.953256 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_2">
+      <defs>
+       <path id="open-models-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="61.953256" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="61.953256" y="347.038437" transform="rotate(-0 61.953256 347.038437)">1</text>
+     </g>
+    </g>
+    <g id="open-models-xtick_2">
+     <g id="open-models-line2d_3">
+      <path d="M 116.076828 332.44 
+L 116.076828 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_4">
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="116.076828" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="116.076828" y="347.038437" transform="rotate(-0 116.076828 347.038437)">3</text>
+     </g>
+    </g>
+    <g id="open-models-xtick_3">
+     <g id="open-models-line2d_5">
+      <path d="M 175.391028 332.44 
+L 175.391028 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_6">
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="175.391028" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="175.391028" y="347.038437" transform="rotate(-0 175.391028 347.038437)">10</text>
+     </g>
+    </g>
+    <g id="open-models-xtick_4">
+     <g id="open-models-line2d_7">
+      <path d="M 229.5146 332.44 
+L 229.5146 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_8">
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="229.5146" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="229.5146" y="347.038437" transform="rotate(-0 229.5146 347.038437)">30</text>
+     </g>
+    </g>
+    <g id="open-models-xtick_5">
+     <g id="open-models-line2d_9">
+      <path d="M 288.8288 332.44 
+L 288.8288 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_10">
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="288.8288" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="288.8288" y="347.038437" transform="rotate(-0 288.8288 347.038437)">100</text>
+     </g>
+    </g>
+    <g id="open-models-xtick_6">
+     <g id="open-models-line2d_11">
+      <path d="M 342.952372 332.44 
+L 342.952372 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_12">
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="342.952372" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="342.952372" y="347.038437" transform="rotate(-0 342.952372 347.038437)">300</text>
+     </g>
+    </g>
+    <g id="open-models-xtick_7">
+     <g id="open-models-line2d_13">
+      <path d="M 402.266572 332.44 
+L 402.266572 26.88 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_14">
+      <g>
+       <use xlink:href="#open-models-m21fce4b813" x="402.266572" y="332.44" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="402.266572" y="347.038437" transform="rotate(-0 402.266572 347.038437)">1000</text>
+     </g>
+    </g>
+    <g id="open-models-text_8">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="249.184" y="360.716563" transform="rotate(-0 249.184 360.716563)">Total parameters (billions, log scale)</text>
+    </g>
+   </g>
+   <g id="open-models-matplotlib.axis_2">
+    <g id="open-models-ytick_1">
+     <g id="open-models-line2d_15">
+      <path d="M 50.96 327.480844 
+L 447.408 327.480844 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_16">
+      <defs>
+       <path id="open-models-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#open-models-m2df64f757d" x="50.96" y="327.480844" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="43.96" y="331.280062" transform="rotate(-0 43.96 331.280062)">16</text>
+     </g>
+    </g>
+    <g id="open-models-ytick_2">
+     <g id="open-models-line2d_17">
+      <path d="M 50.96 274.219238 
+L 447.408 274.219238 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_18">
+      <g>
+       <use xlink:href="#open-models-m2df64f757d" x="50.96" y="274.219238" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="43.96" y="278.018457" transform="rotate(-0 43.96 278.018457)">32</text>
+     </g>
+    </g>
+    <g id="open-models-ytick_3">
+     <g id="open-models-line2d_19">
+      <path d="M 50.96 220.957632 
+L 447.408 220.957632 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_20">
+      <g>
+       <use xlink:href="#open-models-m2df64f757d" x="50.96" y="220.957632" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="43.96" y="224.756851" transform="rotate(-0 43.96 224.756851)">64</text>
+     </g>
+    </g>
+    <g id="open-models-ytick_4">
+     <g id="open-models-line2d_21">
+      <path d="M 50.96 167.696026 
+L 447.408 167.696026 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_22">
+      <g>
+       <use xlink:href="#open-models-m2df64f757d" x="50.96" y="167.696026" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="43.96" y="171.495245" transform="rotate(-0 43.96 171.495245)">128</text>
+     </g>
+    </g>
+    <g id="open-models-ytick_5">
+     <g id="open-models-line2d_23">
+      <path d="M 50.96 114.43442 
+L 447.408 114.43442 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_24">
+      <g>
+       <use xlink:href="#open-models-m2df64f757d" x="50.96" y="114.43442" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="43.96" y="118.233639" transform="rotate(-0 43.96 118.233639)">256</text>
+     </g>
+    </g>
+    <g id="open-models-ytick_6">
+     <g id="open-models-line2d_25">
+      <path d="M 50.96 61.172815 
+L 447.408 61.172815 
+" clip-path="url(#open-models-p51b3f99c9e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="open-models-line2d_26">
+      <g>
+       <use xlink:href="#open-models-m2df64f757d" x="50.96" y="61.172815" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="open-models-text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="43.96" y="64.972033" transform="rotate(-0 43.96 64.972033)">512</text>
+     </g>
+    </g>
+    <g id="open-models-text_15">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="18.792813" y="179.66" transform="rotate(-90 18.792813 179.66)">KV only (KiB per token, log scale)</text>
+    </g>
+   </g>
+   <g id="open-models-patch_3">
+    <path d="M 50.96 332.44 
+L 50.96 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="open-models-patch_4">
+    <path d="M 50.96 332.44 
+L 447.408 332.44 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="open-models-PathCollection_1">
+    <defs>
+     <path id="open-models-mba6b0c3cd8" d="M 0 4 
+C 1.060812 4 2.078319 3.578535 2.828427 2.828427 
+C 3.578535 2.078319 4 1.060812 4 0 
+C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 
+C 2.078319 -3.578535 1.060812 -4 0 -4 
+C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 
+C -3.578535 -2.078319 -4 -1.060812 -4 0 
+C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 
+C -2.078319 3.578535 -1.060812 4 0 4 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#open-models-p51b3f99c9e)">
+     <use xlink:href="#open-models-mba6b0c3cd8" x="81.433522" y="167.696026" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="117.293319" y="211.907154" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="159.879929" y="61.172815" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="165.560162" y="158.645548" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="217.63485" y="150.549619" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="230.380584" y="189.80159" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="330.941614" y="138.157733" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-mba6b0c3cd8" x="351.706548" y="86.54867" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="open-models-text_16">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="88.433522" y="170.041495" transform="rotate(-0 88.433522 170.041495)">OLMo 2 1B</text>
+   </g>
+   <g id="open-models-text_17">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="124.293319" y="214.252622" transform="rotate(-0 124.293319 214.252622)">SmolLM3 3B</text>
+   </g>
+   <g id="open-models-text_18">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="166.879929" y="63.518283" transform="rotate(-0 166.879929 63.518283)">OLMo 2 7B</text>
+   </g>
+   <g id="open-models-text_19">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="172.560162" y="160.991016" transform="rotate(-0 172.560162 160.991016)">Qwen3-8B</text>
+   </g>
+   <g id="open-models-text_20">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="224.63485" y="148.895088" transform="rotate(-0 224.63485 148.895088)">Mistral Small 24B</text>
+   </g>
+   <g id="open-models-text_21">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="237.380584" y="196.147059" transform="rotate(-0 237.380584 196.147059)">Qwen3-30B-A3B</text>
+   </g>
+   <g id="open-models-text_22">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="337.941614" y="140.503202" transform="rotate(-0 337.941614 140.503202)">Qwen3-235B-A22B</text>
+   </g>
+   <g id="open-models-text_23">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="358.706548" y="88.894139" transform="rotate(-0 358.706548 88.894139)">GLM-4.5</text>
+   </g>
+   <g id="open-models-PathCollection_2">
+    <defs>
+     <path id="open-models-ma1f3efcd9a" d="M -4 4 
+L 4 4 
+L 4 -4 
+L -4 -4 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#open-models-p51b3f99c9e)">
+     <use xlink:href="#open-models-ma1f3efcd9a" x="211.743055" y="296.005299" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-ma1f3efcd9a" x="296.491596" y="264.95561" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="open-models-text_24">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="218.743055" y="298.350768" transform="rotate(-0 218.743055 298.350768)">gpt-oss-20b</text>
+   </g>
+   <g id="open-models-text_25">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="303.491596" y="267.301079" transform="rotate(-0 303.491596 267.301079)">gpt-oss-120b</text>
+   </g>
+   <g id="open-models-PathCollection_3">
+    <defs>
+     <path id="open-models-m14194d8103" d="M 0 -4.743416 
+L -4.743416 4.743416 
+L 4.743416 4.743416 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#open-models-p51b3f99c9e)">
+     <use xlink:href="#open-models-m14194d8103" x="278.644819" y="296.324801" style="fill: #1baf7a; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-m14194d8103" x="363.590026" y="257.072831" style="fill: #1baf7a; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="open-models-text_26">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="286.644819" y="298.67027" transform="rotate(-0 286.644819 298.67027)">Qwen3-Next-80B-A3B</text>
+   </g>
+   <g id="open-models-text_27">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="371.590026" y="259.418299" transform="rotate(-0 371.590026 259.418299)">MiniMax-M1</text>
+   </g>
+   <g id="open-models-PathCollection_4">
+    <defs>
+     <path id="open-models-m79f77460e1" d="M -0 5.656854 
+L 5.656854 0 
+L 0 -5.656854 
+L -5.656854 -0 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#open-models-p51b3f99c9e)">
+     <use xlink:href="#open-models-m79f77460e1" x="383.590984" y="215.624192" style="fill: #eda100; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#open-models-m79f77460e1" x="403.550691" y="215.624192" style="fill: #eda100; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="open-models-text_28">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="375.590984" y="217.969661" transform="rotate(-0 375.590984 217.969661)">DeepSeek-V3</text>
+   </g>
+   <g id="open-models-text_29">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="411.550691" y="217.969661" transform="rotate(-0 411.550691 217.969661)">Kimi K2</text>
+   </g>
+   <g id="open-models-text_30">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="50.96" y="20.88" transform="rotate(-0 50.96 20.88)">KV at 32K context (BF16); fixed recurrent state excluded</text>
+   </g>
+   <g id="open-models-legend_1">
+    <g id="open-models-PathCollection_5">
+     <g>
+      <use xlink:href="#open-models-mba6b0c3cd8" x="468.47248" y="39.456094" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     </g>
+    </g>
+    <g id="open-models-text_31">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="484.67248" y="41.818594" transform="rotate(-0 484.67248 41.818594)">Full attention (MHA / GQA)</text>
+    </g>
+    <g id="open-models-PathCollection_6">
+     <g>
+      <use xlink:href="#open-models-ma1f3efcd9a" x="468.47248" y="52.666406" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+     </g>
+    </g>
+    <g id="open-models-text_32">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="484.67248" y="55.028906" transform="rotate(-0 484.67248 55.028906)">Banded window + full (1:1)</text>
+    </g>
+    <g id="open-models-PathCollection_7">
+     <g>
+      <use xlink:href="#open-models-m14194d8103" x="468.47248" y="65.876719" style="fill: #1baf7a; stroke: #fcfcfb; stroke-width: 2"/>
+     </g>
+    </g>
+    <g id="open-models-text_33">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="484.67248" y="68.239219" transform="rotate(-0 484.67248 68.239219)">Linear-attention hybrid (3:1, 7:1)</text>
+    </g>
+    <g id="open-models-PathCollection_8">
+     <g>
+      <use xlink:href="#open-models-m79f77460e1" x="468.47248" y="79.087031" style="fill: #eda100; stroke: #fcfcfb; stroke-width: 2"/>
+     </g>
+    </g>
+    <g id="open-models-text_34">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="484.67248" y="81.449531" transform="rotate(-0 484.67248 81.449531)">MLA latent cache</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="open-models-p51b3f99c9e">
+   <rect x="50.96" y="26.88" width="396.448" height="305.56"/>
+  </clipPath>
+ </defs>
+</svg>

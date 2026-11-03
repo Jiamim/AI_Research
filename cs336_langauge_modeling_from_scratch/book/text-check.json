@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "chapters": 37,
+  "math_expressions": 1698,
+  "formulas": "passed",
+  "chinese_font": "passed",
+  "artifact_tests": 3,
+  "pdf_checked": false,
+  "html_sha256": "5e5816f1e7fd936040f75163dbf149c5efb9379c50b49c488311ed7d83b704ea",
+  "issues": []
+}

@@ -1,0 +1,438 @@
+{
+  "timestamp_utc": "2026-11-01T13:38:56.181594+00:00",
+  "torch": "2.11.0+cpu",
+  "device": "cpu",
+  "model_configs": {
+    "retrieved": "2026-10-27",
+    "revisions": {
+      "Qwen/Qwen3-8B": "b968826d9c46",
+      "Qwen/Qwen3-30B-A3B": "ad44e777bcd1",
+      "Qwen/Qwen3-235B-A22B": "8efa61729e24",
+      "deepseek-ai/DeepSeek-V3": "e815299b0bcb",
+      "moonshotai/Kimi-K2-Instruct": "fd1984e2b7a3",
+      "openai/gpt-oss-120b": "b5c939de8f75",
+      "openai/gpt-oss-20b": "6cee5e81ee83",
+      "allenai/OLMo-2-0425-1B": "a1847dff3500",
+      "allenai/OLMo-2-1124-7B": "7df9a82518af",
+      "Qwen/Qwen3-Next-80B-A3B-Instruct": "9c7f2fbe8446",
+      "HuggingFaceTB/SmolLM3-3B": "a07cc9a04f16",
+      "mistralai/Mistral-Small-24B-Base-2501": "b0a2e4ed093c",
+      "zai-org/GLM-4.5": "cbb2c7cfb52f",
+      "MiniMaxAI/MiniMax-M1-80k": "8d1494b1a260"
+    }
+  },
+  "architectures": {
+    "context": 32768,
+    "bytes_per_value": 2,
+    "rows": [
+      {
+        "repo": "allenai/OLMo-2-0425-1B",
+        "model_type": "olmo2",
+        "total_b": 1.485,
+        "reported_b": 1.485,
+        "gap": 0.0,
+        "without_mtp_b": 1.48,
+        "active_b": 1.28,
+        "kv_kib_per_token": 128.0,
+        "kv_gib_at_context": 4.0,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "HuggingFaceTB/SmolLM3-3B",
+        "model_type": "smollm3",
+        "total_b": 3.075,
+        "reported_b": 3.075,
+        "gap": 0.0,
+        "without_mtp_b": 3.08,
+        "active_b": 3.08,
+        "kv_kib_per_token": 72.0,
+        "kv_gib_at_context": 2.25,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "allenai/OLMo-2-1124-7B",
+        "model_type": "olmo2",
+        "total_b": 7.299,
+        "reported_b": 7.299,
+        "gap": 0.0,
+        "without_mtp_b": 7.3,
+        "active_b": 6.89,
+        "kv_kib_per_token": 512.0,
+        "kv_gib_at_context": 16.0,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "Qwen/Qwen3-8B",
+        "model_type": "qwen3",
+        "total_b": 8.191,
+        "reported_b": 8.191,
+        "gap": 0.0,
+        "without_mtp_b": 8.19,
+        "active_b": 7.57,
+        "kv_kib_per_token": 144.0,
+        "kv_gib_at_context": 4.5,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "mistralai/Mistral-Small-24B-Base-2501",
+        "model_type": "mistral",
+        "total_b": 23.572,
+        "reported_b": 23.572,
+        "gap": 0.0,
+        "without_mtp_b": 23.57,
+        "active_b": 22.9,
+        "kv_kib_per_token": 160.0,
+        "kv_gib_at_context": 5.0,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "Qwen/Qwen3-30B-A3B",
+        "model_type": "qwen3_moe",
+        "total_b": 30.532,
+        "reported_b": 30.532,
+        "gap": 0.0,
+        "without_mtp_b": 30.53,
+        "active_b": 3.04,
+        "kv_kib_per_token": 96.0,
+        "kv_gib_at_context": 3.0,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "Qwen/Qwen3-235B-A22B",
+        "model_type": "qwen3_moe",
+        "total_b": 235.094,
+        "reported_b": 235.094,
+        "gap": 0.0,
+        "without_mtp_b": 235.09,
+        "active_b": 21.57,
+        "kv_kib_per_token": 188.0,
+        "kv_gib_at_context": 5.88,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "zai-org/GLM-4.5",
+        "model_type": "glm4_moe",
+        "total_b": 358.338,
+        "reported_b": 358.338,
+        "gap": 0.0,
+        "without_mtp_b": 352.8,
+        "active_b": 32.86,
+        "kv_kib_per_token": 368.0,
+        "kv_gib_at_context": 11.5,
+        "kv_note": "all layers full attention"
+      },
+      {
+        "repo": "openai/gpt-oss-20b",
+        "model_type": "gpt_oss",
+        "total_b": 20.915,
+        "reported_b": 20.915,
+        "gap": 0.0,
+        "without_mtp_b": 20.91,
+        "active_b": 3.61,
+        "kv_kib_per_token": 24.1,
+        "kv_gib_at_context": 0.75,
+        "kv_note": "12 banded layers cap at 128 tokens"
+      },
+      {
+        "repo": "openai/gpt-oss-120b",
+        "model_type": "gpt_oss",
+        "total_b": 116.829,
+        "reported_b": 116.829,
+        "gap": 0.0,
+        "without_mtp_b": 116.83,
+        "active_b": 5.13,
+        "kv_kib_per_token": 36.1,
+        "kv_gib_at_context": 1.13,
+        "kv_note": "18 banded layers cap at 128 tokens"
+      },
+      {
+        "repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+        "model_type": "qwen3_next",
+        "total_b": 81.325,
+        "reported_b": 81.325,
+        "gap": 0.0,
+        "without_mtp_b": 79.67,
+        "active_b": 3.56,
+        "kv_kib_per_token": 24.0,
+        "kv_gib_at_context": 0.75,
+        "kv_note": "12 of 48 layers keep KV; DeltaNet layers hold a fixed state"
+      },
+      {
+        "repo": "MiniMaxAI/MiniMax-M1-80k",
+        "model_type": "minimax_m1",
+        "total_b": 456.09,
+        "reported_b": 456.09,
+        "gap": 0.0,
+        "without_mtp_b": 456.09,
+        "active_b": 47.17,
+        "kv_kib_per_token": 40.0,
+        "kv_gib_at_context": 1.25,
+        "kv_note": "10 of 80 layers are softmax attention"
+      },
+      {
+        "repo": "deepseek-ai/DeepSeek-V3",
+        "model_type": "deepseek_v3",
+        "total_b": 684.49,
+        "reported_b": 684.49,
+        "gap": 0.0,
+        "without_mtp_b": 671.03,
+        "active_b": 36.63,
+        "kv_kib_per_token": 68.6,
+        "kv_gib_at_context": 2.14,
+        "kv_note": "MLA latent + decoupled RoPE key"
+      },
+      {
+        "repo": "moonshotai/Kimi-K2-Instruct",
+        "model_type": "kimi_k2",
+        "total_b": 1026.408,
+        "reported_b": 1026.408,
+        "gap": 0.0,
+        "without_mtp_b": 1026.41,
+        "active_b": 31.69,
+        "kv_kib_per_token": 68.6,
+        "kv_gib_at_context": 2.14,
+        "kv_note": "MLA latent + decoupled RoPE key"
+      }
+    ]
+  },
+  "long_context": {
+    "setting": {
+      "head_dim": 128,
+      "base": 10000.0,
+      "original_context": 4096,
+      "factor": 32
+    },
+    "shortest_and_longest_wavelength": [
+      6.28,
+      54410.1
+    ],
+    "pairs_completing_a_turn_in_original_context": 46,
+    "yarn_ramp_dims": [
+      20,
+      46
+    ],
+    "yarn_attention_scale": 1.3466,
+    "frequency_divisor_first_mid_last": [
+      1.0,
+      1.809,
+      32.0
+    ],
+    "sink_mass_on_tokens": {
+      "sink_logit_minus30": 1.0,
+      "sink_logit_8": 0.0015
+    },
+    "streaming_cache_size_at_100k": 1028
+  },
+  "rl_objectives": {
+    "clipped_fraction_symmetric_0_2": 0.3333333333333333,
+    "clipped_fraction_dapo_0_2_0_28": 0.25,
+    "groups_kept_by_dynamic_sampling": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "overlong_penalty": [
+      0.0,
+      0.0,
+      -0.39453125,
+      -1.0,
+      -1.0
+    ]
+  },
+  "agents": {
+    "good": {
+      "segments": [
+        [
+          "model",
+          "<tool>17 * 23</tool>"
+        ],
+        [
+          "tool",
+          "<result>391</result>"
+        ],
+        [
+          "model",
+          "391 so far. <tool>391 + 389</tool>"
+        ],
+        [
+          "tool",
+          "<result>780</result>"
+        ],
+        [
+          "model",
+          "<answer>780</answer>"
+        ]
+      ],
+      "tokens": 162,
+      "loss_tokens": 74,
+      "tool_tokens": 40,
+      "reward": 1.0,
+      "format": 1.0,
+      "tool_calls": 2,
+      "tool_errors": 0
+    },
+    "sloppy": {
+      "segments": [
+        [
+          "model",
+          "<tool>17 x 23</tool>"
+        ],
+        [
+          "tool",
+          "<result>error: unsupported expression</result>"
+        ],
+        [
+          "model",
+          "<answer>781</answer>"
+        ]
+      ],
+      "tokens": 134,
+      "loss_tokens": 40,
+      "tool_tokens": 46,
+      "reward": 0.0,
+      "format": 1.0,
+      "tool_calls": 1,
+      "tool_errors": 1
+    }
+  },
+  "low_precision": {
+    "mxfp4_bits_per_weight": 4.25,
+    "mxfp4_weight_relative_error": 0.1142,
+    "mxfp4_clamped_element_fraction": 0.0187,
+    "mxfp4_blocks_with_clamping": 0.4182,
+    "mxfp4_ceil_exponent_relative_error": 0.1183,
+    "int4_absmax_per_32_relative_error": 0.0971,
+    "mxfp4_scales_are_powers_of_two": true,
+    "fp8_128x128_weight_relative_error": 0.0265,
+    "gpt_oss_120b_checkpoint_gib": 60.8,
+    "outlier_x200": {
+      "normal_channel_error_one_scale": 0.0266,
+      "normal_channel_error_1x128": 0.0259,
+      "flushed_to_zero_one_scale": 0.0013
+    },
+    "outlier_x100000": {
+      "normal_channel_error_one_scale": 0.3354,
+      "normal_channel_error_1x128": 0.0615,
+      "flushed_to_zero_one_scale": 0.4362
+    }
+  },
+  "synthetic_data": {
+    "teacher_accuracy": 1.0,
+    "temperature": 1.5,
+    "sampled_rows": 400,
+    "sampled_well_formed_fraction": 0.965,
+    "sampled_correct_fraction": 0.8375,
+    "filtered_rows": 335,
+    "facts_by_kept_samples": {
+      "0": 0,
+      "1": 1,
+      "2": 14,
+      "3": 34,
+      "4": 51
+    },
+    "students": {
+      "real": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "teacher_sampled": [
+        0.98,
+        0.99,
+        0.92,
+        0.95,
+        0.93
+      ],
+      "teacher_filtered": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "soft_kd": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "provenance": {
+    "python": "3.12.7",
+    "packages": {
+      "torch": "2.11.0+cpu",
+      "numpy": "2.1.3"
+    },
+    "source_sha256": {
+      "examples/__init__.py": "e6ed9b0b05ced4431c1a691ac3eedd2ad63c485d1fe6ddcbabea07ef6492f020",
+      "examples/accounting.py": "8f176491cec11efbf3458cd20ae211911eabd7a5e05044cce6c9ce92a36faa3b",
+      "examples/agents.py": "3d9d780fd7cd5dd411231dc9a98d8390942db6ea1b215ab825a51ad0f59848e3",
+      "examples/architectures.py": "670bdef383a0b1e10af0c2b5d60c03d5cb5961b2654a53f7e72e66287559aa52",
+      "examples/attention.py": "6d409dce7a80bf8887355972e8fde8025e714aac02769cce5906b880a15ade12",
+      "examples/compression.py": "8fe2e1976dcf8863287187d7937ee6229bf12256bc22378906627600b7481719",
+      "examples/data.py": "a1a403d3f1e2e8f87ab3f75d255b737155ce00f3979308ecaaf55a178c67518a",
+      "examples/distributed.py": "58e3c91d023125f27b4c8274f7209dbe747380a4305f7330e12ee2b850482d09",
+      "examples/evaluation.py": "858cbf535a70af45e2b112a6931c016182962fc47c953f8c480b75566339295e",
+      "examples/extensions.py": "0b2e863fb9b58b33fdfb1fd2cf76c116c9776f991db49c029e8a9cbdb7f82286",
+      "examples/inference.py": "f3b79f60659a786a7f917ba1df99a6cdb2e330577cd715cde48b3b72bb74fe40",
+      "examples/interpretability.py": "e42ea684d4d486cc8619aeb76dd463f69a9bf4605d874b181801aadfd3f01dd9",
+      "examples/long_context.py": "9949ed332d6709d28452aac60dbeff968e8bc28d25412306f4edcd618e573f45",
+      "examples/low_precision.py": "e7c7aaa58c65c3b525210b80dc60232261897103dc6ebfb4fb33f7c4d2c0994b",
+      "examples/mechanisms.py": "f73fc983745bf110c1932217dc55e2687fb2a77978ea0b060b2f540db3415c69",
+      "examples/model.py": "50b43ee83d74e9c0a1442e9ba39472f811852ad03b9f64da8ae4faa7399d040b",
+      "examples/numerical_tools.py": "445f2ed939df1d4d1632f2c33e4a12a92b1b641868582cd70110746fe743b1de",
+      "examples/objectives.py": "de6eaeef93baffc8335bf9aaf542f27eada1cb78c57670d78c6de4a143942aba",
+      "examples/optim.py": "60a5322fdd40c81b014782e7bac6b38253ffa08d79e2702b48ada14b1a85b120",
+      "examples/posttrain.py": "78433befa7f3ffbad3c465ae831780f9cca87bfcb87db4ccfdeaf91e14094300",
+      "examples/reasoning.py": "a4bda895b40872ecd638cf1a65b7aaf80016c70758d7ad3ab59d1812c23e648e",
+      "examples/research.py": "ccbf6773a35dee34dbb4d35b9a8d0c5e03ba4b491c3088a2465adaa9681f8578",
+      "examples/retrieval.py": "3be2c0bac1dae2b4ff57188c047f6f44d69743bf94873201bab49ac8a724ae7a",
+      "examples/rl_objectives.py": "5932b40c3b72c82e20066939735a469baf3e0aa4be28cfdb3de17e64c21ae710",
+      "examples/scaling.py": "5c26e06948d2645a8b6398f0f8d7a50dc53c9b1d6b2362a178211f30ea524dd4",
+      "examples/synthetic_data.py": "137faae0c6b6506d506880cf6c4c430f7e2d0c61d5cc762573f987835b59c669",
+      "examples/systems.py": "4b9369c91146a6a92e19f82dc9bc5f217861b344d6ba79fa0bb13b3e7f755b1d",
+      "examples/tokenizer.py": "fe05d007136d94f7147fb6fd03d197ca3b32c7e8cc00ebe2c3072ed0a10bc0e5",
+      "examples/train.py": "19486ab74bded56af887344bbfe683582f339f4a09f1f528b8dabc7cca865c51",
+      "scripts/artifact_io.py": "d10beb8792a4f712ca187c346ff5af2d5ff9007f948ed700de03bf08755d6084",
+      "scripts/audit_pdf.py": "7e902015105c987a1e3440ec8adf6888d5bdb8ee7182f68b65b79ccda86e7855",
+      "scripts/build_book.py": "9c9169b02225bef11c77da43e3e0df25fb1c7f92133df89d6f03e282eb953b67",
+      "scripts/check_book.py": "a2d4ca592c8a339d13c1bf4c407583c2da84ad95815c09a744c495dc32e5cea1",
+      "scripts/fetch_sources.py": "fabc0d8a6d261440da0c0fa0b4c5515bec649b4e2421b1b15f2ccf9718a1f7fb",
+      "scripts/make_appendices.py": "9f01eff927ea8d43f992cf78a49ba50d8439fee3671ab1eb3b06808e7b959314",
+      "scripts/make_figures.py": "b45773a64ae29d71a9e030b08a9eeb79f37abc8296898f191efc7ea2b8bc1e07",
+      "scripts/prepare_assets.py": "e9f1152fdd1a5251d6d0bef717ab3aadfb4ead8e89a8dccc110a4e9c87c611a5",
+      "scripts/rebuild.py": "b1c7b2e908188e52f3eb690b871286d04395fef363fd2cf48e73ad030a29cbb2",
+      "scripts/render_pdf.py": "f4ae9359c2672542adb7806f2883d43b91f114285e8be571c6ed3abb597916b5",
+      "scripts/run_advanced_experiments.py": "ba16f1be2fc73b3f2f532e7173f4df52af7a316507002fcd1853c260498c51cb",
+      "scripts/run_chapter_review.py": "ff42a7366c0f8d58902d5b582fae91cf5b25030d9b9799c43ba4b75b5c72dd45",
+      "scripts/run_checks.py": "78d94975d481fca7da3dbb88ecd20ab4e41a41b7738a6426b66e44fc88c0950c",
+      "scripts/run_core_experiments.py": "7c8480baa5c3eb60d80035cb8d9babb942f80a7ca38ece538d3ce6f74ccd9fd4",
+      "scripts/run_frontier_experiments.py": "c115f9527401242d325482024109d813dbcbdc05e1fa088e3972fbf93ff0680f",
+      "scripts/run_grpo_demo.py": "be3cababa2a57b0de0abb8f9a84876e53dd93be3ee6227d71856d0eef0998cca",
+      "scripts/run_mechanism_experiments.py": "7b0e1f627e4a89bf6ffc358b509c3966ea552311b44eb8bb8c5b4ffb3c91772f",
+      "scripts/run_review_update_experiments.py": "18222bb8622bdaea7ab221358113c0fde0fb60113830ae89206c083a37b5158b",
+      "scripts/run_tinystories.py": "bef881bf5ee2d58efe9f6b5ed90d2a279fa51ea7e4ad62ab59821b717c1af66d",
+      "scripts/verify_sources.py": "fda96a0ace0866cd00a351a425b9ee6582364ed1fcce204f8a0fb15666762f34",
+      "sources/model-configs/HuggingFaceTB__SmolLM3-3B.json": "da4dbefa8cbb3802bf38ec0d2a60e53d8bbd9098bb41d4420a3ad5eef60ac571",
+      "sources/model-configs/MiniMaxAI__MiniMax-M1-80k.json": "be27000b876e74ee77bca10f04b6527001dc728f04e3035b4cb26079572cdb34",
+      "sources/model-configs/Qwen__Qwen3-235B-A22B.json": "763a1151da4cf2440fe3c5a46315a96c719995e9c9b9e048a35c4cd8fc1b82bf",
+      "sources/model-configs/Qwen__Qwen3-30B-A3B.json": "12acf1646ed48f36ebc5506e718080634c0277d8ac58f830d1bbaaccc8ea95d1",
+      "sources/model-configs/Qwen__Qwen3-8B.json": "709e19e6442ae85cbdba80ccd32d1bd6ff382e19c5202592619c2d46788cf800",
+      "sources/model-configs/Qwen__Qwen3-Next-80B-A3B-Instruct.json": "a83922628ea6d26938ccbb68fe65b0a907daaf075502a996e9ec14650e8a6754",
+      "sources/model-configs/allenai__OLMo-2-0425-1B.json": "9141b4b3db911a037401b0ac335a839e42332ae017e5111084f003de528149f5",
+      "sources/model-configs/allenai__OLMo-2-1124-7B.json": "cc8957341b0398afd2d7f84465e3055ebb269e42f8d0817feb675491be6cc43d",
+      "sources/model-configs/deepseek-ai__DeepSeek-V3.json": "a2834bf00003842b37226c9888df15bf89e705e9e84e3f0e93bcb88617f95092",
+      "sources/model-configs/index.json": "33787a98ee3492ddbe8ad962f7e9b72c904138ff12b1531b6bf68ce5c70b5089",
+      "sources/model-configs/mistralai__Mistral-Small-24B-Base-2501.json": "c83ece1687f3b2f400e32377d74d7e7670b299b9784a8cb2cba3e7b1fb856089",
+      "sources/model-configs/moonshotai__Kimi-K2-Instruct.json": "c4c9977dfbec9249b6d2539777c02595f8a7a31b2ff0f77f1e891403a47a0175",
+      "sources/model-configs/openai__gpt-oss-120b.json": "15851bdb707d358632f4855513b76e6630a337b73f6f41eff14519e0cf783707",
+      "sources/model-configs/openai__gpt-oss-20b.json": "54f35578e97668bc7725f2b65513cf4540b7fbef311e3b287cf64c42b97a985e",
+      "sources/model-configs/zai-org__GLM-4.5.json": "699f74586101f39b59cb0680c09db003c2d88d57c9859bd1c86ecef652076ef5"
+    }
+  }
+}

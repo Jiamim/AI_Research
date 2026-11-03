@@ -1,0 +1,2310 @@
+{
+ "method": "Problem IDs extracted from pinned PDF text; chapter routes reviewed by topic; not a proof of every subquestion detail Revised 2026-10-27: chapter 28 is the assignment guide; routes for ablations, profiling, Gopher/fastText and accounting point to the sections that now contain them.",
+ "records": [
+  {
+   "source_id": "A2024-1",
+   "problem": "unicode1",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "unicode2",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "train_bpe",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "train_bpe_tinystories",
+   "chapters": "02、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "train_bpe_expts_owt",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "tokenizer",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "tokenizer_experiments",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "rmsnorm",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "positionwise_feedforward",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "softmax",
+   "chapters": "01、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "scaled_dot_product_attention",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "multihead_self_attention",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "transformer_block",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "transformer_lm",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "transformer_accounting",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "cross_entropy",
+   "chapters": "01、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "learning_rate_tuning",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "adamw",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "adamwAccounting",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "learning_rate_schedule",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "gradient_clipping",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "data_loading",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "checkpointing",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "training_together",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "decoding",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "experiment_log",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "learning_rate",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "batch_size_experiment",
+   "chapters": "05、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "generate",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "parallel_layers",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "layer_norm_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "pre_norm_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "main_experiment",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-1",
+   "problem": "leaderboard",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment1-basics/blob/dae79d035bf866a71d81a02b0c023980d537b16d/cs336_spring2024_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "benchmarking_script",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "function_call_table",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "flame_graph",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "benchmarking_mixed_precision",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "pytorch_layernorm",
+   "chapters": "03、09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "triton_rmsnorm_forward",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "rmsnorm_forward_benchmarking",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "rmsnorm_jvp_g",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "rmsnorm_jvp_x",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "triton_rmsnorm_backward",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "rmsnorm_benchmarking",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "torch_compile",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "memory_profiling",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "distributed_communication_single_node",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "distributed_communication_multi_node",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "naive_ddp",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "naive_ddp_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "minimal_ddp_flat_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "ddp_overlap_individual_parameters",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "ddp_overlap_individual_parameters_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "ddp_overlap_bucketed",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "ddp_bucketed_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "optimizer_state_sharding",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-2",
+   "problem": "optimizer_state_sharding_accounting",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment2-systems/blob/6849ecb981c83e8a979b1ccca9a0e26949adcb9a/cs336_spring2024_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2024-3",
+   "problem": "chinchilla_isoflops",
+   "chapters": "13、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment3-scaling/blob/3f16a055d73e8626f1491c0548d7fb339703df15/cs336_spring2024_assignment3_scaling.pdf"
+  },
+  {
+   "source_id": "A2024-3",
+   "problem": "scaling_laws",
+   "chapters": "13、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment3-scaling/blob/3f16a055d73e8626f1491c0548d7fb339703df15/cs336_spring2024_assignment3_scaling.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "look_at_cc",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "extract_text",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "language_identification",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "mask_pii",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "harmful_content",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "gopher_quality_filters",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "quality_classifier",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "exact_deduplication",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "minhash_deduplication",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "filter_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "inspect_filtered_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "tokenize_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-4",
+   "problem": "train_model",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment4-data/blob/a5cd5b75d2b6a17b96b6e1c3c7eb267bec8e1291/cs336_spring2024_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "mmlu_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "gsm8k_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "alpaca_eval_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "sst_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "look_at_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "data_loading",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "sft_script",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "mmlu_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "gsm8k_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "alpaca_eval_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "sst_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "red_teaming",
+   "chapters": "15.11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "look_at_hh",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "dpo_loss",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2024-5",
+   "problem": "dpo_training",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/spring2024-assignment5-alignment/blob/fcbfe2b3b72cb9e5536b93ba12265d04b8ca4cca/cs336_spring2024_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "mmlu_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "gsm8k_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "alpaca_eval_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "sst_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "look_at_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "data_loading",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "sft_script",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "mmlu_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "gsm8k_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "alpaca_eval_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "sst_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "red_teaming",
+   "chapters": "15.11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "look_at_hh",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "dpo_loss",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-5-safety",
+   "problem": "dpo_training",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "unicode1",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "unicode2",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "train_bpe",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "train_bpe_tinystories",
+   "chapters": "02、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "train_bpe_expts_owt",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "tokenizer",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "tokenizer_experiments",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "linear",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "embedding",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "rmsnorm",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "positionwise_feedforward",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "rope",
+   "chapters": "04、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "softmax",
+   "chapters": "01、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "scaled_dot_product_attention",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "multihead_self_attention",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "transformer_block",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "transformer_lm",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "transformer_accounting",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "cross_entropy",
+   "chapters": "01、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "learning_rate_tuning",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "adamw",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "adamwAccounting",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "learning_rate_schedule",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "gradient_clipping",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "data_loading",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "checkpointing",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "training_together",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "decoding",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "experiment_log",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "learning_rate",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "batch_size_experiment",
+   "chapters": "05、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "generate",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "layer_norm_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "pre_norm_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "no_pos_emb",
+   "chapters": "04、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "swiglu_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "main_experiment",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-1",
+   "problem": "leaderboard",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/430e2c844e29f8aad8f9330e8706db9cb508241f/cs336_spring2025_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "benchmarking_script",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "nsys_profile",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "mixed_precision_accumulation",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "benchmarking_mixed_precision",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "memory_profiling",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "pytorch_attention",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "torch_compile",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "flash_forward",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "flash_backward",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "flash_benchmarking",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "distributed_communication_single_node",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "naive_ddp",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "naive_ddp_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "minimal_ddp_flat_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "ddp_overlap_individual_parameters",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "ddp_overlap_individual_parameters_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "ddp_overlap_bucketed",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "ddp_bucketed_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "communication_accounting",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "optimizer_state_sharding",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-2",
+   "problem": "optimizer_state_sharding_accounting",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/e495ed740080661ab084914674d3e10048778889/cs336_spring2025_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2025-3",
+   "problem": "chinchilla_isoflops",
+   "chapters": "13、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment3-scaling/blob/09d205bde59e5c533368c0209dc86a4d5e4323ea/cs336_spring2025_assignment3_scaling.pdf"
+  },
+  {
+   "source_id": "A2025-3",
+   "problem": "scaling_laws",
+   "chapters": "13、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment3-scaling/blob/09d205bde59e5c533368c0209dc86a4d5e4323ea/cs336_spring2025_assignment3_scaling.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "look_at_cc",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "extract_text",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "language_identification",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "mask_pii",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "harmful_content",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "gopher_quality_filters",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "quality_classifier",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "exact_deduplication",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "minhash_deduplication",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "filter_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "inspect_filtered_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "tokenize_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-4",
+   "problem": "train_model",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/5a5f890cd9b72733e6273a596c40b696df3aa9df/cs336_spring2025_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "math_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "tokenize_prompt_and_output",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "compute_entropy",
+   "chapters": "18.15、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "get_response_log_probs",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "masked_normalize",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "sft_microbatch_train_step",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "log_generations",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "sft_experiment",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "expert_iteration_experiment",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "compute_group_normalized_rewards",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "compute_naive_policy_gradient_loss",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "compute_grpo_clip_loss",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "compute_policy_gradient_loss",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "masked_mean",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_microbatch_train_step",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_train_loop",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_learning_rate",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_baselines",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "think_about_length_normalization",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_length_normalization",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_group_standard_deviation",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_off_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_off_policy_sweep",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_off_policy_clip_ablation",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "grpo_prompt_ablation",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2025-5",
+   "problem": "leaderboard",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "mmlu_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "gsm8k_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "alpaca_eval_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "sst_baseline",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "look_at_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "data_loading",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "sft_script",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "mmlu_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "gsm8k_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "alpaca_eval_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "sst_sft",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "red_teaming",
+   "chapters": "15.11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "look_at_hh",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "dpo_loss",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-5-safety",
+   "problem": "dpo_training",
+   "chapters": "17、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/eb2c562e05802d3c9ee4c4ec2eec43b104d77e9e/cs336_spring2025_assignment5_supplement_safety_rlhf.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "unicode1",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "unicode2",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "train_bpe",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "train_bpe_tinystories",
+   "chapters": "02、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "train_bpe_expts_owt",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "tokenizer",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "tokenizer_experiments",
+   "chapters": "02、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "linear",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "embedding",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "rmsnorm",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "positionwise_feedforward",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "rope",
+   "chapters": "04、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "softmax",
+   "chapters": "01、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "scaled_dot_product_attention",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "multihead_self_attention",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "transformer_block",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "transformer_lm",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "transformer_accounting",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "cross_entropy",
+   "chapters": "01、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "learning_rate_tuning",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "adamw",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "adamw_accounting",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "learning_rate_schedule",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "gradient_clipping",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "data_loading",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "checkpointing",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "training_together",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "decoding",
+   "chapters": "03、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "experiment_log",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "learning_rate",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "batch_size_experiment",
+   "chapters": "05、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "generate",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "layer_norm_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "pre_norm_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "no_pos_emb",
+   "chapters": "04、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "swiglu_ablation",
+   "chapters": "03、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "main_experiment",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-1",
+   "problem": "leaderboard",
+   "chapters": "05、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment1-basics/blob/a158843b20107949f1a8d7df1b05cd33b9166712/cs336_assignment1_basics.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "benchmarking_script",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "nsys_profile",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "mixed_precision_accumulation",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "benchmarking_mixed_precision",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "memory_profiling",
+   "chapters": "09、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "gradient_checkpointing",
+   "chapters": "08、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "pytorch_attention",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "torch_compile",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "flash_forward",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "flash_backward",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "flash_benchmarking",
+   "chapters": "10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "distributed_communication_single_node",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "naive_ddp",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "naive_ddp_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "minimal_ddp_flat_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "ddp_overlap_individual_parameters",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "ddp_overlap_individual_parameters_benchmarking",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "optimizer_state_sharding",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "optimizer_state_sharding_accounting",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "fsdp",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "fsdp_accounting",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "alternate_ring_all_reduce",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "data_parallel_calcs",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "fsdp_calcs",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "tp_calcs",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "fsdp_tp_calcs",
+   "chapters": "11、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-2",
+   "problem": "leaderboard",
+   "chapters": "08–10、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment2-systems/blob/ca8bc81a59b70516f7ebb2da4808daade877c736/cs336_assignment2_systems.pdf"
+  },
+  {
+   "source_id": "A2026-3",
+   "problem": "chinchilla_isoflops",
+   "chapters": "13、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment3-scaling/blob/03e9372992e913061b9e78b5cfcb62ad8a87de35/cs336_assignment3_scaling.pdf"
+  },
+  {
+   "source_id": "A2026-3",
+   "problem": "scaling_laws",
+   "chapters": "13、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment3-scaling/blob/03e9372992e913061b9e78b5cfcb62ad8a87de35/cs336_assignment3_scaling.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "look_at_cc",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "extract_text",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "language_identification",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "mask_pii",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "harmful_content",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "gopher_quality_filters",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "quality_classifier",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "exact_deduplication",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "minhash_deduplication",
+   "chapters": "14、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "filter_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "inspect_filtered_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "tokenize_data",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-4",
+   "problem": "train_model",
+   "chapters": "14、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment4-data/blob/0555bea66369872d912652debf10b115ca0688c8/cs336_assignment4_data.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "prompting_baselines",
+   "chapters": "15、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "baseline_calcs",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "tokenize_prompt_and_output",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "get_response_log_probs",
+   "chapters": "16、18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_rollout_rewards",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_group_normalized_rewards_grpo",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_policy_gradient_loss_on_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "aggregate_loss_across_microbatch_sequence",
+   "chapters": "18.5、18.10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_train_step_standard_on_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_experiments_standard_on_policy",
+   "chapters": "18、20、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_learning_rate",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_prompt_ablation",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "think_about_length_normalization",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_group_normalized_rewards_drgrpo",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "aggregate_loss_across_microbatch_constant",
+   "chapters": "18.5、18.10、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "think_about_rft",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "derive_difficulty_reweightings",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "think_about_advantage_normalization",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_group_normalized_rewards_maxrl",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_train_step_variants_on_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_experiments_variants_on_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "derive_surrogate_objectives",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_policy_gradient_loss_off_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "think_about_importance_reweighting",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "compute_policy_gradient_loss_off_policy_gspo",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_train_step_off_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "grpo_experiments_off_policy",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  },
+  {
+   "source_id": "A2026-5",
+   "problem": "try_your_own",
+   "chapters": "18、28",
+   "status": "conceptual coverage; not an official assignment solution",
+   "source": "https://github.com/stanford-cs336/assignment5-alignment/blob/c2734a26308710949fe13226960a1e8cece94b7e/cs336_spring2026_assignment5_alignment.pdf"
+  }
+ ],
+ "unmapped": [],
+ "manual_review": "Unmatched layernorm and microbatch aggregation identifiers assigned after checking the corresponding chapter sections."
+}

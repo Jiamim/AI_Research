@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="316.8pt" viewBox="0 0 720 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="loss-by-role-figure_1">
+  <g id="loss-by-role-patch_1">
+   <path d="M 0 316.8 
+L 720 316.8 
+L 720 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="loss-by-role-axes_1">
+   <g id="loss-by-role-patch_2">
+    <path d="M 47.72 288.92 
+L 371.31 288.92 
+L 371.31 26.88 
+L 47.72 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="loss-by-role-matplotlib.axis_1">
+    <g id="loss-by-role-xtick_1">
+     <g id="loss-by-role-line2d_1">
+      <defs>
+       <path id="loss-by-role-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#loss-by-role-m21fce4b813" x="77.004762" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="77.004762" y="303.518438" transform="rotate(-0 77.004762 303.518438)">operand</text>
+     </g>
+    </g>
+    <g id="loss-by-role-xtick_2">
+     <g id="loss-by-role-line2d_2">
+      <g>
+       <use xlink:href="#loss-by-role-m21fce4b813" x="209.515" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="209.515" y="303.518438" transform="rotate(-0 209.515 303.518438)">format</text>
+     </g>
+    </g>
+    <g id="loss-by-role-xtick_3">
+     <g id="loss-by-role-line2d_3">
+      <g>
+       <use xlink:href="#loss-by-role-m21fce4b813" x="342.025238" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="342.025238" y="303.518438" transform="rotate(-0 342.025238 303.518438)">answer</text>
+     </g>
+    </g>
+   </g>
+   <g id="loss-by-role-matplotlib.axis_2">
+    <g id="loss-by-role-ytick_1">
+     <g id="loss-by-role-line2d_4">
+      <path d="M 47.72 288.92 
+L 371.31 288.92 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_5">
+      <defs>
+       <path id="loss-by-role-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="47.72" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="292.719219" transform="rotate(-0 40.72 292.719219)">0.0</text>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_2">
+     <g id="loss-by-role-line2d_6">
+      <path d="M 47.72 240.954731 
+L 371.31 240.954731 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_7">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="47.72" y="240.954731" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="244.753949" transform="rotate(-0 40.72 244.753949)">0.5</text>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_3">
+     <g id="loss-by-role-line2d_8">
+      <path d="M 47.72 192.989461 
+L 371.31 192.989461 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_9">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="47.72" y="192.989461" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="196.78868" transform="rotate(-0 40.72 196.78868)">1.0</text>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_4">
+     <g id="loss-by-role-line2d_10">
+      <path d="M 47.72 145.024192 
+L 371.31 145.024192 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_11">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="47.72" y="145.024192" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="148.823411" transform="rotate(-0 40.72 148.823411)">1.5</text>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_5">
+     <g id="loss-by-role-line2d_12">
+      <path d="M 47.72 97.058922 
+L 371.31 97.058922 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_13">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="47.72" y="97.058922" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="100.858141" transform="rotate(-0 40.72 100.858141)">2.0</text>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_6">
+     <g id="loss-by-role-line2d_14">
+      <path d="M 47.72 49.093653 
+L 371.31 49.093653 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_15">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="47.72" y="49.093653" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="52.892872" transform="rotate(-0 40.72 52.892872)">2.5</text>
+     </g>
+    </g>
+    <g id="loss-by-role-text_10">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="18.737188" y="157.9" transform="rotate(-90 18.737188 157.9)">NLL (nats / target byte)</text>
+    </g>
+   </g>
+   <g id="loss-by-role-patch_3">
+    <path d="M 62.428636 288.92 
+L 91.580889 288.92 
+L 91.580889 65.957838 
+L 62.428636 65.957838 
+z
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: #2a78d6"/>
+   </g>
+   <g id="loss-by-role-patch_4">
+    <path d="M 194.938874 288.92 
+L 224.091126 288.92 
+L 224.091126 277.365135 
+L 194.938874 277.365135 
+z
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: #2a78d6"/>
+   </g>
+   <g id="loss-by-role-patch_5">
+    <path d="M 327.449111 288.92 
+L 356.601364 288.92 
+L 356.601364 66.151835 
+L 327.449111 66.151835 
+z
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: #2a78d6"/>
+   </g>
+   <g id="loss-by-role-line2d_16">
+    <path d="M 47.72 68.031771 
+L 371.31 68.031771 
+" clip-path="url(#loss-by-role-pad6693da8e)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+   </g>
+   <g id="loss-by-role-patch_6">
+    <path d="M 47.72 288.92 
+L 47.72 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="loss-by-role-patch_7">
+    <path d="M 47.72 288.92 
+L 371.31 288.92 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="loss-by-role-text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="77.004762" y="62.957838" transform="rotate(-0 77.004762 62.957838)">2.32</text>
+   </g>
+   <g id="loss-by-role-text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="209.515" y="274.365135" transform="rotate(-0 209.515 274.365135)">0.12</text>
+   </g>
+   <g id="loss-by-role-text_13">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="342.025238" y="63.151835" transform="rotate(-0 342.025238 63.151835)">2.32</text>
+   </g>
+   <g id="loss-by-role-text_14">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="209.515" y="63.031771" transform="rotate(-0 209.515 63.031771)">ln 10 = uniform over 10 digits</text>
+   </g>
+   <g id="loss-by-role-text_15">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="47.72" y="20.88" transform="rotate(-0 47.72 20.88)">120 steps: exact answers 10%</text>
+   </g>
+  </g>
+  <g id="loss-by-role-axes_2">
+   <g id="loss-by-role-patch_8">
+    <path d="M 385.61 288.92 
+L 709.2 288.92 
+L 709.2 26.88 
+L 385.61 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="loss-by-role-matplotlib.axis_3">
+    <g id="loss-by-role-xtick_4">
+     <g id="loss-by-role-line2d_17">
+      <g>
+       <use xlink:href="#loss-by-role-m21fce4b813" x="414.894762" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="414.894762" y="303.518438" transform="rotate(-0 414.894762 303.518438)">operand</text>
+     </g>
+    </g>
+    <g id="loss-by-role-xtick_5">
+     <g id="loss-by-role-line2d_18">
+      <g>
+       <use xlink:href="#loss-by-role-m21fce4b813" x="547.405" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="547.405" y="303.518438" transform="rotate(-0 547.405 303.518438)">format</text>
+     </g>
+    </g>
+    <g id="loss-by-role-xtick_6">
+     <g id="loss-by-role-line2d_19">
+      <g>
+       <use xlink:href="#loss-by-role-m21fce4b813" x="679.915238" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="loss-by-role-text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="679.915238" y="303.518438" transform="rotate(-0 679.915238 303.518438)">answer</text>
+     </g>
+    </g>
+   </g>
+   <g id="loss-by-role-matplotlib.axis_4">
+    <g id="loss-by-role-ytick_7">
+     <g id="loss-by-role-line2d_20">
+      <path d="M 385.61 288.92 
+L 709.2 288.92 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_21">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="385.61" y="288.92" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_8">
+     <g id="loss-by-role-line2d_22">
+      <path d="M 385.61 240.954731 
+L 709.2 240.954731 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_23">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="385.61" y="240.954731" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_9">
+     <g id="loss-by-role-line2d_24">
+      <path d="M 385.61 192.989461 
+L 709.2 192.989461 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_25">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="385.61" y="192.989461" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_10">
+     <g id="loss-by-role-line2d_26">
+      <path d="M 385.61 145.024192 
+L 709.2 145.024192 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_27">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="385.61" y="145.024192" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_11">
+     <g id="loss-by-role-line2d_28">
+      <path d="M 385.61 97.058922 
+L 709.2 97.058922 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_29">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="385.61" y="97.058922" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="loss-by-role-ytick_12">
+     <g id="loss-by-role-line2d_30">
+      <path d="M 385.61 49.093653 
+L 709.2 49.093653 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="loss-by-role-line2d_31">
+      <g>
+       <use xlink:href="#loss-by-role-m2df64f757d" x="385.61" y="49.093653" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="loss-by-role-patch_9">
+    <path d="M 400.318636 288.92 
+L 429.470889 288.92 
+L 429.470889 39.358095 
+L 400.318636 39.358095 
+z
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: #2a78d6"/>
+   </g>
+   <g id="loss-by-role-patch_10">
+    <path d="M 532.828874 288.92 
+L 561.981126 288.92 
+L 561.981126 281.774988 
+L 532.828874 281.774988 
+z
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: #2a78d6"/>
+   </g>
+   <g id="loss-by-role-patch_11">
+    <path d="M 665.339111 288.92 
+L 694.491364 288.92 
+L 694.491364 287.269376 
+L 665.339111 287.269376 
+z
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: #2a78d6"/>
+   </g>
+   <g id="loss-by-role-line2d_32">
+    <path d="M 385.61 68.031771 
+L 709.2 68.031771 
+" clip-path="url(#loss-by-role-p19ea19a14d)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+   </g>
+   <g id="loss-by-role-patch_12">
+    <path d="M 385.61 288.92 
+L 385.61 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="loss-by-role-patch_13">
+    <path d="M 385.61 288.92 
+L 709.2 288.92 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="loss-by-role-text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="414.894762" y="36.358095" transform="rotate(-0 414.894762 36.358095)">2.60</text>
+   </g>
+   <g id="loss-by-role-text_20">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="547.405" y="278.774988" transform="rotate(-0 547.405 278.774988)">0.07</text>
+   </g>
+   <g id="loss-by-role-text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="679.915238" y="284.269376" transform="rotate(-0 679.915238 284.269376)">0.02</text>
+   </g>
+   <g id="loss-by-role-text_22">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="385.61" y="20.88" transform="rotate(-0 385.61 20.88)">1000 steps: exact answers 100%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="loss-by-role-pad6693da8e">
+   <rect x="47.72" y="26.88" width="323.59" height="262.04"/>
+  </clipPath>
+  <clipPath id="loss-by-role-p19ea19a14d">
+   <rect x="385.61" y="26.88" width="323.59" height="262.04"/>
+  </clipPath>
+ </defs>
+</svg>

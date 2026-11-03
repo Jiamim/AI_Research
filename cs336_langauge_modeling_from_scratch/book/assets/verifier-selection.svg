@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="331.2pt" viewBox="0 0 648 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="verifier-selection-figure_1">
+  <g id="verifier-selection-patch_1">
+   <path d="M 0 331.2 
+L 648 331.2 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="verifier-selection-axes_1">
+   <g id="verifier-selection-patch_2">
+    <path d="M 47.72 285.928 
+L 459.378 285.928 
+L 459.378 26.88 
+L 47.72 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="verifier-selection-matplotlib.axis_1">
+    <g id="verifier-selection-xtick_1">
+     <g id="verifier-selection-line2d_1">
+      <path d="M 66.431727 285.928 
+L 66.431727 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_2">
+      <defs>
+       <path id="verifier-selection-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="66.431727" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_1">
+      <!-- $\mathdefault{2^{0}}$ -->
+      <g style="fill: #52514e" transform="translate(60.831727 300.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-xtick_2">
+     <g id="verifier-selection-line2d_3">
+      <path d="M 128.804152 285.928 
+L 128.804152 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_4">
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="128.804152" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_2">
+      <!-- $\mathdefault{2^{1}}$ -->
+      <g style="fill: #52514e" transform="translate(123.204152 300.526437)">
+       <text>
+        <tspan x="0" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-xtick_3">
+     <g id="verifier-selection-line2d_5">
+      <path d="M 191.176576 285.928 
+L 191.176576 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_6">
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="191.176576" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_3">
+      <!-- $\mathdefault{2^{2}}$ -->
+      <g style="fill: #52514e" transform="translate(185.576576 300.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-xtick_4">
+     <g id="verifier-selection-line2d_7">
+      <path d="M 253.549 285.928 
+L 253.549 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_8">
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="253.549" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_4">
+      <!-- $\mathdefault{2^{3}}$ -->
+      <g style="fill: #52514e" transform="translate(247.949 300.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-xtick_5">
+     <g id="verifier-selection-line2d_9">
+      <path d="M 315.921424 285.928 
+L 315.921424 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_10">
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="315.921424" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_5">
+      <!-- $\mathdefault{2^{4}}$ -->
+      <g style="fill: #52514e" transform="translate(310.321424 300.526437)">
+       <text>
+        <tspan x="0" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">4</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-xtick_6">
+     <g id="verifier-selection-line2d_11">
+      <path d="M 378.293848 285.928 
+L 378.293848 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_12">
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="378.293848" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_6">
+      <!-- $\mathdefault{2^{5}}$ -->
+      <g style="fill: #52514e" transform="translate(372.693848 300.526437)">
+       <text>
+        <tspan x="0" y="-0.064063" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-3.892188" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">5</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-xtick_7">
+     <g id="verifier-selection-line2d_13">
+      <path d="M 440.666273 285.928 
+L 440.666273 26.88 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_14">
+      <g>
+       <use xlink:href="#verifier-selection-m21fce4b813" x="440.666273" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_7">
+      <!-- $\mathdefault{2^{6}}$ -->
+      <g style="fill: #52514e" transform="translate(435.066273 300.526437)">
+       <text>
+        <tspan x="0" y="-0.976562" style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #52514e">2</tspan>
+        <tspan x="6.458008" y="-4.804688" style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #52514e">6</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="verifier-selection-text_8">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="253.549" y="314.204563" transform="rotate(-0 253.549 314.204563)">Number of candidates k</text>
+    </g>
+   </g>
+   <g id="verifier-selection-matplotlib.axis_2">
+    <g id="verifier-selection-ytick_1">
+     <g id="verifier-selection-line2d_15">
+      <path d="M 47.72 285.928 
+L 459.378 285.928 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_16">
+      <defs>
+       <path id="verifier-selection-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#verifier-selection-m2df64f757d" x="47.72" y="285.928" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="289.727219" transform="rotate(-0 40.72 289.727219)">0.0</text>
+     </g>
+    </g>
+    <g id="verifier-selection-ytick_2">
+     <g id="verifier-selection-line2d_17">
+      <path d="M 47.72 236.585524 
+L 459.378 236.585524 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_18">
+      <g>
+       <use xlink:href="#verifier-selection-m2df64f757d" x="47.72" y="236.585524" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="240.384743" transform="rotate(-0 40.72 240.384743)">0.2</text>
+     </g>
+    </g>
+    <g id="verifier-selection-ytick_3">
+     <g id="verifier-selection-line2d_19">
+      <path d="M 47.72 187.243048 
+L 459.378 187.243048 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_20">
+      <g>
+       <use xlink:href="#verifier-selection-m2df64f757d" x="47.72" y="187.243048" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="191.042266" transform="rotate(-0 40.72 191.042266)">0.4</text>
+     </g>
+    </g>
+    <g id="verifier-selection-ytick_4">
+     <g id="verifier-selection-line2d_21">
+      <path d="M 47.72 137.900571 
+L 459.378 137.900571 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_22">
+      <g>
+       <use xlink:href="#verifier-selection-m2df64f757d" x="47.72" y="137.900571" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="141.69979" transform="rotate(-0 40.72 141.69979)">0.6</text>
+     </g>
+    </g>
+    <g id="verifier-selection-ytick_5">
+     <g id="verifier-selection-line2d_23">
+      <path d="M 47.72 88.558095 
+L 459.378 88.558095 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_24">
+      <g>
+       <use xlink:href="#verifier-selection-m2df64f757d" x="47.72" y="88.558095" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="92.357314" transform="rotate(-0 40.72 92.357314)">0.8</text>
+     </g>
+    </g>
+    <g id="verifier-selection-ytick_6">
+     <g id="verifier-selection-line2d_25">
+      <path d="M 47.72 39.215619 
+L 459.378 39.215619 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="verifier-selection-line2d_26">
+      <g>
+       <use xlink:href="#verifier-selection-m2df64f757d" x="47.72" y="39.215619" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="verifier-selection-text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="43.014838" transform="rotate(-0 40.72 43.014838)">1.0</text>
+     </g>
+    </g>
+    <g id="verifier-selection-text_15">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="18.737188" y="156.404" transform="rotate(-90 18.737188 156.404)">Probability / accuracy</text>
+    </g>
+   </g>
+   <g id="verifier-selection-line2d_27">
+    <path d="M 66.431727 224.311583 
+L 191.176576 116.856005 
+L 315.921424 41.991133 
+L 440.666273 39.215619 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="verifier-selection-md551f70b3c" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#verifier-selection-p7aac4e5ad3)">
+     <use xlink:href="#verifier-selection-md551f70b3c" x="66.431727" y="224.311583" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#verifier-selection-md551f70b3c" x="191.176576" y="116.856005" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#verifier-selection-md551f70b3c" x="315.921424" y="41.991133" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#verifier-selection-md551f70b3c" x="440.666273" y="39.215619" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="verifier-selection-line2d_28">
+    <path d="M 66.431727 224.311583 
+L 191.176576 129.40133 
+L 315.921424 115.178361 
+L 440.666273 228.024604 
+" clip-path="url(#verifier-selection-p7aac4e5ad3)" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="verifier-selection-mf81851119f" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #fcfcfb; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#verifier-selection-p7aac4e5ad3)">
+     <use xlink:href="#verifier-selection-mf81851119f" x="66.431727" y="224.311583" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#verifier-selection-mf81851119f" x="191.176576" y="129.40133" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#verifier-selection-mf81851119f" x="315.921424" y="115.178361" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+     <use xlink:href="#verifier-selection-mf81851119f" x="440.666273" y="228.024604" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="verifier-selection-patch_3">
+    <path d="M 47.72 285.928 
+L 47.72 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="verifier-selection-patch_4">
+    <path d="M 47.72 285.928 
+L 459.378 285.928 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="verifier-selection-text_16">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="47.72" y="20.88" transform="rotate(-0 47.72 20.88)">Synthetic verifier: wider coverage can worsen selection</text>
+   </g>
+   <g id="verifier-selection-legend_1">
+    <g id="verifier-selection-line2d_29">
+     <path d="M 471.59458 38.668594 
+L 480.59458 38.668594 
+L 489.59458 38.668594 
+" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#verifier-selection-md551f70b3c" x="480.59458" y="38.668594" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2"/>
+     </g>
+    </g>
+    <g id="verifier-selection-text_17">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="496.79458" y="41.818594" transform="rotate(-0 496.79458 41.818594)">at least one correct candidate</text>
+    </g>
+    <g id="verifier-selection-line2d_30">
+     <path d="M 471.59458 51.878906 
+L 480.59458 51.878906 
+L 489.59458 51.878906 
+" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#verifier-selection-mf81851119f" x="480.59458" y="51.878906" style="fill: #eb6834; stroke: #fcfcfb; stroke-width: 2"/>
+     </g>
+    </g>
+    <g id="verifier-selection-text_18">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="496.79458" y="55.028906" transform="rotate(-0 496.79458 55.028906)">selected by imperfect verifier</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="verifier-selection-p7aac4e5ad3">
+   <rect x="47.72" y="26.88" width="411.658" height="259.048"/>
+  </clipPath>
+ </defs>
+</svg>

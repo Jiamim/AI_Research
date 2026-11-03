@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="331.2pt" viewBox="0 0 648 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="grpo-variants-figure_1">
+  <g id="grpo-variants-patch_1">
+   <path d="M 0 331.2 
+L 648 331.2 
+L 648 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="grpo-variants-axes_1">
+   <g id="grpo-variants-patch_2">
+    <path d="M 47.72 289.24 
+L 503.748 289.24 
+L 503.748 26.88 
+L 47.72 26.88 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="grpo-variants-matplotlib.axis_1">
+    <g id="grpo-variants-xtick_1">
+     <g id="grpo-variants-line2d_1">
+      <path d="M 68.448545 289.24 
+L 68.448545 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_2">
+      <defs>
+       <path id="grpo-variants-m21fce4b813" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="68.448545" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="68.448545" y="303.838437" transform="rotate(-0 68.448545 303.838437)">0</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_2">
+     <g id="grpo-variants-line2d_3">
+      <path d="M 120.269909 289.24 
+L 120.269909 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_4">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="120.269909" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="120.269909" y="303.838437" transform="rotate(-0 120.269909 303.838437)">25</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_3">
+     <g id="grpo-variants-line2d_5">
+      <path d="M 172.091273 289.24 
+L 172.091273 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_6">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="172.091273" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="172.091273" y="303.838437" transform="rotate(-0 172.091273 303.838437)">50</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_4">
+     <g id="grpo-variants-line2d_7">
+      <path d="M 223.912636 289.24 
+L 223.912636 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_8">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="223.912636" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="223.912636" y="303.838437" transform="rotate(-0 223.912636 303.838437)">75</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_5">
+     <g id="grpo-variants-line2d_9">
+      <path d="M 275.734 289.24 
+L 275.734 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_10">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="275.734" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="275.734" y="303.838437" transform="rotate(-0 275.734 303.838437)">100</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_6">
+     <g id="grpo-variants-line2d_11">
+      <path d="M 327.555364 289.24 
+L 327.555364 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_12">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="327.555364" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="327.555364" y="303.838437" transform="rotate(-0 327.555364 303.838437)">125</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_7">
+     <g id="grpo-variants-line2d_13">
+      <path d="M 379.376727 289.24 
+L 379.376727 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_14">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="379.376727" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="379.376727" y="303.838437" transform="rotate(-0 379.376727 303.838437)">150</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_8">
+     <g id="grpo-variants-line2d_15">
+      <path d="M 431.198091 289.24 
+L 431.198091 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_16">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="431.198091" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="431.198091" y="303.838437" transform="rotate(-0 431.198091 303.838437)">175</text>
+     </g>
+    </g>
+    <g id="grpo-variants-xtick_9">
+     <g id="grpo-variants-line2d_17">
+      <path d="M 483.019455 289.24 
+L 483.019455 26.88 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_18">
+      <g>
+       <use xlink:href="#grpo-variants-m21fce4b813" x="483.019455" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="483.019455" y="303.838437" transform="rotate(-0 483.019455 303.838437)">200</text>
+     </g>
+    </g>
+    <g id="grpo-variants-text_10">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="275.734" y="317.516562" transform="rotate(-0 275.734 317.516562)">RL steps</text>
+    </g>
+   </g>
+   <g id="grpo-variants-matplotlib.axis_2">
+    <g id="grpo-variants-ytick_1">
+     <g id="grpo-variants-line2d_19">
+      <path d="M 47.72 289.24 
+L 503.748 289.24 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_20">
+      <defs>
+       <path id="grpo-variants-m2df64f757d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#grpo-variants-m2df64f757d" x="47.72" y="289.24" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="293.039219" transform="rotate(-0 40.72 293.039219)">0.0</text>
+     </g>
+    </g>
+    <g id="grpo-variants-ytick_2">
+     <g id="grpo-variants-line2d_21">
+      <path d="M 47.72 237.796863 
+L 503.748 237.796863 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_22">
+      <g>
+       <use xlink:href="#grpo-variants-m2df64f757d" x="47.72" y="237.796863" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="241.596081" transform="rotate(-0 40.72 241.596081)">0.2</text>
+     </g>
+    </g>
+    <g id="grpo-variants-ytick_3">
+     <g id="grpo-variants-line2d_23">
+      <path d="M 47.72 186.353725 
+L 503.748 186.353725 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_24">
+      <g>
+       <use xlink:href="#grpo-variants-m2df64f757d" x="47.72" y="186.353725" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="190.152944" transform="rotate(-0 40.72 190.152944)">0.4</text>
+     </g>
+    </g>
+    <g id="grpo-variants-ytick_4">
+     <g id="grpo-variants-line2d_25">
+      <path d="M 47.72 134.910588 
+L 503.748 134.910588 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_26">
+      <g>
+       <use xlink:href="#grpo-variants-m2df64f757d" x="47.72" y="134.910588" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="138.709807" transform="rotate(-0 40.72 138.709807)">0.6</text>
+     </g>
+    </g>
+    <g id="grpo-variants-ytick_5">
+     <g id="grpo-variants-line2d_27">
+      <path d="M 47.72 83.467451 
+L 503.748 83.467451 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_28">
+      <g>
+       <use xlink:href="#grpo-variants-m2df64f757d" x="47.72" y="83.467451" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="87.26667" transform="rotate(-0 40.72 87.26667)">0.8</text>
+     </g>
+    </g>
+    <g id="grpo-variants-ytick_6">
+     <g id="grpo-variants-line2d_29">
+      <path d="M 47.72 32.024314 
+L 503.748 32.024314 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #e1e0d9; stroke-linecap: square"/>
+     </g>
+     <g id="grpo-variants-line2d_30">
+      <g>
+       <use xlink:href="#grpo-variants-m2df64f757d" x="47.72" y="32.024314" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="grpo-variants-text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="40.72" y="35.823532" transform="rotate(-0 40.72 35.823532)">1.0</text>
+     </g>
+    </g>
+    <g id="grpo-variants-text_17">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="18.737188" y="158.06" transform="rotate(-90 18.737188 158.06)">Exact-answer accuracy</text>
+    </g>
+   </g>
+   <g id="grpo-variants-FillBetweenPolyCollection_1">
+    <defs>
+     <path id="grpo-variants-mf74ef25808" d="M 68.448545 -74.111961 
+L 68.448545 -70.896765 
+L 89.177091 -70.896765 
+L 109.905636 -74.111961 
+L 130.634182 -86.972745 
+L 151.362727 -115.90951 
+L 172.091273 -122.339902 
+L 192.819818 -135.200686 
+L 213.548364 -151.276667 
+L 234.276909 -154.491863 
+L 255.005455 -176.998235 
+L 275.734 -176.998235 
+L 296.462545 -189.85902 
+L 317.191091 -193.074216 
+L 337.919636 -199.504608 
+L 358.648182 -209.150196 
+L 379.376727 -215.580588 
+L 400.105273 -222.01098 
+L 420.833818 -228.441373 
+L 441.562364 -228.441373 
+L 462.290909 -234.871765 
+L 483.019455 -234.871765 
+L 483.019455 -273.454118 
+L 483.019455 -273.454118 
+L 462.290909 -270.238922 
+L 441.562364 -273.454118 
+L 420.833818 -270.238922 
+L 400.105273 -270.238922 
+L 379.376727 -270.238922 
+L 358.648182 -260.593333 
+L 337.919636 -247.732549 
+L 317.191091 -244.517353 
+L 296.462545 -238.086961 
+L 275.734 -238.086961 
+L 255.005455 -231.656569 
+L 234.276909 -228.441373 
+L 213.548364 -212.365392 
+L 192.819818 -193.074216 
+L 172.091273 -167.352647 
+L 151.362727 -131.98549 
+L 130.634182 -106.263922 
+L 109.905636 -80.542353 
+L 89.177091 -74.111961 
+L 68.448545 -74.111961 
+z
+"/>
+    </defs>
+    <g clip-path="url(#grpo-variants-p84af973faf)">
+     <use xlink:href="#grpo-variants-mf74ef25808" x="0" y="331.2" style="fill: #2a78d6; fill-opacity: 0.12"/>
+    </g>
+   </g>
+   <g id="grpo-variants-FillBetweenPolyCollection_2">
+    <defs>
+     <path id="grpo-variants-m9eb819b57e" d="M 68.448545 -74.111961 
+L 68.448545 -70.896765 
+L 89.177091 -70.896765 
+L 109.905636 -70.896765 
+L 130.634182 -74.111961 
+L 151.362727 -74.111961 
+L 172.091273 -74.111961 
+L 192.819818 -74.111961 
+L 213.548364 -80.542353 
+L 234.276909 -96.618333 
+L 255.005455 -103.048725 
+L 275.734 -115.90951 
+L 296.462545 -115.90951 
+L 317.191091 -122.339902 
+L 337.919636 -131.98549 
+L 358.648182 -125.555098 
+L 379.376727 -131.98549 
+L 400.105273 -141.631078 
+L 420.833818 -141.631078 
+L 441.562364 -144.846275 
+L 462.290909 -154.491863 
+L 483.019455 -167.352647 
+L 483.019455 -225.226176 
+L 483.019455 -225.226176 
+L 462.290909 -228.441373 
+L 441.562364 -225.226176 
+L 420.833818 -228.441373 
+L 400.105273 -228.441373 
+L 379.376727 -222.01098 
+L 358.648182 -215.580588 
+L 337.919636 -205.935 
+L 317.191091 -199.504608 
+L 296.462545 -199.504608 
+L 275.734 -186.643824 
+L 255.005455 -180.213431 
+L 234.276909 -164.137451 
+L 213.548364 -157.707059 
+L 192.819818 -138.415882 
+L 172.091273 -122.339902 
+L 151.362727 -96.618333 
+L 130.634182 -86.972745 
+L 109.905636 -86.972745 
+L 89.177091 -74.111961 
+L 68.448545 -74.111961 
+z
+"/>
+    </defs>
+    <g clip-path="url(#grpo-variants-p84af973faf)">
+     <use xlink:href="#grpo-variants-m9eb819b57e" x="0" y="331.2" style="fill: #eb6834; fill-opacity: 0.12"/>
+    </g>
+   </g>
+   <g id="grpo-variants-FillBetweenPolyCollection_3">
+    <defs>
+     <path id="grpo-variants-mc6d2e789d1" d="M 68.448545 -74.111961 
+L 68.448545 -70.896765 
+L 89.177091 -67.681569 
+L 109.905636 -77.327157 
+L 130.634182 -77.327157 
+L 151.362727 -125.555098 
+L 172.091273 -186.643824 
+L 192.819818 -212.365392 
+L 213.548364 -225.226176 
+L 234.276909 -241.302157 
+L 255.005455 -263.808529 
+L 275.734 -270.238922 
+L 296.462545 -276.669314 
+L 317.191091 -273.454118 
+L 337.919636 -279.88451 
+L 358.648182 -276.669314 
+L 379.376727 -283.099706 
+L 400.105273 -286.314902 
+L 420.833818 -286.314902 
+L 441.562364 -289.530098 
+L 462.290909 -286.314902 
+L 483.019455 -289.530098 
+L 483.019455 -289.530098 
+L 483.019455 -289.530098 
+L 462.290909 -292.745294 
+L 441.562364 -292.745294 
+L 420.833818 -292.745294 
+L 400.105273 -292.745294 
+L 379.376727 -289.530098 
+L 358.648182 -289.530098 
+L 337.919636 -289.530098 
+L 317.191091 -289.530098 
+L 296.462545 -289.530098 
+L 275.734 -286.314902 
+L 255.005455 -276.669314 
+L 234.276909 -276.669314 
+L 213.548364 -263.808529 
+L 192.819818 -241.302157 
+L 172.091273 -209.150196 
+L 151.362727 -173.783039 
+L 130.634182 -122.339902 
+L 109.905636 -86.972745 
+L 89.177091 -77.327157 
+L 68.448545 -74.111961 
+z
+"/>
+    </defs>
+    <g clip-path="url(#grpo-variants-p84af973faf)">
+     <use xlink:href="#grpo-variants-mc6d2e789d1" x="0" y="331.2" style="fill: #1baf7a; fill-opacity: 0.12"/>
+    </g>
+   </g>
+   <g id="grpo-variants-line2d_31">
+    <path d="M 68.448545 259.231503 
+L 89.177091 258.159771 
+L 109.905636 254.944575 
+L 130.634182 233.509935 
+L 151.362727 208.860098 
+L 172.091273 182.066797 
+L 192.819818 161.703889 
+L 213.548364 148.843105 
+L 234.276909 138.125784 
+L 255.005455 124.193268 
+L 275.734 117.762876 
+L 296.462545 109.18902 
+L 317.191091 104.902092 
+L 337.919636 99.543431 
+L 358.648182 89.897843 
+L 379.376727 84.539183 
+L 400.105273 81.323987 
+L 420.833818 78.108791 
+L 441.562364 77.037059 
+L 462.290909 74.893595 
+L 483.019455 73.821863 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="grpo-variants-line2d_32">
+    <path d="M 68.448545 259.231503 
+L 89.177091 259.231503 
+L 109.905636 253.872843 
+L 130.634182 250.657647 
+L 151.362727 245.298987 
+L 172.091273 236.725131 
+L 192.819818 230.294739 
+L 213.548364 215.29049 
+L 234.276909 207.788366 
+L 255.005455 199.21451 
+L 275.734 188.49719 
+L 296.462545 182.066797 
+L 317.191091 178.851601 
+L 337.919636 170.277745 
+L 358.648182 164.919085 
+L 379.376727 159.560425 
+L 400.105273 152.058301 
+L 420.833818 149.914837 
+L 441.562364 147.771373 
+L 462.290909 144.556176 
+L 483.019455 140.269248 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="grpo-variants-line2d_33">
+    <path d="M 68.448545 259.231503 
+L 89.177091 259.231503 
+L 109.905636 247.442451 
+L 130.634182 231.366471 
+L 151.362727 182.066797 
+L 172.091273 132.767124 
+L 192.819818 108.117288 
+L 213.548364 89.897843 
+L 234.276909 77.037059 
+L 255.005455 60.961078 
+L 275.734 52.387222 
+L 296.462545 47.028562 
+L 317.191091 47.028562 
+L 337.919636 45.95683 
+L 358.648182 47.028562 
+L 379.376727 44.885098 
+L 400.105273 42.741634 
+L 420.833818 42.741634 
+L 441.562364 40.59817 
+L 462.290909 41.669902 
+L 483.019455 41.669902 
+" clip-path="url(#grpo-variants-p84af973faf)" style="fill: none; stroke: #1baf7a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="grpo-variants-patch_3">
+    <path d="M 47.72 289.24 
+L 47.72 26.88 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="grpo-variants-patch_4">
+    <path d="M 47.72 289.24 
+L 503.748 289.24 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="grpo-variants-text_18">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="47.72" y="20.88" transform="rotate(-0 47.72 20.88)">Tiny-LM GRPO: accuracy on the 80 RL prompts (mean, band = min–max of 3 seeds)</text>
+   </g>
+   <g id="grpo-variants-legend_1">
+    <g id="grpo-variants-line2d_34">
+     <path d="M 516.40828 38.668594 
+L 525.40828 38.668594 
+L 534.40828 38.668594 
+" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="grpo-variants-text_19">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="541.60828" y="41.818594" transform="rotate(-0 541.60828 41.818594)">GRPO (÷ std)</text>
+    </g>
+    <g id="grpo-variants-line2d_35">
+     <path d="M 516.40828 51.878906 
+L 525.40828 51.878906 
+L 534.40828 51.878906 
+" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="grpo-variants-text_20">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="541.60828" y="55.028906" transform="rotate(-0 541.60828 55.028906)">Dr. GRPO (centered)</text>
+    </g>
+    <g id="grpo-variants-line2d_36">
+     <path d="M 516.40828 65.089219 
+L 525.40828 65.089219 
+L 534.40828 65.089219 
+" style="fill: none; stroke: #1baf7a; stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="grpo-variants-text_21">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="541.60828" y="68.239219" transform="rotate(-0 541.60828 68.239219)">MaxRL (÷ mean)</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="grpo-variants-p84af973faf">
+   <rect x="47.72" y="26.88" width="456.028" height="262.36"/>
+  </clipPath>
+ </defs>
+</svg>

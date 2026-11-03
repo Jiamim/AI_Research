@@ -1,0 +1,55 @@
+{
+  "retrieved_utc": "2026-10-29T04:22:39.745609+00:00",
+  "sources": [
+    {
+      "name": "nsys",
+      "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+      "sha256": "a1a39c40a403c28633fd164222d38a74afaeacd869f3234ad151ffd1559545f4",
+      "bytes": 1081202,
+      "scope": "官方 CLI 中 capture-range 与具名 NVTX 范围参数"
+    },
+    {
+      "name": "llava",
+      "url": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
+      "sha256": "23029ba42dcf6bba3b006770a839f44e76b52763b600d8780ab2d9712d7c886e",
+      "bytes": 29763,
+      "scope": "LLaVA-NeXT 的 AnyRes 官方介绍"
+    },
+    {
+      "name": "nope",
+      "url": "https://arxiv.org/html/2305.19466v2",
+      "sha256": "c9d3ed3a340c83a8e9f06d63b6ccb726073eb3a472207facdfa33e9861cf7d01",
+      "bytes": 607196,
+      "scope": "第 5 节因果 NoPE 的位置表示条件"
+    },
+    {
+      "name": "rope",
+      "url": "https://arxiv.org/abs/2306.15595",
+      "sha256": "81a53d3e694132f8dc0416b350ab9c93f0ced963e6c9f00129e847e7fee18703",
+      "bytes": 42661,
+      "scope": "位置插值原论文摘要；频率分析由公式独立推导"
+    },
+    {
+      "name": "entropy",
+      "url": "https://arxiv.org/abs/2505.22617",
+      "sha256": "0a16ef814a8f123ab06ee95b8dae91c1f47f0b37ef8af34e356d68ec168533b9",
+      "bytes": 46828,
+      "scope": "熵机制论文摘要；通用熵微分独立推导并测梯度"
+    },
+    {
+      "name": "harmony",
+      "url": "https://raw.githubusercontent.com/openai/harmony/main/README.md",
+      "sha256": "c38c6a52720adebbdd90e691d2db5fd0711952cb22c7b13246786924375975da",
+      "bytes": 7462,
+      "scope": "官方格式示例中的通道与接收者字段"
+    },
+    {
+      "name": "fineweb",
+      "url": "https://arxiv.org/html/2406.17557v2",
+      "sha256": "059d9418f0a111cdc55c9057dc1595a03ba392abc5e2140832635a520192dc99",
+      "bytes": 314620,
+      "scope": "全文中的 6,000 H100 GPU 小时；70B 主项成本独立复算"
+    }
+  ],
+  "scope": "新增或修正论点的来源；未重新逐页精读所有历史论文。原始抓取保存在仓库之外。"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sdpa",
+    "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ddp",
+    "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "checkpoint",
+    "url": "https://docs.pytorch.org/docs/stable/checkpoint.html",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "mup",
+    "url": "https://raw.githubusercontent.com/microsoft/mup/main/README.md",
+    "status": "downloaded",
+    "sha256": "bbcde1822a34ae54bd2ac22e76089ee9d1e8bead024d7026220ae02a0f01f1db",
+    "title": "# Maximal Update Parametrization (\u03bcP) and Hyperparameter Transfer (\u03bcTransfer) \n\n[Paper link](https://arxiv.org/abs/2203.03466)\n|\n[Blog link](https://www.microsoft.com/en-us/researc",
+    "characters": 19206
+  },
+  {
+    "id": "speculative",
+    "url": "https://arxiv.org/html/2211.17192v2",
+    "status": "downloaded",
+    "sha256": "8cfe24eb7dfbda877588dfb9cbbe15575a6dd152658ed2e50c23973e35ca2dbc",
+    "title": "Fast Inference from Transformers via Speculative Decoding Report GitHub Issue \u00d7 Title: Content selection saved. Describe the issue below: Description: Submit without GitHub Submit ",
+    "characters": 55953
+  },
+  {
+    "id": "kl",
+    "url": "https://joschu.net/blog/kl-approx.html",
+    "status": "unavailable",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+  },
+  {
+    "id": "gradient_noise",
+    "url": "https://arxiv.org/abs/1812.06162",
+    "status": "downloaded",
+    "sha256": "66b57c72e1074e1bebdb8beaa0cc75cbd9528ef863484b4b6e54822f3aceedda",
+    "title": "[1812.06162] An Empirical Model of Large-Batch Training Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search \u00b7 Advanced search Computer Science > Mac",
+    "characters": 4834
+  },
+  {
+    "id": "passk",
+    "url": "https://arxiv.org/abs/2107.03374",
+    "status": "downloaded",
+    "sha256": "6146efca3f74a7b080925557c49653351071d47afed54a9689160c1d426b5ac6",
+    "title": "[2107.03374] Evaluating Large Language Models Trained on Code Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search \u00b7 Advanced search Computer Science",
+    "characters": 5557
+  },
+  {
+    "id": "sdpa_source",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/torch/nn/functional.py",
+    "status": "downloaded",
+    "sha256": "06f330c5ce12f7a7b5be938fb4fd1b78dadcc4a345c49aac58dbb923b3a3a405",
+    "characters": 261223
+  },
+  {
+    "id": "checkpoint_source",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/torch/utils/checkpoint.py",
+    "status": "downloaded",
+    "sha256": "bce92715ec3c0d3941dd74c939396686632457a2c7cf98247f3f67b351e97309",
+    "characters": 72873
+  },
+  {
+    "id": "ddp_source",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/torch/nn/parallel/distributed.py",
+    "status": "downloaded",
+    "sha256": "cb4a5fbb455e9915a35951ea160fa1bf1d9a2803ad9aaebf372c05f67bcf0b1c",
+    "characters": 111949
+  },
+  {
+    "id": "distill",
+    "url": "https://arxiv.org/abs/1503.02531",
+    "status": "downloaded",
+    "sha256": "d6218cf8fa05a50466fc6dcb0e3b4b59f188273027f6df10a55dbd8e0ddcd53b",
+    "characters": 41685
+  }
+]

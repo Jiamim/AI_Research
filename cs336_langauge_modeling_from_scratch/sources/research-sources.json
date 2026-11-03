@@ -1,0 +1,331 @@
+{
+ "checked_utc": "2026-10-31T05:43:02.657673+00:00",
+ "sources": [
+  {
+   "id": "course",
+   "title": "CS336 Spring 2026",
+   "url": "https://cs336.stanford.edu/",
+   "sha256": "bd57fae299fec60afedb5a22edb325a68107fa1af0cd83641695470587f7a4a7",
+   "bytes": 33995,
+   "chapters": "00、28",
+   "scope": "官网课程范围与 AI 工具条款；链接的完整 Google 文档本次未能访问"
+  },
+  {
+   "id": "cce",
+   "title": "Cut Your Losses in Large-Vocabulary Language Models",
+   "url": "https://arxiv.org/html/2411.09009v1",
+   "sha256": "f60f769d084f49bdeb9f1bc948fee480dd185f6ef386ec2359f6b7fe1ef666ad",
+   "bytes": 538265,
+   "chapters": "08、10",
+   "scope": "交叉熵分解、前后向重算和梯度过滤"
+  },
+  {
+   "id": "cce_repo",
+   "title": "Cut Cross-Entropy 作者实现",
+   "url": "https://raw.githubusercontent.com/apple/ml-cross-entropy/main/README.md",
+   "sha256": "cb36302c6b6c5ff1214da80fbad9f06e7b0d11f1bd3343d5a47e2aaa646ea7db",
+   "bytes": 12827,
+   "chapters": "10",
+   "scope": "不同累加/过滤实现模式与精确参考"
+  },
+  {
+   "id": "rslora",
+   "title": "A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA",
+   "url": "https://arxiv.org/pdf/2312.03732",
+   "sha256": "8d45b0bc98bf5d0b4e6d63a297a5c4709935e2912c94a11471eadf14a9a1e80e",
+   "bytes": 876626,
+   "chapters": "16",
+   "scope": "PDF 第 3 节 rank 缩放与假设"
+  },
+  {
+   "id": "mla",
+   "title": "DeepSeek-V2",
+   "url": "https://arxiv.org/html/2405.04434v5",
+   "sha256": "fcaa6742195da31af8114fc9ca17f7d975fba893739e021ca30a73a3697fcc4e",
+   "bytes": 726990,
+   "chapters": "07、29",
+   "scope": "§2.1.2–2.1.3 latent K/V、投影吸收与解耦 RoPE"
+  },
+  {
+   "id": "mamba2",
+   "title": "Transformers are SSMs",
+   "url": "https://arxiv.org/html/2405.21060v1",
+   "sha256": "c2be726585f783e070f01f25f28d4e232aa8c1e0565d4d003adb052a5ba9dd56",
+   "bytes": 1148478,
+   "chapters": "07",
+   "scope": "结构化矩阵、递推、scan/chunk 的区别"
+  },
+  {
+   "id": "muon",
+   "title": "Muon is Scalable for LLM Training",
+   "url": "https://arxiv.org/html/2502.16982v1",
+   "sha256": "271babfa46b63c8836969b0dc3ba6441a2d9220512a48b67d8dae2454905819b",
+   "bytes": 311718,
+   "chapters": "05",
+   "scope": "正交化、形状尺度与分布式边界"
+  },
+  {
+   "id": "megatron",
+   "title": "Megatron-LM",
+   "url": "https://arxiv.org/html/1909.08053v4",
+   "sha256": "39147d5a07dbca0cb71afc961ee6c3a136f5ad5b45792c49cc540b0b0e36d72c",
+   "bytes": 225640,
+   "chapters": "11",
+   "scope": "输出词表并行与交叉熵通信"
+  },
+  {
+   "id": "distserve",
+   "title": "DistServe",
+   "url": "https://arxiv.org/html/2401.09670v1",
+   "sha256": "541102717790405406fa8835b8e51b4b0ba800213e941413dbef2264e0557f10",
+   "bytes": 265637,
+   "chapters": "12",
+   "scope": "prefill/decode 分离、传输成本与 goodput"
+  },
+  {
+   "id": "prefix",
+   "title": "vLLM Automatic Prefix Caching",
+   "url": "https://docs.vllm.ai/en/latest/design/prefix_caching/",
+   "sha256": "b0d60d364e17fe3fcbf07d4ad3b39086553eca96670c8c41bcd758de88b47c84",
+   "bytes": 219276,
+   "chapters": "12",
+   "scope": "父块哈希、额外身份与只缓存完整块"
+  },
+  {
+   "id": "sdpa",
+   "title": "PyTorch v2.11 SDPA 源码",
+   "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/torch/nn/functional.py",
+   "sha256": "06f330c5ce12f7a7b5be938fb4fd1b78dadcc4a345c49aac58dbb923b3a3a405",
+   "bytes": 261223,
+   "chapters": "04、10",
+   "scope": "dropout_p、mask 和非方阵 causal 约定"
+  },
+  {
+   "id": "amp",
+   "title": "PyTorch v2.11 AMP 示例",
+   "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/docs/source/notes/amp_examples.rst",
+   "sha256": "ca4e1c814873b1191b2ea7aae208d2be27e355d2e221f59c10e9f6afa8b874e4",
+   "bytes": 17252,
+   "chapters": "05、11",
+   "scope": "梯度累积、unscale、step 与 scale 更新边界"
+  },
+  {
+   "id": "fsdp",
+   "title": "PyTorch FSDP2 教程",
+   "url": "https://docs.pytorch.org/tutorials/intermediate/FSDP_tutorial.html",
+   "sha256": "0117a9c07c0f5224ff2c29619f00394dfc032236f09346c3b46c093dbca0674a",
+   "bytes": 195471,
+   "chapters": "11",
+   "scope": "重分片、梯度同步与版本接口区别"
+  },
+  {
+   "id": "adamw",
+   "title": "Decoupled Weight Decay Regularization",
+   "url": "https://arxiv.org/abs/1711.05101",
+   "sha256": "e2402d8869fa233343b46661f47048b352b804d0c3e834fc83bb9bb2810377c8",
+   "bytes": 43412,
+   "chapters": "05",
+   "scope": "摘要；累积衰减公式由本文独立推导"
+  },
+  {
+   "id": "doremi",
+   "title": "DoReMi",
+   "url": "https://arxiv.org/html/2305.10429v4",
+   "sha256": "2511bdab80799e47af4a205f12217cf968dfc08a0dca1e8c270e1709e02ab68e",
+   "bytes": 363813,
+   "chapters": "23",
+   "scope": "min-max 目标、逐 token 正超额损失与算法 1"
+  },
+  {
+   "id": "dsir",
+   "title": "Data Selection for Language Models via Importance Resampling",
+   "url": "https://arxiv.org/abs/2302.03169",
+   "sha256": "eb3bdd82536a176e182ec1a19c9bd3b38e2b01eddf6e921b9d4f56c72b470390",
+   "bytes": 42784,
+   "chapters": "14",
+   "scope": "摘要；过滤后的域分布由条件概率独立推导"
+  },
+  {
+   "id": "prolong",
+   "title": "How to Train Long-Context Language Models (Effectively)",
+   "url": "https://arxiv.org/html/2410.02660v1",
+   "sha256": "456976a97d73d34ae6341e420ed83bbb3a73346c36eaa2ed2509941b949e346b",
+   "bytes": 354773,
+   "chapters": "30",
+   "scope": "长文档、短数据混合与训练/评估长度"
+  },
+  {
+   "id": "selfrag",
+   "title": "Self-RAG",
+   "url": "https://arxiv.org/html/2310.11511v1",
+   "sha256": "646e00572056f1992a7d258385db469cab6892c69fa2a7a6f1e76ff1fec68992",
+   "bytes": 857328,
+   "chapters": "24",
+   "scope": "自适应检索与反思信号的训练/推理角色"
+  },
+  {
+   "id": "rerank",
+   "title": "ColBERT",
+   "url": "https://arxiv.org/html/2004.12832v2",
+   "sha256": "3e9aa257f64ceef7eeadeaffe7cb147fbf48cfb1b6b100505d04ef361515429f",
+   "bytes": 223838,
+   "chapters": "24",
+   "scope": "late interaction 与 MaxSim 聚合"
+  },
+  {
+   "id": "process",
+   "title": "Let’s Verify Step by Step",
+   "url": "https://arxiv.org/html/2305.20050v1",
+   "sha256": "a1838b7cf38ebf2bc2ae7828c256bd8557c682bc6eb860caca61cfc2c9e81989",
+   "bytes": 157479,
+   "chapters": "25",
+   "scope": "步骤监督与 outcome 监督的区别"
+  },
+  {
+   "id": "tulu3",
+   "title": "Tülu 3",
+   "url": "https://arxiv.org/html/2411.15124v4",
+   "sha256": "d62e22a1b88f53dd4564bca22adc294f0cd45d79fd318221aa069751a8645fe7",
+   "bytes": 1604004,
+   "chapters": "17、33",
+   "scope": "提示池、去污染与后训练协议"
+  },
+  {
+   "id": "circuits",
+   "title": "Circuit Tracing",
+   "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+   "sha256": "a70ce88c09533238154875dbb1320fd2d2aebedfd5fc7e782518385b3d597673",
+   "bytes": 276666,
+   "chapters": "27",
+   "scope": "替代模型、干预验证、缺失 attention circuits 的局限"
+  },
+  {
+   "id": "quat",
+   "title": "QuaRot",
+   "url": "https://arxiv.org/html/2404.00456v1",
+   "sha256": "bf4c8b736f5560d13f005be7524a95288e7179b370307f465edd6f7d731dc09c",
+   "bytes": 423624,
+   "chapters": "26",
+   "scope": "正交旋转、不变量与归一化/非线性位置"
+  },
+  {
+   "id": "siglip",
+   "title": "Sigmoid Loss for Language Image Pre-Training",
+   "url": "https://arxiv.org/html/2303.15343v3",
+   "sha256": "037cfca1c70d5cdaa7a2aa844d17914d78aa4fcef7ad191aa91b4240fd155e2a",
+   "bytes": 263809,
+   "chapters": "19",
+   "scope": "算法 1 的归约与 bias/负例先验"
+  },
+  {
+   "id": "blt",
+   "title": "Byte Latent Transformer",
+   "url": "https://arxiv.org/html/2412.09871v1",
+   "sha256": "fc5c366060499360661baac0b916b381112eb35cd72f6045be5e9dd17a9de2db",
+   "bytes": 379908,
+   "chapters": "02",
+   "scope": "incremental patching、next-byte 熵与局部/全局模块"
+  },
+  {
+   "id": "hnet",
+   "title": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+   "url": "https://arxiv.org/html/2507.07955v1",
+   "sha256": "4efe81cdbed282f90cced23cef855209f1b26c48672bc3504c6beeeddd623cf7",
+   "bytes": 559413,
+   "chapters": "02",
+   "scope": "动态边界、因果扩展与压缩率训练"
+  },
+  {
+   "id": "fp4",
+   "title": "Transformer Engine FP8/FP4 Primer",
+   "url": "https://nvidia.github.io/TransformerEngine/examples/fp8_primer.html",
+   "sha256": "a0753f2e1c54d92552b22b0fa107c7ec74286ad131e7bf6424d750162c112efe",
+   "bytes": 66235,
+   "chapters": "34",
+   "scope": "NVFP4 二维权重尺度、随机舍入与 Hadamard 配方"
+  },
+  {
+   "id": "shaping",
+   "title": "Policy Invariance under Reward Transformations",
+   "url": "https://people.eecs.berkeley.edu/~russell/papers/icml99-shaping.pdf",
+   "sha256": "a641bf38a15f97d0ab182cb99a8257eafb9abca0d011434fa0ce1904b322d4e3",
+   "bytes": 214346,
+   "chapters": "32",
+   "scope": "PDF 第 1、3、4 页：潜势塑形定理与终止前提（已查看图像）"
+  },
+  {
+   "id": "gaepaper",
+   "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+   "url": "https://arxiv.org/pdf/1506.02438",
+   "sha256": "5aa736ccf3517a1f36d0ca8146982e69beaf9a2bdccac2ae324f780743bc045e",
+   "bytes": 1798117,
+   "chapters": "17",
+   "scope": "PDF 的 GAE 构造、价值误差与偏差/方差"
+  },
+  {
+   "id": "speculative",
+   "title": "Fast Inference from Transformers via Speculative Decoding",
+   "url": "https://arxiv.org/html/2211.17192v2",
+   "sha256": "8cfe24eb7dfbda877588dfb9cbbe15575a6dd152658ed2e50c23973e35ca2dbc",
+   "bytes": 312538,
+   "chapters": "12",
+   "scope": "接受率与实际轮次成本"
+  },
+  {
+   "id": "ruler",
+   "title": "RULER: What’s the Real Context Size of Your Long-Context Language Models?",
+   "url": "https://arxiv.org/html/2404.06654v1",
+   "sha256": "ebd6cf1c544e4ffdce1148a21aa25c34a63940bcf5248187900b87891580a5b4",
+   "bytes": 498799,
+   "chapters": "30",
+   "scope": "有效上下文、合成任务及评估边界"
+  },
+  {
+   "id": "ess",
+   "title": "Rethinking the Effective Sample Size",
+   "url": "https://arxiv.org/abs/1809.04129",
+   "sha256": "63886a385b59294b24b2f233c09f636478975e273e1280448a2bef98e0120151",
+   "bytes": 42395,
+   "chapters": "18、31",
+   "scope": "摘要：常见 ESS 近似的多重假设与局限；书中将其限定为权重集中度诊断"
+  },
+  {
+   "id": "llama4_irope",
+   "title": "transformers v4.57.0: Llama 4 modeling and configuration (no_rope_layers, chunked attention, attention temperature tuning)",
+   "url": "https://github.com/huggingface/transformers/blob/v4.57.0/src/transformers/models/llama4/modeling_llama4.py",
+   "sha256": "fd51d2e4fe17606c5599633e03cd74e1da6de747da59a25603412c153feb9b4c",
+   "bytes": 59348,
+   "chapters": "29、30",
+   "scope": "源码：默认每 4 层 1 层 NoPE；RoPE 层用 8,192 块内分块因果掩码；NoPE 层 query 乘 1+0.1·ln(1+floor((t+1)/8192))。模型权重需授权，未读取"
+  },
+  {
+   "id": "ssmax",
+   "title": "Scalable-Softmax Is Superior for Attention",
+   "url": "https://arxiv.org/abs/2501.19399",
+   "sha256": "00695590e0bbc278aeb60479ba5204f42b79f348ae6c6d7834f2bdf24c7256c9",
+   "bytes": 41628,
+   "chapters": "30",
+   "scope": "摘要：softmax 最大值随候选数增加趋于 0、注意力随上下文变平；用于说明 Llama 4 NoPE 层温度修正的出处"
+  },
+  {
+   "id": "gdm_sae_negative",
+   "title": "Negative Results for SAEs On Downstream Tasks and Deprioritising SAE Research (GDM Mech Interp Team Progress Update #2, 2025-03-26)",
+   "url": "https://www.alignmentforum.org/posts/4uXCAJNuPKtKBsi28",
+   "sha256": null,
+   "bytes": null,
+   "chapters": "27",
+   "scope": "全文相关段落（2026-11-01 浏览器读取）：有害意图检测任务的数据规模、稠密线性探针与 SAE 探针的分布内/OOD 对比、重建后探针的 AUROC 下降、降低 SAE 研究优先级的结论与保留意见；非同行评审的活动网页，站点拒绝脚本下载，未记录哈希"
+  },
+  {
+   "id": "sae_unknowns",
+   "title": "Position: Use Sparse Autoencoders to Discover Unknowns",
+   "url": "https://arxiv.org/abs/2506.23845",
+   "sha256": "639fc80975cc87261d45ca680ea7e25f18834114f6f91ecc36df6784c73d278f",
+   "bytes": 40690,
+   "chapters": "27",
+   "scope": "摘要：区分\"对已知概念的操作\"与\"发现未知概念\"，用于调和 SAE 的负面与正面结果"
+  }
+ ],
+ "method": "直接获取原始论文/官方文档并核对相关段落；一般搜索引擎返回受限，未将搜索结果片段作为事实依据。",
+ "raw_text_included": false
+}

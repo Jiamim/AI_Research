@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 381" role="img" aria-label="数据流水线与证据记录">
+<defs><marker id="data-pipeline-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" font-weight="700">数据流水线与证据记录</text>
+<text x="34" y="70" font-size="15" fill="#52687c">每一步都在改变训练分布；必须能追查哪些文档为何被保留</text>
+<rect x="30" y="98" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="44" y="126" font-size="16" font-weight="600">原始来源</text>
+<text x="44" y="149" font-size="14" font-weight="400">WARC / 代码 / 文档</text>
+<path d="M266,140 H296" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="300" y="98" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="314" y="126" font-size="16" font-weight="600">抽取与规范化</text>
+<text x="314" y="149" font-size="14" font-weight="400">保留原始文本与来源</text>
+<path d="M536,140 H566" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="570" y="98" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="584" y="126" font-size="16" font-weight="600">语言与质量过滤</text>
+<text x="584" y="149" font-size="14" font-weight="400">审计误删、漏删</text>
+<path d="M806,140 H836" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="840" y="98" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="854" y="126" font-size="16" font-weight="600">精确与近似去重</text>
+<text x="854" y="149" font-size="14" font-weight="400">哈希 / MinHash / 子串</text>
+<path d="M956.0,186 V207 H146.0 V226" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="30" y="231" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="44" y="259" font-size="16" font-weight="600">按簇划分数据</text>
+<text x="44" y="282" font-size="14" font-weight="400">防止重复跨集合</text>
+<path d="M266,273 H296" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="300" y="231" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="314" y="259" font-size="16" font-weight="600">混合与 packing</text>
+<text x="314" y="282" font-size="14" font-weight="400">记录比例、边界与掩码</text>
+<path d="M536,273 H566" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="570" y="231" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="584" y="259" font-size="16" font-weight="600">训练消融</text>
+<text x="584" y="282" font-size="14" font-weight="400">固定验证集与计算量</text>
+<path d="M806,273 H836" stroke="#64748b" stroke-width="2" marker-end="url(#data-pipeline-arrow)"/>
+<rect x="840" y="231" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="854" y="259" font-size="16" font-weight="600">数据卡与溯源</text>
+<text x="854" y="282" font-size="14" font-weight="400">版本、统计、保留理由</text>
+</g></svg>

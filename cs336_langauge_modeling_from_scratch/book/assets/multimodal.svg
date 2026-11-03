@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 381" role="img" aria-label="多模态的两类接口：理解输入与生成输出">
+<defs><marker id="multimodal-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" font-weight="700">多模态的两类接口：理解输入与生成输出</text>
+<text x="34" y="70" font-size="15" fill="#52687c">两行是不同接口路线；问答微调不会自动赋予模型一个图像解码器</text>
+<rect x="30" y="98" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="44" y="126" font-size="16" font-weight="600">理解路径：图像 / 视频</text>
+<text x="44" y="149" font-size="14" font-weight="400">分辨率、帧率、裁剪</text>
+<path d="M266,140 H296" stroke="#64748b" stroke-width="2" marker-end="url(#multimodal-arrow)"/>
+<rect x="300" y="98" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="314" y="126" font-size="16" font-weight="600">视觉编码器</text>
+<text x="314" y="149" font-size="14" font-weight="400">patch → 语义特征</text>
+<path d="M536,140 H566" stroke="#64748b" stroke-width="2" marker-end="url(#multimodal-arrow)"/>
+<rect x="570" y="98" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="584" y="126" font-size="16" font-weight="600">Projector / Resampler</text>
+<text x="584" y="149" font-size="14" font-weight="400">投影宽度、压缩 token</text>
+<path d="M806,140 H836" stroke="#64748b" stroke-width="2" marker-end="url(#multimodal-arrow)"/>
+<rect x="840" y="98" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="854" y="126" font-size="16" font-weight="600">语言模型</text>
+<text x="854" y="149" font-size="14" font-weight="400">视觉 + 文本 → 回答</text>
+<rect x="30" y="231" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="44" y="259" font-size="16" font-weight="600">生成路径：图文前缀</text>
+<text x="44" y="282" font-size="14" font-weight="400">按模型接口编码</text>
+<path d="M266,273 H296" stroke="#64748b" stroke-width="2" marker-end="url(#multimodal-arrow)"/>
+<rect x="300" y="231" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="314" y="259" font-size="16" font-weight="600">多模态主干</text>
+<text x="314" y="282" font-size="14" font-weight="400">预测离散码或连续条件</text>
+<path d="M536,273 H566" stroke="#64748b" stroke-width="2" marker-end="url(#multimodal-arrow)"/>
+<rect x="570" y="231" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="584" y="259" font-size="16" font-weight="600">专用图像解码器</text>
+<text x="584" y="282" font-size="14" font-weight="400">VQ / diffusion / flow</text>
+<path d="M806,273 H836" stroke="#64748b" stroke-width="2" marker-end="url(#multimodal-arrow)"/>
+<rect x="840" y="231" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="854" y="259" font-size="16" font-weight="600">图像输出</text>
+<text x="854" y="282" font-size="14" font-weight="400">生成质量单独评估</text>
+</g></svg>

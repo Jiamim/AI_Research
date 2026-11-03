@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sentencepiece",
+    "url": "https://raw.githubusercontent.com/google/sentencepiece/master/README.md",
+    "status": "downloaded",
+    "sha256": "12cf3d1c5b22ba2d486c5bd19f800a70707e1438d60b4385dfe9c4a17d398144",
+    "bytes": 9775
+  },
+  {
+    "id": "unigram",
+    "url": "https://arxiv.org/abs/1804.10959",
+    "status": "downloaded",
+    "sha256": "b6e3d7d74e64787545d7ccd70d0e69d3fa10cbb283367a25536c9999ad572bc1",
+    "bytes": 41388
+  },
+  {
+    "id": "expert_choice",
+    "url": "https://arxiv.org/abs/2202.09368",
+    "status": "downloaded",
+    "sha256": "573d60867838c8ebd21870ba073972c37f80775b3452c032df0806bd7be543dc",
+    "bytes": 44111
+  },
+  {
+    "id": "simpo",
+    "url": "https://arxiv.org/abs/2405.14734",
+    "status": "downloaded",
+    "sha256": "25420cc91d6ce292027a12921d848193977c75a7b369ab381a37df3398fe96db",
+    "bytes": 43421
+  },
+  {
+    "id": "constitutional",
+    "url": "https://arxiv.org/abs/2212.08073",
+    "status": "downloaded",
+    "sha256": "7a86597e78a15c5b4e763b0af1ab79c389453eb598783ae69abd4ea469dbdfad",
+    "bytes": 50267
+  },
+  {
+    "id": "finite_data",
+    "url": "https://arxiv.org/abs/2305.16264",
+    "status": "downloaded",
+    "sha256": "dfda4c0f75b04ca88d56951d8072501d97cac3e5b8f2b47d2c926bf1f21469af",
+    "bytes": 43420
+  },
+  {
+    "id": "fp8",
+    "url": "https://arxiv.org/abs/2209.05433",
+    "status": "downloaded",
+    "sha256": "30dc4f8e1473c8851888578d1950bba28cd203b7040a1266820a12f97265cb80",
+    "bytes": 44259
+  },
+  {
+    "id": "compile",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/docs/source/user_guide/torch_compiler/torch.compiler.md",
+    "status": "downloaded",
+    "sha256": "edd06f310b1d5384f7b799947e7a900448165a04b321445f3c691a614d2de5b8",
+    "bytes": 4676
+  }
+]

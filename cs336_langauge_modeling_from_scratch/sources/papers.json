@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1706.03762",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "title": "Title: Attention Is All You Need",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2104.09864",
+    "url": "https://arxiv.org/abs/2104.09864",
+    "title": "Title: RoFormer: Enhanced Transformer with Rotary Position Embedding",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2205.14135",
+    "url": "https://arxiv.org/abs/2205.14135",
+    "title": "Title: FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2307.08691",
+    "url": "https://arxiv.org/abs/2307.08691",
+    "title": "Title: FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2001.08361",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "title": "Title: Scaling Laws for Neural Language Models",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2203.15556",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "title": "Title: Training Compute-Optimal Large Language Models",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2203.03466",
+    "url": "https://arxiv.org/abs/2203.03466",
+    "title": "Title: Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+    "status": "read_abstract"
+  },
+  {
+    "id": "1910.02054",
+    "url": "https://arxiv.org/abs/1910.02054",
+    "title": "Title: ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+    "status": "read_abstract"
+  },
+  {
+    "id": "1909.08053",
+    "url": "https://arxiv.org/abs/1909.08053",
+    "title": "Title: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2305.18290",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "title": "Title: Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2305.14314",
+    "url": "https://arxiv.org/abs/2305.14314",
+    "title": "Title: QLoRA: Efficient Finetuning of Quantized LLMs",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2402.03300",
+    "url": "https://arxiv.org/abs/2402.03300",
+    "title": "Title: DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2503.20783",
+    "url": "https://arxiv.org/abs/2503.20783",
+    "title": "Title: Understanding R1-Zero-Like Training: A Critical Perspective",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2507.18071",
+    "url": "https://arxiv.org/abs/2507.18071",
+    "title": "Title: Group Sequence Policy Optimization",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2106.09685",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "title": "Title: LoRA: Low-Rank Adaptation of Large Language Models",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2103.00020",
+    "url": "https://arxiv.org/abs/2103.00020",
+    "title": "Title: Learning Transferable Visual Models From Natural Language Supervision",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2303.15343",
+    "url": "https://arxiv.org/abs/2303.15343",
+    "title": "Title: Sigmoid Loss for Language Image Pre-Training",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2304.08485",
+    "url": "https://arxiv.org/abs/2304.08485",
+    "title": "Title: Visual Instruction Tuning",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2409.12191",
+    "url": "https://arxiv.org/abs/2409.12191",
+    "title": "Title: Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2312.00752",
+    "url": "https://arxiv.org/abs/2312.00752",
+    "title": "Title: Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2405.21060",
+    "url": "https://arxiv.org/abs/2405.21060",
+    "title": "Title: Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2405.04434",
+    "url": "https://arxiv.org/abs/2405.04434",
+    "title": "Title: DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "status": "read_abstract"
+  },
+  {
+    "id": "2502.16982",
+    "url": "https://arxiv.org/abs/2502.16982",
+    "title": "Title: Muon is Scalable for LLM Training",
+    "status": "read_abstract"
+  }
+]

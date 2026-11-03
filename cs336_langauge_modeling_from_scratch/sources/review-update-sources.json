@@ -1,0 +1,147 @@
+[
+  {
+    "id": "scaler",
+    "url": "https://arxiv.org/html/2510.13786v1",
+    "status": "targeted_text_checked",
+    "sha256": "97f23c322862d2b7070a2f297b93703089ffbea59ae83920a7d6517bc9a5dee6",
+    "retrieved_utc": "2026-10-29T03:26:03.950200+00:00",
+    "text_chars": 99923
+  },
+  {
+    "id": "dsv32",
+    "url": "https://arxiv.org/html/2512.02556v1",
+    "status": "targeted_text_checked",
+    "sha256": "5da74d488b218a45a995838b94feb95aacc63c03b806f8462496bfd4bceb07ef",
+    "retrieved_utc": "2026-10-29T03:25:50.460414+00:00",
+    "text_chars": 69917
+  },
+  {
+    "id": "fp16",
+    "url": "https://arxiv.org/html/2510.26788v1",
+    "status": "targeted_text_checked",
+    "sha256": "50ff95d4ff1346be1f3dc6b62a5b53e85ab8e9f60766034bcc9197cb059aad9d",
+    "retrieved_utc": "2026-10-29T03:25:50.394444+00:00",
+    "text_chars": 59891
+  },
+  {
+    "id": "kimi_linear",
+    "url": "https://arxiv.org/html/2510.26692v1",
+    "status": "targeted_text_checked",
+    "sha256": "08bbd0a984cb8f8e6bda80c1b703668ba016e1a7cc4a1b12fc2e0bca09e7c910",
+    "retrieved_utc": "2026-10-29T03:27:33.731427+00:00",
+    "text_chars": 128033
+  },
+  {
+    "id": "olmo2",
+    "url": "https://arxiv.org/html/2501.00656v3",
+    "status": "targeted_text_checked",
+    "sha256": "e490acda07ad9be4bdb133ea3307883883fa8f9b5ceaa14fa62348636932d1c7",
+    "retrieved_utc": "2026-10-29T03:25:50.883153+00:00",
+    "text_chars": 192981
+  },
+  {
+    "id": "muon",
+    "url": "https://arxiv.org/html/2502.16982v1",
+    "status": "targeted_text_checked",
+    "sha256": "271babfa46b63c8836969b0dc3ba6441a2d9220512a48b67d8dae2454905819b",
+    "retrieved_utc": "2026-10-29T03:25:50.115496+00:00",
+    "text_chars": 60036
+  },
+  {
+    "id": "blt",
+    "url": "https://arxiv.org/html/2412.09871v1",
+    "status": "targeted_text_checked",
+    "sha256": "6af016f8ddd245a01bada92842839ea4e9407f05e9eca94d12d99c14a0ce9c3d",
+    "retrieved_utc": "2026-10-29T03:25:51.047998+00:00",
+    "text_chars": 96561
+  },
+  {
+    "id": "hnet",
+    "url": "https://arxiv.org/html/2507.07955v1",
+    "status": "targeted_text_checked",
+    "sha256": "c10af3a7ba1ce0c2d13a28b7abafb3aac0c6682848a416b718e08f31430d346c",
+    "retrieved_utc": "2026-10-29T03:25:51.452251+00:00",
+    "text_chars": 146587
+  },
+  {
+    "id": "rewarm",
+    "url": "https://arxiv.org/html/2403.08763v1",
+    "status": "targeted_text_checked",
+    "sha256": "2e45a4e168158a0bc1f6386684ade56ed18659727a16108022bd312fce16f92e",
+    "retrieved_utc": "2026-10-29T03:25:52.084699+00:00",
+    "text_chars": 163518
+  },
+  {
+    "id": "sae",
+    "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+    "status": "targeted_text_checked",
+    "sha256": "dbef0950973c3767cc2e38edc9499f7e63d4fb0c2768b1d17634ed778b98fef6",
+    "retrieved_utc": "2026-10-29T03:26:09.990899+00:00",
+    "text_chars": 144419
+  },
+  {
+    "id": "steering",
+    "url": "https://arxiv.org/abs/2308.10248",
+    "status": "targeted_text_checked",
+    "sha256": "ca5aca30947617a21d92582edb0c2890ede69bf4330e52e42f68e43dc5a3d259",
+    "retrieved_utc": "2026-10-29T03:25:51.524994+00:00",
+    "text_chars": 4825
+  },
+  {
+    "id": "nvfp4",
+    "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/",
+    "status": "targeted_text_checked",
+    "sha256": "eab31fc84ad9c5e0498904b7c030bf65d63d1fbaf3574f84042607d1d0f1d2a8",
+    "retrieved_utc": "2026-10-29T03:25:53.791156+00:00",
+    "text_chars": 19454
+  },
+  {
+    "id": "qat",
+    "url": "https://pytorch.org/blog/quantization-aware-training/",
+    "status": "targeted_text_checked",
+    "sha256": "7dd0a7e02346566f3b589212c1fce03fe70963702a66a560678acf0788ad2236",
+    "retrieved_utc": "2026-10-29T03:25:57.904151+00:00",
+    "text_chars": 20248
+  },
+  {
+    "id": "sparse24",
+    "url": "https://developer.nvidia.com/blog/structured-sparsity-in-the-nvidia-ampere-architecture-and-applications-in-search-engines/",
+    "status": "targeted_text_checked",
+    "sha256": "e061ae93cc1d35e53dff26576fd0f4e4983e7eaa9698f206927368733eb13fd3",
+    "retrieved_utc": "2026-10-29T03:25:53.169758+00:00",
+    "text_chars": 20649
+  },
+  {
+    "id": "checkpoint",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/torch/utils/checkpoint.py",
+    "status": "targeted_text_checked",
+    "sha256": "bce92715ec3c0d3941dd74c939396686632457a2c7cf98247f3f67b351e97309",
+    "retrieved_utc": "2026-10-29T03:25:54.099988+00:00",
+    "text_chars": 72871
+  },
+  {
+    "id": "fsdp",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.11.0/torch/distributed/fsdp/_fully_shard/_fully_shard.py",
+    "status": "targeted_text_checked",
+    "sha256": "bd51118b2efcb3b62969537309af57190e84606877819a7d326c3ad1255239e7",
+    "text_chars": 32188
+  },
+  {
+    "id": "m2_config",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2/raw/04312f0cfbdeefb912575595b7c045512a29293c/config.json",
+    "status": "targeted_text_checked",
+    "sha256": "03d0b726553f72ee799f30f52f77b9292b873714abda76ee7e2683953373db87",
+    "retrieved_utc": "2026-10-29T03:25:54.670561+00:00",
+    "text_chars": 2055,
+    "revision": "04312f0cfbdeefb912575595b7c045512a29293c"
+  },
+  {
+    "id": "m2_code",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2/raw/04312f0cfbdeefb912575595b7c045512a29293c/modeling_minimax_m2.py",
+    "status": "targeted_text_checked",
+    "sha256": "57124f326f3c4948f6ca30943e078528f7cbdf7b4e4e91513d1bf47361654e2d",
+    "retrieved_utc": "2026-10-29T03:25:55.362945+00:00",
+    "text_chars": 30667,
+    "revision": "04312f0cfbdeefb912575595b7c045512a29293c"
+  }
+]

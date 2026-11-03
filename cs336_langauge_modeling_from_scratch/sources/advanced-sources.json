@@ -1,0 +1,134 @@
+[
+  {
+    "id": "2305.10429",
+    "url": "https://arxiv.org/abs/2305.10429",
+    "title": "Title: DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
+    "status": "abstract_read",
+    "sha256": "9bb10635fcb6124b551a3d6368fa24290d4dd07235454239682fb77c273c0675",
+    "retrieved_utc": "2026-10-27T06:03:54.173192+00:00",
+    "fulltext_url": "https://arxiv.org/html/2305.10429",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "2511bdab80799e47af4a205f12217cf968dfc08a0dca1e8c270e1709e02ab68e",
+    "fulltext_characters": 80591
+  },
+  {
+    "id": "2004.10964",
+    "url": "https://arxiv.org/abs/2004.10964",
+    "title": "Title: Don't Stop Pretraining: Adapt Language Models to Domains and Tasks",
+    "status": "abstract_read",
+    "sha256": "8b851bc894bbd0534feded41e35e411ac2c50cd2431b44f33810bf7c11911679",
+    "retrieved_utc": "2026-10-27T06:04:04.778041+00:00"
+  },
+  {
+    "id": "2005.11401",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "title": "Title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "status": "abstract_read",
+    "sha256": "e61987bdbb0d90c7c823a071619c48b361b71538ddb4279f581724f5c59bb860",
+    "retrieved_utc": "2026-10-27T06:03:53.308364+00:00",
+    "fulltext_url": "https://arxiv.org/html/2005.11401",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "7f643ebcf14fa024288da5e7d79c834246101f8ff8d1258994b690fc79aeb892",
+    "fulltext_characters": 72638
+  },
+  {
+    "id": "2004.04906",
+    "url": "https://arxiv.org/abs/2004.04906",
+    "title": "Title: Dense Passage Retrieval for Open-Domain Question Answering",
+    "status": "abstract_read",
+    "sha256": "c2562a87ef8f3486b265a9666c7b72ad9c9d5850dffe5397b150a0e992a16c16",
+    "retrieved_utc": "2026-10-27T06:03:54.168787+00:00"
+  },
+  {
+    "id": "2307.03172",
+    "url": "https://arxiv.org/abs/2307.03172",
+    "title": "Title: Lost in the Middle: How Language Models Use Long Contexts",
+    "status": "abstract_read",
+    "sha256": "2a10a9810976badfbb9c693c35579ca818df3759d663f4b63bd8563b6c028d8a",
+    "retrieved_utc": "2026-10-27T06:03:53.308812+00:00"
+  },
+  {
+    "id": "2210.17323",
+    "url": "https://arxiv.org/abs/2210.17323",
+    "title": "Title: GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+    "status": "abstract_read",
+    "sha256": "2dcdbea29ef9355b43f9e9ad6c9472ad6dd6d86e703abf6520fd583dad5500ee",
+    "retrieved_utc": "2026-10-27T06:03:54.172696+00:00",
+    "fulltext_url": "https://arxiv.org/html/2210.17323",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "1d7d3724542b4099199f77236623adf030e8fae4f54bfbe983344dea930b9f88",
+    "fulltext_characters": 61630
+  },
+  {
+    "id": "2306.00978",
+    "url": "https://arxiv.org/abs/2306.00978",
+    "title": "Title: AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+    "status": "abstract_read",
+    "sha256": "96b35ba405c5635052d37272365bcb43782115e9c0d5ea57cdd21f40addfdfeb",
+    "retrieved_utc": "2026-10-27T06:04:07.926297+00:00",
+    "fulltext_url": "https://arxiv.org/html/2306.00978",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "508802807851428587211d1c6c4820180efc8449693e9e60ec275e7ef0b7d9bd",
+    "fulltext_characters": 68799
+  },
+  {
+    "id": "2211.10438",
+    "url": "https://arxiv.org/abs/2211.10438",
+    "title": "Title: SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+    "status": "abstract_read",
+    "sha256": "adb8194a128893b003f6ac6c1051f11fe2fb34d53249b3647aa15546e43f09ec",
+    "retrieved_utc": "2026-10-27T06:03:54.674140+00:00",
+    "fulltext_url": "https://arxiv.org/html/2211.10438",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "75add1fa4b8748848ab557971cc28921c82daaf124b4d5049f56694f357322d2",
+    "fulltext_characters": 59538
+  },
+  {
+    "id": "2202.05262",
+    "url": "https://arxiv.org/abs/2202.05262",
+    "title": "Title: Locating and Editing Factual Associations in GPT",
+    "status": "abstract_read",
+    "sha256": "313de12bd25cf8bb5b3818955e2c2bbe065866d20e6b44124d56b6849e669271",
+    "retrieved_utc": "2026-10-27T06:03:55.013163+00:00"
+  },
+  {
+    "id": "2309.16042",
+    "url": "https://arxiv.org/abs/2309.16042",
+    "title": "Title: Towards Best Practices of Activation Patching in Language Models: Metrics and Methods",
+    "status": "abstract_read",
+    "sha256": "515702634a3722cc3272607d9765ee08620cf774c0b670f1661830d2a45d24f5",
+    "retrieved_utc": "2026-10-27T06:04:14.604180+00:00",
+    "fulltext_url": "https://arxiv.org/html/2309.16042",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "a192b570cce3cf3cf2dc80d665539012bb00a20ed19155c6dd8b7305fd8e2681",
+    "fulltext_characters": 82889
+  },
+  {
+    "id": "2110.14168",
+    "url": "https://arxiv.org/abs/2110.14168",
+    "title": "Title: Training Verifiers to Solve Math Word Problems",
+    "status": "abstract_read",
+    "sha256": "92aaef23c478cc96d2d18a084757eed8cf452940cc17c338aa191eeb0a5e2d20",
+    "retrieved_utc": "2026-10-27T06:03:54.673697+00:00"
+  },
+  {
+    "id": "2305.20050",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "title": "Title: Let's Verify Step by Step",
+    "status": "abstract_read",
+    "sha256": "e31517177683ad7fc2be452d5bd02489b19ae6b8bffffeaaa117683a5cf8f7ba",
+    "retrieved_utc": "2026-10-27T06:03:55.169159+00:00"
+  },
+  {
+    "id": "2408.03314",
+    "url": "https://arxiv.org/abs/2408.03314",
+    "title": "Title: Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "status": "abstract_read",
+    "sha256": "5d03ac0ad11ce33fa42b2a2356dcc6f9967ad0e573c2107a1928046e58292f83",
+    "retrieved_utc": "2026-10-27T06:03:56.018539+00:00",
+    "fulltext_url": "https://arxiv.org/html/2408.03314",
+    "fulltext_status": "downloaded_for_targeted_reading",
+    "fulltext_sha256": "a9b93ce1d687a53f5e4348f81434234d17b0bf44541ecbb3a5e5551984e9cd02",
+    "fulltext_characters": 89917
+  }
+]

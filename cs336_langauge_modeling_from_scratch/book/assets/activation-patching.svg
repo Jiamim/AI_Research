@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 514" role="img" aria-label="激活干预：三次运行，共用同一固定模型">
+<defs><marker id="activation-patching-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,Microsoft YaHei,sans-serif" fill="#18334a">
+<text x="34" y="40" font-size="23" font-weight="700">激活干预：三次运行，共用同一固定模型</text>
+<text x="34" y="70" font-size="15" fill="#52687c">第三次仅改变指定激活；无关位置与多输入对照另测，结束后移除 hook</text>
+<rect x="30" y="98" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="44" y="126" font-size="16" font-weight="600">Clean 输入</text>
+<text x="44" y="149" font-size="14" font-weight="400">固定 token 与位置</text>
+<path d="M266,140 H296" stroke="#64748b" stroke-width="2" marker-end="url(#activation-patching-arrow)"/>
+<rect x="300" y="98" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="314" y="126" font-size="16" font-weight="600">正常前向</text>
+<text x="314" y="149" font-size="14" font-weight="400">缓存指定 clean 激活</text>
+<path d="M536,140 H566" stroke="#64748b" stroke-width="2" marker-end="url(#activation-patching-arrow)"/>
+<rect x="570" y="98" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="584" y="126" font-size="16" font-weight="600">Clean 指标</text>
+<text x="584" y="149" font-size="14" font-weight="400">m(clean)</text>
+<rect x="30" y="231" width="232" height="83" rx="10" fill="#e3f4ec" stroke="#bacbda"/>
+<text x="44" y="259" font-size="16" font-weight="600">Corrupt 输入</text>
+<text x="44" y="282" font-size="14" font-weight="400">只改选定因素</text>
+<path d="M266,273 H296" stroke="#64748b" stroke-width="2" marker-end="url(#activation-patching-arrow)"/>
+<rect x="300" y="231" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="314" y="259" font-size="16" font-weight="600">正常前向</text>
+<text x="314" y="282" font-size="14" font-weight="400">不安装替换 hook</text>
+<path d="M536,273 H566" stroke="#64748b" stroke-width="2" marker-end="url(#activation-patching-arrow)"/>
+<rect x="570" y="231" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="584" y="259" font-size="16" font-weight="600">Corrupt 指标</text>
+<text x="584" y="282" font-size="14" font-weight="400">m(corrupt)</text>
+<rect x="30" y="364" width="232" height="83" rx="10" fill="#fff1d6" stroke="#bacbda"/>
+<text x="44" y="392" font-size="16" font-weight="600">Corrupt 输入</text>
+<text x="44" y="415" font-size="14" font-weight="400">重新执行前向</text>
+<path d="M266,406 H296" stroke="#64748b" stroke-width="2" marker-end="url(#activation-patching-arrow)"/>
+<rect x="300" y="364" width="232" height="83" rx="10" fill="#f3e8fb" stroke="#bacbda"/>
+<text x="314" y="392" font-size="16" font-weight="600">局部 patch</text>
+<text x="314" y="415" font-size="14" font-weight="400">从 clean 缓存取替换值</text>
+<path d="M536,406 H566" stroke="#64748b" stroke-width="2" marker-end="url(#activation-patching-arrow)"/>
+<rect x="570" y="364" width="232" height="83" rx="10" fill="#e6f1fb" stroke="#bacbda"/>
+<text x="584" y="392" font-size="16" font-weight="600">Patched 指标</text>
+<text x="584" y="415" font-size="14" font-weight="400">m(patched)；计算恢复比</text>
+</g></svg>
